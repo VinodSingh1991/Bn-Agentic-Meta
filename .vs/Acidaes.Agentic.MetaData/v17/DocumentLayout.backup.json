@@ -1,0 +1,211 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\dotnet\\Acidaes.Agentic.MetaData\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{E0877FF8-450B-44BA-83FC-30F5FAF8E2DE}|Acidaes.MetaData.Rag\\Acidaes.MetaData.Rag.csproj|d:\\dotnet\\acidaes.agentic.metadata\\acidaes.metadata.rag\\helper\\utility.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E0877FF8-450B-44BA-83FC-30F5FAF8E2DE}|Acidaes.MetaData.Rag\\Acidaes.MetaData.Rag.csproj|solutionrelative:acidaes.metadata.rag\\helper\\utility.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E0877FF8-450B-44BA-83FC-30F5FAF8E2DE}|Acidaes.MetaData.Rag\\Acidaes.MetaData.Rag.csproj|d:\\dotnet\\acidaes.agentic.metadata\\acidaes.metadata.rag\\model\\layoutsectiondocument.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E0877FF8-450B-44BA-83FC-30F5FAF8E2DE}|Acidaes.MetaData.Rag\\Acidaes.MetaData.Rag.csproj|solutionrelative:acidaes.metadata.rag\\model\\layoutsectiondocument.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E0877FF8-450B-44BA-83FC-30F5FAF8E2DE}|Acidaes.MetaData.Rag\\Acidaes.MetaData.Rag.csproj|d:\\dotnet\\acidaes.agentic.metadata\\acidaes.metadata.rag\\bll\\layoutragdocumentbll.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E0877FF8-450B-44BA-83FC-30F5FAF8E2DE}|Acidaes.MetaData.Rag\\Acidaes.MetaData.Rag.csproj|solutionrelative:acidaes.metadata.rag\\bll\\layoutragdocumentbll.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E0877FF8-450B-44BA-83FC-30F5FAF8E2DE}|Acidaes.MetaData.Rag\\Acidaes.MetaData.Rag.csproj|d:\\dotnet\\acidaes.agentic.metadata\\acidaes.metadata.rag\\model\\ragdocument.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E0877FF8-450B-44BA-83FC-30F5FAF8E2DE}|Acidaes.MetaData.Rag\\Acidaes.MetaData.Rag.csproj|solutionrelative:acidaes.metadata.rag\\model\\ragdocument.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E0877FF8-450B-44BA-83FC-30F5FAF8E2DE}|Acidaes.MetaData.Rag\\Acidaes.MetaData.Rag.csproj|d:\\dotnet\\acidaes.agentic.metadata\\acidaes.metadata.rag\\model\\fielddocument.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E0877FF8-450B-44BA-83FC-30F5FAF8E2DE}|Acidaes.MetaData.Rag\\Acidaes.MetaData.Rag.csproj|solutionrelative:acidaes.metadata.rag\\model\\fielddocument.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E0877FF8-450B-44BA-83FC-30F5FAF8E2DE}|Acidaes.MetaData.Rag\\Acidaes.MetaData.Rag.csproj|d:\\dotnet\\acidaes.agentic.metadata\\acidaes.metadata.rag\\dal\\layoutragdocumentrepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E0877FF8-450B-44BA-83FC-30F5FAF8E2DE}|Acidaes.MetaData.Rag\\Acidaes.MetaData.Rag.csproj|solutionrelative:acidaes.metadata.rag\\dal\\layoutragdocumentrepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E0877FF8-450B-44BA-83FC-30F5FAF8E2DE}|Acidaes.MetaData.Rag\\Acidaes.MetaData.Rag.csproj|d:\\dotnet\\acidaes.agentic.metadata\\acidaes.metadata.rag\\dal\\helper\\queryhelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E0877FF8-450B-44BA-83FC-30F5FAF8E2DE}|Acidaes.MetaData.Rag\\Acidaes.MetaData.Rag.csproj|solutionrelative:acidaes.metadata.rag\\dal\\helper\\queryhelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E0877FF8-450B-44BA-83FC-30F5FAF8E2DE}|Acidaes.MetaData.Rag\\Acidaes.MetaData.Rag.csproj|d:\\dotnet\\acidaes.agentic.metadata\\acidaes.metadata.rag\\bll\\fielddocumentbll.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E0877FF8-450B-44BA-83FC-30F5FAF8E2DE}|Acidaes.MetaData.Rag\\Acidaes.MetaData.Rag.csproj|solutionrelative:acidaes.metadata.rag\\bll\\fielddocumentbll.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E0877FF8-450B-44BA-83FC-30F5FAF8E2DE}|Acidaes.MetaData.Rag\\Acidaes.MetaData.Rag.csproj|d:\\dotnet\\acidaes.agentic.metadata\\acidaes.metadata.rag\\dal\\fieldragdocumentrepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E0877FF8-450B-44BA-83FC-30F5FAF8E2DE}|Acidaes.MetaData.Rag\\Acidaes.MetaData.Rag.csproj|solutionrelative:acidaes.metadata.rag\\dal\\fieldragdocumentrepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E0877FF8-450B-44BA-83FC-30F5FAF8E2DE}|Acidaes.MetaData.Rag\\Acidaes.MetaData.Rag.csproj|d:\\dotnet\\acidaes.agentic.metadata\\acidaes.metadata.rag\\controllers\\fieldragdocumentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E0877FF8-450B-44BA-83FC-30F5FAF8E2DE}|Acidaes.MetaData.Rag\\Acidaes.MetaData.Rag.csproj|solutionrelative:acidaes.metadata.rag\\controllers\\fieldragdocumentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E0877FF8-450B-44BA-83FC-30F5FAF8E2DE}|Acidaes.MetaData.Rag\\Acidaes.MetaData.Rag.csproj|d:\\dotnet\\acidaes.agentic.metadata\\acidaes.metadata.rag\\controllers\\layoutragdocumentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E0877FF8-450B-44BA-83FC-30F5FAF8E2DE}|Acidaes.MetaData.Rag\\Acidaes.MetaData.Rag.csproj|solutionrelative:acidaes.metadata.rag\\controllers\\layoutragdocumentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 1,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedHeight": 68,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "RagDocument.cs",
+              "DocumentMoniker": "D:\\dotnet\\Acidaes.Agentic.MetaData\\Acidaes.MetaData.Rag\\Model\\RagDocument.cs",
+              "RelativeDocumentMoniker": "Acidaes.MetaData.Rag\\Model\\RagDocument.cs",
+              "ToolTip": "D:\\dotnet\\Acidaes.Agentic.MetaData\\Acidaes.MetaData.Rag\\Model\\RagDocument.cs",
+              "RelativeToolTip": "Acidaes.MetaData.Rag\\Model\\RagDocument.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB0AAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-09T04:52:06.722Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "QueryHelper.cs",
+              "DocumentMoniker": "D:\\dotnet\\Acidaes.Agentic.MetaData\\Acidaes.MetaData.Rag\\DAL\\Helper\\QueryHelper.cs",
+              "RelativeDocumentMoniker": "Acidaes.MetaData.Rag\\DAL\\Helper\\QueryHelper.cs",
+              "ToolTip": "D:\\dotnet\\Acidaes.Agentic.MetaData\\Acidaes.MetaData.Rag\\DAL\\Helper\\QueryHelper.cs",
+              "RelativeToolTip": "Acidaes.MetaData.Rag\\DAL\\Helper\\QueryHelper.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAABQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-09T04:23:01.22Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Utility.cs",
+              "DocumentMoniker": "D:\\dotnet\\Acidaes.Agentic.MetaData\\Acidaes.MetaData.Rag\\Helper\\Utility.cs",
+              "RelativeDocumentMoniker": "Acidaes.MetaData.Rag\\Helper\\Utility.cs",
+              "ToolTip": "D:\\dotnet\\Acidaes.Agentic.MetaData\\Acidaes.MetaData.Rag\\Helper\\Utility.cs",
+              "RelativeToolTip": "Acidaes.MetaData.Rag\\Helper\\Utility.cs",
+              "ViewState": "AgIAAFYAAAAAAAAAAAAzwI8AAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-08T14:00:15.032Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "FieldRagDocumentRepo.cs",
+              "DocumentMoniker": "D:\\dotnet\\Acidaes.Agentic.MetaData\\Acidaes.MetaData.Rag\\DAL\\FieldRagDocumentRepo.cs",
+              "RelativeDocumentMoniker": "Acidaes.MetaData.Rag\\DAL\\FieldRagDocumentRepo.cs",
+              "ToolTip": "D:\\dotnet\\Acidaes.Agentic.MetaData\\Acidaes.MetaData.Rag\\DAL\\FieldRagDocumentRepo.cs",
+              "RelativeToolTip": "Acidaes.MetaData.Rag\\DAL\\FieldRagDocumentRepo.cs",
+              "ViewState": "AgIAACcAAAAAAAAAAAAowDoAAABdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-08T13:40:21.767Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "FieldDocument.cs",
+              "DocumentMoniker": "D:\\dotnet\\Acidaes.Agentic.MetaData\\Acidaes.MetaData.Rag\\Model\\FieldDocument.cs",
+              "RelativeDocumentMoniker": "Acidaes.MetaData.Rag\\Model\\FieldDocument.cs",
+              "ToolTip": "D:\\dotnet\\Acidaes.Agentic.MetaData\\Acidaes.MetaData.Rag\\Model\\FieldDocument.cs",
+              "RelativeToolTip": "Acidaes.MetaData.Rag\\Model\\FieldDocument.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAMwBcAAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-08T13:38:30.536Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "LayoutSectionDocument.cs",
+              "DocumentMoniker": "D:\\dotnet\\Acidaes.Agentic.MetaData\\Acidaes.MetaData.Rag\\Model\\LayoutSectionDocument.cs",
+              "RelativeDocumentMoniker": "Acidaes.MetaData.Rag\\Model\\LayoutSectionDocument.cs",
+              "ToolTip": "D:\\dotnet\\Acidaes.Agentic.MetaData\\Acidaes.MetaData.Rag\\Model\\LayoutSectionDocument.cs",
+              "RelativeToolTip": "Acidaes.MetaData.Rag\\Model\\LayoutSectionDocument.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwA8AAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-08T12:07:55.394Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "FieldRagDocumentController.cs",
+              "DocumentMoniker": "D:\\dotnet\\Acidaes.Agentic.MetaData\\Acidaes.MetaData.Rag\\Controllers\\FieldRagDocumentController.cs",
+              "RelativeDocumentMoniker": "Acidaes.MetaData.Rag\\Controllers\\FieldRagDocumentController.cs",
+              "ToolTip": "D:\\dotnet\\Acidaes.Agentic.MetaData\\Acidaes.MetaData.Rag\\Controllers\\FieldRagDocumentController.cs",
+              "RelativeToolTip": "Acidaes.MetaData.Rag\\Controllers\\FieldRagDocumentController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAABDAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-08T12:04:42.213Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "LayoutRagDocumentController.cs",
+              "DocumentMoniker": "D:\\dotnet\\Acidaes.Agentic.MetaData\\Acidaes.MetaData.Rag\\Controllers\\LayoutRagDocumentController.cs",
+              "RelativeDocumentMoniker": "Acidaes.MetaData.Rag\\Controllers\\LayoutRagDocumentController.cs",
+              "ToolTip": "D:\\dotnet\\Acidaes.Agentic.MetaData\\Acidaes.MetaData.Rag\\Controllers\\LayoutRagDocumentController.cs",
+              "RelativeToolTip": "Acidaes.MetaData.Rag\\Controllers\\LayoutRagDocumentController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAABHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-08T11:56:07.702Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "LayoutRagDocumentRepo.cs",
+              "DocumentMoniker": "D:\\dotnet\\Acidaes.Agentic.MetaData\\Acidaes.MetaData.Rag\\DAL\\LayoutRagDocumentRepo.cs",
+              "RelativeDocumentMoniker": "Acidaes.MetaData.Rag\\DAL\\LayoutRagDocumentRepo.cs",
+              "ToolTip": "D:\\dotnet\\Acidaes.Agentic.MetaData\\Acidaes.MetaData.Rag\\DAL\\LayoutRagDocumentRepo.cs",
+              "RelativeToolTip": "Acidaes.MetaData.Rag\\DAL\\LayoutRagDocumentRepo.cs",
+              "ViewState": "AgIAABAAAAAAAAAAAAAnwDwAAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-08T11:56:00.628Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "FieldDocumentBLL.cs",
+              "DocumentMoniker": "D:\\dotnet\\Acidaes.Agentic.MetaData\\Acidaes.MetaData.Rag\\BLL\\FieldDocumentBLL.cs",
+              "RelativeDocumentMoniker": "Acidaes.MetaData.Rag\\BLL\\FieldDocumentBLL.cs",
+              "ToolTip": "D:\\dotnet\\Acidaes.Agentic.MetaData\\Acidaes.MetaData.Rag\\BLL\\FieldDocumentBLL.cs",
+              "RelativeToolTip": "Acidaes.MetaData.Rag\\BLL\\FieldDocumentBLL.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAEwBgAAAA7AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-08T11:55:16.621Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "LayoutRagDocumentBLL.cs",
+              "DocumentMoniker": "D:\\dotnet\\Acidaes.Agentic.MetaData\\Acidaes.MetaData.Rag\\BLL\\LayoutRagDocumentBLL.cs",
+              "RelativeDocumentMoniker": "Acidaes.MetaData.Rag\\BLL\\LayoutRagDocumentBLL.cs",
+              "ToolTip": "D:\\dotnet\\Acidaes.Agentic.MetaData\\Acidaes.MetaData.Rag\\BLL\\LayoutRagDocumentBLL.cs",
+              "RelativeToolTip": "Acidaes.MetaData.Rag\\BLL\\LayoutRagDocumentBLL.cs",
+              "ViewState": "AgIAAAcAAAAAAAAAAAAYwBQAAABSAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-08T08:59:17.46Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
