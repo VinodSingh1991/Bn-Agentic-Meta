@@ -3,7 +3,6 @@ from src.utility.load_meta_data_files import LoadFiles
 from typing import Dict, Any
 from src.interfaces.response_model import ResponseModel
 
-
 class MetaDataUtility:
 
     def __init__(self, folder_path: str = "./memory_db/orignal", output_path: str = "./memory_db/db"):
@@ -29,6 +28,16 @@ class MetaDataUtility:
         content = data.get(fname)
         
         return content
+    
+        # Static method to get original data
+    def get_fields_from_db(self, file_name: str) -> ResponseModel:
+        file_loader = LoadFiles(self.output_path)
+        data = file_loader.get_data()
+        fname = file_name
+        content = data.get(fname)
+        
+        return content
+    
     
     # Static method to get original data
     def save_fields_at_db(self, fieldName: str, content: Any):

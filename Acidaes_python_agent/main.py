@@ -4,6 +4,7 @@ from fastapi.middleware.cors import CORSMiddleware
 from src.utility.meta_data import MetaDataUtility
 from src.utility.query_normalization import QueryNormalization
 from src.utility.entity_normalization import EntityNormalization
+from src.utility.context_normalization import ContextNormalization
 
 app = FastAPI()
 
@@ -37,6 +38,12 @@ def get_entities_invert():
     file_utility = MetaDataUtility()
     file_utility.save_fields_at_db("invertedIndex.json", original_meta)
     return {"entities": "Created inverted index..."}
+
+@app.get("/api/get_context")
+def get_entities_context(nl_query: str = ""):
+    context_normalizer = ContextNormalization(nl_query)
+    context = context_normalizer.get_context()
+    return {"context": context}
 
 if __name__ == "__main__":
     import uvicorn
