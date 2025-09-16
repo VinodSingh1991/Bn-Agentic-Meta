@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Acidaes.MetaData.Rag")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+6f91de3b0591f9f988c351b17128dc5524eb25ab")]
 [assembly: System.Reflection.AssemblyProductAttribute("Acidaes.MetaData.Rag")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Acidaes.MetaData.Rag")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

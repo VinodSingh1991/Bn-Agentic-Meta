@@ -15,16 +15,18 @@ namespace Acidaes.MetaData.Rag.Model
         public string? TabId { get; set; }
         public List<string> SectionFields { get; set; } = [];
     }
-    public class LayoutSectionDocumentMetaData : DefaultMetaData
+    public class LayoutSectionDocumentMetaData 
     {
-        public List<LayoutTab> LayoutTabs { get; set; } = [];
-        public List<LayoutSections> Sections { get; set; } = [];
         public List<string>? Fields { get; set; }
         public int? ObjectId { get; set; }
         public string? ObjectName { get; set; }
-        public string? RoleAccess { get; set; }
+        public string? OrignalRoleAccess { get; set; }
+        public string? OrignalRoleId { get; set; }
+        public List<string>? RoleAccess { get; set; }
         public int? LayoutId { get; set; }
         public string? LayoutName { get; set; }
+
+        public List<LayoutFieldsProps> ModifiedLayoutFieldProps { get; set; } = [];
 
     }
 
@@ -43,6 +45,8 @@ namespace Acidaes.MetaData.Rag.Model
         public string? ObjectName { get; set; }
         public int? RoleId { get; set; }
         public string? RoleName { get; set; }
+
+      
     }
 
     public class Layout
@@ -50,5 +54,13 @@ namespace Acidaes.MetaData.Rag.Model
         public List<string> Fields { get; set; }
         public List<LayoutSections> Sections { get; set; }
         public List<LayoutTab> Tabs { get; set; }
+    }
+
+    public class LayoutFieldsProps
+    { 
+        public string? LayoutModifiedName { get; set; }
+        public string? LayoutId { get; set; }
+        public string? FieldId { get; set; }
+        public int? Role { get; set; }
     }
 }

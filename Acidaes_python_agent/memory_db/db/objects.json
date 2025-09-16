@@ -1,0 +1,38 @@
+{
+    "responseData": {
+        "isSuccess": "True",
+        "message": "Success",
+        "data": [
+            {
+                "objectId": 1,
+                "objectName": "Activity",
+                "rolesWithAccess": [],
+                "primaryField": "ActivityID"
+            },
+            {
+                "objectId": 6,
+                "objectName": "Leads",
+                "rolesWithAccess": [],
+                "primaryField": "LeadID"
+            },
+            {
+                "objectId": 7,
+                "objectName": "Accounts",
+                "rolesWithAccess": [],
+                "primaryField": "AccountID"
+            },
+            {
+                "objectId": 8,
+                "objectName": "Opportunities",
+                "rolesWithAccess": [],
+                "primaryField": "OpportunityID"
+            },
+            {
+                "objectId": 9,
+                "objectName": "Cases",
+                "rolesWithAccess": [],
+                "primaryField": "CaseID"
+            }
+        ]
+    }
+}

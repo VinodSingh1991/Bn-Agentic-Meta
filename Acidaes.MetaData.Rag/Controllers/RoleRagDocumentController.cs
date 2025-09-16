@@ -12,8 +12,8 @@ namespace Acidaes.MetaData.Rag.Controllers
         private readonly RoleRagDocumentBLL _roleRagDocumnts = new(roleRagRepository);
         private readonly ResponseModel _response = new();
 
-        [HttpGet("api/getRoleRagDocuemnt")]
-        public async Task<ResponseModel> GetRoleRagDocuments()
+        [HttpGet("api/getRoles")]
+        public async Task<ResponseModel> GetRoles()
         {
             var roleResponse = await _roleRagDocumnts.GetRoleDocuments();
 

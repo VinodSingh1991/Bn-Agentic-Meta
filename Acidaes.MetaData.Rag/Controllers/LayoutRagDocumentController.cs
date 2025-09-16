@@ -10,11 +10,11 @@ namespace Acidaes.MetaData.Rag.Controllers
     [ApiController]
     public class LayoutRagDocumentController(ILayoutRagDocument layoutRagDocument) : ControllerBase
     {
-        private readonly ResponseModel _response = new ResponseModel();
+        private readonly ResponseModel _response = new();
         private readonly LayoutRagDocumentBLL _layoutRagDocumentBLL = new(layoutRagDocument);
 
-        [HttpGet("api/getLayoutRagDocuemnt")]
-        public async Task<ResponseModel> GetFieldRagDocument()
+        [HttpGet("api/getLayout")]
+        public async Task<ResponseModel> GetLayouts()
         {
             var fieldResponse = await _layoutRagDocumentBLL.GetLayoutRagList();
             if (fieldResponse.IsSuccess == "True")

@@ -13,31 +13,24 @@ namespace Acidaes.MetaData.Rag.Model
         public string? Description { get; set; }
         public bool? IsMandatory { get; set; }
 
+        public string? LayoutFieldId { get; set; }
+
     }
-    public class FieldMetaData: DefaultMetaData
+    public class FieldMetaData
     {
         public int ObjectId { get; set; }
         public string? FieldId { get; set; }
-
         public string? ModifiedFieldId { get; set; }
         public string? FieldName { get; set; }
-        public string? FieldType { get; set; }
-        public string? Description { get; set; }
-
         public string? FieldLabel { get; set; }
-        public string? DisplayLabel { get; set; }
-        public string? TableName { get; set; }
-
         public string? ObjectName { get; set; }
         public string? DataType { get; set; }
         public bool IsFilterable { get; set; }
-        public bool IsVisible { get; set; }
-        public string? LookUpType { get; set; }
         public List<string> RoleAccess { get; set; } = [];
         public List<string> ValidationRules { get; set; } = [];
-        public string? DefaultValue { get; set; }
-        public string? RenderingType { get; set; }
-        public bool? IsMandatory { get; set; }
+        public List<string> Synonyms { get; set; } = [];
+
+        public string? LayoutFieldId { get; set; }
     }
 
     public class FieldDocument : RagDocumentBase

@@ -1,8 +1,8 @@
 [
   {
     "ContainingType": "Acidaes.MetaData.Rag.Controllers.FieldRagDocumentController",
-    "Method": "GetFieldRagDocument",
-    "RelativePath": "api/getFieldRagDocuemnt",
+    "Method": "GetCustomField",
+    "RelativePath": "api/getCustomField",
     "HttpMethod": "GET",
     "IsController": true,
     "Order": 0,
@@ -21,8 +21,8 @@
   },
   {
     "ContainingType": "Acidaes.MetaData.Rag.Controllers.LayoutRagDocumentController",
-    "Method": "GetFieldRagDocument",
-    "RelativePath": "api/getLayoutRagDocuemnt",
+    "Method": "GetLayouts",
+    "RelativePath": "api/getLayout",
     "HttpMethod": "GET",
     "IsController": true,
     "Order": 0,
@@ -41,8 +41,8 @@
   },
   {
     "ContainingType": "Acidaes.MetaData.Rag.Controllers.ObjectRagDocumentController",
-    "Method": "GetObjectDocuments",
-    "RelativePath": "api/getObjectRagDocuemnt",
+    "Method": "GetObjects",
+    "RelativePath": "api/getObjects",
     "HttpMethod": "GET",
     "IsController": true,
     "Order": 0,
@@ -61,8 +61,28 @@
   },
   {
     "ContainingType": "Acidaes.MetaData.Rag.Controllers.RoleRagDocumentController",
-    "Method": "GetRoleRagDocuments",
-    "RelativePath": "api/getRoleRagDocuemnt",
+    "Method": "GetRoles",
+    "RelativePath": "api/getRoles",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "Acidaes.MetaData.Rag.Model.ResponseModel",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "Acidaes.MetaData.Rag.Controllers.FieldRagDocumentController",
+    "Method": "GetSystemField",
+    "RelativePath": "api/getSystemField",
     "HttpMethod": "GET",
     "IsController": true,
     "Order": 0,

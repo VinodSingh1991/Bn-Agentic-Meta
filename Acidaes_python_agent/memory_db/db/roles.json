@@ -1,0 +1,828 @@
+{
+    "responseData": {
+        "isSuccess": "True",
+        "message": "Success",
+        "data": [
+            {
+                "roleName": "Administrator",
+                "roleDescription": "Built in role for administering your CRMnext subscription",
+                "roleId": "1"
+            },
+            {
+                "roleName": "Marketing Users",
+                "roleDescription": "Built in role for Marketing Executives who have restricted access to Marketing Operations",
+                "roleId": "2"
+            },
+            {
+                "roleName": "Sales Representative",
+                "roleDescription": "Built in role for Sales Executives who have restricted access to Sales Operations",
+                "roleId": "3"
+            },
+            {
+                "roleName": "Support Executive",
+                "roleDescription": "Built in role for Customer Support Executives who have restricted access to Customer Support Operations",
+                "roleId": "4"
+            },
+            {
+                "roleName": "Managers (Marketing)",
+                "roleDescription": "Built in role for Marketing Managers who have complete access to Marketing Operations",
+                "roleId": "5"
+            },
+            {
+                "roleName": "Managers (Sales)",
+                "roleDescription": "Built in role for Sales Managers who have complete access to Sales Operations",
+                "roleId": "6"
+            },
+            {
+                "roleName": "Managers (Support)",
+                "roleDescription": "Built in role for Customer Support Managers who have complete access to Customer Support Operations",
+                "roleId": "7"
+            },
+            {
+                "roleName": "Read Only",
+                "roleDescription": "Built in role for People who are allowed to View all Marketing, Sales and Customer Support data in their scope, but who are not allowed to create, change or delete any data",
+                "roleId": "8"
+            },
+            {
+                "roleName": "Senior Managers",
+                "roleDescription": "Built in role for Senior Managers who have complete access to Marketing, Sales and Customer Support Operations",
+                "roleId": "9"
+            },
+            {
+                "roleName": "SSP User Role",
+                "roleDescription": "Built in role for SSP Users",
+                "roleId": "10"
+            },
+            {
+                "roleName": "Prebuilt Connectors Admin",
+                "roleDescription": "Built in role for administering your prebuilt connectors",
+                "roleId": "11"
+            },
+            {
+                "roleName": "Migration Admin",
+                "roleDescription": "",
+                "roleId": "12"
+            },
+            {
+                "roleName": "Migration Operations",
+                "roleDescription": "",
+                "roleId": "13"
+            },
+            {
+                "roleName": "Migration Approver",
+                "roleDescription": "",
+                "roleId": "14"
+            },
+            {
+                "roleName": "Migration Executor",
+                "roleDescription": "",
+                "roleId": "15"
+            },
+            {
+                "roleName": "Relationship Manager",
+                "roleDescription": "Reporting to Sales manager wwww",
+                "roleId": "1002"
+            },
+            {
+                "roleName": "Sales Manager",
+                "roleDescription": "Reporting to Branch Unit Manager",
+                "roleId": "1003"
+            },
+            {
+                "roleName": "ChatAgent",
+                "roleDescription": "User Has only  Edit Self User Detail operation\r\n\r\nPlease don t update",
+                "roleId": "1004"
+            },
+            {
+                "roleName": "Regional Manager-Sales",
+                "roleDescription": "Reporting to State Manager",
+                "roleId": "1006"
+            },
+            {
+                "roleName": "S and D Manager",
+                "roleDescription": "Reporting to EVP",
+                "roleId": "1007"
+            },
+            {
+                "roleName": "Sales-EVP",
+                "roleDescription": "Highest in Sales Hierarchy",
+                "roleId": "1008"
+            },
+            {
+                "roleName": "State Manager-Sales",
+                "roleDescription": "Reporting to S and D head",
+                "roleId": "1009"
+            },
+            {
+                "roleName": "TW-Location Manager",
+                "roleDescription": "Reporting to Cluster Manager",
+                "roleId": "1010"
+            },
+            {
+                "roleName": "Dealer Executive",
+                "roleDescription": "Dealer Executive for Mass dealers with CRMnext login",
+                "roleId": "1011"
+            },
+            {
+                "roleName": "GM Ops and Tech",
+                "roleDescription": "",
+                "roleId": "1012"
+            },
+            {
+                "roleName": "AVP-CF",
+                "roleDescription": "",
+                "roleId": "1013"
+            },
+            {
+                "roleName": "CS Executive",
+                "roleDescription": "",
+                "roleId": "1016"
+            },
+            {
+                "roleName": "Operations Officer",
+                "roleDescription": "",
+                "roleId": "1021"
+            },
+            {
+                "roleName": "Ops Sr Team Leader",
+                "roleDescription": "",
+                "roleId": "1022"
+            },
+            {
+                "roleName": "Operations Manager",
+                "roleDescription": "",
+                "roleId": "1023"
+            },
+            {
+                "roleName": "AVP Operations",
+                "roleDescription": "",
+                "roleId": "1024"
+            },
+            {
+                "roleName": "Ops Team Leader",
+                "roleDescription": "",
+                "roleId": "1025"
+            },
+            {
+                "roleName": "VP Operations",
+                "roleDescription": "VP operations",
+                "roleId": "1026"
+            },
+            {
+                "roleName": "Retention Executive",
+                "roleDescription": "",
+                "roleId": "1027"
+            },
+            {
+                "roleName": "CC Backend Executive",
+                "roleDescription": "",
+                "roleId": "1028"
+            },
+            {
+                "roleName": "Fulfillment Officer",
+                "roleDescription": "",
+                "roleId": "1029"
+            },
+            {
+                "roleName": "CS CCEscalation",
+                "roleDescription": "",
+                "roleId": "1033"
+            },
+            {
+                "roleName": "CS Escalation",
+                "roleDescription": "",
+                "roleId": "1034"
+            },
+            {
+                "roleName": "SSP Custom User Role",
+                "roleDescription": "Built in role for SSP Users",
+                "roleId": "1036"
+            },
+            {
+                "roleName": "Administrator(c)",
+                "roleDescription": "Built in role for administering your CRMnext subscription",
+                "roleId": "1038"
+            },
+            {
+                "roleName": "Administrator(clone)",
+                "roleDescription": "Built in role for administering your CRMnext subscription",
+                "roleId": "1039"
+            },
+            {
+                "roleName": "RS",
+                "roleDescription": "Do Not Use",
+                "roleId": "1042"
+            },
+            {
+                "roleName": "Lead",
+                "roleDescription": "",
+                "roleId": "1044"
+            },
+            {
+                "roleName": "Demo User(c)",
+                "roleDescription": "Built in role for administering your CRMnext subscription",
+                "roleId": "1045"
+            },
+            {
+                "roleName": "Ring User",
+                "roleDescription": "User Has only ManageRing Operation\r\n\r\nPlease don t update",
+                "roleId": "1047"
+            },
+            {
+                "roleName": "RJ Role",
+                "roleDescription": "RJ Role",
+                "roleId": "1054"
+            },
+            {
+                "roleName": "AdminNewRoleForManagement",
+                "roleDescription": "AdminNewRoleForManagement",
+                "roleId": "1059"
+            },
+            {
+                "roleName": "Role for ux",
+                "roleDescription": "",
+                "roleId": "1061"
+            },
+            {
+                "roleName": "UTR Mapping Test",
+                "roleDescription": "",
+                "roleId": "1062"
+            },
+            {
+                "roleName": "View User",
+                "roleDescription": "User hasopearation ViewUser/ view user list.\r\n\r\nPlease don t update",
+                "roleId": "1065"
+            },
+            {
+                "roleName": "Log Manager",
+                "roleDescription": "Built in role for administering your CRMnext subscription",
+                "roleId": "1066"
+            },
+            {
+                "roleName": "Guest Role",
+                "roleDescription": "",
+                "roleId": "1078"
+            },
+            {
+                "roleName": "mObile  Role",
+                "roleDescription": "",
+                "roleId": "1080"
+            },
+            {
+                "roleName": "BW_Test",
+                "roleDescription": "kgkggkj",
+                "roleId": "1081"
+            },
+            {
+                "roleName": "Administrator 16/6",
+                "roleDescription": "Built in role for administering your CRMnext subscription",
+                "roleId": "1083"
+            },
+            {
+                "roleName": "SSP User Role ",
+                "roleDescription": "Built in role for SSP Users",
+                "roleId": "1087"
+            },
+            {
+                "roleName": "SSP User Role ",
+                "roleDescription": "Built in role for SSP Users",
+                "roleId": "1088"
+            },
+            {
+                "roleName": "SSP User Role ",
+                "roleDescription": "Built in role for SSP Users",
+                "roleId": "1090"
+            },
+            {
+                "roleName": "SSP User Role ",
+                "roleDescription": "Built in role for SSP Users",
+                "roleId": "1092"
+            },
+            {
+                "roleName": "SSP User Role ",
+                "roleDescription": "Built in role for SSP Users",
+                "roleId": "1093"
+            },
+            {
+                "roleName": "SSP User Role ",
+                "roleDescription": "Built in role for SSP Users",
+                "roleId": "1094"
+            },
+            {
+                "roleName": "SSP User Role ",
+                "roleDescription": "Built in role for SSP Users",
+                "roleId": "1095"
+            },
+            {
+                "roleName": "SSP User Role ",
+                "roleDescription": "Built in role for SSP Users",
+                "roleId": "1096"
+            },
+            {
+                "roleName": "SSP User Role ",
+                "roleDescription": "Built in role for SSP Users",
+                "roleId": "1098"
+            },
+            {
+                "roleName": "SSP User Role ",
+                "roleDescription": "Built in role for SSP Users",
+                "roleId": "1100"
+            },
+            {
+                "roleName": "SSP User Role ",
+                "roleDescription": "Built in role for SSP Users",
+                "roleId": "1102"
+            },
+            {
+                "roleName": "SSP User Role",
+                "roleDescription": "Built in role for SSP Users",
+                "roleId": "1104"
+            },
+            {
+                "roleName": "card role 07",
+                "roleDescription": "",
+                "roleId": "1106"
+            },
+            {
+                "roleName": "RolCallScript",
+                "roleDescription": "",
+                "roleId": "1107"
+            },
+            {
+                "roleName": "Guest Role",
+                "roleDescription": "",
+                "roleId": "1108"
+            },
+            {
+                "roleName": "Administrator A",
+                "roleDescription": "Built in role for administering your CRMnext subscription",
+                "roleId": "1110"
+            },
+            {
+                "roleName": "Sub_Role",
+                "roleDescription": "",
+                "roleId": "1116"
+            },
+            {
+                "roleName": "Administrator Clone",
+                "roleDescription": "Built in role for administering your CRMnext subscription",
+                "roleId": "100057"
+            },
+            {
+                "roleName": "Ring User wrong",
+                "roleDescription": "User Has only ManageRing Operation",
+                "roleId": "100060"
+            },
+            {
+                "roleName": "Add User",
+                "roleDescription": "Please don t update",
+                "roleId": "100069"
+            },
+            {
+                "roleName": "Edit User",
+                "roleDescription": "Please don t update",
+                "roleId": "100070"
+            },
+            {
+                "roleName": "RoleTest",
+                "roleDescription": "Build role for assign user",
+                "roleId": "100107"
+            },
+            {
+                "roleName": "Rolefirst",
+                "roleDescription": "create role for testing",
+                "roleId": "100110"
+            },
+            {
+                "roleName": "RoleTest(clone)",
+                "roleDescription": "Build role for assign user",
+                "roleId": "100111"
+            },
+            {
+                "roleName": "RoleMigrate1",
+                "roleDescription": "build",
+                "roleId": "100113"
+            },
+            {
+                "roleName": "RoleMigrate1(clone)",
+                "roleDescription": "build",
+                "roleId": "100114"
+            },
+            {
+                "roleName": "RoleAfterMerge",
+                "roleDescription": "role create",
+                "roleId": "100115"
+            },
+            {
+                "roleName": "Role5",
+                "roleDescription": "Test by deepak machine",
+                "roleId": "100116"
+            },
+            {
+                "roleName": "TestRole1302",
+                "roleDescription": "create role1302",
+                "roleId": "100119"
+            },
+            {
+                "roleName": "TestRoleMigration",
+                "roleDescription": "Build Role Migration",
+                "roleId": "100121"
+            },
+            {
+                "roleName": "NewRole02142019",
+                "roleDescription": "create role migrate",
+                "roleId": "100123"
+            },
+            {
+                "roleName": "sdasdasa",
+                "roleDescription": "213213123",
+                "roleId": "100124"
+            },
+            {
+                "roleName": "Roletest1",
+                "roleDescription": "",
+                "roleId": "100125"
+            },
+            {
+                "roleName": "Relationship Manager(clone)",
+                "roleDescription": "Reporting to Sales manager",
+                "roleId": "100126"
+            },
+            {
+                "roleName": "Roledetail",
+                "roleDescription": "build role create",
+                "roleId": "100127"
+            },
+            {
+                "roleName": "Administrator(clone21)",
+                "roleDescription": "Built in role for administering your CRMnext subscription",
+                "roleId": "100128"
+            },
+            {
+                "roleName": "Role Test101",
+                "roleDescription": "build role",
+                "roleId": "100129"
+            },
+            {
+                "roleName": "newrole1",
+                "roleDescription": "",
+                "roleId": "100130"
+            },
+            {
+                "roleName": "Relationship Managerclone",
+                "roleDescription": "Reporting to Sales manager wwww",
+                "roleId": "100131"
+            },
+            {
+                "roleName": "Senior Managers(clone)",
+                "roleDescription": "Built in role for Senior Managers who have complete access to Marketing, Sales and Customer Support Operations",
+                "roleId": "100132"
+            },
+            {
+                "roleName": "Role MIgrate1",
+                "roleDescription": "Build role",
+                "roleId": "100133"
+            },
+            {
+                "roleName": "Rolecre",
+                "roleDescription": "build role",
+                "roleId": "100135"
+            },
+            {
+                "roleName": "Rolecheck",
+                "roleDescription": "build",
+                "roleId": "100136"
+            },
+            {
+                "roleName": "Managers (Marketing)",
+                "roleDescription": "Built in role for Marketing Managers who have complete access to Marketing Operations",
+                "roleId": "100137"
+            },
+            {
+                "roleName": "Managers (Marketing)",
+                "roleDescription": "Built in role for Marketing Managers who have complete access to Marketing Operations",
+                "roleId": "100138"
+            },
+            {
+                "roleName": "Managers (Marketing)",
+                "roleDescription": "Built in role for Marketing Managers who have complete access to Marketing Operations",
+                "roleId": "100139"
+            },
+            {
+                "roleName": "Marketing Users Test1",
+                "roleDescription": "Built in role for Marketing Executives who have restricted access to Marketing Operations",
+                "roleId": "100140"
+            },
+            {
+                "roleName": "customfieldoperation",
+                "roleDescription": "it has manage custom field and manage computed operation both",
+                "roleId": "100146"
+            },
+            {
+                "roleName": "NonAdmin",
+                "roleDescription": "Dont delete",
+                "roleId": "100150"
+            },
+            {
+                "roleName": "Dont Delete Role",
+                "roleDescription": "",
+                "roleId": "100151"
+            },
+            {
+                "roleName": "AccessPermission",
+                "roleDescription": "AccessPermission descc",
+                "roleId": "100152"
+            },
+            {
+                "roleName": "testrole1",
+                "roleDescription": "",
+                "roleId": "100153"
+            },
+            {
+                "roleName": "solRole",
+                "roleDescription": "",
+                "roleId": "100154"
+            },
+            {
+                "roleName": "TestRole22June",
+                "roleDescription": "",
+                "roleId": "100160"
+            },
+            {
+                "roleName": "App builder Role",
+                "roleDescription": "",
+                "roleId": "100161"
+            },
+            {
+                "roleName": "TestReportRole",
+                "roleDescription": "",
+                "roleId": "100162"
+            },
+            {
+                "roleName": "ROLE_Dattebayo",
+                "roleDescription": "ROLE",
+                "roleId": "100168"
+            },
+            {
+                "roleName": "test",
+                "roleDescription": "testing",
+                "roleId": "100171"
+            },
+            {
+                "roleName": "sdb",
+                "roleDescription": "",
+                "roleId": "100172"
+            },
+            {
+                "roleName": "dfb",
+                "roleDescription": "",
+                "roleId": "100173"
+            },
+            {
+                "roleName": "Mahender Singh",
+                "roleDescription": "test",
+                "roleId": "100174"
+            },
+            {
+                "roleName": "Test Role",
+                "roleDescription": "",
+                "roleId": "100175"
+            },
+            {
+                "roleName": "opportunity Operation",
+                "roleDescription": "",
+                "roleId": "100176"
+            },
+            {
+                "roleName": "Non admin",
+                "roleDescription": "",
+                "roleId": "100177"
+            },
+            {
+                "roleName": "testrole",
+                "roleDescription": "testing purpose only",
+                "roleId": "100179"
+            },
+            {
+                "roleName": "Non-Admin-Individual",
+                "roleDescription": "",
+                "roleId": "100183"
+            },
+            {
+                "roleName": "Test New NonAdmin Role",
+                "roleDescription": "",
+                "roleId": "100184"
+            },
+            {
+                "roleName": "Administrator100185",
+                "roleDescription": "Built in role for administering your CRMnext subscription",
+                "roleId": "100185"
+            },
+            {
+                "roleName": "Administrator100186",
+                "roleDescription": "Built in role for administering your CRMnext subscription",
+                "roleId": "100186"
+            },
+            {
+                "roleName": "Administrator100187",
+                "roleDescription": "Built in role for administering your CRMnext subscription",
+                "roleId": "100187"
+            },
+            {
+                "roleName": "Administrator100188",
+                "roleDescription": "Built in role for administering your CRMnext subscription",
+                "roleId": "100188"
+            },
+            {
+                "roleName": "Administrator100189",
+                "roleDescription": "Built in role for administering your CRMnext subscription",
+                "roleId": "100189"
+            },
+            {
+                "roleName": "Email Syndication & Exchange NonAdmin",
+                "roleDescription": "Email Syndication & Exchange Non-Admin Role",
+                "roleId": "100190"
+            },
+            {
+                "roleName": "Role Team A",
+                "roleDescription": "",
+                "roleId": "100191"
+            },
+            {
+                "roleName": "Role Team B",
+                "roleDescription": "",
+                "roleId": "100192"
+            },
+            {
+                "roleName": "Test_25Sept_001",
+                "roleDescription": "",
+                "roleId": "100193"
+            },
+            {
+                "roleName": "AIKBCategory_Role",
+                "roleDescription": "AIKBCategory_Role",
+                "roleId": "100194"
+            },
+            {
+                "roleName": "Category_Role_AIKB",
+                "roleDescription": "Category_Role_AIKB",
+                "roleId": "100195"
+            },
+            {
+                "roleName": "narinder",
+                "roleDescription": "",
+                "roleId": "100196"
+            },
+            {
+                "roleName": "New Role",
+                "roleDescription": "",
+                "roleId": "100197"
+            },
+            {
+                "roleName": "Offline_Role",
+                "roleDescription": "",
+                "roleId": "100198"
+            },
+            {
+                "roleName": "Mobile Vishu",
+                "roleDescription": "",
+                "roleId": "100199"
+            },
+            {
+                "roleName": "NLU Configurations",
+                "roleDescription": "NLU Configurations",
+                "roleId": "100200"
+            },
+            {
+                "roleName": "CF Assistant Manager",
+                "roleDescription": "",
+                "roleId": "1014"
+            },
+            {
+                "roleName": "new role",
+                "roleDescription": "",
+                "roleId": "1051"
+            },
+            {
+                "roleName": "Non Admin",
+                "roleDescription": "",
+                "roleId": "1064"
+            },
+            {
+                "roleName": "New Admin",
+                "roleDescription": "",
+                "roleId": "1074"
+            },
+            {
+                "roleName": "New Mobile User",
+                "roleDescription": "",
+                "roleId": "1079"
+            },
+            {
+                "roleName": "Test123hacked",
+                "roleDescription": "",
+                "roleId": "1109"
+            },
+            {
+                "roleName": "Circle Head 1",
+                "roleDescription": "",
+                "roleId": "1112"
+            },
+            {
+                "roleName": "CTIActive",
+                "roleDescription": "CTIActive",
+                "roleId": "1113"
+            },
+            {
+                "roleName": "Admin Test",
+                "roleDescription": "",
+                "roleId": "1114"
+            },
+            {
+                "roleName": "BranchManager28",
+                "roleDescription": "",
+                "roleId": "1128"
+            },
+            {
+                "roleName": "Non_Update",
+                "roleDescription": "",
+                "roleId": "1131"
+            },
+            {
+                "roleName": "Test User",
+                "roleDescription": "",
+                "roleId": "1132"
+            },
+            {
+                "roleName": "Administrator Rahul",
+                "roleDescription": "Built in role for administering your CRMnext subscription",
+                "roleId": "1133"
+            },
+            {
+                "roleName": "Managers (Marketing) 2",
+                "roleDescription": "Built in role for Marketing Managers who have complete access to Marketing Operations",
+                "roleId": "1134"
+            },
+            {
+                "roleName": "Executive",
+                "roleDescription": "",
+                "roleId": "1001"
+            },
+            {
+                "roleName": "IC9199_Branch_Agent",
+                "roleDescription": "",
+                "roleId": "1005"
+            },
+            {
+                "roleName": "view_postfeed",
+                "roleDescription": "view_postfeed",
+                "roleId": "16"
+            },
+            {
+                "roleName": "postfeed",
+                "roleDescription": "",
+                "roleId": "17"
+            },
+            {
+                "roleName": "postfeed_new",
+                "roleDescription": "",
+                "roleId": "18"
+            },
+            {
+                "roleName": "postfeed0424",
+                "roleDescription": "",
+                "roleId": "19"
+            },
+            {
+                "roleName": "test_user1",
+                "roleDescription": "test_user1",
+                "roleId": "20"
+            },
+            {
+                "roleName": "test_user2",
+                "roleDescription": "",
+                "roleId": "21"
+            },
+            {
+                "roleName": "test_user_3",
+                "roleDescription": "",
+                "roleId": "22"
+            },
+            {
+                "roleName": "NonAdmin",
+                "roleDescription": "",
+                "roleId": "23"
+            },
+            {
+                "roleName": "Non_ADmin",
+                "roleDescription": "test",
+                "roleId": "24"
+            },
+            {
+                "roleName": "nopriv",
+                "roleDescription": "",
+                "roleId": "25"
+            }
+        ]
+    }
+}

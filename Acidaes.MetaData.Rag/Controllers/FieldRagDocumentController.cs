@@ -15,10 +15,22 @@ namespace Acidaes.MetaData.Rag.Controllers
         private readonly ResponseModel _response = new();
         private readonly FieldDocumentBLL _fieldDocumentBLL = new(fieldRagDocument, layoutRagDocument);
 
-        [HttpGet("api/getFieldRagDocuemnt")]
-        public async Task<ResponseModel> GetFieldRagDocument()
+        [HttpGet("api/getCustomField")]
+        public async Task<ResponseModel> GetCustomField()
         {
-           var fieldResponse = await _fieldDocumentBLL.GetFieldDocuments();
+            var fieldResponse = await _fieldDocumentBLL.GetFieldDocuments(false);
+            if (fieldResponse.IsSuccess == "True")
+            {
+                _response.ResponseData = fieldResponse;
+            }
+
+            return _response;
+        }
+
+        [HttpGet("api/getSystemField")]
+        public async Task<ResponseModel> GetSystemField()
+        {
+            var fieldResponse = await _fieldDocumentBLL.GetFieldDocuments(true);
             if (fieldResponse.IsSuccess == "True")
             {
                 _response.ResponseData = fieldResponse;

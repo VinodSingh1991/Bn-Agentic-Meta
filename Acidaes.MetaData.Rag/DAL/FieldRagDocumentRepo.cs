@@ -17,9 +17,9 @@ namespace Acidaes.MetaData.Rag.DAL
             _connectionString = _configuration.GetConnectionString("DefaultConnection");
             _fieldDocumentList = [];
         }
-        public async Task<IEnumerable<FieldDocumentDto>> GetFieldDocument()
+        public async Task<IEnumerable<FieldDocumentDto>> GetFieldDocument(bool isSystemField)
         {
-            var sqlQuery = QueryHelper.GetCustomFields;
+            var sqlQuery = isSystemField ? QueryHelper.GetSystemFields : QueryHelper.GetCustomFields;
 
             if (string.IsNullOrEmpty(_connectionString))
             {
@@ -43,11 +43,12 @@ namespace Acidaes.MetaData.Rag.DAL
                     var tableNameIndex = reader.GetOrdinal("TableName");
                     var objectKeyIdIndex = reader.GetOrdinal("KeyId");
                     var typeIndex = reader.GetOrdinal("Type");
-                    var mandatoryIndex = reader.GetOrdinal("Mandatory");
+                    //var mandatoryIndex = reader.GetOrdinal("Mandatory");
                     var descriptionIndex = reader.GetOrdinal("Description");
-                    var internalLabelIndex = reader.GetOrdinal("InternalLabel");
+                    //var internalLabelIndex = reader.GetOrdinal("InternalLabel");
                     var displayTypeIndex = reader.GetOrdinal("DisplayType");
                     var LabelIndex = reader.GetOrdinal("Label");
+                    //var LayoutFieldId = reader.GetOrdinal("LayoutFieldId");
 
                     while (reader.Read())
                     {
@@ -59,9 +60,10 @@ namespace Acidaes.MetaData.Rag.DAL
                             TableName = reader.IsDBNull(tableNameIndex) ? string.Empty : reader.GetString(tableNameIndex),
                             ObjectId = reader.GetInt32(objectKeyIdIndex),
                             FieldType = (FieldType)reader.GetInt32(typeIndex),
-                            IsMandatory = !reader.IsDBNull(mandatoryIndex) && reader.GetBoolean(mandatoryIndex),
+                            IsMandatory = false, //!reader.IsDBNull(mandatoryIndex) && reader.GetBoolean(mandatoryIndex),
                             Description = reader.IsDBNull(descriptionIndex) ? string.Empty : reader.GetString(descriptionIndex),
-                            DisplayLabel = reader.IsDBNull(internalLabelIndex) ? string.Empty : reader.GetString(internalLabelIndex)
+                            DisplayLabel = string.Empty,
+                            LayoutFieldId = isSystemField ? reader.IsDBNull(reader.GetOrdinal("LayoutFieldId")) ? string.Empty : reader.GetString(reader.GetOrdinal("LayoutFieldId")).ToString() : reader.IsDBNull(fieldNameIndex) ? string.Empty : reader.GetString(fieldNameIndex),
                         };
                         _fieldDocumentList.Add(fieldDocument);
 

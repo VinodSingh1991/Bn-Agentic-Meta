@@ -63,6 +63,41 @@ namespace Acidaes.MetaData.Rag.Helper
             return fieldIds;
         }
 
+        public static List<LayoutFieldsProps> GetLayoutFieldsProps(string xmlLayout, int? Role, string LayoutId)
+        {
+            var xmlNode = new XmlDocument();
+            xmlNode.LoadXml(xmlLayout);
+
+            var fieldProps = new List<LayoutFieldsProps>();
+
+            XmlNodeList? nodeList = xmlNode.SelectNodes("//cols/col");
+            if (nodeList != null)
+            {
+                foreach (XmlNode node in nodeList)
+                {
+                    var fldId = ((XmlElement)node).GetAttribute("fieldid");
+                    var name = ((XmlElement)node).GetAttribute("name");
+
+                    if (fldId != "blankcell")
+                    {
+                        LayoutFieldsProps field = new()
+                        {
+                            FieldId = fldId,
+                            LayoutId = LayoutId,
+                            LayoutModifiedName = name,
+                            Role = Role
+                        };
+
+                        fieldProps.Add(field);
+
+
+                    }
+                }
+            }
+
+            return fieldProps;
+        }
+
         public static List<string> GetSectionFields(XmlNode sectionXml)
         {
             var fieldIds = new List<string>();

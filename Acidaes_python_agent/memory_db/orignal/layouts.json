@@ -1,0 +1,1043 @@
+{
+  "responseData": {
+    "isSuccess": "True",
+    "message": "Success",
+    "data": [
+      {
+        "fields": [
+          "LE_NAME",
+          "cust_11557",
+          "cust_5937",
+          "cust_5936",
+          "LE_ProfileImage",
+          "cust_7142",
+          "cust_6111",
+          "cust_10421",
+          "cust_5984",
+          "LE_SCHEMENAME",
+          "LE_EMAIL",
+          "Ex_1782_7276",
+          "LE_STATUSCODE",
+          "LE_CITY",
+          "cust_11144",
+          "LE_PRODUCT",
+          "Ex_181_253",
+          "LE_LEADOWNER",
+          "LE_DATEOFBIRTH",
+          "LE_PHONE",
+          "LE_AMOUNT",
+          "LE_LEADRATING",
+          "cust_11307",
+          "cust_11308",
+          "cust_10337",
+          "cust_10338",
+          "ObjectBank_100231",
+          "cust_9982",
+          "cust_7741",
+          "LE_APPOINTMENT",
+          "LE_MAILINGLIST",
+          "cust_11127",
+          "cust_11124",
+          "cust_11121",
+          "cust_11125",
+          "cust_11126",
+          "cust_11123",
+          "cust_11128",
+          "cust_11122",
+          "cust_10004",
+          "cust_7280",
+          "cust_6986",
+          "cust_9981"
+        ],
+        "objectId": 6,
+        "objectName": "Leads",
+        "orignalRoleAccess": "Administrator",
+        "roleAccess": [
+          "Administrator"
+        ],
+        "layoutId": 10203280,
+        "layoutName": "Mortgage"
+      },
+      {
+        "fields": [],
+        "objectId": 6,
+        "objectName": "Leads",
+        "orignalRoleAccess": "Administrator",
+        "roleAccess": [
+          "Administrator",
+          "Dealer Executive",
+          "AVP Operations"
+        ],
+        "layoutId": 10203326,
+        "layoutName": "EDS & WebPresenter"
+      },
+      {
+        "fields": [],
+        "objectId": 6,
+        "objectName": "Leads",
+        "orignalRoleAccess": "Administrator",
+        "roleAccess": [
+          "Administrator",
+          "ChatAgent"
+        ],
+        "layoutId": 10203339,
+        "layoutName": "Layout for Image Testing"
+      },
+      {
+        "fields": [],
+        "objectId": 6,
+        "objectName": "Leads",
+        "orignalRoleAccess": "ChatAgent",
+        "roleAccess": [
+          "ChatAgent"
+        ],
+        "layoutId": 10203372,
+        "layoutName": "Mix Cards : WebUrl|Report "
+      },
+      {
+        "fields": [],
+        "objectId": 6,
+        "objectName": "Leads",
+        "orignalRoleAccess": "Administrator",
+        "roleAccess": [
+          "Administrator",
+          "ChatAgent"
+        ],
+        "layoutId": 10203382,
+        "layoutName": "List Cards"
+      },
+      {
+        "fields": [],
+        "objectId": 6,
+        "objectName": "Leads",
+        "orignalRoleAccess": "Administrator",
+        "roleAccess": [
+          "Administrator",
+          "ChatAgent"
+        ],
+        "layoutId": 10203396,
+        "layoutName": "Composite Card Layout"
+      },
+      {
+        "fields": [],
+        "objectId": 6,
+        "objectName": "Leads",
+        "orignalRoleAccess": "Administrator",
+        "roleAccess": [
+          "Administrator"
+        ],
+        "layoutId": 10203434,
+        "layoutName": "dynamic FieldVisibility"
+      },
+      {
+        "fields": [],
+        "objectId": 6,
+        "objectName": "Leads",
+        "orignalRoleAccess": "Administrator",
+        "roleAccess": [
+          "Administrator"
+        ],
+        "layoutId": 10203554,
+        "layoutName": "MyNewCardLayout"
+      },
+      {
+        "fields": [],
+        "objectId": 6,
+        "objectName": "Leads",
+        "orignalRoleAccess": "Administrator",
+        "roleAccess": [
+          "Administrator"
+        ],
+        "layoutId": 10203630,
+        "layoutName": "Copy To"
+      },
+      {
+        "fields": [],
+        "objectId": 6,
+        "objectName": "Leads",
+        "orignalRoleAccess": "Administrator",
+        "roleAccess": [
+          "Administrator"
+        ],
+        "layoutId": 10203710,
+        "layoutName": "Child lead test 124"
+      },
+      {
+        "fields": [
+          "WEBR_142",
+          "LE_TITLE",
+          "LE_COMPANY",
+          "LE_URL",
+          "LE_INDUSTRY",
+          "LE_PRODUCT",
+          "LE_LEADRATING",
+          "LE_CAMPAIGN",
+          "LE_LEADOWNER",
+          "LE_TERRITORY",
+          "LE_FIRSTACTIVITYON",
+          "LE_LASTACTIVITYON",
+          "LE_STATUSCODE",
+          "LE_PREFERRED",
+          "LE_AMOUNT",
+          "LE_UNREAD_EMAILS",
+          "cust_7613",
+          "cust_7428",
+          "cust_7376",
+          "Ex_72_155",
+          "LE_PHONE",
+          "LE_EMAIL",
+          "LE_OFFICE_PHONE",
+          "LE_FAX",
+          "LE_MOBILE",
+          "LE_EMAIL_OPTOUT",
+          "LE_DESCRIPTION",
+          "LE_WEBINTEGRATION_LINKS",
+          "LE_OPEN_ACTIVITIES",
+          "LE_CLOSED_ACTIVITIES",
+          "LE_RELATED_MAILINGLIST",
+          "LE_RELATED_ISSUES",
+          "LE_RELATED_REQUIREMENTS",
+          "LE_RELATED_ATTACHMENTS",
+          "LE_RELATED_NOTES",
+          "LE_HISTORY",
+          "WEBR_147",
+          "Ex_177_239",
+          "cust_6986",
+          "cust_6990",
+          "WEBR_151",
+          "WEBR_153",
+          "Ex_1336_7028",
+          "cust_7280",
+          "Ex_162_190",
+          "WEBR_149",
+          "Ex_5_8",
+          "Ex_178_243"
+        ],
+        "objectId": 6,
+        "objectName": "Leads",
+        "orignalRoleAccess": "AVP Operations",
+        "roleAccess": [
+          "AVP Operations",
+          "Administrator(c)"
+        ],
+        "layoutId": 10203891,
+        "layoutName": "Lead Regex test"
+      },
+      {
+        "fields": [],
+        "objectId": 6,
+        "objectName": "Leads",
+        "orignalRoleAccess": "Administrator",
+        "roleAccess": [
+          "Administrator"
+        ],
+        "layoutId": 10203954,
+        "layoutName": "Test Product Category"
+      },
+      {
+        "fields": [],
+        "objectId": 6,
+        "objectName": "Leads",
+        "orignalRoleAccess": "Administrator",
+        "roleAccess": [
+          "Administrator"
+        ],
+        "layoutId": 10204000,
+        "layoutName": "vinod tab vertical"
+      },
+      {
+        "fields": [],
+        "objectId": 6,
+        "objectName": "Leads",
+        "orignalRoleAccess": "Administrator",
+        "roleAccess": [
+          "Administrator"
+        ],
+        "layoutId": 10204736,
+        "layoutName": "Clone : Mortgage1"
+      },
+      {
+        "fields": [
+          "LE_NAME",
+          "LE_TITLE",
+          "LE_COMPANY",
+          "LE_URL",
+          "LE_INDUSTRY",
+          "LE_EMPLOYEES",
+          "LE_PRODUCT",
+          "LE_LEADSOURCE",
+          "LE_LEADRATING",
+          "LE_CAMPAIGN",
+          "LE_LEADOWNER",
+          "LE_TERRITORY",
+          "LE_FIRSTACTIVITYON",
+          "LE_LASTACTIVITYON",
+          "LE_STATUSCODE",
+          "LE_PREFERRED",
+          "LE_AMOUNT",
+          "LE_UNREAD_EMAILS",
+          "LE_PHONE",
+          "LE_EMAIL",
+          "LE_OFFICE_PHONE",
+          "LE_FAX",
+          "LE_MOBILE",
+          "LE_EMAIL_OPTOUT",
+          "LE_ADDRESS",
+          "LE_DESCRIPTION",
+          "LE_WEBINTEGRATION_LINKS",
+          "LE_OPEN_ACTIVITIES",
+          "LE_CLOSED_ACTIVITIES",
+          "LE_RELATED_MAILINGLIST",
+          "LE_RELATED_ISSUES",
+          "LE_RELATED_REQUIREMENTS",
+          "LE_RELATED_ATTACHMENTS",
+          "LE_RELATED_NOTES"
+        ],
+        "objectId": 6,
+        "objectName": "Leads",
+        "orignalRoleAccess": "Administrator",
+        "roleAccess": [
+          "Administrator"
+        ],
+        "layoutId": 10204785,
+        "layoutName": "MStestlocal"
+      },
+      {
+        "fields": [
+          "mash_152",
+          "mash_151",
+          "crm_184",
+          "LE_NAME",
+          "LE_TITLE",
+          "LE_COMPANY",
+          "LE_URL",
+          "LE_INDUSTRY",
+          "LE_EMPLOYEES",
+          "LE_PRODUCT",
+          "LE_LEADSOURCE",
+          "LE_LEADRATING",
+          "LE_CAMPAIGN",
+          "LE_LEADOWNER",
+          "LE_TERRITORY",
+          "LE_FIRSTACTIVITYON",
+          "LE_LASTACTIVITYON",
+          "LE_STATUSCODE",
+          "LE_PREFERRED",
+          "LE_AMOUNT",
+          "LE_UNREAD_EMAILS",
+          "LE_PHONE",
+          "LE_EMAIL",
+          "LE_OFFICE_PHONE",
+          "LE_FAX",
+          "LE_MOBILE",
+          "LE_EMAIL_OPTOUT",
+          "LE_ADDRESS",
+          "LE_DESCRIPTION",
+          "LE_WEBINTEGRATION_LINKS",
+          "LEA_RELATED_CALLLOG",
+          "LE_OPEN_ACTIVITIES",
+          "LE_CLOSED_ACTIVITIES",
+          "LE_RELATED_MAILINGLIST",
+          "LE_RELATED_ISSUES",
+          "LE_RELATED_REQUIREMENTS",
+          "LE_RELATED_ATTACHMENTS",
+          "LE_RELATED_NOTES",
+          "card_1312_541_v",
+          "card_846_2_d",
+          "WEBR_104"
+        ],
+        "objectId": 6,
+        "objectName": "Leads",
+        "orignalRoleAccess": "Administrator",
+        "roleAccess": [
+          "Administrator",
+          "AVP Operations",
+          "Administrator(c)"
+        ],
+        "layoutId": 10204868,
+        "layoutName": "Binding Test"
+      },
+      {
+        "fields": [
+          "LE_NAME",
+          "LE_TITLE",
+          "LE_LEADRATING",
+          "LE_COMPANY",
+          "LE_TERRITORY",
+          "LE_URL",
+          "LE_LEADSOURCE",
+          "LE_INDUSTRY",
+          "LE_EMPLOYEES",
+          "LE_PRODUCT",
+          "LE_LEADOWNER",
+          "LE_CAMPAIGN",
+          "LE_STATUSCODE",
+          "LE_PREFERRED",
+          "LE_AMOUNT",
+          "LE_ADDRESS",
+          "LE_PHONE",
+          "LE_OFFICE_PHONE",
+          "LE_MOBILE",
+          "LE_LOCALITY",
+          "LE_FAX",
+          "LE_CITY",
+          "LE_EMAIL",
+          "LE_STATE",
+          "LE_ZIP_CODE",
+          "LE_COUNTRY",
+          "cust_11562",
+          "cust_11563",
+          "LE_DESCRIPTION",
+          "LE_APPOINTMENT",
+          "LE_MAILINGLIST"
+        ],
+        "objectId": 6,
+        "objectName": "Leads",
+        "orignalRoleAccess": "Administrator",
+        "roleAccess": [
+          "Administrator",
+          "ChatAgent",
+          "AVP-CF",
+          "CS Executive",
+          "AVP Operations",
+          "CC Backend Executive",
+          "CS CCEscalation",
+          "CS Escalation",
+          "Administrator(c)",
+          "Administrator(clone)"
+        ],
+        "layoutId": 10204901,
+        "layoutName": "Pyramid Layout"
+      },
+      {
+        "fields": [],
+        "objectId": 6,
+        "objectName": "Leads",
+        "orignalRoleAccess": "Administrator",
+        "roleAccess": [
+          "Administrator",
+          "Support Executive",
+          "Support Users"
+        ],
+        "layoutId": 10204959,
+        "layoutName": "test_13March"
+      },
+      {
+        "fields": [
+          "LE_MOBILE",
+          "LE_EMAIL"
+        ],
+        "objectId": 6,
+        "objectName": "Leads",
+        "orignalRoleAccess": "Administrator",
+        "roleAccess": [
+          "Administrator"
+        ],
+        "layoutId": 10205031,
+        "layoutName": "EC2842"
+      },
+      {
+        "fields": [],
+        "objectId": 6,
+        "objectName": "Leads",
+        "orignalRoleAccess": "Administrator",
+        "roleAccess": [
+          "Administrator"
+        ],
+        "layoutId": 10205299,
+        "layoutName": "test attachment preview"
+      },
+      {
+        "fields": [],
+        "objectId": 6,
+        "objectName": "Leads",
+        "orignalRoleAccess": "Administrator",
+        "roleAccess": [
+          "Administrator"
+        ],
+        "layoutId": 10205342,
+        "layoutName": "TestingDefaultt"
+      },
+      {
+        "fields": [
+          "LE_NAME",
+          "LE_TITLE",
+          "LE_LEADRATING",
+          "LE_COMPANY",
+          "LE_TERRITORY",
+          "LE_URL",
+          "LE_LEADSOURCE",
+          "LE_INDUSTRY",
+          "LE_EMPLOYEES",
+          "LE_PRODUCT",
+          "LE_LEADOWNER",
+          "LE_CAMPAIGN",
+          "LE_STATUSCODE",
+          "LE_PREFERRED",
+          "LE_AMOUNT",
+          "LE_ADDRESS",
+          "LE_PHONE",
+          "LE_OFFICE_PHONE",
+          "LE_MOBILE",
+          "LE_LOCALITY",
+          "LE_FAX",
+          "LE_CITY",
+          "LE_EMAIL",
+          "LE_STATE",
+          "LE_ZIP_CODE",
+          "LE_COUNTRY",
+          "LE_DESCRIPTION",
+          "LE_APPOINTMENT",
+          "LE_MAILINGLIST"
+        ],
+        "objectId": 6,
+        "objectName": "Leads",
+        "orignalRoleAccess": "Administrator",
+        "roleAccess": [
+          "Administrator"
+        ],
+        "layoutId": 10205452,
+        "layoutName": "History Migration"
+      },
+      {
+        "fields": [
+          "mash_152",
+          "mash_151",
+          "crm_184",
+          "LE_NAME",
+          "LE_TITLE",
+          "LE_COMPANY",
+          "LE_URL",
+          "LE_INDUSTRY",
+          "LE_EMPLOYEES",
+          "LE_PRODUCT",
+          "LE_LEADSOURCE",
+          "LE_LEADRATING",
+          "LE_CAMPAIGN",
+          "LE_LEADOWNER",
+          "LE_TERRITORY",
+          "LE_FIRSTACTIVITYON",
+          "LE_LASTACTIVITYON",
+          "LE_STATUSCODE",
+          "LE_PREFERRED",
+          "LE_AMOUNT",
+          "LE_UNREAD_EMAILS",
+          "LE_PHONE",
+          "LE_EMAIL",
+          "LE_OFFICE_PHONE",
+          "LE_FAX",
+          "LE_MOBILE",
+          "LE_EMAIL_OPTOUT",
+          "LE_ADDRESS",
+          "LE_DESCRIPTION",
+          "LE_WEBINTEGRATION_LINKS",
+          "LEA_RELATED_CALLLOG",
+          "LE_OPEN_ACTIVITIES",
+          "LE_CLOSED_ACTIVITIES",
+          "LE_RELATED_MAILINGLIST",
+          "LE_RELATED_ISSUES",
+          "LE_RELATED_REQUIREMENTS",
+          "LE_RELATED_ATTACHMENTS",
+          "LE_RELATED_NOTES",
+          "card_1312_541_v",
+          "card_846_2_d",
+          "WEBR_104"
+        ],
+        "objectId": 6,
+        "objectName": "Leads",
+        "orignalRoleAccess": "Administrator",
+        "roleAccess": [
+          "Administrator",
+          "AVP Operations",
+          "Administrator(c)"
+        ],
+        "layoutId": 10205508,
+        "layoutName": "Clone : Binding Test"
+      },
+      {
+        "fields": [
+          "mash_152",
+          "mash_151",
+          "crm_184",
+          "LE_NAME",
+          "LE_TITLE",
+          "LE_COMPANY",
+          "LE_URL",
+          "LE_INDUSTRY",
+          "LE_EMPLOYEES",
+          "LE_PRODUCT",
+          "LE_LEADSOURCE",
+          "LE_LEADRATING",
+          "LE_CAMPAIGN",
+          "LE_LEADOWNER",
+          "LE_TERRITORY",
+          "LE_FIRSTACTIVITYON",
+          "LE_LASTACTIVITYON",
+          "LE_STATUSCODE",
+          "LE_PREFERRED",
+          "LE_AMOUNT",
+          "LE_UNREAD_EMAILS",
+          "LE_PHONE",
+          "LE_EMAIL",
+          "LE_OFFICE_PHONE",
+          "LE_FAX",
+          "LE_MOBILE",
+          "LE_EMAIL_OPTOUT",
+          "LE_ADDRESS",
+          "LE_DESCRIPTION",
+          "LE_WEBINTEGRATION_LINKS",
+          "LEA_RELATED_CALLLOG",
+          "LE_OPEN_ACTIVITIES",
+          "LE_CLOSED_ACTIVITIES",
+          "LE_RELATED_MAILINGLIST",
+          "LE_RELATED_ISSUES",
+          "LE_RELATED_REQUIREMENTS",
+          "LE_RELATED_ATTACHMENTS",
+          "LE_RELATED_NOTES",
+          "card_1312_541_v",
+          "card_846_2_d",
+          "WEBR_104"
+        ],
+        "objectId": 6,
+        "objectName": "Leads",
+        "orignalRoleAccess": "Administrator",
+        "roleAccess": [
+          "Administrator",
+          "AVP Operations",
+          "Administrator(c)"
+        ],
+        "layoutId": 10205509,
+        "layoutName": "Clone : Binding Test"
+      },
+      {
+        "fields": [
+          "AC_NAME",
+          "AC_SHORTNAME",
+          "AC_PARENTACCOUNT",
+          "AC_RATING",
+          "AC_STATUSCODE",
+          "AC_OWNER",
+          "AC_CONFIDENCE",
+          "AC_TYPE",
+          "AC_INDUSTRY",
+          "AC_EMP_STRENGTH",
+          "AC_TERRITORY",
+          "AC_IMPORTANCE",
+          "AC_PHONE",
+          "AC_FAX",
+          "AC_OFFICE_PHONE",
+          "AC_EMAIL",
+          "AC_MOBILE",
+          "AC_CAMPAIGN",
+          "AC_LEAD_SOURCE",
+          "AC_WEBSITE_URL",
+          "AC_ISPARTNER",
+          "AC_DESCRIPTION",
+          "cust_11965",
+          "AC_BILLING_ADDRESS",
+          "AC_SHIPPING_ADDRESS",
+          "AC_BILLING_LOCALITY",
+          "AC_SHIPPING_LOCALITY",
+          "AC_BILLING_CITY",
+          "AC_SHIPPING_CITY",
+          "AC_BILLING_STATE",
+          "AC_SHIPPING_STATE",
+          "AC_BILLING_ZIPCODE",
+          "AC_SHIPPING_ZIPCODE",
+          "AC_BILLING_COUNTRY",
+          "AC_SHIPPING_COUNTRY",
+          "WEBR_191"
+        ],
+        "objectId": 7,
+        "objectName": "Accounts",
+        "orignalRoleAccess": "Administrator",
+        "roleAccess": [
+          "Administrator"
+        ],
+        "layoutId": 108019,
+        "layoutName": "Default"
+      },
+      {
+        "fields": [],
+        "objectId": 7,
+        "objectName": "Accounts",
+        "orignalRoleAccess": "Administrator",
+        "roleAccess": [
+          "Administrator"
+        ],
+        "layoutId": 10203288,
+        "layoutName": "acc lay"
+      },
+      {
+        "fields": [],
+        "objectId": 7,
+        "objectName": "Accounts",
+        "orignalRoleAccess": "Administrator",
+        "roleAccess": [
+          "Administrator"
+        ],
+        "layoutId": 10203429,
+        "layoutName": "testlay3"
+      },
+      {
+        "fields": [],
+        "objectId": 7,
+        "objectName": "Accounts",
+        "orignalRoleAccess": "Administrator",
+        "roleAccess": [
+          "Administrator"
+        ],
+        "layoutId": 10203474,
+        "layoutName": "Social Profile card"
+      },
+      {
+        "fields": [],
+        "objectId": 7,
+        "objectName": "Accounts",
+        "orignalRoleAccess": "Administrator",
+        "roleAccess": [
+          "Administrator"
+        ],
+        "layoutId": 10203637,
+        "layoutName": "Account Relationship"
+      },
+      {
+        "fields": [],
+        "objectId": 7,
+        "objectName": "Accounts",
+        "orignalRoleAccess": "Administrator",
+        "roleAccess": [
+          "Administrator",
+          "Accounts Users",
+          "Marketing Users",
+          "Administrator(c)"
+        ],
+        "layoutId": 10203679,
+        "layoutName": "Pyramid Field"
+      },
+      {
+        "fields": [
+          "AC_OWNER",
+          "AC_NAME",
+          "AC_SHORTNAME",
+          "AC_PARENTACCOUNT",
+          "AC_TYPE",
+          "AC_RATING",
+          "AC_EMP_STRENGTH",
+          "AC_INDUSTRY",
+          "AC_WEBSITE_URL",
+          "AC_CONFIDENCE",
+          "AC_IMPORTANCE",
+          "AC_TERRITORY",
+          "AC_CAMPAIGN",
+          "AC_LEAD_SOURCE",
+          "AC_ISPARTNER",
+          "AC_BILLING_ADDRESS",
+          "AC_SHIPPING_ADDRESS",
+          "AC_PHONE",
+          "AC_EMAIL",
+          "AC_OFFICE_PHONE",
+          "AC_FAX",
+          "AC_MOBILE",
+          "AC_DESCRIPTION",
+          "AC_WEBINTEGRATION_LINKS",
+          "AC_RELATED_CONTACTS",
+          "AC_OPEN_OPPORTUNITIES",
+          "AC_CLOSED_OPPORTUNITIES",
+          "AC_RELATED_LEADS",
+          "AC_RELATED_CONTRACTS",
+          "AC_RELATED_PRODUCTS",
+          "AC_OPEN_ACTIVITIES",
+          "AC_CLOSED_ACTIVITIES",
+          "AC_OPEN_CASES",
+          "AC_CLOSED_CASES",
+          "AC_RELATED_ISSUES",
+          "AC_RELATED_REQUIREMENTS",
+          "AC_RELATED_ATTACHMENTS",
+          "AC_RELATED_NOTES",
+          "AC_RELATED_ASSETS",
+          "AC_SHARING",
+          "AC_PARTNER",
+          "JOU_EXECUTION"
+        ],
+        "objectId": 7,
+        "objectName": "Accounts",
+        "orignalRoleAccess": "Administrator",
+        "roleAccess": [
+          "Administrator"
+        ],
+        "layoutId": 10205246,
+        "layoutName": "9MayLayoutV1"
+      },
+      {
+        "fields": [],
+        "objectId": 8,
+        "objectName": "Opportunities",
+        "orignalRoleAccess": "Administrator",
+        "roleAccess": [
+          "Administrator",
+          "ChatAgent",
+          "AVP-CF"
+        ],
+        "layoutId": 1004,
+        "layoutName": "Default_711"
+      },
+      {
+        "fields": [],
+        "objectId": 8,
+        "objectName": "Opportunities",
+        "orignalRoleAccess": "Administrator",
+        "roleAccess": [
+          "Administrator"
+        ],
+        "layoutId": 10002409,
+        "layoutName": "Default"
+      },
+      {
+        "fields": [],
+        "objectId": 8,
+        "objectName": "Opportunities",
+        "orignalRoleAccess": "Administrator",
+        "roleAccess": [
+          "Administrator"
+        ],
+        "layoutId": 10203405,
+        "layoutName": "Oppo_layout"
+      },
+      {
+        "fields": [
+          "OP_STATUS_PRIORITY",
+          "OP_NAME",
+          "OP_OWNER",
+          "OP_ACCOUNT",
+          "OP_STARTDATE",
+          "OP_CLOSEDATE",
+          "OP_STAGENAME",
+          "OP_STAGEDUEDATE",
+          "OP_AMOUNT",
+          "OP_FORECASTAMOUNT",
+          "OP_DISCOUNT",
+          "OP_FREIGHTAMOUNT",
+          "OP_DUTYTAX",
+          "OP_NETAMOUNT",
+          "OP_TYPE",
+          "OP_CATEGORY",
+          "OP_STATUSCODE",
+          "PO_PORTFOLIONAME",
+          "OP_TEAMNAME",
+          "OP_TERRITORYNAME",
+          "OP_LEADSOURCE",
+          "OP_CAMPAIGN",
+          "OP_PROBABILITY",
+          "OP_TAX",
+          "OP_DESCRIPTION",
+          "OP_WEBINTEGRATION_LINKS",
+          "OP_PRODUCTS",
+          "OP_OPEN_ACTIVITIES",
+          "OP_CLOSED_ACTIVITIES",
+          "OP_RELATED_CONTACTS",
+          "OP_RELATED_COMPETITORS",
+          "OP_RELATED_PARTNERS",
+          "OP_RELATED_ISSUES",
+          "OP_RELATED_REQUIREMENTS",
+          "OP_RELATED_ATTACHMENTS",
+          "OP_RELATED_NOTES",
+          "OP_HISTORY"
+        ],
+        "objectId": 8,
+        "objectName": "Opportunities",
+        "orignalRoleAccess": "Administrator",
+        "roleAccess": [
+          "Administrator",
+          "Administrator 16/6"
+        ],
+        "layoutId": 10203648,
+        "layoutName": "Status code Wise deal"
+      },
+      {
+        "fields": [
+          "OP_STATUS_PRIORITY",
+          "OP_NAME",
+          "OP_STATUSCODE",
+          "OP_OWNER",
+          "OP_ACCOUNT",
+          "OP_STARTDATE",
+          "OP_CLOSEDATE",
+          "OP_STAGENAME",
+          "OP_STAGEDUEDATE",
+          "OP_AMOUNT",
+          "OP_FORECASTAMOUNT",
+          "OP_DISCOUNT",
+          "OP_FREIGHTAMOUNT",
+          "OP_DUTYTAX",
+          "OP_NETAMOUNT",
+          "OP_TYPE",
+          "OP_CATEGORY",
+          "crm_265_23",
+          "OP_TEAMNAME",
+          "OP_TERRITORYNAME",
+          "OP_LEADSOURCE",
+          "OP_CAMPAIGN",
+          "OP_PROBABILITY",
+          "OP_TAX",
+          "OP_DESCRIPTION",
+          "OP_WEBINTEGRATION_LINKS",
+          "OP_OPEN_ACTIVITIES",
+          "OP_CLOSED_ACTIVITIES",
+          "OP_RELATED_CONTACTS",
+          "OP_RELATED_COMPETITORS",
+          "OP_PRODUCTS",
+          "OP_RELATED_ATTACHMENTS",
+          "OP_RELATED_NOTES",
+          "OP_RELATED_PARTNERS",
+          "OP_RELATED_LOCATIONS",
+          "OP_RELATED_ISSUES",
+          "OP_RELATED_REQUIREMENTS",
+          "OP_HISTORY",
+          "RELATED_DRAFTS"
+        ],
+        "objectId": 8,
+        "objectName": "Opportunities",
+        "orignalRoleAccess": "Administrator",
+        "roleAccess": [
+          "Administrator"
+        ],
+        "layoutId": 10203715,
+        "layoutName": "SStageWiseLAyout"
+      },
+      {
+        "fields": [
+          "OP_NAME",
+          "OP_OWNER",
+          "OP_ACCOUNT",
+          "OP_STARTDATE",
+          "OP_CLOSEDATE",
+          "OP_PRIORITY",
+          "OP_STAGENAME",
+          "OP_TYPE",
+          "OPP_PARENTNAME",
+          "cust_7796",
+          "OPP_PRODUCTCATEGORY",
+          "OPP_PRODUCT",
+          "OP_TEAMNAME",
+          "OP_CONFIDENCE",
+          "OP_TERRITORYNAME",
+          "OP_AMOUNT",
+          "OP_INCLUDE_IN_FORECAST",
+          "OP_FORECASTAMOUNT",
+          "OP_LEADSOURCE",
+          "OP_CAMPAIGN",
+          "OP_DESCRIPTION",
+          "100186"
+        ],
+        "objectId": 8,
+        "objectName": "Opportunities",
+        "orignalRoleAccess": "Administrator",
+        "roleAccess": [
+          "Administrator"
+        ],
+        "layoutId": 10204006,
+        "layoutName": "Parent Layout"
+      },
+      {
+        "fields": [
+          "OP_NAME",
+          "OP_OWNER",
+          "OP_ACCOUNT",
+          "OP_STARTDATE",
+          "OP_CLOSEDATE",
+          "OP_PRIORITY",
+          "OP_STAGENAME",
+          "OP_TYPE",
+          "OP_TEAMNAME",
+          "OP_CONFIDENCE",
+          "OP_TERRITORYNAME",
+          "OP_AMOUNT",
+          "OP_INCLUDE_IN_FORECAST",
+          "OP_FORECASTAMOUNT",
+          "OPP_PRODUCTCATEGORY",
+          "OPP_PRODUCT",
+          "cust_7796",
+          "OP_LEADSOURCE",
+          "OP_CAMPAIGN",
+          "OP_DESCRIPTION"
+        ],
+        "objectId": 8,
+        "objectName": "Opportunities",
+        "orignalRoleAccess": "Administrator",
+        "roleAccess": [
+          "Administrator"
+        ],
+        "layoutId": 10204033,
+        "layoutName": "Option Mapping 12"
+      },
+      {
+        "fields": [],
+        "objectId": 9,
+        "objectName": "Cases",
+        "orignalRoleAccess": "Administrator",
+        "roleAccess": [
+          "Administrator"
+        ],
+        "layoutId": 10002200,
+        "layoutName": "Default"
+      },
+      {
+        "fields": [],
+        "objectId": 9,
+        "objectName": "Cases",
+        "orignalRoleAccess": "Administrator",
+        "roleAccess": [
+          "Administrator",
+          "AVP Operations",
+          "Administrator(c)"
+        ],
+        "layoutId": 10203738,
+        "layoutName": "Contract case"
+      },
+      {
+        "fields": [
+          "CASE_OWNER",
+          "CASE_CURRENTOWNER",
+          "CASE_ACCOUNTNAME",
+          "CASE_OPPORTUNITY",
+          "CASE_CONTACTNAME",
+          "CASE_PRODUCT",
+          "CASE_PARENT",
+          "CASE_ASSET",
+          "CASE_SUBJECT",
+          "CASE_DETAIL",
+          "CASE_STATUSCODE",
+          "CASE_PRIORITY",
+          "CASE_TYPE",
+          "CASE_ORIGIN",
+          "CASE_REASON",
+          "CASE_CATEGORY",
+          "CASE_REPORTEDON",
+          "CASE_CLOSING_DATE",
+          "CASE_SEVERITY"
+        ],
+        "objectId": 9,
+        "objectName": "Cases",
+        "orignalRoleAccess": "AVP Operations",
+        "roleAccess": [
+          "AVP Operations"
+        ],
+        "layoutId": 10203846,
+        "layoutName": "Bangla User Layout"
+      },
+      {
+        "fields": [],
+        "objectId": 9,
+        "objectName": "Cases",
+        "orignalRoleAccess": "Administrator",
+        "roleAccess": [
+          "Administrator",
+          "AVP Operations"
+        ],
+        "layoutId": 10203934,
+        "layoutName": "LIngual Button Test"
+      }
+    ]
+  }
+}

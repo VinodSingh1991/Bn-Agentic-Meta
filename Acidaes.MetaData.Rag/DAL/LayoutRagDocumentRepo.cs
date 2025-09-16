@@ -46,6 +46,7 @@ namespace Acidaes.MetaData.Rag.DAL
                     var RoleId = reader.GetOrdinal("RoleId");
                     var Name = reader.GetOrdinal("Name");
                     var LayoutXML = reader.GetOrdinal("LayoutXML");
+                    
 
 
                     while (reader.Read())
@@ -59,6 +60,7 @@ namespace Acidaes.MetaData.Rag.DAL
                             RoleId = reader.GetInt32(RoleId),
                             RoleName = reader.IsDBNull(Name) ? string.Empty : reader.GetString(Name),
                             LayoutXml = reader.IsDBNull(LayoutXML)? string.Empty: reader.GetString(LayoutXML).ToString(),
+                          
 
                         };
                         _layoutDocumentList.Add(objDoc);

@@ -1,11 +1,10 @@
 ﻿namespace Acidaes.MetaData.Rag.Model
 {
-    public class RoleDocumentMetaData : DefaultMetaData
+    public class RoleDocumentMetaData 
     {
         public string? RoleName { get; set; }
         public string? RoleDescription { get; set; }
         public string? RoleId { get; set; }
-        public ObjectPermission ObjectPermission { get; set; } = new ObjectPermission();
     }
 
     public class ObjectPermission

@@ -1,15 +1,11 @@
 ﻿namespace Acidaes.MetaData.Rag.Model
 {
-    public class ObjectDocumentMetaData: DefaultMetaData
+    public class ObjectDocumentMetaData
     {
         public int? ObjectId { get; set; }
         public string? ObjectName { get; set; }
-        public string? Description { get; set; }
-        public List<string> Fields { get; set; } = [];
         public List<string> RolesWithAccess { get; set; } = [];
         public string? PrimaryField { get; set; }
-        public string? SubjectField { get; set; }
-        public string? TableName { get; set; }
     }
 
     public class ObjectDocument : RagDocumentBase

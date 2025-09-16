@@ -5,7 +5,7 @@
     "version": "1.0"
   },
   "paths": {
-    "/api/getFieldRagDocuemnt": {
+    "/api/getCustomField": {
       "get": {
         "tags": [
           "FieldRagDocument"
@@ -34,7 +34,36 @@
         }
       }
     },
-    "/api/getLayoutRagDocuemnt": {
+    "/api/getSystemField": {
+      "get": {
+        "tags": [
+          "FieldRagDocument"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "$ref": "#/components/schemas/ResponseModel"
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/ResponseModel"
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/ResponseModel"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/getLayout": {
       "get": {
         "tags": [
           "LayoutRagDocument"
@@ -63,7 +92,7 @@
         }
       }
     },
-    "/api/getObjectRagDocuemnt": {
+    "/api/getObjects": {
       "get": {
         "tags": [
           "ObjectRagDocument"
@@ -92,7 +121,7 @@
         }
       }
     },
-    "/api/getRoleRagDocuemnt": {
+    "/api/getRoles": {
       "get": {
         "tags": [
           "RoleRagDocument"

@@ -79,3 +79,4 @@ D:\dotnet\Acidaes.Agentic.MetaData\Acidaes.MetaData.Rag\bin\Debug\net8.0\runtime
 D:\dotnet\Acidaes.Agentic.MetaData\Acidaes.MetaData.Rag\bin\Debug\net8.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
 D:\dotnet\Acidaes.Agentic.MetaData\Acidaes.MetaData.Rag\bin\Debug\net8.0\runtimes\win\lib\net8.0\System.Diagnostics.EventLog.dll
 D:\dotnet\Acidaes.Agentic.MetaData\Acidaes.MetaData.Rag\bin\Debug\net8.0\runtimes\win\lib\net8.0\System.Security.Cryptography.Pkcs.dll
+D:\dotnet\Acidaes.Agentic.MetaData\Acidaes.MetaData.Rag\obj\Debug\net8.0\Acidaes.MetaData.Rag.sourcelink.json

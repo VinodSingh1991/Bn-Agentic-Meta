@@ -8,30 +8,22 @@ namespace Acidaes.MetaData.Rag.BLL
         private readonly ResponseData _response = new();
         private readonly IObjectRagDocument _objectRagDocument = objectRagDocument;
 
-        public List<ObjectDocument> PrepareObjectDocument(IEnumerable<ObjectDocumentDto> objectRagList)
+        public List<ObjectDocumentMetaData> PrepareObjectDocument(IEnumerable<ObjectDocumentDto> objectRagList)
         {
             if (objectRagList == null || !objectRagList.Any())
             {
                 return [];
             }
 
-            List<ObjectDocument> _objectList = [];
+            List<ObjectDocumentMetaData> _objectList = [];
 
             foreach (var obj in objectRagList)
             {
-                ObjectDocument o = new()
+                ObjectDocumentMetaData o = new()
                 {
-                    Id = $"{obj.ObjectId}_{obj.ObjectName}",
-                    Content = $"{obj.ObjectName} is object in metadata and it table name is {obj.TableName}",
-                    MetaData = new()
-                    { 
-                        ObjectId = obj.ObjectId,
-                        ObjectName = obj.ObjectName,
-                        TableName = obj.TableName,
-                        PrimaryField = obj.PrimaryField,
-                        Description = obj.Description
-                        
-                    }
+                    ObjectId = obj.ObjectId,
+                    ObjectName = obj.ObjectName,
+                    PrimaryField = obj.PrimaryField
                 };
                 _objectList.Add(o);
 

@@ -13,23 +13,25 @@ namespace Acidaes.MetaData.Rag.BLL
         private readonly IFieldRagDocument _fieldRagDocument = fieldRagDocument;
         private readonly LayoutRagDocumentBLL _layoutRagDocument = new(layoutRagDocument);
 
-        public List<string> GetRoles(FieldDocumentDto field, IEnumerable<LayoutRagDcoument> objectLayouts)
+        public List<string> GetRoles(FieldDocumentDto field, IEnumerable<LayoutSectionDocumentMetaData> objectLayouts)
         {
-            List<string> roles = ["Administrator"];
+            List<string> roles = ["0"];
 
             if (objectLayouts != null && objectLayouts.Any() && field?.FieldId != null)
             {
                 foreach (var layout in objectLayouts)
                 {
-                    var fields = layout.MetaData?.Fields;
-                    var role = layout.MetaData?.RoleAccess;
-                    var fld = $"cust_{field.FieldId}";
+                    var fields = layout?.Fields;
+                    var roleId = layout?.OrignalRoleId;
+                    //var fld = $"cust_{field.FieldId}";
 
-                    if (fields != null && fields.Contains(fld) && role != null && !roles.Contains(role))
+                    var fld = field.LayoutFieldId;
+
+                    if (fields != null && fields.Contains(fld) && fields != null && !roles.Contains(roleId))
                     {
                         // Add all roles, avoiding duplicates
 
-                        roles.Add(role);
+                        roles.Add(roleId);
                     }
                 }
             }
@@ -38,59 +40,65 @@ namespace Acidaes.MetaData.Rag.BLL
         }
 
 
-        public IEnumerable<LayoutRagDcoument> GetLayoutByObjectId(int? objectId, IEnumerable<LayoutRagDcoument> allLayout)
+        public IEnumerable<LayoutSectionDocumentMetaData> GetLayoutByObjectId(int? objectId, IEnumerable<LayoutSectionDocumentMetaData> allLayout)
         {
             if (allLayout == null || !allLayout.Any())
                 return [];
 
-            return [.. allLayout.Where(l => l.MetaData?.ObjectId != null && l.MetaData.ObjectId == objectId)];
+            return [.. allLayout.Where(l => l.ObjectId == objectId)];
         }
 
-        private string BuildFieldContent(FieldDocumentDto fieldDto, List<string> roles, string fieldType)
+        public List<string> GetSynonyms(FieldDocumentDto field, IEnumerable<LayoutSectionDocumentMetaData> objectLayouts)
         {
-            var roleText = roles != null && roles.Count != 0 ? string.Join(", ", roles) : "Administrator";
-            var mandatoryText = fieldDto.IsMandatory == true ? "Mandatory" : "Optional";
-            var objectName = Utility.GetObjectNameById(fieldDto.ObjectId);
+            List<string> syn = new List<string>();
 
-            return $"Field 'cust_{fieldDto.FieldId}' (ID: {fieldDto.FieldId}) and (Field Name {fieldDto.FieldName}) with Display Label {fieldDto.DisplayLabel} belongs to object '{objectName}' (ObjectId: {fieldDto.ObjectId}). " +
-        $"It is of field type {fieldType}, {mandatoryText.ToLower()}, and accessible to {roleText}.";
+            if (objectLayouts != null && objectLayouts.Any() && field?.LayoutFieldId != null)
+            {
+                foreach (var layout in objectLayouts)
+                {
+                    var layoutProps = layout?.ModifiedLayoutFieldProps;
+
+                    var fldId = field.LayoutFieldId;
+
+                    var layoutItem = layoutProps?.FirstOrDefault(item => item.FieldId == fldId);
+
+                    if (layoutItem != null && layoutItem.LayoutModifiedName != null && !syn.Contains(layoutItem.LayoutModifiedName))
+                    {
+                        // Add all roles, avoiding duplicates
+
+                        syn.Add(layoutItem.LayoutModifiedName);
+                    }
+                }
+            }
+
+            return syn;
         }
-        public List<FieldDocument> PrepareFieldDocument(IEnumerable<FieldDocumentDto> fieldDocumentDtosList, IEnumerable<LayoutRagDcoument> layoutRagDcouments)
+
+        public List<FieldMetaData> PrepareFieldDocument(IEnumerable<FieldDocumentDto> fieldDocumentDtosList, IEnumerable<LayoutSectionDocumentMetaData> layoutRagDcouments)
         {
             if (fieldDocumentDtosList == null || !fieldDocumentDtosList.Any())
                 return [];
 
-            List<FieldDocument> fieldDocuments = [];
+            List<FieldMetaData> fieldDocuments = [];
 
             foreach (var fieldDto in fieldDocumentDtosList)
             {
                 var objectLayouts = GetLayoutByObjectId(fieldDto.ObjectId, layoutRagDcouments);
                 var roles = GetRoles(fieldDto, objectLayouts);
-                var fieldType = Utility.GetFieldTypeName(fieldDto.FieldType);
-                var content = BuildFieldContent(fieldDto, roles, fieldType);
                 var objectName = Utility.GetObjectNameById(fieldDto.ObjectId);
+                var syn = GetSynonyms(fieldDto, objectLayouts);
 
-                FieldDocument fieldDocument = new()
+                FieldMetaData fieldDocument = new()
                 {
-                    Id = $"OBjectId_{fieldDto.ObjectId}_FieldId_{fieldDto.FieldId}",
-                    Content = content,
-                    MetaData = new FieldMetaData
-                    {
-                        FieldId = fieldDto.FieldId,
-                        ModifiedFieldId = $"cust_{fieldDto.FieldId}",
-                        FieldName = fieldDto.FieldName,
-                        FieldType = fieldType,
-                        ObjectName = objectName,
-                        Description = fieldDto.Description,
-                        DisplayLabel = fieldDto.DisplayLabel,
-                        IsMandatory = fieldDto.IsMandatory ?? false,
-                        FieldLabel = fieldDto.FieldLabel,
-                        ObjectId = fieldDto.ObjectId,
-                        TableName = $"{objectName} has a DataBase Table {fieldDto.TableName}",
-                        RoleAccess = roles,
-                        DataType = fieldType,
-                        RenderingType = "Field"
-                    }
+                    FieldId = fieldDto.FieldId,
+                    ModifiedFieldId = fieldDto.LayoutFieldId,
+                    FieldName = fieldDto.FieldName, //field name
+                    ObjectName = objectName,
+                    FieldLabel = fieldDto.FieldLabel, //label
+                    ObjectId = fieldDto.ObjectId,
+                    RoleAccess = roles,
+                    LayoutFieldId = fieldDto.LayoutFieldId,
+                    Synonyms = syn
 
                 };
                 fieldDocuments.Add(fieldDocument);
@@ -99,15 +107,15 @@ namespace Acidaes.MetaData.Rag.BLL
             return fieldDocuments;
         }
 
-        public async Task<ResponseData> GetFieldDocuments()
+        public async Task<ResponseData> GetFieldDocuments(bool isSystemField)
         {
 
             try
             {
                 var layoutFields = await _layoutRagDocument.GetLayoutRagList();
-                var fieldDocFromDb = await _fieldRagDocument.GetFieldDocument();
+                var fieldDocFromDb = await _fieldRagDocument.GetFieldDocument(isSystemField);
 
-                IEnumerable<LayoutRagDcoument>? layoutList = layoutFields.Data as IEnumerable<LayoutRagDcoument>;
+                IEnumerable<LayoutSectionDocumentMetaData>? layoutList = layoutFields.Data as IEnumerable<LayoutSectionDocumentMetaData>;
 
                 var fieldDocuments = PrepareFieldDocument(fieldDocFromDb, layoutList);
                 _response.Data = fieldDocuments;

@@ -12,8 +12,8 @@ namespace Acidaes.MetaData.Rag.Controllers
         private readonly ResponseModel _response = new();
         private readonly ObjectRagDocumentBLL _objectRagDocumentBLL = new(objectRagDocument);
 
-        [HttpGet("api/getObjectRagDocuemnt")]
-        public async Task<ResponseModel> GetObjectDocuments()
+        [HttpGet("api/getObjects")]
+        public async Task<ResponseModel> GetObjects()
         {
             var objectList = await _objectRagDocumentBLL.GetObjectRagDocument();
             if (objectList.IsSuccess == "True")

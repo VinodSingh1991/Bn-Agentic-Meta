@@ -8,28 +8,30 @@ namespace Acidaes.MetaData.Rag.BLL
         private readonly ResponseData _response = new();
         private readonly IRoleRagDocument _roleRagRepository = roleRagRepository;
 
-        public List<RoleDocument> PrepareRagDocument(IEnumerable<RoleDocumentDTO> documents)
+        public List<RoleDocumentMetaData> PrepareRagDocument(IEnumerable<RoleDocumentDTO> documents)
         {
-            List<RoleDocument> _roleDocs = [];
+            List<RoleDocumentMetaData> _roleDocs = [];
+            HashSet<string> addedRolesKeys = new();
 
             if (documents == null || !documents.Any())
                 return [];
 
             foreach (var document in documents)
             {
-                RoleDocument doc = new()
+                var roleId = document.RoleId;
+
+                if (addedRolesKeys.Contains(roleId))
                 {
-                    Id = $"{document.RoleId}_{document.RoleName}",
-                    Content = document.RoleDescription,
-                    MetaData = new()
-                    {
-                        RoleId = document.RoleId,
-                        RoleName = document.RoleName,
-                        RoleDescription = document.RoleDescription,
-                        Language = "English",
-                        Tags = [document.RoleName]
-                    }
+                    continue;
+                }
+                RoleDocumentMetaData doc = new()
+                {
+                    RoleId = roleId,
+                    RoleName = document.RoleName,
+                    RoleDescription = document.RoleDescription
                 };
+
+                addedRolesKeys.Add(roleId);
                 _roleDocs.Add(doc);
             }
 
