@@ -1,0 +1,203 @@
+# OFFICIAL PayloadSchema Generation Instructions (FINAL VERSION)
+
+## ⚠️ IMPORTANT: This is the single, official instruction file for payload generation
+## 🚀 Version: Completely Unbiased, Domain-Agnostic System
+## 📅 Last Updated: September 26, 2025
+
+# Unbiased PayloadSchema Generation Instructions
+
+## Overview
+Transform natural language queries into precise, executable query payloads using provided context data. This system is completely domain-agnostic and works with any data model.
+
+---
+
+## 🎯 CORE PRINCIPLES
+
+### 1. CONTEXT-FIRST APPROACH
+- **Always use provided context**: Only reference entities and fields present in context
+- **Validate everything**: Ensure all entities, fields, and relationships exist in context
+- **Respect boundaries**: Fields must belong to selected entities
+- **No assumptions**: Never assume entity names, field types, or data structures
+
+### 2. INTENT-TO-OPERATION MAPPING
+**Query Intent Analysis**:
+- `"Show/List/Display/Get/Find/Retrieve"` → `"READ"` operation
+- `"Create/Add/Insert/New"` (without show/display) → `"CREATE"` operation  
+- `"Update/Change/Modify/Edit"` → `"UPDATE"` operation
+- `"Delete/Remove"` → `"DELETE"` operation
+- `"Count/Sum/Total/Average/Aggregate"` (without show/display) → `"AGGREGATE"` operation
+
+**Key Rule**: Match the operation to user's actual intent, not just keywords. "Show" always indicates READ.
+
+### 3. GENERIC ENTITY RECOGNITION
+**Entity Matching Strategy**:
+- **Direct Match**: Extract entity names from query and match against context entities
+- **Flexible Matching**: Handle plural/singular variations automatically
+- **Keyword Analysis**: Look for nouns that might represent entities
+- **Context Validation**: Only use entities present in provided context
+- **Fallback**: If no entity matched by name, use first available entity from context
+
+### 4. DYNAMIC FIELD SELECTION
+**Field Selection Algorithm**:
+1. **Query Keywords**: Extract meaningful keywords from query (excluding stop words)
+2. **Field Matching**: Match query keywords to field names and labels
+3. **Essential Fields**: Include standard identifier fields (id, name, code, number, title)
+4. **Relevance Scoring**: Prioritize fields that match query intent and keywords
+
+**Generic Field Patterns**:
+- Identity: id, name, code, number, title, label
+- Status: status, state, condition, phase
+- Temporal: date, time, created, modified, updated
+- Descriptive: description, details, notes, comments
+
+---
+
+## 🚀 ALGORITHM WORKFLOW
+
+### Step 1: Query Analysis
+```
+1. Parse query into words
+2. Remove stop words (show, my, the, a, an, with, for, etc.)
+3. Extract meaningful keywords
+4. Identify operation intent
+5. Extract potential entity names
+6. Extract potential field names and filter values
+```
+
+### Step 2: Entity Resolution
+```
+1. Match extracted entity names against context entities
+2. Handle plural/singular variations
+3. If no match, use first available entity
+4. Validate entity exists in context
+```
+
+### Step 3: Field Selection
+```
+1. Get all fields for selected entity from context
+2. Score fields based on:
+   - Exact keyword matches in field names
+   - Keyword matches in field labels
+   - Essential field patterns (id, name, etc.)
+3. Select top-scoring fields (limit to reasonable number)
+```
+
+### Step 4: Filter Generation
+```
+1. Parse query for "field = value" patterns
+2. Look for prepositions indicating filters (with, for, where)
+3. Extract field-value pairs from context
+4. Match field names to available entity fields
+5. Generate appropriate operators based on value type
+6. Handle time-based filters generically
+```
+
+### Step 5: Payload Construction
+```
+1. Build JSON payload with selected operation, entity, fields
+2. Apply all identified filters with AND logic
+3. Set appropriate sort field (prefer date fields if available)
+4. Apply limits if specified in query
+5. Validate final payload against context
+```
+
+---
+
+## 🔍 GENERIC EXAMPLES
+
+### Example 1: Basic READ Query
+**Input**: "Show all [ENTITY] with [FIELD] [VALUE]"
+**Analysis**:
+- Operation: READ (show)
+- Entity: [ENTITY] (match from context)
+- Keywords: [[ENTITY], [FIELD], [VALUE]]
+- Filters: [FIELD] = [VALUE]
+
+### Example 2: Date Range Query
+**Input**: "List all [ENTITY] created last [TIMEFRAME]"
+**Analysis**:
+- Operation: READ (list)
+- Entity: [ENTITY] (match from context)
+- Keywords: [[ENTITY], created, last, [TIMEFRAME]]
+- Filters: created_date = LAST_N_DAYS
+
+### Example 3: Multi-Filter Query
+**Input**: "Find top [N] [ENTITY] with [FIELD1] [VALUE1] and [FIELD2] [VALUE2]"
+**Analysis**:
+- Operation: READ (find)
+- Entity: [ENTITY] (match from context)
+- Keywords: [[ENTITY], [FIELD1], [VALUE1], [FIELD2], [VALUE2]]
+- Filters: [FIELD1] = [VALUE1] AND [FIELD2] = [VALUE2]
+- Limit: [N]
+
+### Pattern-Based Examples (Domain Agnostic):
+- "Show records where status equals active"
+- "List items modified today"
+- "Find entries with type standard"
+- "Display data created this month"
+- "Get all objects assigned to user"
+
+---
+
+## 🛡️ VALIDATION RULES
+
+### Context Validation
+1. **Entity Exists**: Selected entity must exist in context.entities
+2. **Fields Exist**: All selected fields must exist in context.available_fields
+3. **Field Ownership**: Fields must belong to selected entity (matching parentId)
+4. **Operator Compatibility**: Use appropriate operators for field types
+
+### Query Validation
+1. **Operation Clarity**: Clear mapping from query intent to operation type
+2. **Entity Clarity**: At least one entity identifiable from query or context
+3. **Field Relevance**: Selected fields should be relevant to query intent
+4. **Filter Logic**: Filters should logically match query conditions
+
+---
+
+## 📝 OUTPUT FORMAT
+
+```json
+{
+  "requestId": "req_[random_id]",
+  "operation": "[READ|CREATE|UPDATE|DELETE|AGGREGATE]",
+  "entities": [
+    {
+      "entityName": "[entity_name_from_context]",
+      "alias": "[entity_name_lowercase]",
+      "fields": ["[field_id_1]", "[field_id_2]", "..."]
+    }
+  ],
+  "filters": {
+    "logic": "AND",
+    "conditions": [
+      {
+        "field": "[field_id]",
+        "operator": "[EQUALS|CONTAINS|GREATER_THAN|LAST_N_DAYS|etc]",
+        "value": "[filter_value]"
+      }
+    ]
+  },
+  "sort": [
+    {
+      "field": "[field_id]",
+      "direction": "[ASC|DESC]"
+    }
+  ],
+  "limit": "[number_if_specified]",
+  "outputFormat": "table",
+  "route": "Client"
+}
+```
+
+---
+
+## ⚡ PROCESSING GUIDELINES
+
+1. **Be Adaptive**: Work with any domain - CRM, inventory, HR, finance, etc.
+2. **Be Precise**: Only use fields and entities from provided context
+3. **Be Logical**: Map query intent to appropriate operations and filters
+4. **Be Complete**: Include all relevant filters and fields for the query
+5. **Be Efficient**: Select optimal number of fields (not too few, not too many)
+
+Remember: This is a completely generic system. Make no assumptions about specific domains, entity types, or field structures. Always work from the provided context data.

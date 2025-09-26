@@ -2,7 +2,6 @@ from src.utility.query_normalization import QueryNormalization
 import re
 from src.utility.meta_data import MetaDataUtility
 
-
 class ContextNormalization:
     def __init__(self, query: str):
         self.meta_data_utility = MetaDataUtility()
@@ -59,9 +58,14 @@ class ContextNormalization:
             return {}
             
         object_data = {}
-        for field in layout_fields:
-            if field in entity_context:
-                object_data[field] = entity_context[field]
+        # Iterate through all entities to find fields with matching layout_field_id
+        for entity_key, entity_data in entity_context.items():
+            # Check if this is a field entity
+            if entity_data.get("type") == "field":
+                # Check if the field's layout_field_id matches any in our layout_fields list
+                field_layout_id = entity_data.get("layout_field_id")
+                if field_layout_id and field_layout_id in layout_fields:
+                    object_data[entity_key] = entity_data
         return object_data
 
     def get_entity_contexts(self, entity_dict):
