@@ -62,13 +62,19 @@ class EntityNormalization:
             field_label = field_info.get("fieldLabel")
             object_id = field_info.get("objectId")
             object_name = field_info.get("objectName")
-            field_synonyms = field_info.get("synonyms", [field_label, field_name])
+            field_modified = field_info.get("modifiedFieldId")
+            field_layout_id = field_info.get("layoutFieldId")
+            field_synonyms = field_info.get("synonyms", [field_label, field_name, field_modified, field_layout_id])
             # Use list concatenation to merge synonyms, field_name, and field_label
             fls_synonyms = list(field_synonyms)
             if field_name and field_name not in fls_synonyms:
                 fls_synonyms.append(field_name)
             if field_label and field_label not in fls_synonyms:
                 fls_synonyms.append(field_label)
+            if field_modified and field_modified not in fls_synonyms:
+                fls_synonyms.append(field_modified)
+            if field_layout_id and field_layout_id not in fls_synonyms:
+                fls_synonyms.append(field_layout_id)
 
             field_sys = generate_words(fls_synonyms)
 
@@ -83,6 +89,7 @@ class EntityNormalization:
                 "fieldName": field_name,
                 "relation": "objectId",
                 "fieldLabel": field_label,
+                "layout_field_id": field_layout_id,
                 "synonyms": field_sys,
             }
         return entities

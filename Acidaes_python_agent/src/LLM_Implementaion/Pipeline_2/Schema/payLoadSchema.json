@@ -1,0 +1,177 @@
+{
+    "type": "object",
+    "properties": {
+        "requestId": {"type": "string"},
+        "roleContext": {"type": "string"},
+        "operation": {
+            "type": "string",
+            "enum": [
+                "CREATE", "READ", "UPDATE", "DELETE", 
+                "AGGREGATE", "ACTION", "BULK", "SEARCH",
+                "EXPORT", "IMPORT", "VALIDATE", "ANALYZE"
+            ]
+        },
+        "entity": {"type": "string"},
+        "entityAlias": {"type": ["string", "null"]},
+        "relatedEntities": {
+            "type": ["array", "null"],
+            "items": {
+                "type": "object",
+                "properties": {
+                    "name": {"type": "string"},
+                    "alias": {"type": "string"},
+                    "relationship": {
+                        "type": "string",
+                        "enum": [
+                            "BELONGS_TO", "HAS_MANY", "HAS_ONE",
+                            "MANY_TO_MANY", "OWNS", "ASSIGNED_TO",
+                            "CREATED_BY", "RELATED_TO", "REFERENCES",
+                            "CHILD_OF", "PARENT_OF", "LINKED_TO"
+                        ]
+                    },
+                    "joinType": {
+                        "type": ["string", "null"],
+                        "enum": ["INNER", "LEFT", "RIGHT", "FULL", "CROSS", null]
+                    },
+                    "joinCondition": {"type": ["string", "null"]},
+                    "fields": {
+                        "type": "array",
+                        "items": {"type": "string"}
+                    }
+                },
+                "required": ["name", "alias", "relationship"]
+            }
+        },
+        "fields": {
+            "type": ["array", "null"],
+            "items": {"type": "string"}
+        },
+        "filters": {
+            "type": ["object", "null"],
+            "properties": {
+                "logical": {
+                    "type": "string",
+                    "enum": ["AND", "OR"]
+                },
+                "conditions": {
+                    "type": "array",
+                    "items": {
+                        "type": "object",
+                        "properties": {
+                            "field": {"type": "string"},
+                            "operator": {
+                                "type": "string",
+                                "enum": [
+                                    "EQUALS", "NOT_EQUALS", "CONTAINS", "NOT_CONTAINS",
+                                    "STARTS_WITH", "ENDS_WITH", "GT", "GTE", "LT", "LTE",
+                                    "BETWEEN", "NOT_BETWEEN", "IN", "NOT_IN",
+                                    "IS_NULL", "IS_NOT_NULL", "IS_EMPTY", "IS_NOT_EMPTY",
+                                    "MATCHES_PATTERN", "NOT_MATCHES_PATTERN",
+                                    "DATE_EQUALS", "DATE_NOT_EQUALS", "DATE_BEFORE", "DATE_AFTER",
+                                    "DATE_BETWEEN", "DATE_RANGE", "LAST_N_DAYS", "NEXT_N_DAYS",
+                                    "THIS_WEEK", "LAST_WEEK", "NEXT_WEEK",
+                                    "THIS_MONTH", "LAST_MONTH", "NEXT_MONTH",
+                                    "THIS_QUARTER", "LAST_QUARTER", "NEXT_QUARTER",
+                                    "THIS_YEAR", "LAST_YEAR", "NEXT_YEAR",
+                                    "YEAR_TO_DATE", "MONTH_TO_DATE", "QUARTER_TO_DATE",
+                                    "WITHIN_DISTANCE", "BEYOND_DISTANCE",
+                                    "HAS_VALUE", "LACKS_VALUE"
+                                ]
+                            },
+                            "value": {
+                                "oneOf": [
+                                    {"type": "string"},
+                                    {"type": "number"},
+                                    {"type": "boolean"},
+                                    {"type": "null"},
+                                    {
+                                        "type": "array",
+                                        "items": {"type": ["string", "number", "boolean", "null"]}
+                                    },
+                                    {
+                                        "type": "object",
+                                        "properties": {
+                                            "from": {"type": ["string", "number"]},
+                                            "to": {"type": ["string", "number"]},
+                                            "days": {"type": "integer"},
+                                            "distance": {"type": "number"},
+                                            "unit": {"type": "string"},
+                                            "pattern": {"type": "string"},
+                                            "coordinates": {
+                                                "type": "object",
+                                                "properties": {
+                                                    "latitude": {"type": "number"},
+                                                    "longitude": {"type": "number"}
+                                                }
+                                            }
+                                        }
+                                    }
+                                ]
+                            },
+                            "caseSensitive": {"type": "boolean"}
+                        },
+                        "required": ["field", "operator"]
+                    }
+                }
+            }
+        },
+        "groupBy": {
+            "type": ["array", "null"],
+            "items": {"type": "string"}
+        },
+        "aggregations": {
+            "type": ["array", "null"],
+            "items": {
+                "type": "object",
+                "properties": {
+                    "field": {"type": "string"},
+                    "function": {
+                        "type": "string",
+                        "enum": [
+                            "SUM", "AVG", "COUNT", "MAX", "MIN", "DISTINCT_COUNT",
+                            "MEDIAN", "MODE", "STDDEV", "VARIANCE",
+                            "FIRST", "LAST", "CONCAT", "GROUP_CONCAT"
+                        ]
+                    },
+                    "alias": {"type": ["string", "null"]},
+                    "distinct": {"type": "boolean"}
+                },
+                "required": ["field", "function"]
+            }
+        },
+        "sort": {
+            "type": ["array", "null"],
+            "items": {
+                "type": "object",
+                "properties": {
+                    "field": {"type": "string"},
+                    "direction": {
+                        "type": "string",
+                        "enum": ["ASC", "DESC"]
+                    },
+                    "nullsFirst": {"type": "boolean"}
+                },
+                "required": ["field", "direction"]
+            }
+        },
+        "limit": {"type": ["integer", "null"]},
+        "offset": {"type": ["integer", "null"]},
+        "distinct": {"type": ["boolean", "null"]},
+        "outputFormat": {
+            "type": ["string", "null"],
+            "enum": [
+                "table", "chart", "table_with_text", "card", "summary", 
+                "text", "list", "json", "csv", "excel", "pdf",
+                "dashboard", "report", "visualization", "graph"
+            ]
+        },
+        "outputRoute": {
+            "type": ["string", "null"],
+            "enum": ["AI", "Client", "Export", "Email", "Dashboard", null]
+        },
+        "explain": {"type": ["boolean", "null"]}
+    },
+    "required": [
+        "requestId", "roleContext", "operation", "entity"
+    ]
+}
