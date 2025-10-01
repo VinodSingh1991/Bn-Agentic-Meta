@@ -1,0 +1,98 @@
+[
+    {
+        "ObjectId": 1,
+        "ObjectName": "Task",
+        "ObjectTableName": "Activity",
+        "ObjectOwnerField": "OwnerId",
+        "ObjectTablePrimaryKey": "ActivityID",
+        "ObjectSubjectField": "Subject"
+    },
+    {
+        "ObjectId": 2,
+        "ObjectName": "Event",
+        "ObjectTableName": "Activity",
+        "ObjectOwnerField": "OwnerId",
+        "ObjectTablePrimaryKey": "ActivityID",
+        "ObjectSubjectField": "Subject"
+    },
+    {
+        "ObjectId": 4,
+        "ObjectName": "Note",
+        "ObjectTableName": "Notes",
+        "ObjectOwnerField": "OwnerID",
+        "ObjectTablePrimaryKey": "NoteID",
+        "ObjectSubjectField": "Subject"
+    },
+    {
+        "ObjectId": 5,
+        "ObjectName": "Contact",
+        "ObjectTableName": "Contacts",
+        "ObjectOwnerField": "OwnerId",
+        "ObjectTablePrimaryKey": "ContactID",
+        "ObjectSubjectField": "contactname"
+    },
+    {
+        "ObjectId": 6,
+        "ObjectName": "Lead",
+        "ObjectTableName": "Leads",
+        "ObjectOwnerField": "OwnerId",
+        "ObjectTablePrimaryKey": "LeadID",
+        "ObjectSubjectField": "LeadName"
+    },
+    {
+        "ObjectId": 7,
+        "ObjectName": "Account",
+        "ObjectTableName": "Accounts",
+        "ObjectOwnerField": "OwnerId",
+        "ObjectTablePrimaryKey": "AccountID",
+        "ObjectSubjectField": "name"
+    },
+    {
+        "ObjectId": 8,
+        "ObjectName": "Opportunity",
+        "ObjectTableName": "Opportunities",
+        "ObjectOwnerField": "OwnerId",
+        "ObjectTablePrimaryKey": "OpportunityID",
+        "ObjectSubjectField": "name"
+    },
+    {
+        "ObjectId": 9,
+        "ObjectName": "Case",
+        "ObjectTableName": "Cases",
+        "ObjectOwnerField": "OwnerId",
+        "ObjectTablePrimaryKey": "CaseID",
+        "ObjectSubjectField": "Subject"
+    },
+    {
+        "ObjectId": 19,
+        "ObjectName": "Issue",
+        "ObjectTableName": "IssueRequirementMaster",
+        "ObjectOwnerField": "OwnerId",
+        "ObjectTablePrimaryKey": "ItemID",
+        "ObjectSubjectField": "Subject"
+    },
+    {
+        "ObjectId": 34,
+        "ObjectName": "Product",
+        "ObjectTableName": "Products",
+        "ObjectOwnerField": "OwnerId",
+        "ObjectTablePrimaryKey": "ProductID",
+        "ObjectSubjectField": "Name"
+    },
+    {
+        "ObjectId": 43,
+        "ObjectName": "Activity",
+        "ObjectTableName": "Activity",
+        "ObjectOwnerField": "OwnerId",
+        "ObjectTablePrimaryKey": "ActivityID",
+        "ObjectSubjectField": "Subject"
+    },
+    {
+        "ObjectId": 56,
+        "ObjectName": "Contract",
+        "ObjectTableName": "Contracts",
+        "ObjectOwnerField": "OwnerId",
+        "ObjectTablePrimaryKey": "ContractID",
+        "ObjectSubjectField": "ContractTitle"
+    }
+]

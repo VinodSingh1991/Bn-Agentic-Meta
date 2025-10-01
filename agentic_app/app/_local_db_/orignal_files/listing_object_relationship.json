@@ -1,0 +1,1001 @@
+[
+    {
+        "ObjectId": 2,
+        "ObjectName": "Event",
+        "listingtype": 3,
+        "RelatedKeyID": 2,
+        "RelationShipID": "ACT_RELATED_ACTIVITIES",
+        "RelationShipName": "ActActivity",
+        "ModifiedListingName": "Event ActActivity"
+    },
+    {
+        "ObjectId": 2,
+        "ObjectName": "Event",
+        "listingtype": 3,
+        "RelatedKeyID": 2,
+        "RelationShipID": "ACT_RELATED_OPEN_ACTIVITIES",
+        "RelationShipName": "Open Activities",
+        "ModifiedListingName": "Event Open Activities"
+    },
+    {
+        "ObjectId": 5,
+        "ObjectName": "Contact",
+        "listingtype": 3,
+        "RelatedKeyID": 43,
+        "RelationShipID": "CON_OPEN_ACTIVITIES",
+        "RelationShipName": "Open Activities",
+        "ModifiedListingName": "Contact Open Activities"
+    },
+    {
+        "ObjectId": 5,
+        "ObjectName": "Contact",
+        "listingtype": 3,
+        "RelatedKeyID": 43,
+        "RelationShipID": "RELATED_ACTIVITIES",
+        "RelationShipName": "Related Activities",
+        "ModifiedListingName": "Contact Related Activities"
+    },
+    {
+        "ObjectId": 5,
+        "ObjectName": "Contact",
+        "listingtype": 4,
+        "RelatedKeyID": 43,
+        "RelationShipID": "CON_CLOSED_ACTIVITIES",
+        "RelationShipName": "Closed Activities",
+        "ModifiedListingName": "Contact Closed Activities"
+    },
+    {
+        "ObjectId": 5,
+        "ObjectName": "Contact",
+        "listingtype": 5,
+        "RelatedKeyID": 4,
+        "RelationShipID": "CON_RELATED_NOTES",
+        "RelationShipName": "Related Notes",
+        "ModifiedListingName": "Contact Related Notes"
+    },
+    {
+        "ObjectId": 5,
+        "ObjectName": "Contact",
+        "listingtype": 6,
+        "RelatedKeyID": 5,
+        "RelationShipID": "CON_HISTORY",
+        "RelationShipName": "Contact History",
+        "ModifiedListingName": "Contact Contact History"
+    },
+    {
+        "ObjectId": 5,
+        "ObjectName": "Contact",
+        "listingtype": 7,
+        "RelatedKeyID": 19,
+        "RelationShipID": "CON_RELATED_ISSUES",
+        "RelationShipName": "Related Issues",
+        "ModifiedListingName": "Contact Related Issues"
+    },
+    {
+        "ObjectId": 5,
+        "ObjectName": "Contact",
+        "listingtype": 14,
+        "RelatedKeyID": 6,
+        "RelationShipID": "CON_RELATED_LEADS",
+        "RelationShipName": "Related Leads",
+        "ModifiedListingName": "Contact Related Leads"
+    },
+    {
+        "ObjectId": 5,
+        "ObjectName": "Contact",
+        "listingtype": 19,
+        "RelatedKeyID": 8,
+        "RelationShipID": "CON_OPEN_OPPORTUNITIES",
+        "RelationShipName": "Open Opportunities",
+        "ModifiedListingName": "Contact Open Opportunities"
+    },
+    {
+        "ObjectId": 5,
+        "ObjectName": "Contact",
+        "listingtype": 20,
+        "RelatedKeyID": 8,
+        "RelationShipID": "CON_CLOSED_OPPORTUNITIES",
+        "RelationShipName": "Closed Opportunities",
+        "ModifiedListingName": "Contact Closed Opportunities"
+    },
+    {
+        "ObjectId": 5,
+        "ObjectName": "Contact",
+        "listingtype": 20,
+        "RelatedKeyID": 8,
+        "RelationShipID": "RELATED_OPPORTUNITIES",
+        "RelationShipName": "Related Opportunities",
+        "ModifiedListingName": "Contact Related Opportunities"
+    },
+    {
+        "ObjectId": 5,
+        "ObjectName": "Contact",
+        "listingtype": 29,
+        "RelatedKeyID": 5,
+        "RelationShipID": "CON_RELATED_CONTRACT",
+        "RelationShipName": "Related Contracts",
+        "ModifiedListingName": "Contact Related Contracts"
+    },
+    {
+        "ObjectId": 5,
+        "ObjectName": "Contact",
+        "listingtype": 31,
+        "RelatedKeyID": 9,
+        "RelationShipID": "RELATED_CASES",
+        "RelationShipName": "Related Cases",
+        "ModifiedListingName": "Contact Related Cases"
+    },
+    {
+        "ObjectId": 5,
+        "ObjectName": "Contact",
+        "listingtype": 564,
+        "RelatedKeyID": 43,
+        "RelationShipID": "CON_ACTIVITIES",
+        "RelationShipName": "ConActivities",
+        "ModifiedListingName": "Contact ConActivities"
+    },
+    {
+        "ObjectId": 5,
+        "ObjectName": "Contact",
+        "listingtype": 564,
+        "RelatedKeyID": 43,
+        "RelationShipID": "RELATED_ACTIVITIES",
+        "RelationShipName": "Related Activities",
+        "ModifiedListingName": "Contact Related Activities"
+    },
+    {
+        "ObjectId": 5,
+        "ObjectName": "Contact",
+        "listingtype": 565,
+        "RelatedKeyID": 8,
+        "RelationShipID": "CON_OPPORTUNITIES",
+        "RelationShipName": "ConOpportunities",
+        "ModifiedListingName": "Contact ConOpportunities"
+    },
+    {
+        "ObjectId": 6,
+        "ObjectName": "Lead",
+        "listingtype": 3,
+        "RelatedKeyID": 43,
+        "RelationShipID": "LE_OPEN_ACTIVITIES",
+        "RelationShipName": "Open Activities",
+        "ModifiedListingName": "Lead Open Activities"
+    },
+    {
+        "ObjectId": 6,
+        "ObjectName": "Lead",
+        "listingtype": 3,
+        "RelatedKeyID": 43,
+        "RelationShipID": "RELATED_ACTIVITIES",
+        "RelationShipName": "Related Activities",
+        "ModifiedListingName": "Lead Related Activities"
+    },
+    {
+        "ObjectId": 6,
+        "ObjectName": "Lead",
+        "listingtype": 4,
+        "RelatedKeyID": 43,
+        "RelationShipID": "LE_CLOSED_ACTIVITIES",
+        "RelationShipName": "Closed Activities",
+        "ModifiedListingName": "Lead Closed Activities"
+    },
+    {
+        "ObjectId": 6,
+        "ObjectName": "Lead",
+        "listingtype": 5,
+        "RelatedKeyID": 4,
+        "RelationShipID": "LE_RELATED_NOTES",
+        "RelationShipName": "Related Notes",
+        "ModifiedListingName": "Lead Related Notes"
+    },
+    {
+        "ObjectId": 6,
+        "ObjectName": "Lead",
+        "listingtype": 6,
+        "RelatedKeyID": 6,
+        "RelationShipID": "_HISTORY",
+        "RelationShipName": "Related History",
+        "ModifiedListingName": "Lead Related History"
+    },
+    {
+        "ObjectId": 6,
+        "ObjectName": "Lead",
+        "listingtype": 6,
+        "RelatedKeyID": 6,
+        "RelationShipID": "LE_HISTORY",
+        "RelationShipName": "Related History",
+        "ModifiedListingName": "Lead Related History"
+    },
+    {
+        "ObjectId": 6,
+        "ObjectName": "Lead",
+        "listingtype": 7,
+        "RelatedKeyID": 19,
+        "RelationShipID": "LE_RELATED_ISSUES",
+        "RelationShipName": "Related Issues",
+        "ModifiedListingName": "Lead Related Issues"
+    },
+    {
+        "ObjectId": 6,
+        "ObjectName": "Lead",
+        "listingtype": 28,
+        "RelatedKeyID": 5,
+        "RelationShipID": "LEAD_RELATED_CONTACTS",
+        "RelationShipName": "Related Contacts",
+        "ModifiedListingName": "Lead Related Contacts"
+    },
+    {
+        "ObjectId": 6,
+        "ObjectName": "Lead",
+        "listingtype": 57,
+        "RelatedKeyID": 6,
+        "RelationShipID": "LEAD_ESC_HISTORY",
+        "RelationShipName": "Lead Escalation History",
+        "ModifiedListingName": "Lead Lead Escalation History"
+    },
+    {
+        "ObjectId": 6,
+        "ObjectName": "Lead",
+        "listingtype": 221,
+        "RelatedKeyID": 6,
+        "RelationShipID": "LEAD_CHILD",
+        "RelationShipName": "Lead Child",
+        "ModifiedListingName": "Lead Lead Child"
+    },
+    {
+        "ObjectId": 6,
+        "ObjectName": "Lead",
+        "listingtype": 222,
+        "RelatedKeyID": 6,
+        "RelationShipID": "RELATED_LEAD_CHARGE",
+        "RelationShipName": "Related charge with Lead",
+        "ModifiedListingName": "Lead Related charge with Lead"
+    },
+    {
+        "ObjectId": 6,
+        "ObjectName": "Lead",
+        "listingtype": 564,
+        "RelatedKeyID": 43,
+        "RelationShipID": "LE_ACTIVITIES",
+        "RelationShipName": "LeadActivities",
+        "ModifiedListingName": "Lead LeadActivities"
+    },
+    {
+        "ObjectId": 6,
+        "ObjectName": "Lead",
+        "listingtype": 1197,
+        "RelatedKeyID": 6,
+        "RelationShipID": "MARCOM_LIST",
+        "RelationShipName": "MarcomListLead",
+        "ModifiedListingName": "Lead MarcomListLead"
+    },
+    {
+        "ObjectId": 6,
+        "ObjectName": "Lead",
+        "listingtype": 1201,
+        "RelatedKeyID": 6,
+        "RelationShipID": "MARCOM_LIST",
+        "RelationShipName": "MarcomListLead",
+        "ModifiedListingName": "Lead MarcomListLead"
+    },
+    {
+        "ObjectId": 7,
+        "ObjectName": "Account",
+        "listingtype": 3,
+        "RelatedKeyID": 43,
+        "RelationShipID": "AC_OPEN_ACTIVITIES",
+        "RelationShipName": "Open Activities",
+        "ModifiedListingName": "Account Open Activities"
+    },
+    {
+        "ObjectId": 7,
+        "ObjectName": "Account",
+        "listingtype": 3,
+        "RelatedKeyID": 43,
+        "RelationShipID": "RELATED_ACTIVITIES",
+        "RelationShipName": "Related Activities",
+        "ModifiedListingName": "Account Related Activities"
+    },
+    {
+        "ObjectId": 7,
+        "ObjectName": "Account",
+        "listingtype": 4,
+        "RelatedKeyID": 43,
+        "RelationShipID": "AC_CLOSED_ACTIVITIES",
+        "RelationShipName": "Closed Activities",
+        "ModifiedListingName": "Account Closed Activities"
+    },
+    {
+        "ObjectId": 7,
+        "ObjectName": "Account",
+        "listingtype": 5,
+        "RelatedKeyID": 4,
+        "RelationShipID": "AC_RELATED_NOTES",
+        "RelationShipName": "Related Notes",
+        "ModifiedListingName": "Account Related Notes"
+    },
+    {
+        "ObjectId": 7,
+        "ObjectName": "Account",
+        "listingtype": 6,
+        "RelatedKeyID": 7,
+        "RelationShipID": "AC_HISTORY",
+        "RelationShipName": "AccHistory",
+        "ModifiedListingName": "Account AccHistory"
+    },
+    {
+        "ObjectId": 7,
+        "ObjectName": "Account",
+        "listingtype": 7,
+        "RelatedKeyID": 19,
+        "RelationShipID": "AC_RELATED_ISSUES",
+        "RelationShipName": "Related Issues",
+        "ModifiedListingName": "Account Related Issues"
+    },
+    {
+        "ObjectId": 7,
+        "ObjectName": "Account",
+        "listingtype": 9,
+        "RelatedKeyID": 7,
+        "RelationShipID": "AC_RELATED_PRODUCTS",
+        "RelationShipName": "Related Products",
+        "ModifiedListingName": "Account Related Products"
+    },
+    {
+        "ObjectId": 7,
+        "ObjectName": "Account",
+        "listingtype": 14,
+        "RelatedKeyID": 6,
+        "RelationShipID": "AC_RELATED_LEADS",
+        "RelationShipName": "Related Leads",
+        "ModifiedListingName": "Account Related Leads"
+    },
+    {
+        "ObjectId": 7,
+        "ObjectName": "Account",
+        "listingtype": 19,
+        "RelatedKeyID": 8,
+        "RelationShipID": "AC_OPEN_OPPORTUNITIES",
+        "RelationShipName": "Open Opportunities",
+        "ModifiedListingName": "Account Open Opportunities"
+    },
+    {
+        "ObjectId": 7,
+        "ObjectName": "Account",
+        "listingtype": 20,
+        "RelatedKeyID": 8,
+        "RelationShipID": "AC_CLOSED_OPPORTUNITIES",
+        "RelationShipName": "Closed Opportunities",
+        "ModifiedListingName": "Account Closed Opportunities"
+    },
+    {
+        "ObjectId": 7,
+        "ObjectName": "Account",
+        "listingtype": 28,
+        "RelatedKeyID": 5,
+        "RelationShipID": "AC_RELATED_CONTACTS",
+        "RelationShipName": "Related Contacts",
+        "ModifiedListingName": "Account Related Contacts"
+    },
+    {
+        "ObjectId": 7,
+        "ObjectName": "Account",
+        "listingtype": 29,
+        "RelatedKeyID": 56,
+        "RelationShipID": "AC_RELATED_CONTRACTS",
+        "RelationShipName": "Related Contracts",
+        "ModifiedListingName": "Account Related Contracts"
+    },
+    {
+        "ObjectId": 7,
+        "ObjectName": "Account",
+        "listingtype": 31,
+        "RelatedKeyID": 9,
+        "RelationShipID": "AC_OPEN_CASES",
+        "RelationShipName": "Open Cases",
+        "ModifiedListingName": "Account Open Cases"
+    },
+    {
+        "ObjectId": 7,
+        "ObjectName": "Account",
+        "listingtype": 32,
+        "RelatedKeyID": 9,
+        "RelationShipID": "AC_CLOSED_CASES",
+        "RelationShipName": "Closed Cases",
+        "ModifiedListingName": "Account Closed Cases"
+    },
+    {
+        "ObjectId": 7,
+        "ObjectName": "Account",
+        "listingtype": 511,
+        "RelatedKeyID": 43,
+        "RelationShipID": "AC_APPOINTMENT_ACTIONS",
+        "RelationShipName": "AccAppointmentActions",
+        "ModifiedListingName": "Account AccAppointmentActions"
+    },
+    {
+        "ObjectId": 7,
+        "ObjectName": "Account",
+        "listingtype": 564,
+        "RelatedKeyID": 43,
+        "RelationShipID": "AC_ACTIVITIES",
+        "RelationShipName": "AccActivities",
+        "ModifiedListingName": "Account AccActivities"
+    },
+    {
+        "ObjectId": 7,
+        "ObjectName": "Account",
+        "listingtype": 564,
+        "RelatedKeyID": 43,
+        "RelationShipID": "AC_ACTIVITIES",
+        "RelationShipName": "AccActvities",
+        "ModifiedListingName": "Account AccActvities"
+    },
+    {
+        "ObjectId": 7,
+        "ObjectName": "Account",
+        "listingtype": 565,
+        "RelatedKeyID": 8,
+        "RelationShipID": "AC_OPPORTUNITIES",
+        "RelationShipName": "AccountOpportunities",
+        "ModifiedListingName": "Account AccountOpportunities"
+    },
+    {
+        "ObjectId": 7,
+        "ObjectName": "Account",
+        "listingtype": 565,
+        "RelatedKeyID": 8,
+        "RelationShipID": "ACC_OPPORTUNITIES",
+        "RelationShipName": "AccountOpportunities",
+        "ModifiedListingName": "Account AccountOpportunities"
+    },
+    {
+        "ObjectId": 7,
+        "ObjectName": "Account",
+        "listingtype": 566,
+        "RelatedKeyID": 9,
+        "RelationShipID": "AC_CASES",
+        "RelationShipName": "AccountCases",
+        "ModifiedListingName": "Account AccountCases"
+    },
+    {
+        "ObjectId": 7,
+        "ObjectName": "Account",
+        "listingtype": 653,
+        "RelatedKeyID": 7,
+        "RelationShipID": "ACCOUNT_CHILD_ACCOUNTS",
+        "RelationShipName": "Related Child Account",
+        "ModifiedListingName": "Account Related Child Account"
+    },
+    {
+        "ObjectId": 7,
+        "ObjectName": "Account",
+        "listingtype": 755,
+        "RelatedKeyID": 7,
+        "RelationShipID": "ACC_RELATED_SERVICE",
+        "RelationShipName": "RelatedService",
+        "ModifiedListingName": "Account RelatedService"
+    },
+    {
+        "ObjectId": 8,
+        "ObjectName": "Opportunity",
+        "listingtype": 0,
+        "RelatedKeyID": 4,
+        "RelationShipID": "OP_RELATED_NOTES",
+        "RelationShipName": "Related Notes",
+        "ModifiedListingName": "Opportunity Related Notes"
+    },
+    {
+        "ObjectId": 8,
+        "ObjectName": "Opportunity",
+        "listingtype": 0,
+        "RelatedKeyID": 5,
+        "RelationShipID": "OP_RELATED_CONTACTS",
+        "RelationShipName": "Related Contacts",
+        "ModifiedListingName": "Opportunity Related Contacts"
+    },
+    {
+        "ObjectId": 8,
+        "ObjectName": "Opportunity",
+        "listingtype": 0,
+        "RelatedKeyID": 7,
+        "RelationShipID": "OP_RELATED_PARTNERS",
+        "RelationShipName": "Related Partners",
+        "ModifiedListingName": "Opportunity Related Partners"
+    },
+    {
+        "ObjectId": 8,
+        "ObjectName": "Opportunity",
+        "listingtype": 0,
+        "RelatedKeyID": 8,
+        "RelationShipID": "OP_HISTORY",
+        "RelationShipName": "Modification History",
+        "ModifiedListingName": "Opportunity Modification History"
+    },
+    {
+        "ObjectId": 8,
+        "ObjectName": "Opportunity",
+        "listingtype": 3,
+        "RelatedKeyID": 43,
+        "RelationShipID": "OP_OPEN_ACTIVITIES",
+        "RelationShipName": "Open Activities",
+        "ModifiedListingName": "Opportunity Open Activities"
+    },
+    {
+        "ObjectId": 8,
+        "ObjectName": "Opportunity",
+        "listingtype": 4,
+        "RelatedKeyID": 43,
+        "RelationShipID": "OP_CLOSED_ACTIVITIES",
+        "RelationShipName": "Closed Activities",
+        "ModifiedListingName": "Opportunity Closed Activities"
+    },
+    {
+        "ObjectId": 8,
+        "ObjectName": "Opportunity",
+        "listingtype": 5,
+        "RelatedKeyID": 4,
+        "RelationShipID": "OP_RELATED_NOTES",
+        "RelationShipName": "Related Notes",
+        "ModifiedListingName": "Opportunity Related Notes"
+    },
+    {
+        "ObjectId": 8,
+        "ObjectName": "Opportunity",
+        "listingtype": 6,
+        "RelatedKeyID": 8,
+        "RelationShipID": "OP_HISTORY",
+        "RelationShipName": "Modification History",
+        "ModifiedListingName": "Opportunity Modification History"
+    },
+    {
+        "ObjectId": 8,
+        "ObjectName": "Opportunity",
+        "listingtype": 7,
+        "RelatedKeyID": 19,
+        "RelationShipID": "OP_RELATED_ISSUES",
+        "RelationShipName": "Related Issues",
+        "ModifiedListingName": "Opportunity Related Issues"
+    },
+    {
+        "ObjectId": 8,
+        "ObjectName": "Opportunity",
+        "listingtype": 9,
+        "RelatedKeyID": 8,
+        "RelationShipID": "OP_PRODUCTS",
+        "RelationShipName": "Related Products",
+        "ModifiedListingName": "Opportunity Related Products"
+    },
+    {
+        "ObjectId": 8,
+        "ObjectName": "Opportunity",
+        "listingtype": 28,
+        "RelatedKeyID": 5,
+        "RelationShipID": "OP_RELATED_CONTACTS",
+        "RelationShipName": "Related Contacts",
+        "ModifiedListingName": "Opportunity Related Contacts"
+    },
+    {
+        "ObjectId": 8,
+        "ObjectName": "Opportunity",
+        "listingtype": 29,
+        "RelatedKeyID": 56,
+        "RelationShipID": "OP_AC_RELATED_CONTRACTS",
+        "RelationShipName": "Related Contracts",
+        "ModifiedListingName": "Opportunity Related Contracts"
+    },
+    {
+        "ObjectId": 8,
+        "ObjectName": "Opportunity",
+        "listingtype": 34,
+        "RelatedKeyID": 7,
+        "RelationShipID": "OP_RELATED_PARTNERS",
+        "RelationShipName": "Related Partners",
+        "ModifiedListingName": "Opportunity Related Partners"
+    },
+    {
+        "ObjectId": 8,
+        "ObjectName": "Opportunity",
+        "listingtype": 35,
+        "RelatedKeyID": 8,
+        "RelationShipID": "OP_RELATED_COMPETITORS",
+        "RelationShipName": "Related Competitors",
+        "ModifiedListingName": "Opportunity Related Competitors"
+    },
+    {
+        "ObjectId": 8,
+        "ObjectName": "Opportunity",
+        "listingtype": 564,
+        "RelatedKeyID": 43,
+        "RelationShipID": "OP_ACTIVITIES",
+        "RelationShipName": "OppActvities",
+        "ModifiedListingName": "Opportunity OppActvities"
+    },
+    {
+        "ObjectId": 8,
+        "ObjectName": "Opportunity",
+        "listingtype": 873,
+        "RelatedKeyID": 8,
+        "RelationShipID": "OP_CHILD",
+        "RelationShipName": "Opportunity Child",
+        "ModifiedListingName": "Opportunity Opportunity Child"
+    },
+    {
+        "ObjectId": 9,
+        "ObjectName": "Case",
+        "listingtype": 0,
+        "RelatedKeyID": 4,
+        "RelationShipID": "CASE_RELATED_NOTES",
+        "RelationShipName": "Related Notes",
+        "ModifiedListingName": "Case Related Notes"
+    },
+    {
+        "ObjectId": 9,
+        "ObjectName": "Case",
+        "listingtype": 0,
+        "RelatedKeyID": 9,
+        "RelationShipID": "CASE_HISTORY",
+        "RelationShipName": "case History",
+        "ModifiedListingName": "Case case History"
+    },
+    {
+        "ObjectId": 9,
+        "ObjectName": "Case",
+        "listingtype": 0,
+        "RelatedKeyID": 19,
+        "RelationShipID": "CASE_RELATED_ISSUES",
+        "RelationShipName": "Related Issues",
+        "ModifiedListingName": "Case Related Issues"
+    },
+    {
+        "ObjectId": 9,
+        "ObjectName": "Case",
+        "listingtype": 0,
+        "RelatedKeyID": 56,
+        "RelationShipID": "CASE_RELATED_CONTRACTS",
+        "RelationShipName": "Related Contracts",
+        "ModifiedListingName": "Case Related Contracts"
+    },
+    {
+        "ObjectId": 9,
+        "ObjectName": "Case",
+        "listingtype": 3,
+        "RelatedKeyID": 43,
+        "RelationShipID": "CASE_OPEN_ACTIVITIES",
+        "RelationShipName": "Open Activities",
+        "ModifiedListingName": "Case Open Activities"
+    },
+    {
+        "ObjectId": 9,
+        "ObjectName": "Case",
+        "listingtype": 4,
+        "RelatedKeyID": 43,
+        "RelationShipID": "CASE_CLOSED_ACTIVITIES",
+        "RelationShipName": "Closed Activities",
+        "ModifiedListingName": "Case Closed Activities"
+    },
+    {
+        "ObjectId": 9,
+        "ObjectName": "Case",
+        "listingtype": 5,
+        "RelatedKeyID": 4,
+        "RelationShipID": "CASE_RELATED_NOTES",
+        "RelationShipName": "Related Notes",
+        "ModifiedListingName": "Case Related Notes"
+    },
+    {
+        "ObjectId": 9,
+        "ObjectName": "Case",
+        "listingtype": 6,
+        "RelatedKeyID": 9,
+        "RelationShipID": "CASE_HISTORY",
+        "RelationShipName": "case History",
+        "ModifiedListingName": "Case case History"
+    },
+    {
+        "ObjectId": 9,
+        "ObjectName": "Case",
+        "listingtype": 7,
+        "RelatedKeyID": 19,
+        "RelationShipID": "CASE_RELATED_ISSUES",
+        "RelationShipName": "Related Issues",
+        "ModifiedListingName": "Case Related Issues"
+    },
+    {
+        "ObjectId": 9,
+        "ObjectName": "Case",
+        "listingtype": 12,
+        "RelatedKeyID": 9,
+        "RelationShipID": "CASE_CHILD_CASES",
+        "RelationShipName": "Related Child Cases",
+        "ModifiedListingName": "Case Related Child Cases"
+    },
+    {
+        "ObjectId": 9,
+        "ObjectName": "Case",
+        "listingtype": 29,
+        "RelatedKeyID": 56,
+        "RelationShipID": "CASE_RELATED_CONTRACTS",
+        "RelationShipName": "Related Contracts",
+        "ModifiedListingName": "Case Related Contracts"
+    },
+    {
+        "ObjectId": 9,
+        "ObjectName": "Case",
+        "listingtype": 37,
+        "RelatedKeyID": 9,
+        "RelationShipID": "CASE_RELATED_RESPONSES",
+        "RelationShipName": "Related Responses",
+        "ModifiedListingName": "Case Related Responses"
+    },
+    {
+        "ObjectId": 9,
+        "ObjectName": "Case",
+        "listingtype": 57,
+        "RelatedKeyID": 9,
+        "RelationShipID": "CASE_ESC_HISTORY",
+        "RelationShipName": "Case Escalation History",
+        "ModifiedListingName": "Case Case Escalation History"
+    },
+    {
+        "ObjectId": 9,
+        "ObjectName": "Case",
+        "listingtype": 200,
+        "RelatedKeyID": 9,
+        "RelationShipID": "CASE_RELATED_RESPONSES",
+        "RelationShipName": "Related Responses",
+        "ModifiedListingName": "Case Related Responses"
+    },
+    {
+        "ObjectId": 9,
+        "ObjectName": "Case",
+        "listingtype": 564,
+        "RelatedKeyID": 43,
+        "RelationShipID": "CASE_ACTIVITIES",
+        "RelationShipName": "CaseActvities",
+        "ModifiedListingName": "Case CaseActvities"
+    },
+    {
+        "ObjectId": 19,
+        "ObjectName": "Issue",
+        "listingtype": 3,
+        "RelatedKeyID": 43,
+        "RelationShipID": "ISSREQ_OPEN_ACTIVITIES",
+        "RelationShipName": "Open Activities",
+        "ModifiedListingName": "Issue Open Activities"
+    },
+    {
+        "ObjectId": 19,
+        "ObjectName": "Issue",
+        "listingtype": 4,
+        "RelatedKeyID": 43,
+        "RelationShipID": "ISSREQ_CLOSED_ACTIVITIES",
+        "RelationShipName": "Closed Activities",
+        "ModifiedListingName": "Issue Closed Activities"
+    },
+    {
+        "ObjectId": 19,
+        "ObjectName": "Issue",
+        "listingtype": 5,
+        "RelatedKeyID": 4,
+        "RelationShipID": "ISSUEREQ_RELATED_NOTES",
+        "RelationShipName": "Related Notes",
+        "ModifiedListingName": "Issue Related Notes"
+    },
+    {
+        "ObjectId": 19,
+        "ObjectName": "Issue",
+        "listingtype": 6,
+        "RelatedKeyID": 19,
+        "RelationShipID": "ISSUEREQ_RELATED_HISTORY",
+        "RelationShipName": "Related History",
+        "ModifiedListingName": "Issue Related History"
+    },
+    {
+        "ObjectId": 19,
+        "ObjectName": "Issue",
+        "listingtype": 37,
+        "RelatedKeyID": 19,
+        "RelationShipID": "ISSUEREQ_RELATED_RESPONSES",
+        "RelationShipName": "Related Discussion",
+        "ModifiedListingName": "Issue Related Discussion"
+    },
+    {
+        "ObjectId": 19,
+        "ObjectName": "Issue",
+        "listingtype": 564,
+        "RelatedKeyID": 43,
+        "RelationShipID": "ISSREQ_ACTIVITIES",
+        "RelationShipName": "IssueActivities",
+        "ModifiedListingName": "Issue IssueActivities"
+    },
+    {
+        "ObjectId": 34,
+        "ObjectName": "Product",
+        "listingtype": 6,
+        "RelatedKeyID": 34,
+        "RelationShipID": "PR_HISTORY",
+        "RelationShipName": "Product History",
+        "ModifiedListingName": "Product Product History"
+    },
+    {
+        "ObjectId": 34,
+        "ObjectName": "Product",
+        "listingtype": 550,
+        "RelatedKeyID": 34,
+        "RelationShipID": "PR_PRICING",
+        "RelationShipName": "Pricing Information",
+        "ModifiedListingName": "Product Pricing Information"
+    },
+    {
+        "ObjectId": 43,
+        "ObjectName": "Activity",
+        "listingtype": 3,
+        "RelatedKeyID": 43,
+        "RelationShipID": "ACT_RELATED_OPEN_ACTIVITIES",
+        "RelationShipName": "Open Activities",
+        "ModifiedListingName": "Activity Open Activities"
+    },
+    {
+        "ObjectId": 43,
+        "ObjectName": "Activity",
+        "listingtype": 4,
+        "RelatedKeyID": 43,
+        "RelationShipID": "ACT_RELATED_CLOSE_ACTIVITIES",
+        "RelationShipName": "Closed Activities",
+        "ModifiedListingName": "Activity Closed Activities"
+    },
+    {
+        "ObjectId": 43,
+        "ObjectName": "Activity",
+        "listingtype": 5,
+        "RelatedKeyID": 4,
+        "RelationShipID": "ACT_RELATED_NOTES",
+        "RelationShipName": "Related Notes",
+        "ModifiedListingName": "Activity Related Notes"
+    },
+    {
+        "ObjectId": 43,
+        "ObjectName": "Activity",
+        "listingtype": 19,
+        "RelatedKeyID": 8,
+        "RelationShipID": "ACT_OPENED_OPPORTUNITIES",
+        "RelationShipName": "Open Opportunities",
+        "ModifiedListingName": "Activity Open Opportunities"
+    },
+    {
+        "ObjectId": 43,
+        "ObjectName": "Activity",
+        "listingtype": 20,
+        "RelatedKeyID": 8,
+        "RelationShipID": "ACT_CLOSED_OPPORTUNITIES",
+        "RelationShipName": "Close Opportunities",
+        "ModifiedListingName": "Activity Close Opportunities"
+    },
+    {
+        "ObjectId": 43,
+        "ObjectName": "Activity",
+        "listingtype": 564,
+        "RelatedKeyID": 43,
+        "RelationShipID": "ACT_RELATED_ACTIVITIES",
+        "RelationShipName": "ParentActivity",
+        "ModifiedListingName": "Activity ParentActivity"
+    },
+    {
+        "ObjectId": 43,
+        "ObjectName": "Activity",
+        "listingtype": 565,
+        "RelatedKeyID": 8,
+        "RelationShipID": "ACT_OPENED_OPPORTUNITIES",
+        "RelationShipName": "Open Opportunities",
+        "ModifiedListingName": "Activity Open Opportunities"
+    },
+    {
+        "ObjectId": 43,
+        "ObjectName": "Activity",
+        "listingtype": 615,
+        "RelatedKeyID": 43,
+        "RelationShipID": "ACT_RELATED_COGENTS",
+        "RelationShipName": "CogentActivity",
+        "ModifiedListingName": "Activity CogentActivity"
+    },
+    {
+        "ObjectId": 56,
+        "ObjectName": "Contract",
+        "listingtype": 3,
+        "RelatedKeyID": 43,
+        "RelationShipID": "CONTRACT_OPEN_ACTIVITIES",
+        "RelationShipName": "Open Activities",
+        "ModifiedListingName": "Contract Open Activities"
+    },
+    {
+        "ObjectId": 56,
+        "ObjectName": "Contract",
+        "listingtype": 4,
+        "RelatedKeyID": 43,
+        "RelationShipID": "CONTRACT_CLOSED_ACTIVITIES",
+        "RelationShipName": "Closed Activities",
+        "ModifiedListingName": "Contract Closed Activities"
+    },
+    {
+        "ObjectId": 56,
+        "ObjectName": "Contract",
+        "listingtype": 5,
+        "RelatedKeyID": 4,
+        "RelationShipID": "CONTRACT_RELATED_NOTES",
+        "RelationShipName": "Related Notes",
+        "ModifiedListingName": "Contract Related Notes"
+    },
+    {
+        "ObjectId": 56,
+        "ObjectName": "Contract",
+        "listingtype": 6,
+        "RelatedKeyID": 56,
+        "RelationShipID": "CONTRACT_HISTORY",
+        "RelationShipName": "Contract History",
+        "ModifiedListingName": "Contract Contract History"
+    },
+    {
+        "ObjectId": 56,
+        "ObjectName": "Contract",
+        "listingtype": 7,
+        "RelatedKeyID": 19,
+        "RelationShipID": "CONTRACT_RELATED_ISSUES",
+        "RelationShipName": "Related Issues",
+        "ModifiedListingName": "Contract Related Issues"
+    },
+    {
+        "ObjectId": 56,
+        "ObjectName": "Contract",
+        "listingtype": 9,
+        "RelatedKeyID": 56,
+        "RelationShipID": "CONTRACT_RELATED_APPROVAL",
+        "RelationShipName": "Approval Information",
+        "ModifiedListingName": "Contract Approval Information"
+    },
+    {
+        "ObjectId": 56,
+        "ObjectName": "Contract",
+        "listingtype": 9,
+        "RelatedKeyID": 56,
+        "RelationShipID": "CONTRACT_RELATED_PRODUCTS",
+        "RelationShipName": "Related Products",
+        "ModifiedListingName": "Contract Related Products"
+    },
+    {
+        "ObjectId": 56,
+        "ObjectName": "Contract",
+        "listingtype": 28,
+        "RelatedKeyID": 5,
+        "RelationShipID": "CONTRACT_RELATED_CONTACTS",
+        "RelationShipName": "Related Contacts",
+        "ModifiedListingName": "Contract Related Contacts"
+    },
+    {
+        "ObjectId": 56,
+        "ObjectName": "Contract",
+        "listingtype": 151,
+        "RelatedKeyID": 9,
+        "RelationShipID": "AC_OPEN_CASES",
+        "RelationShipName": "Open Cases",
+        "ModifiedListingName": "Contract Open Cases"
+    },
+    {
+        "ObjectId": 56,
+        "ObjectName": "Contract",
+        "listingtype": 152,
+        "RelatedKeyID": 9,
+        "RelationShipID": "AC_CLOSED_CASES",
+        "RelationShipName": "Closed Cases",
+        "ModifiedListingName": "Contract Closed Cases"
+    },
+    {
+        "ObjectId": 56,
+        "ObjectName": "Contract",
+        "listingtype": 564,
+        "RelatedKeyID": 43,
+        "RelationShipID": "CONTRACT_ACTIVITIES",
+        "RelationShipName": "ContractActvities",
+        "ModifiedListingName": "Contract ContractActvities"
+    }
+]

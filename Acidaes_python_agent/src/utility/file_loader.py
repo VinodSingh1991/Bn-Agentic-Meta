@@ -25,7 +25,7 @@ class FileLoader:
             return None
     
     @staticmethod
-    def loa_text(file_path: str) -> Optional[str]:
+    def load_text(file_path: str) -> Optional[str]:
         """Load a text file and return its content as a string."""
         try:
             with open(file_path, 'r', encoding='utf-8') as file:
