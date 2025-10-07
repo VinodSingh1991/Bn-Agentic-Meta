@@ -1,0 +1,156 @@
+[
+    {
+        "query_label": "Activity Meeting Details",
+        "query_fields": [
+            {
+                "roleid": 1,
+                "object_name": "Activity",
+                "field_id": 10000047,
+                "name": "Meeting Title",
+                "FieldName": "Subject",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Activity",
+                "field_id": 10010242,
+                "name": "Start Date",
+                "FieldName": "StartDate",
+                "field_type": "Date"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Activity",
+                "field_id": 10010172,
+                "name": "Due Date",
+                "FieldName": "DueDate",
+                "field_type": "Date"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Activity",
+                "field_id": 10010100,
+                "name": "Meeting Type",
+                "FieldName": "ActivityType",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Activity",
+                "field_id": 10601,
+                "name": "Meeting With",
+                "FieldName": "Act_ex1_72",
+                "field_type": "LookupWithId"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Activity",
+                "field_id": 10063536,
+                "name": "Branch",
+                "FieldName": "Branch",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Activity",
+                "field_id": 10010209,
+                "name": "Location",
+                "FieldName": "Location",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Activity",
+                "field_id": 10010243,
+                "name": "Status",
+                "FieldName": "Status",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Activity",
+                "field_id": 1854,
+                "name": "Customer ID",
+                "FieldName": "Act_ex2_55",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Activity",
+                "field_id": 10010234,
+                "name": "Related To",
+                "FieldName": "RelatedToName",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Activity",
+                "field_id": 11471,
+                "name": "Customer_UCIC_ID",
+                "FieldName": "Act_ex4_29",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Activity",
+                "field_id": 7619,
+                "name": "Company Code",
+                "FieldName": "Act_ex1_63",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Activity",
+                "field_id": 11947,
+                "name": "ME Code",
+                "FieldName": "Act_ex5_37",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Activity",
+                "field_id": 11946,
+                "name": "DSA Code",
+                "FieldName": "Act_ex4_93",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Activity",
+                "field_id": 151178326,
+                "name": "RM code",
+                "FieldName": "Act_ex4_126",
+                "field_type": "MultiPicker"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Activity",
+                "field_id": 11232,
+                "name": "Reviewer Comments",
+                "FieldName": "HtmlText_11232",
+                "field_type": "Aggregation"
+            }
+        ]
+    },
+    {
+        "query_label": "Activity Agenda",
+        "query_fields": [
+            {
+                "roleid": 1,
+                "object_name": "Activity",
+                "field_id": 10060861,
+                "name": "Agenda",
+                "FieldName": "Agenda",
+                "field_type": "HTML"
+            }
+        ]
+    },
+    {
+        "query_label": "Activity Actions",
+        "query_fields": []
+    },
+    {
+        "query_label": "Activity Discussion",
+        "query_fields": []
+    }
+]

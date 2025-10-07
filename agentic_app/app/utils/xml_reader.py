@@ -73,8 +73,8 @@ class XMLReader:
         
         result.update(children)
         return result
- 
-    def find_elements(self, root: ET.Element, tag_name: str) -> List[ET.Element]:
+
+    def find_elements(self, root: ET.Element, tag_name: str, direct_child_only: bool = False) -> List[ET.Element]:
         """
         Find all elements with specific tag name
         
@@ -86,7 +86,10 @@ class XMLReader:
             List[ET.Element]: List of matching elements
         """
         try:
-            elements = root.findall(f".//{tag_name}")
+            if direct_child_only:
+                elements = root.findall(f"./{tag_name}")
+            else:
+                elements = root.findall(f".//{tag_name}")
             return elements
         except Exception as e:
             print(f"Error finding elements: {e}")

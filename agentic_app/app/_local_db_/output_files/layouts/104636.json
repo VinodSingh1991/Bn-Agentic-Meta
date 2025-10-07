@@ -1,0 +1,864 @@
+[
+    {
+        "query_label": "Account MI Profiling",
+        "query_fields": [
+            {
+                "roleid": 1,
+                "object_name": "Account",
+                "field_id": 10002744,
+                "name": "Customer Name",
+                "FieldName": "Name",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Account",
+                "field_id": 13402,
+                "name": "E Mail Id",
+                "FieldName": "Acc_ex1_104",
+                "field_type": "Email"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Account",
+                "field_id": 13407,
+                "name": "Customer ID",
+                "FieldName": "Acc_ex1_109",
+                "field_type": "Number"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Account",
+                "field_id": 13405,
+                "name": "Address",
+                "FieldName": "Acc_ex1_107",
+                "field_type": "Comments"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Account",
+                "field_id": 13404,
+                "name": "City",
+                "FieldName": "Acc_ex1_106",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Account",
+                "field_id": 13406,
+                "name": "State",
+                "FieldName": "Acc_ex1_108",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Account",
+                "field_id": 13400,
+                "name": "Mobile Number",
+                "FieldName": "Acc_ex1_102",
+                "field_type": "Phone"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Account",
+                "field_id": 13681,
+                "name": "Landline",
+                "FieldName": "Acc_ex1_152",
+                "field_type": "Phone"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Account",
+                "field_id": 13403,
+                "name": "Pincode",
+                "FieldName": "Acc_ex1_105",
+                "field_type": "Number"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Account",
+                "field_id": 10002783,
+                "name": "Customer Status",
+                "FieldName": "StatusCode",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Account",
+                "field_id": 13401,
+                "name": "Customer Type",
+                "FieldName": "Acc_ex1_103",
+                "field_type": "Lookup"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Account",
+                "field_id": 15483,
+                "name": "Managed or NonManaged?",
+                "FieldName": "Acc_ex5_27",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Account",
+                "field_id": 151178563,
+                "name": "Customer Category",
+                "FieldName": "Acc_ex2_165",
+                "field_type": "Lookup"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Account",
+                "field_id": 18707,
+                "name": "ODOP",
+                "FieldName": "Acc_ex3_103",
+                "field_type": "Lookup"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Account",
+                "field_id": 18816,
+                "name": "MI ODOP Category",
+                "FieldName": "Acc_ex5_32",
+                "field_type": "MultiLevel"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Account",
+                "field_id": 18817,
+                "name": "MI ODOP Subcategory",
+                "FieldName": "Acc_ex5_33",
+                "field_type": "MultiLevel"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Account",
+                "field_id": 3360,
+                "name": "Occupation",
+                "FieldName": "Acc_ex5_56",
+                "field_type": "Lookup"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Account",
+                "field_id": 15974,
+                "name": "Type of Entity",
+                "FieldName": "Acc_ex2_196",
+                "field_type": "Lookup"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Account",
+                "field_id": 10002718,
+                "name": "Industry",
+                "FieldName": "Industry",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Account",
+                "field_id": 15975,
+                "name": "Nature of Business/Operation",
+                "FieldName": "Acc_ex2_197",
+                "field_type": "Lookup"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Account",
+                "field_id": 3211,
+                "name": "Designation",
+                "FieldName": "Acc_ex4_92",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Account",
+                "field_id": 992,
+                "name": "Estimated Gross Annual Turnover",
+                "FieldName": "Acc_ex3_19",
+                "field_type": "Lookup"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Account",
+                "field_id": 173,
+                "name": "Name of the Company",
+                "FieldName": "Acc_ex1_34",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Account",
+                "field_id": 996,
+                "name": "No of Cities present /Offices ",
+                "FieldName": "Acc_ex3_23",
+                "field_type": "Lookup"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Account",
+                "field_id": 15976,
+                "name": "Annual Salary",
+                "FieldName": "Acc_ex2_198",
+                "field_type": "Amount"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Account",
+                "field_id": 987,
+                "name": "Number of Employees",
+                "FieldName": "Acc_ex3_14",
+                "field_type": "Lookup"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Account",
+                "field_id": 15977,
+                "name": "Annual Family Income",
+                "FieldName": "Acc_ex2_199",
+                "field_type": "Amount"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Account",
+                "field_id": 611,
+                "name": "Monthly Salary Upload",
+                "FieldName": "Acc_ex2_82",
+                "field_type": "Lookup"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Account",
+                "field_id": 15979,
+                "name": "Family Members",
+                "FieldName": "Acc_ex2_195",
+                "field_type": "MultiPicker"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Account",
+                "field_id": 15978,
+                "name": "House ownership",
+                "FieldName": "Acc_ex2_200",
+                "field_type": "Lookup"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Account",
+                "field_id": 1483,
+                "name": "Brief about Customer (max 300 characters)",
+                "FieldName": "Acc_ex4_30",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Account",
+                "field_id": 13414,
+                "name": "Identification Date",
+                "FieldName": "Acc_ex1_116",
+                "field_type": "Date"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Account",
+                "field_id": 13415,
+                "name": "Planned Visit Date",
+                "FieldName": "Acc_ex1_117",
+                "field_type": "Date"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Account",
+                "field_id": 10002791,
+                "name": "Branch Name",
+                "FieldName": "TerritoryName",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Account",
+                "field_id": 10001138,
+                "name": "Branch Code",
+                "FieldName": "TerritoryCode",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Account",
+                "field_id": 13421,
+                "name": "Remarks",
+                "FieldName": "Acc_ex1_123",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Account",
+                "field_id": 10002749,
+                "name": "Parent Account",
+                "FieldName": "ParentAccountName",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Account",
+                "field_id": 10002674,
+                "name": "Assigned To",
+                "FieldName": "AssignedToName",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Account",
+                "field_id": 13419,
+                "name": "BM Review on Scoping",
+                "FieldName": "Acc_ex1_121",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Account",
+                "field_id": 13420,
+                "name": "Date Review on",
+                "FieldName": "Acc_ex1_122",
+                "field_type": "Date"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Account",
+                "field_id": 13426,
+                "name": "Cluster Head Comments",
+                "FieldName": "Acc_ex1_124",
+                "field_type": "Comments"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Account",
+                "field_id": 13427,
+                "name": "Date Reviewed",
+                "FieldName": "Acc_ex1_125",
+                "field_type": "Date"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Account",
+                "field_id": 13650,
+                "name": "Zonal Head Comment",
+                "FieldName": "Acc_ex1_149",
+                "field_type": "Comments"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Account",
+                "field_id": 13649,
+                "name": "Date Reviewed",
+                "FieldName": "Acc_ex1_148",
+                "field_type": "Date"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Account",
+                "field_id": 13647,
+                "name": "Zonal Head Reviewed By",
+                "FieldName": "Acc_ex1_147",
+                "field_type": "Text"
+            }
+        ]
+    },
+    {
+        "query_label": "Account Customer Demographics",
+        "query_fields": [
+            {
+                "roleid": 1,
+                "object_name": "Account",
+                "field_id": 10002744,
+                "name": "Customer Name",
+                "FieldName": "Name",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Account",
+                "field_id": 13402,
+                "name": "E Mail Id",
+                "FieldName": "Acc_ex1_104",
+                "field_type": "Email"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Account",
+                "field_id": 13407,
+                "name": "Customer ID",
+                "FieldName": "Acc_ex1_109",
+                "field_type": "Number"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Account",
+                "field_id": 13405,
+                "name": "Address",
+                "FieldName": "Acc_ex1_107",
+                "field_type": "Comments"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Account",
+                "field_id": 13404,
+                "name": "City",
+                "FieldName": "Acc_ex1_106",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Account",
+                "field_id": 13406,
+                "name": "State",
+                "FieldName": "Acc_ex1_108",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Account",
+                "field_id": 13400,
+                "name": "Mobile Number",
+                "FieldName": "Acc_ex1_102",
+                "field_type": "Phone"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Account",
+                "field_id": 13681,
+                "name": "Landline",
+                "FieldName": "Acc_ex1_152",
+                "field_type": "Phone"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Account",
+                "field_id": 13403,
+                "name": "Pincode",
+                "FieldName": "Acc_ex1_105",
+                "field_type": "Number"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Account",
+                "field_id": 10002783,
+                "name": "Customer Status",
+                "FieldName": "StatusCode",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Account",
+                "field_id": 13401,
+                "name": "Customer Type",
+                "FieldName": "Acc_ex1_103",
+                "field_type": "Lookup"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Account",
+                "field_id": 15483,
+                "name": "Managed or NonManaged?",
+                "FieldName": "Acc_ex5_27",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Account",
+                "field_id": 151178563,
+                "name": "Customer Category",
+                "FieldName": "Acc_ex2_165",
+                "field_type": "Lookup"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Account",
+                "field_id": 18707,
+                "name": "ODOP",
+                "FieldName": "Acc_ex3_103",
+                "field_type": "Lookup"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Account",
+                "field_id": 18816,
+                "name": "MI ODOP Category",
+                "FieldName": "Acc_ex5_32",
+                "field_type": "MultiLevel"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Account",
+                "field_id": 18817,
+                "name": "MI ODOP Subcategory",
+                "FieldName": "Acc_ex5_33",
+                "field_type": "MultiLevel"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Account",
+                "field_id": 3360,
+                "name": "Occupation",
+                "FieldName": "Acc_ex5_56",
+                "field_type": "Lookup"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Account",
+                "field_id": 15974,
+                "name": "Type of Entity",
+                "FieldName": "Acc_ex2_196",
+                "field_type": "Lookup"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Account",
+                "field_id": 10002718,
+                "name": "Industry",
+                "FieldName": "Industry",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Account",
+                "field_id": 15975,
+                "name": "Nature of Business/Operation",
+                "FieldName": "Acc_ex2_197",
+                "field_type": "Lookup"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Account",
+                "field_id": 3211,
+                "name": "Designation",
+                "FieldName": "Acc_ex4_92",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Account",
+                "field_id": 992,
+                "name": "Estimated Gross Annual Turnover",
+                "FieldName": "Acc_ex3_19",
+                "field_type": "Lookup"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Account",
+                "field_id": 173,
+                "name": "Name of the Company",
+                "FieldName": "Acc_ex1_34",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Account",
+                "field_id": 996,
+                "name": "No of Cities present /Offices ",
+                "FieldName": "Acc_ex3_23",
+                "field_type": "Lookup"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Account",
+                "field_id": 15976,
+                "name": "Annual Salary",
+                "FieldName": "Acc_ex2_198",
+                "field_type": "Amount"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Account",
+                "field_id": 987,
+                "name": "Number of Employees",
+                "FieldName": "Acc_ex3_14",
+                "field_type": "Lookup"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Account",
+                "field_id": 15977,
+                "name": "Annual Family Income",
+                "FieldName": "Acc_ex2_199",
+                "field_type": "Amount"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Account",
+                "field_id": 611,
+                "name": "Monthly Salary Upload",
+                "FieldName": "Acc_ex2_82",
+                "field_type": "Lookup"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Account",
+                "field_id": 15979,
+                "name": "Family Members",
+                "FieldName": "Acc_ex2_195",
+                "field_type": "MultiPicker"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Account",
+                "field_id": 15978,
+                "name": "House ownership",
+                "FieldName": "Acc_ex2_200",
+                "field_type": "Lookup"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Account",
+                "field_id": 1483,
+                "name": "Brief about Customer (max 300 characters)",
+                "FieldName": "Acc_ex4_30",
+                "field_type": "Text"
+            }
+        ]
+    },
+    {
+        "query_label": "Account Additional Details",
+        "query_fields": [
+            {
+                "roleid": 1,
+                "object_name": "Account",
+                "field_id": 13414,
+                "name": "Identification Date",
+                "FieldName": "Acc_ex1_116",
+                "field_type": "Date"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Account",
+                "field_id": 13415,
+                "name": "Planned Visit Date",
+                "FieldName": "Acc_ex1_117",
+                "field_type": "Date"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Account",
+                "field_id": 10002791,
+                "name": "Branch Name",
+                "FieldName": "TerritoryName",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Account",
+                "field_id": 10001138,
+                "name": "Branch Code",
+                "FieldName": "TerritoryCode",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Account",
+                "field_id": 13421,
+                "name": "Remarks",
+                "FieldName": "Acc_ex1_123",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Account",
+                "field_id": 10002749,
+                "name": "Parent Account",
+                "FieldName": "ParentAccountName",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Account",
+                "field_id": 10002674,
+                "name": "Assigned To",
+                "FieldName": "AssignedToName",
+                "field_type": "Text"
+            }
+        ]
+    },
+    {
+        "query_label": "Account Review Process",
+        "query_fields": [
+            {
+                "roleid": 1,
+                "object_name": "Account",
+                "field_id": 13419,
+                "name": "BM Review on Scoping",
+                "FieldName": "Acc_ex1_121",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Account",
+                "field_id": 13420,
+                "name": "Date Review on",
+                "FieldName": "Acc_ex1_122",
+                "field_type": "Date"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Account",
+                "field_id": 13426,
+                "name": "Cluster Head Comments",
+                "FieldName": "Acc_ex1_124",
+                "field_type": "Comments"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Account",
+                "field_id": 13427,
+                "name": "Date Reviewed",
+                "FieldName": "Acc_ex1_125",
+                "field_type": "Date"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Account",
+                "field_id": 13650,
+                "name": "Zonal Head Comment",
+                "FieldName": "Acc_ex1_149",
+                "field_type": "Comments"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Account",
+                "field_id": 13649,
+                "name": "Date Reviewed",
+                "FieldName": "Acc_ex1_148",
+                "field_type": "Date"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Account",
+                "field_id": 13647,
+                "name": "Zonal Head Reviewed By",
+                "FieldName": "Acc_ex1_147",
+                "field_type": "Text"
+            }
+        ]
+    },
+    {
+        "query_label": "Account MI Scoping and Conversion Plan",
+        "query_fields": []
+    },
+    {
+        "query_label": "Account MI Conversion Plan Summary",
+        "query_fields": [
+            {
+                "roleid": 1,
+                "object_name": "Account",
+                "field_id": 13399,
+                "name": "URN Number",
+                "FieldName": "Acc_ex1_101",
+                "field_type": "SequenceNumber"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Account",
+                "field_id": 151178567,
+                "name": "Support Required",
+                "FieldName": "Acc_ex2_167",
+                "field_type": "MultiPicker"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Account",
+                "field_id": 13168,
+                "name": "Master Initiative Segment",
+                "FieldName": "Acc_ex4_74",
+                "field_type": "MultiLevel"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Account",
+                "field_id": 13169,
+                "name": "Master Initiative Sub-Segment",
+                "FieldName": "Acc_ex4_75",
+                "field_type": "MultiLevel"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Account",
+                "field_id": 15831,
+                "name": "Conversion Period",
+                "FieldName": "Acc_ex5_100",
+                "field_type": "Lookup"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Account",
+                "field_id": 13416,
+                "name": "Conversion Deadline",
+                "FieldName": "Acc_ex1_118",
+                "field_type": "Date"
+            }
+        ]
+    },
+    {
+        "query_label": "Account MI Conversation Plan Summary",
+        "query_fields": [
+            {
+                "roleid": 1,
+                "object_name": "Account",
+                "field_id": 13399,
+                "name": "URN Number",
+                "FieldName": "Acc_ex1_101",
+                "field_type": "SequenceNumber"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Account",
+                "field_id": 151178567,
+                "name": "Support Required",
+                "FieldName": "Acc_ex2_167",
+                "field_type": "MultiPicker"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Account",
+                "field_id": 13168,
+                "name": "Master Initiative Segment",
+                "FieldName": "Acc_ex4_74",
+                "field_type": "MultiLevel"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Account",
+                "field_id": 13169,
+                "name": "Master Initiative Sub-Segment",
+                "FieldName": "Acc_ex4_75",
+                "field_type": "MultiLevel"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Account",
+                "field_id": 15831,
+                "name": "Conversion Period",
+                "FieldName": "Acc_ex5_100",
+                "field_type": "Lookup"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Account",
+                "field_id": 13416,
+                "name": "Conversion Deadline",
+                "FieldName": "Acc_ex1_118",
+                "field_type": "Date"
+            }
+        ]
+    },
+    {
+        "query_label": "Account MI  Interactions",
+        "query_fields": []
+    },
+    {
+        "query_label": "Account MI Leads",
+        "query_fields": []
+    },
+    {
+        "query_label": "Account MI References",
+        "query_fields": []
+    }
+]

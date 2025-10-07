@@ -1,0 +1,1768 @@
+[
+    {
+        "query_label": "Lead Details",
+        "query_fields": [
+            {
+                "roleid": 1,
+                "object_name": "Lead",
+                "field_id": 10001660,
+                "name": "First Name",
+                "FieldName": "LeadName",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Lead",
+                "field_id": 12453,
+                "name": "Middle name PAN",
+                "FieldName": "Lea_ex4_177",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Lead",
+                "field_id": 10001680,
+                "name": "Mobile",
+                "FieldName": "MobilePhone",
+                "field_type": "Phone"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Lead",
+                "field_id": 12454,
+                "name": "Last name PAN",
+                "FieldName": "Lea_ex4_178",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Lead",
+                "field_id": 10001659,
+                "name": "Lead ID",
+                "FieldName": "LeadID",
+                "field_type": "Number"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Lead",
+                "field_id": 71,
+                "name": "Alternate Email ",
+                "FieldName": "Lea_ex1_63",
+                "field_type": "Email"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Lead",
+                "field_id": 10001669,
+                "name": "Lead Source",
+                "FieldName": "LeadSource",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Lead",
+                "field_id": 298,
+                "name": "DOB",
+                "FieldName": "Lea_ex2_53",
+                "field_type": "Date"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Lead",
+                "field_id": 10001732,
+                "name": "StatusCode",
+                "FieldName": "StatusCode",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Lead",
+                "field_id": 1797,
+                "name": "Address Line 1",
+                "FieldName": "Lea_ex5_65",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Lead",
+                "field_id": 1795,
+                "name": "State",
+                "FieldName": "Lea_ex5_63",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Lead",
+                "field_id": 1798,
+                "name": "Address Line 2",
+                "FieldName": "Lea_ex5_66",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Lead",
+                "field_id": 1796,
+                "name": "City ",
+                "FieldName": "Lea_ex5_64",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Lead",
+                "field_id": 1799,
+                "name": "Address Line 3",
+                "FieldName": "Lea_ex5_67",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Lead",
+                "field_id": 2332,
+                "name": "Pincode",
+                "FieldName": "Lea_ex8_27",
+                "field_type": "Number"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Lead",
+                "field_id": 60,
+                "name": "Gender",
+                "FieldName": "Lea_ex1_52",
+                "field_type": "Lookup"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Lead",
+                "field_id": 300,
+                "name": "PAN No.",
+                "FieldName": "Lea_ex2_55",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Lead",
+                "field_id": 12206,
+                "name": "Consent for T/C (Checkbox)",
+                "FieldName": "lea_ex4_115",
+                "field_type": "Lookup"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Lead",
+                "field_id": 2340,
+                "name": "Promocode",
+                "FieldName": "Lea_ex8_35",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Lead",
+                "field_id": 1820,
+                "name": "Address changed",
+                "FieldName": "Lea_ex5_88",
+                "field_type": "Lookup"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Lead",
+                "field_id": 12,
+                "name": "Pan Validated?",
+                "FieldName": "Lea_ex1_4",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Lead",
+                "field_id": 377,
+                "name": "Status of  Payment",
+                "FieldName": "Lea_ex2_71",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Lead",
+                "field_id": 4196,
+                "name": "Email Sinzy validation?",
+                "FieldName": "Lea_ex10_1",
+                "field_type": "Lookup"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Lead",
+                "field_id": 46,
+                "name": "Customer ID",
+                "FieldName": "Lea_ex1_38",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Lead",
+                "field_id": 487,
+                "name": "Does Wallet Exist?",
+                "FieldName": "Lea_ex2_61",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Lead",
+                "field_id": 500,
+                "name": "DAP Form ID",
+                "FieldName": "Lea_ex3_42",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Lead",
+                "field_id": 8225,
+                "name": "Customer Type ",
+                "FieldName": "Lea_ex10_95",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Lead",
+                "field_id": 10868,
+                "name": "Instance ID",
+                "FieldName": "Act_ex3_63",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Lead",
+                "field_id": 9,
+                "name": "Lead Number",
+                "FieldName": "Lea_ex1_1",
+                "field_type": "SequenceNumber"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Lead",
+                "field_id": 1823,
+                "name": "Application Type",
+                "FieldName": "Lea_ex5_91",
+                "field_type": "Lookup"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Lead",
+                "field_id": 1824,
+                "name": "Drop off Type",
+                "FieldName": "Lea_ex5_92",
+                "field_type": "Lookup"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Lead",
+                "field_id": 11049,
+                "name": "StepID",
+                "FieldName": "Lea_ex1_148",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Lead",
+                "field_id": 5137,
+                "name": "Mobile OTP Validated",
+                "FieldName": "Lea_ex10_35",
+                "field_type": "Lookup"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Lead",
+                "field_id": 10812,
+                "name": "RefId",
+                "FieldName": "Lea_ex1_110",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Lead",
+                "field_id": 402,
+                "name": "Status Code",
+                "FieldName": "Lea_ex2_93",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Lead",
+                "field_id": 413,
+                "name": "Status message",
+                "FieldName": "Lea_ex3_4",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Lead",
+                "field_id": 398,
+                "name": "Vehicle Number 1",
+                "FieldName": "Lea_ex2_89",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Lead",
+                "field_id": 2448,
+                "name": "Vehicle Model 1",
+                "FieldName": "Lea_ex5_22",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Lead",
+                "field_id": 404,
+                "name": "Vehicle Number  2",
+                "FieldName": "Lea_ex2_95",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Lead",
+                "field_id": 2456,
+                "name": "Vehicle Model 2",
+                "FieldName": "Lea_ex5_30",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Lead",
+                "field_id": 410,
+                "name": "Vehicle Number  3",
+                "FieldName": "Lea_ex2_99",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Lead",
+                "field_id": 1781,
+                "name": "Vehicle Model 3",
+                "FieldName": "Lea_ex5_49",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Lead",
+                "field_id": 418,
+                "name": "Vehicle Number  4",
+                "FieldName": "Lea_ex3_8",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Lead",
+                "field_id": 1782,
+                "name": "Vehicle Model 4",
+                "FieldName": "Lea_ex5_50",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Lead",
+                "field_id": 2289,
+                "name": "vehicle 1 class ",
+                "FieldName": "Lea_ex8_2",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Lead",
+                "field_id": 10944,
+                "name": "Barcode 1",
+                "FieldName": "Lea_ex1_120",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Lead",
+                "field_id": 2261,
+                "name": "vehicle 2 class ",
+                "FieldName": "Lea_ex6_80",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Lead",
+                "field_id": 10945,
+                "name": "Barcode 2",
+                "FieldName": "Lea_ex1_121",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Lead",
+                "field_id": 2262,
+                "name": "vehicle 3 class ",
+                "FieldName": "Lea_ex6_81",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Lead",
+                "field_id": 10943,
+                "name": "Barcode 3",
+                "FieldName": "Lea_ex1_122",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Lead",
+                "field_id": 2263,
+                "name": "vehicle 4 class ",
+                "FieldName": "Lea_ex6_82",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Lead",
+                "field_id": 11056,
+                "name": "Barcode 4",
+                "FieldName": "Lea_ex1_153",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Lead",
+                "field_id": 1866,
+                "name": "Total Amount vehicle 1",
+                "FieldName": "Lea_ex6_25",
+                "field_type": "Amount"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Lead",
+                "field_id": 488,
+                "name": "Confirm Barcode 1",
+                "FieldName": "Lea_ex2_67",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Lead",
+                "field_id": 2266,
+                "name": "Total Amount vehicle 2",
+                "FieldName": "Lea_ex6_85",
+                "field_type": "Amount"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Lead",
+                "field_id": 489,
+                "name": "Confirm Barcode 2",
+                "FieldName": "Lea_ex2_80",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Lead",
+                "field_id": 2267,
+                "name": "Total Amount vehicle 3",
+                "FieldName": "Lea_ex6_86",
+                "field_type": "Amount"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Lead",
+                "field_id": 490,
+                "name": "Confirm Barcode 3",
+                "FieldName": "Lea_ex3_9",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Lead",
+                "field_id": 2268,
+                "name": "Total Amount vehicle 4",
+                "FieldName": "Lea_ex6_87",
+                "field_type": "Amount"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Lead",
+                "field_id": 491,
+                "name": "Confirm Barcode 4",
+                "FieldName": "Lea_ex3_15",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Lead",
+                "field_id": 2298,
+                "name": "Total Amount",
+                "FieldName": "Lea_ex8_10",
+                "field_type": "Amount"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Lead",
+                "field_id": 2588,
+                "name": "Wallet ID",
+                "FieldName": "Lea_ex6_17",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Lead",
+                "field_id": 2372,
+                "name": "Insurance Expiry Date 1",
+                "FieldName": "Lea_ex8_67",
+                "field_type": "Date"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Lead",
+                "field_id": 2554,
+                "name": "Insurance Company name 1",
+                "FieldName": "Lea_ex4_96",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Lead",
+                "field_id": 2271,
+                "name": "Insurance Expiry Date 2",
+                "FieldName": "Lea_ex6_90",
+                "field_type": "Date"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Lead",
+                "field_id": 2555,
+                "name": "Insurance Company name 2",
+                "FieldName": "Lea_ex4_97",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Lead",
+                "field_id": 2272,
+                "name": "Insurance Expiry Date 3",
+                "FieldName": "Lea_ex6_91",
+                "field_type": "Date"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Lead",
+                "field_id": 2556,
+                "name": "Insurance Company name 3",
+                "FieldName": "Lea_ex4_98",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Lead",
+                "field_id": 2273,
+                "name": "Insurance Expiry Date 4",
+                "FieldName": "Lea_ex6_92",
+                "field_type": "Date"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Lead",
+                "field_id": 2557,
+                "name": "Insurance Company name 4",
+                "FieldName": "Lea_ex4_99",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Lead",
+                "field_id": 11795,
+                "name": "Wallet ID",
+                "FieldName": "Lea_ex2_116",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Lead",
+                "field_id": 3384,
+                "name": "WalletCrtDt",
+                "FieldName": "Lea_ex6_33",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Lead",
+                "field_id": 3387,
+                "name": "WalletVldDt",
+                "FieldName": "Lea_ex6_36",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Lead",
+                "field_id": 401,
+                "name": "KYCStatus",
+                "FieldName": "Lea_ex2_92",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Lead",
+                "field_id": 11796,
+                "name": "WalletStatus",
+                "FieldName": "Lea_ex2_117",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Lead",
+                "field_id": 8228,
+                "name": "custType",
+                "FieldName": "Lea_ex10_98",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Lead",
+                "field_id": 21,
+                "name": "Vehicle 1 already exist in FasTag  ",
+                "FieldName": "Lea_ex1_13",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Lead",
+                "field_id": 22,
+                "name": "Vehicle 2 already exist in FasTag ",
+                "FieldName": "Lea_ex1_14",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Lead",
+                "field_id": 25,
+                "name": "Special Approval",
+                "FieldName": "Lea_ex1_17",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Lead",
+                "field_id": 52,
+                "name": "Cheque Number",
+                "FieldName": "Lea_ex1_44",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Lead",
+                "field_id": 119,
+                "name": "Preview Page Mobile OTP Authentication",
+                "FieldName": "Lea_ex2_5",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Lead",
+                "field_id": 922,
+                "name": "LG Code",
+                "FieldName": "Lea_ex4_24",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Lead",
+                "field_id": 921,
+                "name": "LC Code",
+                "FieldName": "Lea_ex4_23",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Lead",
+                "field_id": 80,
+                "name": "Branch Code",
+                "FieldName": "Lea_ex1_65",
+                "field_type": "Number"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Lead",
+                "field_id": 2377,
+                "name": "Signzy Vahaan RequestID 1",
+                "FieldName": "Lea_ex8_72",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Lead",
+                "field_id": 562,
+                "name": "Signzy Email Validation Request ID",
+                "FieldName": "Lea_ex3_73",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Lead",
+                "field_id": 394,
+                "name": "Signzy Vahaan RequestID 2",
+                "FieldName": "Lea_ex2_85",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Lead",
+                "field_id": 2378,
+                "name": "Signzy Vahaan RequestID 3",
+                "FieldName": "Lea_ex8_73",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Lead",
+                "field_id": 395,
+                "name": "Signzy Vahaan RequestID 4",
+                "FieldName": "Lea_ex2_86",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Lead",
+                "field_id": 56,
+                "name": "Account Opening Cheque No",
+                "FieldName": "Lea_ex1_48",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Lead",
+                "field_id": 57,
+                "name": "Hold Reference No",
+                "FieldName": "Lea_ex1_49",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Lead",
+                "field_id": 117,
+                "name": "Return Expectation  %",
+                "FieldName": "Lea_ex2_3",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Lead",
+                "field_id": 118,
+                "name": "Recom Asset Allocation ",
+                "FieldName": "Lea_ex2_4",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Lead",
+                "field_id": 267,
+                "name": "Custody Code",
+                "FieldName": "Lea_ex2_22",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Lead",
+                "field_id": 268,
+                "name": "Custody A/c No.",
+                "FieldName": "Lea_ex2_23",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Lead",
+                "field_id": 269,
+                "name": "DIP ID.",
+                "FieldName": "Lea_ex2_24",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Lead",
+                "field_id": 270,
+                "name": "PMS Provider",
+                "FieldName": "Lea_ex2_25",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Lead",
+                "field_id": 2383,
+                "name": "CIBIL Req Id",
+                "FieldName": "Lea_ex8_78",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Lead",
+                "field_id": 2455,
+                "name": "Reference1 Email ID",
+                "FieldName": "Lea_ex5_29",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Lead",
+                "field_id": 2309,
+                "name": "SM Code",
+                "FieldName": "Lea_ex8_21",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Lead",
+                "field_id": 2553,
+                "name": "Remarks 1",
+                "FieldName": "Lea_ex4_95",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Lead",
+                "field_id": 2388,
+                "name": "CIBIL Error Type",
+                "FieldName": "Lea_ex8_83",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Lead",
+                "field_id": 7011,
+                "name": "Loan Taken From",
+                "FieldName": "Lea_ex10_45",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Lead",
+                "field_id": 11804,
+                "name": "CustId other service",
+                "FieldName": "Lea_ex2_124",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Lead",
+                "field_id": 2463,
+                "name": "PAN Last Name",
+                "FieldName": "Lea_ex5_37",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Lead",
+                "field_id": 2577,
+                "name": "APS Pricing Details",
+                "FieldName": "Lea_ex5_16",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Lead",
+                "field_id": 11057,
+                "name": "CP Offer Details",
+                "FieldName": "Lea_ex1_154",
+                "field_type": "Text"
+            }
+        ]
+    },
+    {
+        "query_label": "Lead User Information",
+        "query_fields": [
+            {
+                "roleid": 1,
+                "object_name": "Lead",
+                "field_id": 10001660,
+                "name": "First Name",
+                "FieldName": "LeadName",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Lead",
+                "field_id": 12453,
+                "name": "Middle name PAN",
+                "FieldName": "Lea_ex4_177",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Lead",
+                "field_id": 10001680,
+                "name": "Mobile",
+                "FieldName": "MobilePhone",
+                "field_type": "Phone"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Lead",
+                "field_id": 12454,
+                "name": "Last name PAN",
+                "FieldName": "Lea_ex4_178",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Lead",
+                "field_id": 10001659,
+                "name": "Lead ID",
+                "FieldName": "LeadID",
+                "field_type": "Number"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Lead",
+                "field_id": 71,
+                "name": "Alternate Email ",
+                "FieldName": "Lea_ex1_63",
+                "field_type": "Email"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Lead",
+                "field_id": 10001669,
+                "name": "Lead Source",
+                "FieldName": "LeadSource",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Lead",
+                "field_id": 298,
+                "name": "DOB",
+                "FieldName": "Lea_ex2_53",
+                "field_type": "Date"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Lead",
+                "field_id": 10001732,
+                "name": "StatusCode",
+                "FieldName": "StatusCode",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Lead",
+                "field_id": 1797,
+                "name": "Address Line 1",
+                "FieldName": "Lea_ex5_65",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Lead",
+                "field_id": 1795,
+                "name": "State",
+                "FieldName": "Lea_ex5_63",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Lead",
+                "field_id": 1798,
+                "name": "Address Line 2",
+                "FieldName": "Lea_ex5_66",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Lead",
+                "field_id": 1796,
+                "name": "City ",
+                "FieldName": "Lea_ex5_64",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Lead",
+                "field_id": 1799,
+                "name": "Address Line 3",
+                "FieldName": "Lea_ex5_67",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Lead",
+                "field_id": 2332,
+                "name": "Pincode",
+                "FieldName": "Lea_ex8_27",
+                "field_type": "Number"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Lead",
+                "field_id": 60,
+                "name": "Gender",
+                "FieldName": "Lea_ex1_52",
+                "field_type": "Lookup"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Lead",
+                "field_id": 300,
+                "name": "PAN No.",
+                "FieldName": "Lea_ex2_55",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Lead",
+                "field_id": 12206,
+                "name": "Consent for T/C (Checkbox)",
+                "FieldName": "lea_ex4_115",
+                "field_type": "Lookup"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Lead",
+                "field_id": 2340,
+                "name": "Promocode",
+                "FieldName": "Lea_ex8_35",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Lead",
+                "field_id": 1820,
+                "name": "Address changed",
+                "FieldName": "Lea_ex5_88",
+                "field_type": "Lookup"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Lead",
+                "field_id": 12,
+                "name": "Pan Validated?",
+                "FieldName": "Lea_ex1_4",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Lead",
+                "field_id": 377,
+                "name": "Status of  Payment",
+                "FieldName": "Lea_ex2_71",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Lead",
+                "field_id": 4196,
+                "name": "Email Sinzy validation?",
+                "FieldName": "Lea_ex10_1",
+                "field_type": "Lookup"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Lead",
+                "field_id": 46,
+                "name": "Customer ID",
+                "FieldName": "Lea_ex1_38",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Lead",
+                "field_id": 487,
+                "name": "Does Wallet Exist?",
+                "FieldName": "Lea_ex2_61",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Lead",
+                "field_id": 500,
+                "name": "DAP Form ID",
+                "FieldName": "Lea_ex3_42",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Lead",
+                "field_id": 8225,
+                "name": "Customer Type ",
+                "FieldName": "Lea_ex10_95",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Lead",
+                "field_id": 10868,
+                "name": "Instance ID",
+                "FieldName": "Act_ex3_63",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Lead",
+                "field_id": 9,
+                "name": "Lead Number",
+                "FieldName": "Lea_ex1_1",
+                "field_type": "SequenceNumber"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Lead",
+                "field_id": 1823,
+                "name": "Application Type",
+                "FieldName": "Lea_ex5_91",
+                "field_type": "Lookup"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Lead",
+                "field_id": 1824,
+                "name": "Drop off Type",
+                "FieldName": "Lea_ex5_92",
+                "field_type": "Lookup"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Lead",
+                "field_id": 11049,
+                "name": "StepID",
+                "FieldName": "Lea_ex1_148",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Lead",
+                "field_id": 5137,
+                "name": "Mobile OTP Validated",
+                "FieldName": "Lea_ex10_35",
+                "field_type": "Lookup"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Lead",
+                "field_id": 10812,
+                "name": "RefId",
+                "FieldName": "Lea_ex1_110",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Lead",
+                "field_id": 402,
+                "name": "Status Code",
+                "FieldName": "Lea_ex2_93",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Lead",
+                "field_id": 413,
+                "name": "Status message",
+                "FieldName": "Lea_ex3_4",
+                "field_type": "Text"
+            }
+        ]
+    },
+    {
+        "query_label": "Lead Wallet and Vehicle Details",
+        "query_fields": [
+            {
+                "roleid": 1,
+                "object_name": "Lead",
+                "field_id": 398,
+                "name": "Vehicle Number 1",
+                "FieldName": "Lea_ex2_89",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Lead",
+                "field_id": 2448,
+                "name": "Vehicle Model 1",
+                "FieldName": "Lea_ex5_22",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Lead",
+                "field_id": 404,
+                "name": "Vehicle Number  2",
+                "FieldName": "Lea_ex2_95",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Lead",
+                "field_id": 2456,
+                "name": "Vehicle Model 2",
+                "FieldName": "Lea_ex5_30",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Lead",
+                "field_id": 410,
+                "name": "Vehicle Number  3",
+                "FieldName": "Lea_ex2_99",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Lead",
+                "field_id": 1781,
+                "name": "Vehicle Model 3",
+                "FieldName": "Lea_ex5_49",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Lead",
+                "field_id": 418,
+                "name": "Vehicle Number  4",
+                "FieldName": "Lea_ex3_8",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Lead",
+                "field_id": 1782,
+                "name": "Vehicle Model 4",
+                "FieldName": "Lea_ex5_50",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Lead",
+                "field_id": 2289,
+                "name": "vehicle 1 class ",
+                "FieldName": "Lea_ex8_2",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Lead",
+                "field_id": 10944,
+                "name": "Barcode 1",
+                "FieldName": "Lea_ex1_120",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Lead",
+                "field_id": 2261,
+                "name": "vehicle 2 class ",
+                "FieldName": "Lea_ex6_80",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Lead",
+                "field_id": 10945,
+                "name": "Barcode 2",
+                "FieldName": "Lea_ex1_121",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Lead",
+                "field_id": 2262,
+                "name": "vehicle 3 class ",
+                "FieldName": "Lea_ex6_81",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Lead",
+                "field_id": 10943,
+                "name": "Barcode 3",
+                "FieldName": "Lea_ex1_122",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Lead",
+                "field_id": 2263,
+                "name": "vehicle 4 class ",
+                "FieldName": "Lea_ex6_82",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Lead",
+                "field_id": 11056,
+                "name": "Barcode 4",
+                "FieldName": "Lea_ex1_153",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Lead",
+                "field_id": 1866,
+                "name": "Total Amount vehicle 1",
+                "FieldName": "Lea_ex6_25",
+                "field_type": "Amount"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Lead",
+                "field_id": 488,
+                "name": "Confirm Barcode 1",
+                "FieldName": "Lea_ex2_67",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Lead",
+                "field_id": 2266,
+                "name": "Total Amount vehicle 2",
+                "FieldName": "Lea_ex6_85",
+                "field_type": "Amount"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Lead",
+                "field_id": 489,
+                "name": "Confirm Barcode 2",
+                "FieldName": "Lea_ex2_80",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Lead",
+                "field_id": 2267,
+                "name": "Total Amount vehicle 3",
+                "FieldName": "Lea_ex6_86",
+                "field_type": "Amount"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Lead",
+                "field_id": 490,
+                "name": "Confirm Barcode 3",
+                "FieldName": "Lea_ex3_9",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Lead",
+                "field_id": 2268,
+                "name": "Total Amount vehicle 4",
+                "FieldName": "Lea_ex6_87",
+                "field_type": "Amount"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Lead",
+                "field_id": 491,
+                "name": "Confirm Barcode 4",
+                "FieldName": "Lea_ex3_15",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Lead",
+                "field_id": 2298,
+                "name": "Total Amount",
+                "FieldName": "Lea_ex8_10",
+                "field_type": "Amount"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Lead",
+                "field_id": 2588,
+                "name": "Wallet ID",
+                "FieldName": "Lea_ex6_17",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Lead",
+                "field_id": 2372,
+                "name": "Insurance Expiry Date 1",
+                "FieldName": "Lea_ex8_67",
+                "field_type": "Date"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Lead",
+                "field_id": 2554,
+                "name": "Insurance Company name 1",
+                "FieldName": "Lea_ex4_96",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Lead",
+                "field_id": 2271,
+                "name": "Insurance Expiry Date 2",
+                "FieldName": "Lea_ex6_90",
+                "field_type": "Date"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Lead",
+                "field_id": 2555,
+                "name": "Insurance Company name 2",
+                "FieldName": "Lea_ex4_97",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Lead",
+                "field_id": 2272,
+                "name": "Insurance Expiry Date 3",
+                "FieldName": "Lea_ex6_91",
+                "field_type": "Date"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Lead",
+                "field_id": 2556,
+                "name": "Insurance Company name 3",
+                "FieldName": "Lea_ex4_98",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Lead",
+                "field_id": 2273,
+                "name": "Insurance Expiry Date 4",
+                "FieldName": "Lea_ex6_92",
+                "field_type": "Date"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Lead",
+                "field_id": 2557,
+                "name": "Insurance Company name 4",
+                "FieldName": "Lea_ex4_99",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Lead",
+                "field_id": 11795,
+                "name": "Wallet ID",
+                "FieldName": "Lea_ex2_116",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Lead",
+                "field_id": 3384,
+                "name": "WalletCrtDt",
+                "FieldName": "Lea_ex6_33",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Lead",
+                "field_id": 3387,
+                "name": "WalletVldDt",
+                "FieldName": "Lea_ex6_36",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Lead",
+                "field_id": 401,
+                "name": "KYCStatus",
+                "FieldName": "Lea_ex2_92",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Lead",
+                "field_id": 11796,
+                "name": "WalletStatus",
+                "FieldName": "Lea_ex2_117",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Lead",
+                "field_id": 8228,
+                "name": "custType",
+                "FieldName": "Lea_ex10_98",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Lead",
+                "field_id": 21,
+                "name": "Vehicle 1 already exist in FasTag  ",
+                "FieldName": "Lea_ex1_13",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Lead",
+                "field_id": 22,
+                "name": "Vehicle 2 already exist in FasTag ",
+                "FieldName": "Lea_ex1_14",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Lead",
+                "field_id": 25,
+                "name": "Special Approval",
+                "FieldName": "Lea_ex1_17",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Lead",
+                "field_id": 52,
+                "name": "Cheque Number",
+                "FieldName": "Lea_ex1_44",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Lead",
+                "field_id": 119,
+                "name": "Preview Page Mobile OTP Authentication",
+                "FieldName": "Lea_ex2_5",
+                "field_type": "Text"
+            }
+        ]
+    },
+    {
+        "query_label": "Lead Bank View Section",
+        "query_fields": [
+            {
+                "roleid": 1,
+                "object_name": "Lead",
+                "field_id": 922,
+                "name": "LG Code",
+                "FieldName": "Lea_ex4_24",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Lead",
+                "field_id": 921,
+                "name": "LC Code",
+                "FieldName": "Lea_ex4_23",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Lead",
+                "field_id": 80,
+                "name": "Branch Code",
+                "FieldName": "Lea_ex1_65",
+                "field_type": "Number"
+            }
+        ]
+    },
+    {
+        "query_label": "Lead API Responses",
+        "query_fields": [
+            {
+                "roleid": 1,
+                "object_name": "Lead",
+                "field_id": 2377,
+                "name": "Signzy Vahaan RequestID 1",
+                "FieldName": "Lea_ex8_72",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Lead",
+                "field_id": 562,
+                "name": "Signzy Email Validation Request ID",
+                "FieldName": "Lea_ex3_73",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Lead",
+                "field_id": 394,
+                "name": "Signzy Vahaan RequestID 2",
+                "FieldName": "Lea_ex2_85",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Lead",
+                "field_id": 2378,
+                "name": "Signzy Vahaan RequestID 3",
+                "FieldName": "Lea_ex8_73",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Lead",
+                "field_id": 395,
+                "name": "Signzy Vahaan RequestID 4",
+                "FieldName": "Lea_ex2_86",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Lead",
+                "field_id": 56,
+                "name": "Account Opening Cheque No",
+                "FieldName": "Lea_ex1_48",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Lead",
+                "field_id": 57,
+                "name": "Hold Reference No",
+                "FieldName": "Lea_ex1_49",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Lead",
+                "field_id": 117,
+                "name": "Return Expectation  %",
+                "FieldName": "Lea_ex2_3",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Lead",
+                "field_id": 118,
+                "name": "Recom Asset Allocation ",
+                "FieldName": "Lea_ex2_4",
+                "field_type": "Text"
+            }
+        ]
+    },
+    {
+        "query_label": "Lead Wallet Creation Related Details",
+        "query_fields": [
+            {
+                "roleid": 1,
+                "object_name": "Lead",
+                "field_id": 267,
+                "name": "Custody Code",
+                "FieldName": "Lea_ex2_22",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Lead",
+                "field_id": 268,
+                "name": "Custody A/c No.",
+                "FieldName": "Lea_ex2_23",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Lead",
+                "field_id": 269,
+                "name": "DIP ID.",
+                "FieldName": "Lea_ex2_24",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Lead",
+                "field_id": 270,
+                "name": "PMS Provider",
+                "FieldName": "Lea_ex2_25",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Lead",
+                "field_id": 2383,
+                "name": "CIBIL Req Id",
+                "FieldName": "Lea_ex8_78",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Lead",
+                "field_id": 2455,
+                "name": "Reference1 Email ID",
+                "FieldName": "Lea_ex5_29",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Lead",
+                "field_id": 2309,
+                "name": "SM Code",
+                "FieldName": "Lea_ex8_21",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Lead",
+                "field_id": 2553,
+                "name": "Remarks 1",
+                "FieldName": "Lea_ex4_95",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Lead",
+                "field_id": 2388,
+                "name": "CIBIL Error Type",
+                "FieldName": "Lea_ex8_83",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Lead",
+                "field_id": 7011,
+                "name": "Loan Taken From",
+                "FieldName": "Lea_ex10_45",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Lead",
+                "field_id": 11804,
+                "name": "CustId other service",
+                "FieldName": "Lea_ex2_124",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Lead",
+                "field_id": 2463,
+                "name": "PAN Last Name",
+                "FieldName": "Lea_ex5_37",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Lead",
+                "field_id": 2577,
+                "name": "APS Pricing Details",
+                "FieldName": "Lea_ex5_16",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Lead",
+                "field_id": 11057,
+                "name": "CP Offer Details",
+                "FieldName": "Lea_ex1_154",
+                "field_type": "Text"
+            }
+        ]
+    },
+    {
+        "query_label": "Lead Activities",
+        "query_fields": []
+    },
+    {
+        "query_label": "Lead Mailing List",
+        "query_fields": []
+    },
+    {
+        "query_label": "Lead Collaboration",
+        "query_fields": []
+    },
+    {
+        "query_label": "Lead Attachments",
+        "query_fields": []
+    },
+    {
+        "query_label": "Lead Notes",
+        "query_fields": []
+    },
+    {
+        "query_label": "Lead History",
+        "query_fields": []
+    }
+]

@@ -1,0 +1,39 @@
+[
+    {
+        "query_label": "Account tab 3",
+        "query_fields": [
+            {
+                "roleid": 1,
+                "object_name": "Account",
+                "field_id": 19562,
+                "name": "Permanent City",
+                "FieldName": "Acc_ex1_166",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Account",
+                "field_id": 19563,
+                "name": "Permanent  Pin",
+                "FieldName": "Acc_ex1_168",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Account",
+                "field_id": 19564,
+                "name": "Permanent State",
+                "FieldName": "Acc_ex1_189",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Account",
+                "field_id": 19565,
+                "name": "Permanent Phone",
+                "FieldName": "Acc_ex1_191",
+                "field_type": "Text"
+            }
+        ]
+    }
+]

@@ -1,0 +1,240 @@
+[
+    {
+        "query_label": "Contact Details",
+        "query_fields": [
+            {
+                "roleid": 1,
+                "object_name": "Contact",
+                "field_id": 10001062,
+                "name": "SN_NAME",
+                "FieldName": "Name",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Contact",
+                "field_id": 1491,
+                "name": "Occupation_r",
+                "FieldName": "Con_ex1_66",
+                "field_type": "Lookup"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Contact",
+                "field_id": 1489,
+                "name": "Relation Type_r",
+                "FieldName": "Con_ex1_64",
+                "field_type": "Lookup"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Contact",
+                "field_id": 1518,
+                "name": "Company Name_r",
+                "FieldName": "Con_ex1_72",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Contact",
+                "field_id": 2176,
+                "name": "Date of Birth_r",
+                "FieldName": "Con_ex1_49",
+                "field_type": "Date"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Contact",
+                "field_id": 1492,
+                "name": "Company Type_r",
+                "FieldName": "Con_ex1_67",
+                "field_type": "Lookup"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Contact",
+                "field_id": 1517,
+                "name": "Resident status_r",
+                "FieldName": "Con_ex1_71",
+                "field_type": "Lookup"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Contact",
+                "field_id": 1527,
+                "name": "Nature of Business/Company_r",
+                "FieldName": "Con_ex1_74",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Contact",
+                "field_id": 10001006,
+                "name": "SN_OWNERNAME",
+                "FieldName": "ContactOwnerName",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Contact",
+                "field_id": 1493,
+                "name": "Designation_r",
+                "FieldName": "Con_ex1_68",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Contact",
+                "field_id": 10001115,
+                "name": "SN_SHORTNAME",
+                "FieldName": "ShortName",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Contact",
+                "field_id": 1494,
+                "name": "Salary/Income_r",
+                "FieldName": "Con_ex1_69",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Contact",
+                "field_id": 1519,
+                "name": "HDFC Bank A/c_r",
+                "FieldName": "Con_ex1_73",
+                "field_type": "Lookup"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Contact",
+                "field_id": 1529,
+                "name": "Remarks_r",
+                "FieldName": "Con_ex1_75",
+                "field_type": "Comments"
+            }
+        ]
+    },
+    {
+        "query_label": "Contact Key Information",
+        "query_fields": [
+            {
+                "roleid": 1,
+                "object_name": "Contact",
+                "field_id": 10001062,
+                "name": "SN_NAME",
+                "FieldName": "Name",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Contact",
+                "field_id": 1491,
+                "name": "Occupation_r",
+                "FieldName": "Con_ex1_66",
+                "field_type": "Lookup"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Contact",
+                "field_id": 1489,
+                "name": "Relation Type_r",
+                "FieldName": "Con_ex1_64",
+                "field_type": "Lookup"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Contact",
+                "field_id": 1518,
+                "name": "Company Name_r",
+                "FieldName": "Con_ex1_72",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Contact",
+                "field_id": 2176,
+                "name": "Date of Birth_r",
+                "FieldName": "Con_ex1_49",
+                "field_type": "Date"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Contact",
+                "field_id": 1492,
+                "name": "Company Type_r",
+                "FieldName": "Con_ex1_67",
+                "field_type": "Lookup"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Contact",
+                "field_id": 1517,
+                "name": "Resident status_r",
+                "FieldName": "Con_ex1_71",
+                "field_type": "Lookup"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Contact",
+                "field_id": 1527,
+                "name": "Nature of Business/Company_r",
+                "FieldName": "Con_ex1_74",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Contact",
+                "field_id": 10001006,
+                "name": "SN_OWNERNAME",
+                "FieldName": "ContactOwnerName",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Contact",
+                "field_id": 1493,
+                "name": "Designation_r",
+                "FieldName": "Con_ex1_68",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Contact",
+                "field_id": 10001115,
+                "name": "SN_SHORTNAME",
+                "FieldName": "ShortName",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Contact",
+                "field_id": 1494,
+                "name": "Salary/Income_r",
+                "FieldName": "Con_ex1_69",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Contact",
+                "field_id": 1519,
+                "name": "HDFC Bank A/c_r",
+                "FieldName": "Con_ex1_73",
+                "field_type": "Lookup"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Contact",
+                "field_id": 1529,
+                "name": "Remarks_r",
+                "FieldName": "Con_ex1_75",
+                "field_type": "Comments"
+            }
+        ]
+    },
+    {
+        "query_label": "Contact Opportunities",
+        "query_fields": []
+    }
+]

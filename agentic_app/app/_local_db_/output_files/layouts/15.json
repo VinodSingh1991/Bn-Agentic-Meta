@@ -1,0 +1,385 @@
+[
+    {
+        "query_label": "Activity Summary",
+        "query_fields": [
+            {
+                "roleid": 1,
+                "object_name": "Activity",
+                "field_id": 10010172,
+                "name": "SN_TASK_DUEDATE",
+                "FieldName": "DueDate",
+                "field_type": "Date"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Activity",
+                "field_id": 10010250,
+                "name": "SN_Event_Time",
+                "FieldName": "Time",
+                "field_type": "Time"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Activity",
+                "field_id": 10010173,
+                "name": "SN_DURATION",
+                "FieldName": "Duration",
+                "field_type": "Duration"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Activity",
+                "field_id": 10010209,
+                "name": "SN_EVENT_LOCATION",
+                "FieldName": "Location",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Activity",
+                "field_id": 10010221,
+                "name": "SN_PRIORITY",
+                "FieldName": "Priority",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Activity",
+                "field_id": 10010243,
+                "name": "SN_STATUS",
+                "FieldName": "Status",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Activity",
+                "field_id": 10010196,
+                "name": "SN_ISPERSONAL",
+                "FieldName": "IsPersonal",
+                "field_type": "Check"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Activity",
+                "field_id": 10010215,
+                "name": "SN_Event_Participants",
+                "FieldName": "Participants",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Activity",
+                "field_id": 10000047,
+                "name": "SN_SUBJECT",
+                "FieldName": "Subject",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Activity",
+                "field_id": 10010192,
+                "name": "SN_Event_Invitees",
+                "FieldName": "Invitees",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Activity",
+                "field_id": 10010171,
+                "name": "SN_DETAILS",
+                "FieldName": "Details",
+                "field_type": "Comments"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Activity",
+                "field_id": 10010103,
+                "name": "SN_ASSIGNEDTONAME",
+                "FieldName": "AssignedTo",
+                "field_type": "Number"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Activity",
+                "field_id": 10010190,
+                "name": "SN_Event_Highlight",
+                "FieldName": "Highlight",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Activity",
+                "field_id": 10010235,
+                "name": "SN_RELATEDTOTYPE",
+                "FieldName": "RelatedToType",
+                "field_type": "Number"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Activity",
+                "field_id": 10010234,
+                "name": "SN_RELATEDTO",
+                "FieldName": "RelatedToName",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Activity",
+                "field_id": 10010163,
+                "name": "SN_CONTACTNAME",
+                "FieldName": "ContactName",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Activity",
+                "field_id": 10010244,
+                "name": "SN_STATUSCODE",
+                "FieldName": "StatusCode",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Activity",
+                "field_id": 10010217,
+                "name": "SN_ACCOUNTNAME",
+                "FieldName": "PartnerAccountName",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Activity",
+                "field_id": 10010219,
+                "name": "SN_Task_Partner_Contact",
+                "FieldName": "PartnerContactName",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Activity",
+                "field_id": 10010061,
+                "name": "SN_ACCOUNTNAME",
+                "FieldName": "AccountName",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Activity",
+                "field_id": 10010100,
+                "name": "SN_ACTIVITYTYPE",
+                "FieldName": "ActivityType",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Activity",
+                "field_id": 10010199,
+                "name": "SN_EVENT_RESOURCE",
+                "FieldName": "ItemResource",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Activity",
+                "field_id": 10010106,
+                "name": "SN_Event_Attachments",
+                "FieldName": "Attachments",
+                "field_type": "Document"
+            }
+        ]
+    },
+    {
+        "query_label": "Activity Calendar Information",
+        "query_fields": [
+            {
+                "roleid": 1,
+                "object_name": "Activity",
+                "field_id": 10010172,
+                "name": "SN_TASK_DUEDATE",
+                "FieldName": "DueDate",
+                "field_type": "Date"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Activity",
+                "field_id": 10010250,
+                "name": "SN_Event_Time",
+                "FieldName": "Time",
+                "field_type": "Time"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Activity",
+                "field_id": 10010173,
+                "name": "SN_DURATION",
+                "FieldName": "Duration",
+                "field_type": "Duration"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Activity",
+                "field_id": 10010209,
+                "name": "SN_EVENT_LOCATION",
+                "FieldName": "Location",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Activity",
+                "field_id": 10010221,
+                "name": "SN_PRIORITY",
+                "FieldName": "Priority",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Activity",
+                "field_id": 10010243,
+                "name": "SN_STATUS",
+                "FieldName": "Status",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Activity",
+                "field_id": 10010196,
+                "name": "SN_ISPERSONAL",
+                "FieldName": "IsPersonal",
+                "field_type": "Check"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Activity",
+                "field_id": 10010215,
+                "name": "SN_Event_Participants",
+                "FieldName": "Participants",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Activity",
+                "field_id": 10000047,
+                "name": "SN_SUBJECT",
+                "FieldName": "Subject",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Activity",
+                "field_id": 10010192,
+                "name": "SN_Event_Invitees",
+                "FieldName": "Invitees",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Activity",
+                "field_id": 10010171,
+                "name": "SN_DETAILS",
+                "FieldName": "Details",
+                "field_type": "Comments"
+            }
+        ]
+    },
+    {
+        "query_label": "Activity Classification Information",
+        "query_fields": [
+            {
+                "roleid": 1,
+                "object_name": "Activity",
+                "field_id": 10010103,
+                "name": "SN_ASSIGNEDTONAME",
+                "FieldName": "AssignedTo",
+                "field_type": "Number"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Activity",
+                "field_id": 10010190,
+                "name": "SN_Event_Highlight",
+                "FieldName": "Highlight",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Activity",
+                "field_id": 10010235,
+                "name": "SN_RELATEDTOTYPE",
+                "FieldName": "RelatedToType",
+                "field_type": "Number"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Activity",
+                "field_id": 10010234,
+                "name": "SN_RELATEDTO",
+                "FieldName": "RelatedToName",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Activity",
+                "field_id": 10010163,
+                "name": "SN_CONTACTNAME",
+                "FieldName": "ContactName",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Activity",
+                "field_id": 10010244,
+                "name": "SN_STATUSCODE",
+                "FieldName": "StatusCode",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Activity",
+                "field_id": 10010217,
+                "name": "SN_ACCOUNTNAME",
+                "FieldName": "PartnerAccountName",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Activity",
+                "field_id": 10010219,
+                "name": "SN_Task_Partner_Contact",
+                "FieldName": "PartnerContactName",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Activity",
+                "field_id": 10010061,
+                "name": "SN_ACCOUNTNAME",
+                "FieldName": "AccountName",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Activity",
+                "field_id": 10010100,
+                "name": "SN_ACTIVITYTYPE",
+                "FieldName": "ActivityType",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Activity",
+                "field_id": 10010199,
+                "name": "SN_EVENT_RESOURCE",
+                "FieldName": "ItemResource",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Activity",
+                "field_id": 10010106,
+                "name": "SN_Event_Attachments",
+                "FieldName": "Attachments",
+                "field_type": "Document"
+            }
+        ]
+    }
+]

@@ -33,29 +33,26 @@ class FieldsService:
         return None
 
     def create_fields_from_cache(self) -> List[Any]:
-        layout_fields = self.repository.get_layouts_fields()
         fields = self.loader.loadJsonFile("fields.json")
 
         new_fields = []
 
         for field in fields:
-            lay_id = field.get("LayoutFieldId")
-            matching_layout_field = self.get_layout_field_by_layout_field_id(lay_id, layout_fields)
+            obj_name = field.get("ObjectName", "Unknown")
+            name = field.get("Label", "Unknown")
+            enriched_field = {}
+            enriched_field["roleid"] = 1
+            enriched_field["object_name"] = obj_name
+            enriched_field["field_id"] = field.get("FieldId", -1)
+            enriched_field["name"] = name
+            enriched_field["FieldName"] = field.get("FieldName", "Unknown")
+            enriched_field["field_type"] = field.get("FieldType", "Text")
+
             
-            if matching_layout_field:
-                enriched_field = dict(field) if isinstance(field, dict) else field
-                enriched_field["Roles"] = matching_layout_field.get(
-                    "RoleIds", [1]
-                )
-                enriched_field["Synonyms"] = matching_layout_field.get(
-                    "Synonyms", None
-                )
-                new_fields.append(enriched_field)
-            else:
-                enriched_field = dict(field) if isinstance(field, dict) else field
-                enriched_field["Roles"] = [1]
-                enriched_field["Synonyms"] = []
-                new_fields.append(enriched_field)
+            new_fields.append({
+                "query_label": f"{obj_name} {name}",
+                "query_fields": [enriched_field]
+            })
 
         self.loader.save_files_at_output("fields.json", new_fields)
         return new_fields
@@ -76,6 +73,8 @@ class FieldsService:
         for role, fields in grouped.items():
             object_grouped = self.get_fields_group_by_object_name(fields)
             grouped[role] = object_grouped
+            if role is not None:
+                self.loader.save_files_for_roles(f"{role}.json", object_grouped)
 
         self.loader.save_files_at_output("grouped_fields.json", grouped)
         return dict(grouped)

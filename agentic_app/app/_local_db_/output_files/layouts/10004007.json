@@ -1,0 +1,315 @@
+[
+    {
+        "query_label": "Case Key Information",
+        "query_fields": [
+            {
+                "roleid": 1,
+                "object_name": "Case",
+                "field_id": 10005757,
+                "name": "WOW and Service Owner",
+                "FieldName": "AssignedToName",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Case",
+                "field_id": 10005901,
+                "name": "SPOC",
+                "FieldName": "Subject",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Case",
+                "field_id": 19373,
+                "name": "Account Number/Demat Number",
+                "FieldName": "Cas_ex6_122",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Case",
+                "field_id": 19374,
+                "name": "Additional Number",
+                "FieldName": "Cas_ex6_123",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Case",
+                "field_id": 19390,
+                "name": "Department",
+                "FieldName": "Cas_ex6_133",
+                "field_type": "MultiLevel"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Case",
+                "field_id": 19389,
+                "name": "Task",
+                "FieldName": "Cas_ex6_132",
+                "field_type": "MultiLevel"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Case",
+                "field_id": 12456,
+                "name": "Branch Code",
+                "FieldName": "Cas_ex5_20",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Case",
+                "field_id": 10005847,
+                "name": "Priority",
+                "FieldName": "Priority",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Case",
+                "field_id": 19369,
+                "name": "Assign To (Notice Reviewer)",
+                "FieldName": "Cas_ex6_118",
+                "field_type": "Lookup"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Case",
+                "field_id": 19444,
+                "name": "Attachment",
+                "FieldName": "Cas_ex6_169",
+                "field_type": "Document"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Case",
+                "field_id": 19391,
+                "name": "Remarks",
+                "FieldName": "Cas_ex6_134",
+                "field_type": "Comments"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Case",
+                "field_id": 10005836,
+                "name": "Parent WOW and Service",
+                "FieldName": "ParentName",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Case",
+                "field_id": 10005852,
+                "name": "Product",
+                "FieldName": "Product",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Case",
+                "field_id": 10005891,
+                "name": "Status Code",
+                "FieldName": "StatusCode",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Case",
+                "field_id": 10005872,
+                "name": "Reported On",
+                "FieldName": "ReportedOn",
+                "field_type": "DateTime"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Case",
+                "field_id": 19392,
+                "name": "Response Details",
+                "FieldName": "Cas_ex6_135",
+                "field_type": "Comments"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Case",
+                "field_id": 19410,
+                "name": "Redirection Task Remarks",
+                "FieldName": "Cas_ex6_149",
+                "field_type": "Comments"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Case",
+                "field_id": 19449,
+                "name": "Rejection Reason",
+                "FieldName": "Cas_ex6_173",
+                "field_type": "Comments"
+            }
+        ]
+    },
+    {
+        "query_label": "Case Task Details",
+        "query_fields": [
+            {
+                "roleid": 1,
+                "object_name": "Case",
+                "field_id": 10005757,
+                "name": "WOW and Service Owner",
+                "FieldName": "AssignedToName",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Case",
+                "field_id": 10005901,
+                "name": "SPOC",
+                "FieldName": "Subject",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Case",
+                "field_id": 19373,
+                "name": "Account Number/Demat Number",
+                "FieldName": "Cas_ex6_122",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Case",
+                "field_id": 19374,
+                "name": "Additional Number",
+                "FieldName": "Cas_ex6_123",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Case",
+                "field_id": 19390,
+                "name": "Department",
+                "FieldName": "Cas_ex6_133",
+                "field_type": "MultiLevel"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Case",
+                "field_id": 19389,
+                "name": "Task",
+                "FieldName": "Cas_ex6_132",
+                "field_type": "MultiLevel"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Case",
+                "field_id": 12456,
+                "name": "Branch Code",
+                "FieldName": "Cas_ex5_20",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Case",
+                "field_id": 10005847,
+                "name": "Priority",
+                "FieldName": "Priority",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Case",
+                "field_id": 19369,
+                "name": "Assign To (Notice Reviewer)",
+                "FieldName": "Cas_ex6_118",
+                "field_type": "Lookup"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Case",
+                "field_id": 19444,
+                "name": "Attachment",
+                "FieldName": "Cas_ex6_169",
+                "field_type": "Document"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Case",
+                "field_id": 19391,
+                "name": "Remarks",
+                "FieldName": "Cas_ex6_134",
+                "field_type": "Comments"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Case",
+                "field_id": 10005836,
+                "name": "Parent WOW and Service",
+                "FieldName": "ParentName",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Case",
+                "field_id": 10005852,
+                "name": "Product",
+                "FieldName": "Product",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Case",
+                "field_id": 10005891,
+                "name": "Status Code",
+                "FieldName": "StatusCode",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Case",
+                "field_id": 10005872,
+                "name": "Reported On",
+                "FieldName": "ReportedOn",
+                "field_type": "DateTime"
+            }
+        ]
+    },
+    {
+        "query_label": "Case Response Details",
+        "query_fields": [
+            {
+                "roleid": 1,
+                "object_name": "Case",
+                "field_id": 19392,
+                "name": "Response Details",
+                "FieldName": "Cas_ex6_135",
+                "field_type": "Comments"
+            }
+        ]
+    },
+    {
+        "query_label": "Case Redirection Remarks",
+        "query_fields": [
+            {
+                "roleid": 1,
+                "object_name": "Case",
+                "field_id": 19410,
+                "name": "Redirection Task Remarks",
+                "FieldName": "Cas_ex6_149",
+                "field_type": "Comments"
+            }
+        ]
+    },
+    {
+        "query_label": "Case Rejection Remarks",
+        "query_fields": [
+            {
+                "roleid": 1,
+                "object_name": "Case",
+                "field_id": 19449,
+                "name": "Rejection Reason",
+                "FieldName": "Cas_ex6_173",
+                "field_type": "Comments"
+            }
+        ]
+    }
+]

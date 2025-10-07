@@ -1,0 +1,492 @@
+[
+    {
+        "query_label": "Activity Summary",
+        "query_fields": [
+            {
+                "roleid": 1,
+                "object_name": "Activity",
+                "field_id": 10010242,
+                "name": "Start Date",
+                "FieldName": "StartDate",
+                "field_type": "Date"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Activity",
+                "field_id": 10059069,
+                "name": "Approver Name",
+                "FieldName": "ActivityOwnerId",
+                "field_type": "Number"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Activity",
+                "field_id": 10010103,
+                "name": "Handover To",
+                "FieldName": "AssignedTo",
+                "field_type": "Number"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Activity",
+                "field_id": 76,
+                "name": "Phone Number",
+                "FieldName": "Act_ex1_5",
+                "field_type": "Phone"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Activity",
+                "field_id": 78,
+                "name": "Email ID",
+                "FieldName": "Act_ex1_7",
+                "field_type": "Email"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Activity",
+                "field_id": 12574,
+                "name": "Status",
+                "FieldName": "Act_ex4_113",
+                "field_type": "Lookup"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Activity",
+                "field_id": 10010171,
+                "name": "Comments",
+                "FieldName": "Details",
+                "field_type": "Comments"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Activity",
+                "field_id": 12564,
+                "name": "Handover completed with new RM",
+                "FieldName": "Act_ex4_103",
+                "field_type": "Lookup"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Activity",
+                "field_id": 12565,
+                "name": "How many Clients have been personally visited jointly, for hand-over?",
+                "FieldName": "Act_ex4_104",
+                "field_type": "Lookup"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Activity",
+                "field_id": 12566,
+                "name": "Was New RM On-boarded before the reliving previous RMs",
+                "FieldName": "Act_ex4_105",
+                "field_type": "Lookup"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Activity",
+                "field_id": 12567,
+                "name": "What is the time spent with new RM by the outgoing RM?",
+                "FieldName": "Act_ex4_106",
+                "field_type": "Lookup"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Activity",
+                "field_id": 12568,
+                "name": "Has New RM gone through Customer's Profile, Wallet-Share and opportunities available",
+                "FieldName": "Act_ex4_107",
+                "field_type": "Lookup"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Activity",
+                "field_id": 12569,
+                "name": "In case, visit or review of customer details are pending then please mention the time frame to completion",
+                "FieldName": "Act_ex4_108",
+                "field_type": "Lookup"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Activity",
+                "field_id": 12570,
+                "name": "If Replacemnet (In Case of resignation ) hasn\\'t been identified who has taken handover from outgoing RM ?",
+                "FieldName": "Act_ex4_109",
+                "field_type": "Lookup"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Activity",
+                "field_id": 12571,
+                "name": "within how many days of the last day of outgoin RM , new RM would be on board?",
+                "FieldName": "Act_ex4_110",
+                "field_type": "Lookup"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Activity",
+                "field_id": 12572,
+                "name": "In what time frame will the BM/RBH complete the handover of portfolio to new RM upon joining ?",
+                "FieldName": "Act_ex4_111",
+                "field_type": "Lookup"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Activity",
+                "field_id": 5018,
+                "name": "Interaction Flag",
+                "FieldName": "Act_ex1_48",
+                "field_type": "Number"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Activity",
+                "field_id": 1853,
+                "name": "Customer Name",
+                "FieldName": "Act_ex2_54",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Activity",
+                "field_id": 1854,
+                "name": "Customer ID",
+                "FieldName": "Act_ex2_55",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Activity",
+                "field_id": 10010102,
+                "name": "Assigned By",
+                "FieldName": "AssignedBy",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Activity",
+                "field_id": 1852,
+                "name": "Is Existing Customer",
+                "FieldName": "Act_ex2_53",
+                "field_type": "Lookup"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Activity",
+                "field_id": 7187,
+                "name": "Type of Digital Demo",
+                "FieldName": "Act_ex1_62",
+                "field_type": "MultiPicker"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Activity",
+                "field_id": 10010172,
+                "name": "Due Date",
+                "FieldName": "DueDate",
+                "field_type": "Date"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Activity",
+                "field_id": 1851,
+                "name": "Joint Call With",
+                "FieldName": "Act_ex2_52",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Activity",
+                "field_id": 10010243,
+                "name": "Interaction Status",
+                "FieldName": "Status",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Activity",
+                "field_id": 10010244,
+                "name": "Status Code",
+                "FieldName": "StatusCode",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Activity",
+                "field_id": 1198,
+                "name": "Offer NI/Reject Reason",
+                "FieldName": "Act_ex1_29",
+                "field_type": "MultiPicker"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Activity",
+                "field_id": 1868,
+                "name": "Product",
+                "FieldName": "Act_ex1_46",
+                "field_type": "MultiPicker"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Activity",
+                "field_id": 10010234,
+                "name": "Related To",
+                "FieldName": "RelatedToName",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Activity",
+                "field_id": 10010235,
+                "name": "Related To Type",
+                "FieldName": "RelatedToType",
+                "field_type": "Number"
+            }
+        ]
+    },
+    {
+        "query_label": "Activity Key Information",
+        "query_fields": [
+            {
+                "roleid": 1,
+                "object_name": "Activity",
+                "field_id": 10010242,
+                "name": "Start Date",
+                "FieldName": "StartDate",
+                "field_type": "Date"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Activity",
+                "field_id": 10059069,
+                "name": "Approver Name",
+                "FieldName": "ActivityOwnerId",
+                "field_type": "Number"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Activity",
+                "field_id": 10010103,
+                "name": "Handover To",
+                "FieldName": "AssignedTo",
+                "field_type": "Number"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Activity",
+                "field_id": 76,
+                "name": "Phone Number",
+                "FieldName": "Act_ex1_5",
+                "field_type": "Phone"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Activity",
+                "field_id": 78,
+                "name": "Email ID",
+                "FieldName": "Act_ex1_7",
+                "field_type": "Email"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Activity",
+                "field_id": 12574,
+                "name": "Status",
+                "FieldName": "Act_ex4_113",
+                "field_type": "Lookup"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Activity",
+                "field_id": 10010171,
+                "name": "Comments",
+                "FieldName": "Details",
+                "field_type": "Comments"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Activity",
+                "field_id": 12564,
+                "name": "Handover completed with new RM",
+                "FieldName": "Act_ex4_103",
+                "field_type": "Lookup"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Activity",
+                "field_id": 12565,
+                "name": "How many Clients have been personally visited jointly, for hand-over?",
+                "FieldName": "Act_ex4_104",
+                "field_type": "Lookup"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Activity",
+                "field_id": 12566,
+                "name": "Was New RM On-boarded before the reliving previous RMs",
+                "FieldName": "Act_ex4_105",
+                "field_type": "Lookup"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Activity",
+                "field_id": 12567,
+                "name": "What is the time spent with new RM by the outgoing RM?",
+                "FieldName": "Act_ex4_106",
+                "field_type": "Lookup"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Activity",
+                "field_id": 12568,
+                "name": "Has New RM gone through Customer's Profile, Wallet-Share and opportunities available",
+                "FieldName": "Act_ex4_107",
+                "field_type": "Lookup"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Activity",
+                "field_id": 12569,
+                "name": "In case, visit or review of customer details are pending then please mention the time frame to completion",
+                "FieldName": "Act_ex4_108",
+                "field_type": "Lookup"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Activity",
+                "field_id": 12570,
+                "name": "If Replacemnet (In Case of resignation ) hasn\\'t been identified who has taken handover from outgoing RM ?",
+                "FieldName": "Act_ex4_109",
+                "field_type": "Lookup"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Activity",
+                "field_id": 12571,
+                "name": "within how many days of the last day of outgoin RM , new RM would be on board?",
+                "FieldName": "Act_ex4_110",
+                "field_type": "Lookup"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Activity",
+                "field_id": 12572,
+                "name": "In what time frame will the BM/RBH complete the handover of portfolio to new RM upon joining ?",
+                "FieldName": "Act_ex4_111",
+                "field_type": "Lookup"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Activity",
+                "field_id": 5018,
+                "name": "Interaction Flag",
+                "FieldName": "Act_ex1_48",
+                "field_type": "Number"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Activity",
+                "field_id": 1853,
+                "name": "Customer Name",
+                "FieldName": "Act_ex2_54",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Activity",
+                "field_id": 1854,
+                "name": "Customer ID",
+                "FieldName": "Act_ex2_55",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Activity",
+                "field_id": 10010102,
+                "name": "Assigned By",
+                "FieldName": "AssignedBy",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Activity",
+                "field_id": 1852,
+                "name": "Is Existing Customer",
+                "FieldName": "Act_ex2_53",
+                "field_type": "Lookup"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Activity",
+                "field_id": 7187,
+                "name": "Type of Digital Demo",
+                "FieldName": "Act_ex1_62",
+                "field_type": "MultiPicker"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Activity",
+                "field_id": 10010172,
+                "name": "Due Date",
+                "FieldName": "DueDate",
+                "field_type": "Date"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Activity",
+                "field_id": 1851,
+                "name": "Joint Call With",
+                "FieldName": "Act_ex2_52",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Activity",
+                "field_id": 10010243,
+                "name": "Interaction Status",
+                "FieldName": "Status",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Activity",
+                "field_id": 10010244,
+                "name": "Status Code",
+                "FieldName": "StatusCode",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Activity",
+                "field_id": 1198,
+                "name": "Offer NI/Reject Reason",
+                "FieldName": "Act_ex1_29",
+                "field_type": "MultiPicker"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Activity",
+                "field_id": 1868,
+                "name": "Product",
+                "FieldName": "Act_ex1_46",
+                "field_type": "MultiPicker"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Activity",
+                "field_id": 10010234,
+                "name": "Related To",
+                "FieldName": "RelatedToName",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Activity",
+                "field_id": 10010235,
+                "name": "Related To Type",
+                "FieldName": "RelatedToType",
+                "field_type": "Number"
+            }
+        ]
+    }
+]

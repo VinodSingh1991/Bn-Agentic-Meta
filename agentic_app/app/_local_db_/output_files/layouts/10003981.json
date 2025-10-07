@@ -1,0 +1,646 @@
+[
+    {
+        "query_label": "Lead Key Information",
+        "query_fields": [
+            {
+                "roleid": 1,
+                "object_name": "Lead",
+                "field_id": 9,
+                "name": "Lead Number",
+                "FieldName": "Lea_ex1_1",
+                "field_type": "SequenceNumber"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Lead",
+                "field_id": 10001576,
+                "name": "Assign To",
+                "FieldName": "AssignTo",
+                "field_type": "Number"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Lead",
+                "field_id": 10001669,
+                "name": "Partner/Source",
+                "FieldName": "LeadSource",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Lead",
+                "field_id": 18934,
+                "name": "SM Name",
+                "FieldName": "Lea_ex3_154",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Lead",
+                "field_id": 18968,
+                "name": "SM Mobile Number",
+                "FieldName": "Lea_ex5_153",
+                "field_type": "Phone"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Lead",
+                "field_id": 18936,
+                "name": "SM Email Id",
+                "FieldName": "Lea_ex6_101",
+                "field_type": "Email"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Lead",
+                "field_id": 19349,
+                "name": "Product",
+                "FieldName": "Lea_ex8_114",
+                "field_type": "MultiPicker"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Lead",
+                "field_id": 19020,
+                "name": "Pass through Airlines Ratio(%)",
+                "FieldName": "Lea_ex5_198",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Lead",
+                "field_id": 19021,
+                "name": "Non-pass through Airlines Ratio(%)",
+                "FieldName": "Lea_ex5_199",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Lead",
+                "field_id": 10001732,
+                "name": "Status Code",
+                "FieldName": "StatusCode",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Lead",
+                "field_id": 18970,
+                "name": "Pre Sanction Substatus code",
+                "FieldName": "Lea_ex4_137",
+                "field_type": "Lookup"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Lead",
+                "field_id": 18973,
+                "name": "Not contactable Substatus code",
+                "FieldName": "Lea_ex6_111",
+                "field_type": "Lookup"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Lead",
+                "field_id": 18972,
+                "name": "Post Sanction Sub-status code",
+                "FieldName": "Lea_ex5_155",
+                "field_type": "Lookup"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Lead",
+                "field_id": 18971,
+                "name": "Closed - Lost Substatuscode",
+                "FieldName": "Lea_ex6_110",
+                "field_type": "Lookup"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Lead",
+                "field_id": 18976,
+                "name": "Pre Sanction Customisation Requested Comment",
+                "FieldName": "Lea_ex6_113",
+                "field_type": "Comments"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Lead",
+                "field_id": 18979,
+                "name": "Pre Sanction FTNR Comment",
+                "FieldName": "Lea_ex6_115",
+                "field_type": "Comments"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Lead",
+                "field_id": 18977,
+                "name": "Post Sanction Customisation Requested Comment",
+                "FieldName": "Lea_ex6_114",
+                "field_type": "Comments"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Lead",
+                "field_id": 18978,
+                "name": "Post Sanction FTNR Comment",
+                "FieldName": "Lea_ex5_192",
+                "field_type": "Comments"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Lead",
+                "field_id": 18974,
+                "name": "Closed - Lost Comment",
+                "FieldName": "Lea_ex6_112",
+                "field_type": "Comments"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Lead",
+                "field_id": 18980,
+                "name": "Loss to external competition",
+                "FieldName": "Lea_ex5_194",
+                "field_type": "Lookup"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Lead",
+                "field_id": 19346,
+                "name": "Post Sanction Rel no Generated Comment",
+                "FieldName": "Lea_ex8_104",
+                "field_type": "Comments"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Lead",
+                "field_id": 10048343,
+                "name": "Product",
+                "FieldName": "Product",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Lead",
+                "field_id": 10001714,
+                "name": "Lead Rating",
+                "FieldName": "Rating",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Lead",
+                "field_id": 10050495,
+                "name": "Lead Owner",
+                "FieldName": "LeadOwnerName",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Lead",
+                "field_id": 10001660,
+                "name": "Name",
+                "FieldName": "LeadName",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Lead",
+                "field_id": 10001680,
+                "name": "Mobile Number",
+                "FieldName": "MobilePhone",
+                "field_type": "Phone"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Lead",
+                "field_id": 10001606,
+                "name": "Email Id",
+                "FieldName": "Email",
+                "field_type": "Email"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Lead",
+                "field_id": 18960,
+                "name": "Department",
+                "FieldName": "Lea_ex6_106",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Lead",
+                "field_id": 23,
+                "name": "Designation",
+                "FieldName": "Lea_ex1_15",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Lead",
+                "field_id": 18961,
+                "name": "Company Name",
+                "FieldName": "Lea_ex6_107",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Lead",
+                "field_id": 1790,
+                "name": "Office Address Line1",
+                "FieldName": "Lea_ex5_58",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Lead",
+                "field_id": 1789,
+                "name": "Office Address Line2",
+                "FieldName": "Lea_ex5_57",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Lead",
+                "field_id": 2399,
+                "name": "Office Address Line3",
+                "FieldName": "Lea_ex8_94",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Lead",
+                "field_id": 10001740,
+                "name": "City",
+                "FieldName": "TerritoryName",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Lead",
+                "field_id": 12257,
+                "name": "Pincode",
+                "FieldName": "Lea_ex2_143",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Lead",
+                "field_id": 18938,
+                "name": "Constitution Type",
+                "FieldName": "Lea_ex6_102",
+                "field_type": "Lookup"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Lead",
+                "field_id": 18962,
+                "name": "Number of Employees",
+                "FieldName": "Lea_ex6_108",
+                "field_type": "Lookup"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Lead",
+                "field_id": 18939,
+                "name": "Annual  turnover (Cr) of Company",
+                "FieldName": "Lea_ex6_103",
+                "field_type": "Lookup"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Lead",
+                "field_id": 18940,
+                "name": "Consent to  Call, SMS and WhatsApp",
+                "FieldName": "Lea_ex6_104",
+                "field_type": "Lookup"
+            }
+        ]
+    },
+    {
+        "query_label": "Lead Key Information",
+        "query_fields": [
+            {
+                "roleid": 1,
+                "object_name": "Lead",
+                "field_id": 9,
+                "name": "Lead Number",
+                "FieldName": "Lea_ex1_1",
+                "field_type": "SequenceNumber"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Lead",
+                "field_id": 10001576,
+                "name": "Assign To",
+                "FieldName": "AssignTo",
+                "field_type": "Number"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Lead",
+                "field_id": 10001669,
+                "name": "Partner/Source",
+                "FieldName": "LeadSource",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Lead",
+                "field_id": 18934,
+                "name": "SM Name",
+                "FieldName": "Lea_ex3_154",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Lead",
+                "field_id": 18968,
+                "name": "SM Mobile Number",
+                "FieldName": "Lea_ex5_153",
+                "field_type": "Phone"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Lead",
+                "field_id": 18936,
+                "name": "SM Email Id",
+                "FieldName": "Lea_ex6_101",
+                "field_type": "Email"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Lead",
+                "field_id": 19349,
+                "name": "Product",
+                "FieldName": "Lea_ex8_114",
+                "field_type": "MultiPicker"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Lead",
+                "field_id": 19020,
+                "name": "Pass through Airlines Ratio(%)",
+                "FieldName": "Lea_ex5_198",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Lead",
+                "field_id": 19021,
+                "name": "Non-pass through Airlines Ratio(%)",
+                "FieldName": "Lea_ex5_199",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Lead",
+                "field_id": 10001732,
+                "name": "Status Code",
+                "FieldName": "StatusCode",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Lead",
+                "field_id": 18970,
+                "name": "Pre Sanction Substatus code",
+                "FieldName": "Lea_ex4_137",
+                "field_type": "Lookup"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Lead",
+                "field_id": 18973,
+                "name": "Not contactable Substatus code",
+                "FieldName": "Lea_ex6_111",
+                "field_type": "Lookup"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Lead",
+                "field_id": 18972,
+                "name": "Post Sanction Sub-status code",
+                "FieldName": "Lea_ex5_155",
+                "field_type": "Lookup"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Lead",
+                "field_id": 18971,
+                "name": "Closed - Lost Substatuscode",
+                "FieldName": "Lea_ex6_110",
+                "field_type": "Lookup"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Lead",
+                "field_id": 18976,
+                "name": "Pre Sanction Customisation Requested Comment",
+                "FieldName": "Lea_ex6_113",
+                "field_type": "Comments"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Lead",
+                "field_id": 18979,
+                "name": "Pre Sanction FTNR Comment",
+                "FieldName": "Lea_ex6_115",
+                "field_type": "Comments"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Lead",
+                "field_id": 18977,
+                "name": "Post Sanction Customisation Requested Comment",
+                "FieldName": "Lea_ex6_114",
+                "field_type": "Comments"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Lead",
+                "field_id": 18978,
+                "name": "Post Sanction FTNR Comment",
+                "FieldName": "Lea_ex5_192",
+                "field_type": "Comments"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Lead",
+                "field_id": 18974,
+                "name": "Closed - Lost Comment",
+                "FieldName": "Lea_ex6_112",
+                "field_type": "Comments"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Lead",
+                "field_id": 18980,
+                "name": "Loss to external competition",
+                "FieldName": "Lea_ex5_194",
+                "field_type": "Lookup"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Lead",
+                "field_id": 19346,
+                "name": "Post Sanction Rel no Generated Comment",
+                "FieldName": "Lea_ex8_104",
+                "field_type": "Comments"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Lead",
+                "field_id": 10048343,
+                "name": "Product",
+                "FieldName": "Product",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Lead",
+                "field_id": 10001714,
+                "name": "Lead Rating",
+                "FieldName": "Rating",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Lead",
+                "field_id": 10050495,
+                "name": "Lead Owner",
+                "FieldName": "LeadOwnerName",
+                "field_type": "Text"
+            }
+        ]
+    },
+    {
+        "query_label": "Lead Company Representative Details",
+        "query_fields": [
+            {
+                "roleid": 1,
+                "object_name": "Lead",
+                "field_id": 10001660,
+                "name": "Name",
+                "FieldName": "LeadName",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Lead",
+                "field_id": 10001680,
+                "name": "Mobile Number",
+                "FieldName": "MobilePhone",
+                "field_type": "Phone"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Lead",
+                "field_id": 10001606,
+                "name": "Email Id",
+                "FieldName": "Email",
+                "field_type": "Email"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Lead",
+                "field_id": 18960,
+                "name": "Department",
+                "FieldName": "Lea_ex6_106",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Lead",
+                "field_id": 23,
+                "name": "Designation",
+                "FieldName": "Lea_ex1_15",
+                "field_type": "Text"
+            }
+        ]
+    },
+    {
+        "query_label": "Lead Company Details",
+        "query_fields": [
+            {
+                "roleid": 1,
+                "object_name": "Lead",
+                "field_id": 18961,
+                "name": "Company Name",
+                "FieldName": "Lea_ex6_107",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Lead",
+                "field_id": 1790,
+                "name": "Office Address Line1",
+                "FieldName": "Lea_ex5_58",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Lead",
+                "field_id": 1789,
+                "name": "Office Address Line2",
+                "FieldName": "Lea_ex5_57",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Lead",
+                "field_id": 2399,
+                "name": "Office Address Line3",
+                "FieldName": "Lea_ex8_94",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Lead",
+                "field_id": 10001740,
+                "name": "City",
+                "FieldName": "TerritoryName",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Lead",
+                "field_id": 12257,
+                "name": "Pincode",
+                "FieldName": "Lea_ex2_143",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Lead",
+                "field_id": 18938,
+                "name": "Constitution Type",
+                "FieldName": "Lea_ex6_102",
+                "field_type": "Lookup"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Lead",
+                "field_id": 18962,
+                "name": "Number of Employees",
+                "FieldName": "Lea_ex6_108",
+                "field_type": "Lookup"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Lead",
+                "field_id": 18939,
+                "name": "Annual  turnover (Cr) of Company",
+                "FieldName": "Lea_ex6_103",
+                "field_type": "Lookup"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Lead",
+                "field_id": 18940,
+                "name": "Consent to  Call, SMS and WhatsApp",
+                "FieldName": "Lea_ex6_104",
+                "field_type": "Lookup"
+            }
+        ]
+    }
+]

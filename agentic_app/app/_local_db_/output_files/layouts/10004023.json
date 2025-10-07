@@ -1,0 +1,108 @@
+[
+    {
+        "query_label": "Account Summary",
+        "query_fields": [
+            {
+                "roleid": 1,
+                "object_name": "Account",
+                "field_id": 149,
+                "name": "Gender",
+                "FieldName": "Acc_ex1_11",
+                "field_type": "Lookup"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Account",
+                "field_id": 146,
+                "name": "Marital Status",
+                "FieldName": "Acc_ex1_8",
+                "field_type": "Lookup"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Account",
+                "field_id": 145,
+                "name": "Anniversary date",
+                "FieldName": "Acc_ex1_7",
+                "field_type": "Date"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Account",
+                "field_id": 14220,
+                "name": "Preferred_language",
+                "FieldName": "Acc_ex1_183",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Account",
+                "field_id": 14225,
+                "name": "CTG",
+                "FieldName": "Acc_ex1_188",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Account",
+                "field_id": 14221,
+                "name": "Preferred Medium",
+                "FieldName": "Acc_ex1_184",
+                "field_type": "Text"
+            }
+        ]
+    },
+    {
+        "query_label": "Account Tab 1",
+        "query_fields": [
+            {
+                "roleid": 1,
+                "object_name": "Account",
+                "field_id": 149,
+                "name": "Gender",
+                "FieldName": "Acc_ex1_11",
+                "field_type": "Lookup"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Account",
+                "field_id": 146,
+                "name": "Marital Status",
+                "FieldName": "Acc_ex1_8",
+                "field_type": "Lookup"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Account",
+                "field_id": 145,
+                "name": "Anniversary date",
+                "FieldName": "Acc_ex1_7",
+                "field_type": "Date"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Account",
+                "field_id": 14220,
+                "name": "Preferred_language",
+                "FieldName": "Acc_ex1_183",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Account",
+                "field_id": 14225,
+                "name": "CTG",
+                "FieldName": "Acc_ex1_188",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Account",
+                "field_id": 14221,
+                "name": "Preferred Medium",
+                "FieldName": "Acc_ex1_184",
+                "field_type": "Text"
+            }
+        ]
+    }
+]

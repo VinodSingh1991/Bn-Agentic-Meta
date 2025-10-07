@@ -1,0 +1,378 @@
+[
+    {
+        "query_label": "Lead Details",
+        "query_fields": [
+            {
+                "roleid": 1,
+                "object_name": "Lead",
+                "field_id": 9,
+                "name": "l_Lead Number",
+                "FieldName": "Lea_ex1_1",
+                "field_type": "SequenceNumber"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Lead",
+                "field_id": 10050495,
+                "name": "SN_Lead_OwnerName",
+                "FieldName": "LeadOwnerName",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Lead",
+                "field_id": 10001660,
+                "name": "SN_Lead_Name",
+                "FieldName": "LeadName",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Lead",
+                "field_id": 46,
+                "name": "l_Customer ID",
+                "FieldName": "Lea_ex1_38",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Lead",
+                "field_id": 21,
+                "name": "l_ASM Name",
+                "FieldName": "Lea_ex1_13",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Lead",
+                "field_id": 41,
+                "name": "l_Account Number",
+                "FieldName": "Lea_ex1_33",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Lead",
+                "field_id": 120,
+                "name": "Branch comments",
+                "FieldName": "Lea_ex2_6",
+                "field_type": "Comments"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Lead",
+                "field_id": 2354,
+                "name": "l_Emp_Grade",
+                "FieldName": "Lea_ex8_49",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Lead",
+                "field_id": 22,
+                "name": "l_ASM Emp Code",
+                "FieldName": "Lea_ex1_14",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Lead",
+                "field_id": 3542,
+                "name": "ANNUAL FEE_L",
+                "FieldName": "Lea_ex7_43",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Lead",
+                "field_id": 5044,
+                "name": "Card Request Type",
+                "FieldName": "Lea_ex9_78",
+                "field_type": "Lookup"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Lead",
+                "field_id": 5137,
+                "name": "Is Chargeable",
+                "FieldName": "Lea_ex10_35",
+                "field_type": "Lookup"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Lead",
+                "field_id": 3492,
+                "name": "Hotlist Reason",
+                "FieldName": "Lea_ex10_60",
+                "field_type": "Lookup"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Lead",
+                "field_id": 5045,
+                "name": "Hotlist status",
+                "FieldName": "Lea_ex9_79",
+                "field_type": "Lookup"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Lead",
+                "field_id": 5047,
+                "name": "Hotlist Error Code",
+                "FieldName": "Lea_ex9_81",
+                "field_type": "Lookup"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Lead",
+                "field_id": 2449,
+                "name": "l_ReferenceName1",
+                "FieldName": "Lea_ex5_23",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Lead",
+                "field_id": 5049,
+                "name": "Hotlisted On",
+                "FieldName": "Lea_ex9_84",
+                "field_type": "DateTime"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Lead",
+                "field_id": 5056,
+                "name": "Reissue Reason",
+                "FieldName": "Lea_ex10_14",
+                "field_type": "Lookup"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Lead",
+                "field_id": 5046,
+                "name": "Reissue status",
+                "FieldName": "Lea_ex9_80",
+                "field_type": "Lookup"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Lead",
+                "field_id": 5048,
+                "name": "Reissue Error Code",
+                "FieldName": "Lea_ex9_83",
+                "field_type": "LookupWithId"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Lead",
+                "field_id": 1781,
+                "name": "l_ReferenceName2",
+                "FieldName": "Lea_ex5_49",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Lead",
+                "field_id": 5050,
+                "name": "Reissued On",
+                "FieldName": "Lea_ex9_95",
+                "field_type": "DateTime"
+            }
+        ]
+    },
+    {
+        "query_label": "Lead Key Information",
+        "query_fields": [
+            {
+                "roleid": 1,
+                "object_name": "Lead",
+                "field_id": 9,
+                "name": "l_Lead Number",
+                "FieldName": "Lea_ex1_1",
+                "field_type": "SequenceNumber"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Lead",
+                "field_id": 10050495,
+                "name": "SN_Lead_OwnerName",
+                "FieldName": "LeadOwnerName",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Lead",
+                "field_id": 10001660,
+                "name": "SN_Lead_Name",
+                "FieldName": "LeadName",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Lead",
+                "field_id": 46,
+                "name": "l_Customer ID",
+                "FieldName": "Lea_ex1_38",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Lead",
+                "field_id": 21,
+                "name": "l_ASM Name",
+                "FieldName": "Lea_ex1_13",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Lead",
+                "field_id": 41,
+                "name": "l_Account Number",
+                "FieldName": "Lea_ex1_33",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Lead",
+                "field_id": 120,
+                "name": "Branch comments",
+                "FieldName": "Lea_ex2_6",
+                "field_type": "Comments"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Lead",
+                "field_id": 2354,
+                "name": "l_Emp_Grade",
+                "FieldName": "Lea_ex8_49",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Lead",
+                "field_id": 22,
+                "name": "l_ASM Emp Code",
+                "FieldName": "Lea_ex1_14",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Lead",
+                "field_id": 3542,
+                "name": "ANNUAL FEE_L",
+                "FieldName": "Lea_ex7_43",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Lead",
+                "field_id": 5044,
+                "name": "Card Request Type",
+                "FieldName": "Lea_ex9_78",
+                "field_type": "Lookup"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Lead",
+                "field_id": 5137,
+                "name": "Is Chargeable",
+                "FieldName": "Lea_ex10_35",
+                "field_type": "Lookup"
+            }
+        ]
+    },
+    {
+        "query_label": "Lead Hotlist",
+        "query_fields": [
+            {
+                "roleid": 1,
+                "object_name": "Lead",
+                "field_id": 3492,
+                "name": "Hotlist Reason",
+                "FieldName": "Lea_ex10_60",
+                "field_type": "Lookup"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Lead",
+                "field_id": 5045,
+                "name": "Hotlist status",
+                "FieldName": "Lea_ex9_79",
+                "field_type": "Lookup"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Lead",
+                "field_id": 5047,
+                "name": "Hotlist Error Code",
+                "FieldName": "Lea_ex9_81",
+                "field_type": "Lookup"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Lead",
+                "field_id": 2449,
+                "name": "l_ReferenceName1",
+                "FieldName": "Lea_ex5_23",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Lead",
+                "field_id": 5049,
+                "name": "Hotlisted On",
+                "FieldName": "Lea_ex9_84",
+                "field_type": "DateTime"
+            }
+        ]
+    },
+    {
+        "query_label": "Lead Reissue",
+        "query_fields": [
+            {
+                "roleid": 1,
+                "object_name": "Lead",
+                "field_id": 5056,
+                "name": "Reissue Reason",
+                "FieldName": "Lea_ex10_14",
+                "field_type": "Lookup"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Lead",
+                "field_id": 5046,
+                "name": "Reissue status",
+                "FieldName": "Lea_ex9_80",
+                "field_type": "Lookup"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Lead",
+                "field_id": 5048,
+                "name": "Reissue Error Code",
+                "FieldName": "Lea_ex9_83",
+                "field_type": "LookupWithId"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Lead",
+                "field_id": 1781,
+                "name": "l_ReferenceName2",
+                "FieldName": "Lea_ex5_49",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Lead",
+                "field_id": 5050,
+                "name": "Reissued On",
+                "FieldName": "Lea_ex9_95",
+                "field_type": "DateTime"
+            }
+        ]
+    },
+    {
+        "query_label": "Lead History",
+        "query_fields": []
+    }
+]

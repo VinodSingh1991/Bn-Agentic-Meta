@@ -1,0 +1,1166 @@
+[
+    {
+        "query_label": "Lead Summary",
+        "query_fields": [
+            {
+                "roleid": 1,
+                "object_name": "Lead",
+                "field_id": 10001660,
+                "name": "Name",
+                "FieldName": "LeadName",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Lead",
+                "field_id": 10001742,
+                "name": "Title",
+                "FieldName": "Title",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Lead",
+                "field_id": 10001592,
+                "name": "Company",
+                "FieldName": "CompanyName",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Lead",
+                "field_id": 10001744,
+                "name": "URL",
+                "FieldName": "WebsiteURL",
+                "field_type": "Url"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Lead",
+                "field_id": 10001627,
+                "name": "Industry",
+                "FieldName": "Industry",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Lead",
+                "field_id": 10001608,
+                "name": "Employees",
+                "FieldName": "EmployeeCount",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Lead",
+                "field_id": 10048343,
+                "name": "Product",
+                "FieldName": "Product",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Lead",
+                "field_id": 10001669,
+                "name": "Lead Source",
+                "FieldName": "LeadSource",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Lead",
+                "field_id": 10001714,
+                "name": "Lead Rating",
+                "FieldName": "Rating",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Lead",
+                "field_id": 10001584,
+                "name": "Campaign",
+                "FieldName": "CampaignName",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Lead",
+                "field_id": 10050495,
+                "name": "Lead Owner",
+                "FieldName": "LeadOwnerName",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Lead",
+                "field_id": 10001740,
+                "name": "Branch",
+                "FieldName": "TerritoryName",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Lead",
+                "field_id": 10001615,
+                "name": "First Activity On",
+                "FieldName": "FirstActivity",
+                "field_type": "DateTime"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Lead",
+                "field_id": 10001636,
+                "name": "Last Activity On",
+                "FieldName": "LastActivity",
+                "field_type": "DateTime"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Lead",
+                "field_id": 10001732,
+                "name": "Status Code",
+                "FieldName": "StatusCode",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Lead",
+                "field_id": 10001693,
+                "name": "Preferred Channel",
+                "FieldName": "PreferredChannel",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Lead",
+                "field_id": 10001569,
+                "name": "Lead Amount",
+                "FieldName": "Amount",
+                "field_type": "MulticurrencyAmount"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Lead",
+                "field_id": 10001621,
+                "name": "New Emails",
+                "FieldName": "HasUnReadEmail",
+                "field_type": "Number"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Lead",
+                "field_id": 10001691,
+                "name": "Phone",
+                "FieldName": "Phone",
+                "field_type": "Phone"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Lead",
+                "field_id": 10001606,
+                "name": "Email",
+                "FieldName": "Email",
+                "field_type": "Email"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Lead",
+                "field_id": 10001682,
+                "name": "Office Phone",
+                "FieldName": "OfficePhone",
+                "field_type": "Phone"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Lead",
+                "field_id": 10001614,
+                "name": "Fax",
+                "FieldName": "Fax",
+                "field_type": "Phone"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Lead",
+                "field_id": 10001680,
+                "name": "Mobile",
+                "FieldName": "MobilePhone",
+                "field_type": "Phone"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Lead",
+                "field_id": 10001607,
+                "name": "Email Opt Out",
+                "FieldName": "EmailOptOut",
+                "field_type": "Check"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Lead",
+                "field_id": 10001568,
+                "name": "Address",
+                "FieldName": "Address",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Lead",
+                "field_id": 4196,
+                "name": "Is Existing Customer",
+                "FieldName": "Lea_ex10_1",
+                "field_type": "Lookup"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Lead",
+                "field_id": 58,
+                "name": "Net Monthly Income",
+                "FieldName": "Lea_ex1_50",
+                "field_type": "Amount"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Lead",
+                "field_id": 5081,
+                "name": "CustomerID",
+                "FieldName": "XMLField_5081",
+                "field_type": "Number"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Lead",
+                "field_id": 11217,
+                "name": "UTM_campaign",
+                "FieldName": "Lea_ex1_172",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Lead",
+                "field_id": 2483,
+                "name": "UTM_source",
+                "FieldName": "Lea_ex4_89",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Lead",
+                "field_id": 2485,
+                "name": "UTM_content",
+                "FieldName": "Lea_ex4_91",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Lead",
+                "field_id": 2484,
+                "name": "UTM_medium",
+                "FieldName": "Lea_ex4_90",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Lead",
+                "field_id": 11001,
+                "name": "UTM_term",
+                "FieldName": "Lea_ex1_173",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Lead",
+                "field_id": 2467,
+                "name": "MC_ID",
+                "FieldName": "Lea_ex5_41",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Lead",
+                "field_id": 11002,
+                "name": "GCLID",
+                "FieldName": "Lea_ex1_174",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Lead",
+                "field_id": 3331,
+                "name": "Segment Name",
+                "FieldName": "Lea_ex7_31",
+                "field_type": "Lookup"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Lead",
+                "field_id": 9,
+                "name": "Lead Number",
+                "FieldName": "Lea_ex1_1",
+                "field_type": "SequenceNumber"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Lead",
+                "field_id": 500,
+                "name": "Application Number",
+                "FieldName": "Lea_ex3_42",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Lead",
+                "field_id": 10001576,
+                "name": "Assign To",
+                "FieldName": "AssignTo",
+                "field_type": "Number"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Lead",
+                "field_id": 1190,
+                "name": "Processing Entity",
+                "FieldName": "Lea_ex4_44",
+                "field_type": "Lookup"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Lead",
+                "field_id": 956,
+                "name": "CampName",
+                "FieldName": "Lea_ex4_28",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Lead",
+                "field_id": 3541,
+                "name": "DNC",
+                "FieldName": "Lea_ex7_42",
+                "field_type": "Lookup"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Lead",
+                "field_id": 3650,
+                "name": "DNC Flag",
+                "FieldName": "Lea_ex7_99",
+                "field_type": "Lookup"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Lead",
+                "field_id": 2331,
+                "name": "Employment Type",
+                "FieldName": "Lea_ex8_26",
+                "field_type": "Lookup"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Lead",
+                "field_id": 11750,
+                "name": "Cookie ID",
+                "FieldName": "Lea_ex1_199",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Lead",
+                "field_id": 11752,
+                "name": "Cookie Source",
+                "FieldName": "Lea_ex2_102",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Lead",
+                "field_id": 11860,
+                "name": "Cookie Vintage",
+                "FieldName": "Lea_ex2_137",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Lead",
+                "field_id": 11747,
+                "name": "Browser Version",
+                "FieldName": "Lea_ex1_194",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Lead",
+                "field_id": 2314,
+                "name": "Present Addr City",
+                "FieldName": "Lea_ex8_23",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Lead",
+                "field_id": 11748,
+                "name": "Operating Systm Name",
+                "FieldName": "Lea_ex1_197",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Lead",
+                "field_id": 300,
+                "name": "PAN No.",
+                "FieldName": "Lea_ex2_55",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Lead",
+                "field_id": 2315,
+                "name": "Present Addr State",
+                "FieldName": "Lea_ex8_24",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Lead",
+                "field_id": 11753,
+                "name": "Browser Fingerprint",
+                "FieldName": "Lea_ex2_101",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Lead",
+                "field_id": 11746,
+                "name": "Browser Name",
+                "FieldName": "Lea_ex1_192",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Lead",
+                "field_id": 11751,
+                "name": "Cookie TimeStamp",
+                "FieldName": "Lea_ex1_200",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Lead",
+                "field_id": 11861,
+                "name": "Cookie Name",
+                "FieldName": "Lea_ex2_138",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Lead",
+                "field_id": 2200,
+                "name": "MTH Salary",
+                "FieldName": "Lea_ex6_37",
+                "field_type": "Amount"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Lead",
+                "field_id": 1823,
+                "name": "Application Type",
+                "FieldName": "Lea_ex5_91",
+                "field_type": "Lookup"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Lead",
+                "field_id": 2313,
+                "name": "IP Address",
+                "FieldName": "Lea_ex8_22",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Lead",
+                "field_id": 11749,
+                "name": "Oprating Sys Version",
+                "FieldName": "Lea_ex1_198",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Lead",
+                "field_id": 1813,
+                "name": "Mobile Verified",
+                "FieldName": "Lea_ex5_81",
+                "field_type": "Lookup"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Lead",
+                "field_id": 1816,
+                "name": "PAN Verified",
+                "FieldName": "Lea_ex5_84",
+                "field_type": "Lookup"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Lead",
+                "field_id": 12,
+                "name": "Device Type",
+                "FieldName": "Lea_ex1_4",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Lead",
+                "field_id": 412,
+                "name": "Login Device",
+                "FieldName": "Lea_ex3_3",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Lead",
+                "field_id": 423,
+                "name": "Source",
+                "FieldName": "Lea_ex3_12",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Lead",
+                "field_id": 2330,
+                "name": "Segname",
+                "FieldName": "Lea_ex8_25",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Lead",
+                "field_id": 372,
+                "name": "F4 Eligibility",
+                "FieldName": "Lea_ex2_66",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Lead",
+                "field_id": 441,
+                "name": "Folio No.",
+                "FieldName": "Lea_ex3_29",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Lead",
+                "field_id": 2364,
+                "name": "Other Employer",
+                "FieldName": "Lea_ex8_59",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Lead",
+                "field_id": 2479,
+                "name": "Net Income(Annual) ",
+                "FieldName": "Lea_ex4_85",
+                "field_type": "Lookup"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Lead",
+                "field_id": 565,
+                "name": "Business Turnover",
+                "FieldName": "Lea_ex3_76",
+                "field_type": "Text"
+            }
+        ]
+    },
+    {
+        "query_label": "Lead Key Information",
+        "query_fields": [
+            {
+                "roleid": 1,
+                "object_name": "Lead",
+                "field_id": 10001660,
+                "name": "Name",
+                "FieldName": "LeadName",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Lead",
+                "field_id": 10001742,
+                "name": "Title",
+                "FieldName": "Title",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Lead",
+                "field_id": 10001592,
+                "name": "Company",
+                "FieldName": "CompanyName",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Lead",
+                "field_id": 10001744,
+                "name": "URL",
+                "FieldName": "WebsiteURL",
+                "field_type": "Url"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Lead",
+                "field_id": 10001627,
+                "name": "Industry",
+                "FieldName": "Industry",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Lead",
+                "field_id": 10001608,
+                "name": "Employees",
+                "FieldName": "EmployeeCount",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Lead",
+                "field_id": 10048343,
+                "name": "Product",
+                "FieldName": "Product",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Lead",
+                "field_id": 10001669,
+                "name": "Lead Source",
+                "FieldName": "LeadSource",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Lead",
+                "field_id": 10001714,
+                "name": "Lead Rating",
+                "FieldName": "Rating",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Lead",
+                "field_id": 10001584,
+                "name": "Campaign",
+                "FieldName": "CampaignName",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Lead",
+                "field_id": 10050495,
+                "name": "Lead Owner",
+                "FieldName": "LeadOwnerName",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Lead",
+                "field_id": 10001740,
+                "name": "Branch",
+                "FieldName": "TerritoryName",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Lead",
+                "field_id": 10001615,
+                "name": "First Activity On",
+                "FieldName": "FirstActivity",
+                "field_type": "DateTime"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Lead",
+                "field_id": 10001636,
+                "name": "Last Activity On",
+                "FieldName": "LastActivity",
+                "field_type": "DateTime"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Lead",
+                "field_id": 10001732,
+                "name": "Status Code",
+                "FieldName": "StatusCode",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Lead",
+                "field_id": 10001693,
+                "name": "Preferred Channel",
+                "FieldName": "PreferredChannel",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Lead",
+                "field_id": 10001569,
+                "name": "Lead Amount",
+                "FieldName": "Amount",
+                "field_type": "MulticurrencyAmount"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Lead",
+                "field_id": 10001621,
+                "name": "New Emails",
+                "FieldName": "HasUnReadEmail",
+                "field_type": "Number"
+            }
+        ]
+    },
+    {
+        "query_label": "Lead Contact Information",
+        "query_fields": [
+            {
+                "roleid": 1,
+                "object_name": "Lead",
+                "field_id": 10001691,
+                "name": "Phone",
+                "FieldName": "Phone",
+                "field_type": "Phone"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Lead",
+                "field_id": 10001606,
+                "name": "Email",
+                "FieldName": "Email",
+                "field_type": "Email"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Lead",
+                "field_id": 10001682,
+                "name": "Office Phone",
+                "FieldName": "OfficePhone",
+                "field_type": "Phone"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Lead",
+                "field_id": 10001614,
+                "name": "Fax",
+                "FieldName": "Fax",
+                "field_type": "Phone"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Lead",
+                "field_id": 10001680,
+                "name": "Mobile",
+                "FieldName": "MobilePhone",
+                "field_type": "Phone"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Lead",
+                "field_id": 10001607,
+                "name": "Email Opt Out",
+                "FieldName": "EmailOptOut",
+                "field_type": "Check"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Lead",
+                "field_id": 10001568,
+                "name": "Address",
+                "FieldName": "Address",
+                "field_type": "Text"
+            }
+        ]
+    },
+    {
+        "query_label": "Lead Marketing AFP",
+        "query_fields": [
+            {
+                "roleid": 1,
+                "object_name": "Lead",
+                "field_id": 4196,
+                "name": "Is Existing Customer",
+                "FieldName": "Lea_ex10_1",
+                "field_type": "Lookup"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Lead",
+                "field_id": 58,
+                "name": "Net Monthly Income",
+                "FieldName": "Lea_ex1_50",
+                "field_type": "Amount"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Lead",
+                "field_id": 5081,
+                "name": "CustomerID",
+                "FieldName": "XMLField_5081",
+                "field_type": "Number"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Lead",
+                "field_id": 11217,
+                "name": "UTM_campaign",
+                "FieldName": "Lea_ex1_172",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Lead",
+                "field_id": 2483,
+                "name": "UTM_source",
+                "FieldName": "Lea_ex4_89",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Lead",
+                "field_id": 2485,
+                "name": "UTM_content",
+                "FieldName": "Lea_ex4_91",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Lead",
+                "field_id": 2484,
+                "name": "UTM_medium",
+                "FieldName": "Lea_ex4_90",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Lead",
+                "field_id": 11001,
+                "name": "UTM_term",
+                "FieldName": "Lea_ex1_173",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Lead",
+                "field_id": 2467,
+                "name": "MC_ID",
+                "FieldName": "Lea_ex5_41",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Lead",
+                "field_id": 11002,
+                "name": "GCLID",
+                "FieldName": "Lea_ex1_174",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Lead",
+                "field_id": 3331,
+                "name": "Segment Name",
+                "FieldName": "Lea_ex7_31",
+                "field_type": "Lookup"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Lead",
+                "field_id": 9,
+                "name": "Lead Number",
+                "FieldName": "Lea_ex1_1",
+                "field_type": "SequenceNumber"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Lead",
+                "field_id": 500,
+                "name": "Application Number",
+                "FieldName": "Lea_ex3_42",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Lead",
+                "field_id": 10001576,
+                "name": "Assign To",
+                "FieldName": "AssignTo",
+                "field_type": "Number"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Lead",
+                "field_id": 1190,
+                "name": "Processing Entity",
+                "FieldName": "Lea_ex4_44",
+                "field_type": "Lookup"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Lead",
+                "field_id": 956,
+                "name": "CampName",
+                "FieldName": "Lea_ex4_28",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Lead",
+                "field_id": 3541,
+                "name": "DNC",
+                "FieldName": "Lea_ex7_42",
+                "field_type": "Lookup"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Lead",
+                "field_id": 3650,
+                "name": "DNC Flag",
+                "FieldName": "Lea_ex7_99",
+                "field_type": "Lookup"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Lead",
+                "field_id": 2331,
+                "name": "Employment Type",
+                "FieldName": "Lea_ex8_26",
+                "field_type": "Lookup"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Lead",
+                "field_id": 11750,
+                "name": "Cookie ID",
+                "FieldName": "Lea_ex1_199",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Lead",
+                "field_id": 11752,
+                "name": "Cookie Source",
+                "FieldName": "Lea_ex2_102",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Lead",
+                "field_id": 11860,
+                "name": "Cookie Vintage",
+                "FieldName": "Lea_ex2_137",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Lead",
+                "field_id": 11747,
+                "name": "Browser Version",
+                "FieldName": "Lea_ex1_194",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Lead",
+                "field_id": 2314,
+                "name": "Present Addr City",
+                "FieldName": "Lea_ex8_23",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Lead",
+                "field_id": 11748,
+                "name": "Operating Systm Name",
+                "FieldName": "Lea_ex1_197",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Lead",
+                "field_id": 300,
+                "name": "PAN No.",
+                "FieldName": "Lea_ex2_55",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Lead",
+                "field_id": 2315,
+                "name": "Present Addr State",
+                "FieldName": "Lea_ex8_24",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Lead",
+                "field_id": 11753,
+                "name": "Browser Fingerprint",
+                "FieldName": "Lea_ex2_101",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Lead",
+                "field_id": 11746,
+                "name": "Browser Name",
+                "FieldName": "Lea_ex1_192",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Lead",
+                "field_id": 11751,
+                "name": "Cookie TimeStamp",
+                "FieldName": "Lea_ex1_200",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Lead",
+                "field_id": 11861,
+                "name": "Cookie Name",
+                "FieldName": "Lea_ex2_138",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Lead",
+                "field_id": 2200,
+                "name": "MTH Salary",
+                "FieldName": "Lea_ex6_37",
+                "field_type": "Amount"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Lead",
+                "field_id": 1823,
+                "name": "Application Type",
+                "FieldName": "Lea_ex5_91",
+                "field_type": "Lookup"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Lead",
+                "field_id": 2313,
+                "name": "IP Address",
+                "FieldName": "Lea_ex8_22",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Lead",
+                "field_id": 11749,
+                "name": "Oprating Sys Version",
+                "FieldName": "Lea_ex1_198",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Lead",
+                "field_id": 1813,
+                "name": "Mobile Verified",
+                "FieldName": "Lea_ex5_81",
+                "field_type": "Lookup"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Lead",
+                "field_id": 1816,
+                "name": "PAN Verified",
+                "FieldName": "Lea_ex5_84",
+                "field_type": "Lookup"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Lead",
+                "field_id": 12,
+                "name": "Device Type",
+                "FieldName": "Lea_ex1_4",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Lead",
+                "field_id": 412,
+                "name": "Login Device",
+                "FieldName": "Lea_ex3_3",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Lead",
+                "field_id": 423,
+                "name": "Source",
+                "FieldName": "Lea_ex3_12",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Lead",
+                "field_id": 2330,
+                "name": "Segname",
+                "FieldName": "Lea_ex8_25",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Lead",
+                "field_id": 372,
+                "name": "F4 Eligibility",
+                "FieldName": "Lea_ex2_66",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Lead",
+                "field_id": 441,
+                "name": "Folio No.",
+                "FieldName": "Lea_ex3_29",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Lead",
+                "field_id": 2364,
+                "name": "Other Employer",
+                "FieldName": "Lea_ex8_59",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Lead",
+                "field_id": 2479,
+                "name": "Net Income(Annual) ",
+                "FieldName": "Lea_ex4_85",
+                "field_type": "Lookup"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Lead",
+                "field_id": 565,
+                "name": "Business Turnover",
+                "FieldName": "Lea_ex3_76",
+                "field_type": "Text"
+            }
+        ]
+    },
+    {
+        "query_label": "Lead Documents",
+        "query_fields": []
+    },
+    {
+        "query_label": "Lead History",
+        "query_fields": []
+    }
+]

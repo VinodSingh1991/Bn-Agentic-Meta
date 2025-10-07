@@ -1,0 +1,240 @@
+[
+    {
+        "query_label": "Contact Details",
+        "query_fields": [
+            {
+                "roleid": 1,
+                "object_name": "Contact",
+                "field_id": 10001062,
+                "name": "SN_NAME",
+                "FieldName": "Name",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Contact",
+                "field_id": 10001140,
+                "name": "SN_TITLE",
+                "FieldName": "Title",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Contact",
+                "field_id": 614,
+                "name": "PAN No._r",
+                "FieldName": "Con_ex1_3",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Contact",
+                "field_id": 436,
+                "name": "Finware Cust ID",
+                "FieldName": "Con_ex1_1",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Contact",
+                "field_id": 595,
+                "name": "PBG Client Code_r",
+                "FieldName": "Con_ex1_2",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Contact",
+                "field_id": 10000986,
+                "name": "SN_BIRTHDATE",
+                "FieldName": "BirthDate",
+                "field_type": "Date"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Contact",
+                "field_id": 10000979,
+                "name": "SN_ANNIVERSARYDATE",
+                "FieldName": "AnniversaryDate",
+                "field_type": "Date"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Contact",
+                "field_id": 10001059,
+                "name": "SN_MOBILE",
+                "FieldName": "MobilePhone",
+                "field_type": "Phone"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Contact",
+                "field_id": 10001018,
+                "name": "SN_EMAIL",
+                "FieldName": "Email",
+                "field_type": "Email"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Contact",
+                "field_id": 10001006,
+                "name": "SN_OWNERNAME",
+                "FieldName": "ContactOwnerName",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Contact",
+                "field_id": 10000976,
+                "name": "SN_ACCOUNTNAME",
+                "FieldName": "AccountName",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Contact",
+                "field_id": 10001115,
+                "name": "SN_SHORTNAME",
+                "FieldName": "ShortName",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Contact",
+                "field_id": 626,
+                "name": "Is PBG Customer_r",
+                "FieldName": "Con_ex1_4",
+                "field_type": "Lookup"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Contact",
+                "field_id": 10000991,
+                "name": "SN_COMMENTS",
+                "FieldName": "Comments",
+                "field_type": "Comments"
+            }
+        ]
+    },
+    {
+        "query_label": "Contact Key Information",
+        "query_fields": [
+            {
+                "roleid": 1,
+                "object_name": "Contact",
+                "field_id": 10001062,
+                "name": "SN_NAME",
+                "FieldName": "Name",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Contact",
+                "field_id": 10001140,
+                "name": "SN_TITLE",
+                "FieldName": "Title",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Contact",
+                "field_id": 614,
+                "name": "PAN No._r",
+                "FieldName": "Con_ex1_3",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Contact",
+                "field_id": 436,
+                "name": "Finware Cust ID",
+                "FieldName": "Con_ex1_1",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Contact",
+                "field_id": 595,
+                "name": "PBG Client Code_r",
+                "FieldName": "Con_ex1_2",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Contact",
+                "field_id": 10000986,
+                "name": "SN_BIRTHDATE",
+                "FieldName": "BirthDate",
+                "field_type": "Date"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Contact",
+                "field_id": 10000979,
+                "name": "SN_ANNIVERSARYDATE",
+                "FieldName": "AnniversaryDate",
+                "field_type": "Date"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Contact",
+                "field_id": 10001059,
+                "name": "SN_MOBILE",
+                "FieldName": "MobilePhone",
+                "field_type": "Phone"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Contact",
+                "field_id": 10001018,
+                "name": "SN_EMAIL",
+                "FieldName": "Email",
+                "field_type": "Email"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Contact",
+                "field_id": 10001006,
+                "name": "SN_OWNERNAME",
+                "FieldName": "ContactOwnerName",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Contact",
+                "field_id": 10000976,
+                "name": "SN_ACCOUNTNAME",
+                "FieldName": "AccountName",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Contact",
+                "field_id": 10001115,
+                "name": "SN_SHORTNAME",
+                "FieldName": "ShortName",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Contact",
+                "field_id": 626,
+                "name": "Is PBG Customer_r",
+                "FieldName": "Con_ex1_4",
+                "field_type": "Lookup"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Contact",
+                "field_id": 10000991,
+                "name": "SN_COMMENTS",
+                "FieldName": "Comments",
+                "field_type": "Comments"
+            }
+        ]
+    },
+    {
+        "query_label": "Contact Activities",
+        "query_fields": []
+    }
+]

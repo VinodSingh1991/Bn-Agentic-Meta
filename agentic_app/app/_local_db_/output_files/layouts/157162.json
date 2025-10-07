@@ -1,0 +1,92 @@
+[
+    {
+        "query_label": "Lead Details",
+        "query_fields": [
+            {
+                "roleid": 1,
+                "object_name": "Lead",
+                "field_id": 15127,
+                "name": "1. NC",
+                "FieldName": "Lea_ex9_197",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Lead",
+                "field_id": 15128,
+                "name": "2. CD",
+                "FieldName": "Lea_ex9_198",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Lead",
+                "field_id": 15117,
+                "name": "3. AQB",
+                "FieldName": "Lea_ex9_199",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Lead",
+                "field_id": 15118,
+                "name": "4. C4C",
+                "FieldName": "Lea_ex9_200",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Lead",
+                "field_id": 15119,
+                "name": "5. IT",
+                "FieldName": "Lea_ex9_172",
+                "field_type": "Text"
+            }
+        ]
+    },
+    {
+        "query_label": "Lead Output",
+        "query_fields": [
+            {
+                "roleid": 1,
+                "object_name": "Lead",
+                "field_id": 15127,
+                "name": "1. NC",
+                "FieldName": "Lea_ex9_197",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Lead",
+                "field_id": 15128,
+                "name": "2. CD",
+                "FieldName": "Lea_ex9_198",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Lead",
+                "field_id": 15117,
+                "name": "3. AQB",
+                "FieldName": "Lea_ex9_199",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Lead",
+                "field_id": 15118,
+                "name": "4. C4C",
+                "FieldName": "Lea_ex9_200",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Lead",
+                "field_id": 15119,
+                "name": "5. IT",
+                "FieldName": "Lea_ex9_172",
+                "field_type": "Text"
+            }
+        ]
+    }
+]

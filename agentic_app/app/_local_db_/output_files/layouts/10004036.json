@@ -1,0 +1,385 @@
+[
+    {
+        "query_label": "Activity Summary",
+        "query_fields": [
+            {
+                "roleid": 1,
+                "object_name": "Activity",
+                "field_id": 10010172,
+                "name": "Due Date",
+                "FieldName": "DueDate",
+                "field_type": "Date"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Activity",
+                "field_id": 10010250,
+                "name": "Time",
+                "FieldName": "Time",
+                "field_type": "Time"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Activity",
+                "field_id": 10010173,
+                "name": "Duration",
+                "FieldName": "Duration",
+                "field_type": "Duration"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Activity",
+                "field_id": 10010209,
+                "name": "Location",
+                "FieldName": "Location",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Activity",
+                "field_id": 10010221,
+                "name": "Priority",
+                "FieldName": "Priority",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Activity",
+                "field_id": 10010243,
+                "name": "Status",
+                "FieldName": "Status",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Activity",
+                "field_id": 10010196,
+                "name": "Is Private",
+                "FieldName": "IsPersonal",
+                "field_type": "Check"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Activity",
+                "field_id": 10010215,
+                "name": "Participants",
+                "FieldName": "Participants",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Activity",
+                "field_id": 10000047,
+                "name": "Subject",
+                "FieldName": "Subject",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Activity",
+                "field_id": 10010192,
+                "name": "Invitees",
+                "FieldName": "Invitees",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Activity",
+                "field_id": 10010171,
+                "name": "Details",
+                "FieldName": "Details",
+                "field_type": "Comments"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Activity",
+                "field_id": 10010103,
+                "name": "Assigned To",
+                "FieldName": "AssignedTo",
+                "field_type": "Number"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Activity",
+                "field_id": 10010190,
+                "name": "Highlighted Color",
+                "FieldName": "Highlight",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Activity",
+                "field_id": 10010235,
+                "name": "Related Type",
+                "FieldName": "RelatedToType",
+                "field_type": "Number"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Activity",
+                "field_id": 10010234,
+                "name": "Related To",
+                "FieldName": "RelatedToName",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Activity",
+                "field_id": 10010163,
+                "name": "Contact",
+                "FieldName": "ContactName",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Activity",
+                "field_id": 10010244,
+                "name": "Status Code",
+                "FieldName": "StatusCode",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Activity",
+                "field_id": 10010217,
+                "name": "Partner Account",
+                "FieldName": "PartnerAccountName",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Activity",
+                "field_id": 10010219,
+                "name": "Partner Relation",
+                "FieldName": "PartnerContactName",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Activity",
+                "field_id": 10010061,
+                "name": "Account Name",
+                "FieldName": "AccountName",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Activity",
+                "field_id": 10010100,
+                "name": "Appointment Review Type",
+                "FieldName": "ActivityType",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Activity",
+                "field_id": 10010199,
+                "name": "Resources",
+                "FieldName": "ItemResource",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Activity",
+                "field_id": 10010106,
+                "name": "Attachments",
+                "FieldName": "Attachments",
+                "field_type": "Document"
+            }
+        ]
+    },
+    {
+        "query_label": "Activity Calendar Information",
+        "query_fields": [
+            {
+                "roleid": 1,
+                "object_name": "Activity",
+                "field_id": 10010172,
+                "name": "Due Date",
+                "FieldName": "DueDate",
+                "field_type": "Date"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Activity",
+                "field_id": 10010250,
+                "name": "Time",
+                "FieldName": "Time",
+                "field_type": "Time"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Activity",
+                "field_id": 10010173,
+                "name": "Duration",
+                "FieldName": "Duration",
+                "field_type": "Duration"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Activity",
+                "field_id": 10010209,
+                "name": "Location",
+                "FieldName": "Location",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Activity",
+                "field_id": 10010221,
+                "name": "Priority",
+                "FieldName": "Priority",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Activity",
+                "field_id": 10010243,
+                "name": "Status",
+                "FieldName": "Status",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Activity",
+                "field_id": 10010196,
+                "name": "Is Private",
+                "FieldName": "IsPersonal",
+                "field_type": "Check"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Activity",
+                "field_id": 10010215,
+                "name": "Participants",
+                "FieldName": "Participants",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Activity",
+                "field_id": 10000047,
+                "name": "Subject",
+                "FieldName": "Subject",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Activity",
+                "field_id": 10010192,
+                "name": "Invitees",
+                "FieldName": "Invitees",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Activity",
+                "field_id": 10010171,
+                "name": "Details",
+                "FieldName": "Details",
+                "field_type": "Comments"
+            }
+        ]
+    },
+    {
+        "query_label": "Activity Classification Information",
+        "query_fields": [
+            {
+                "roleid": 1,
+                "object_name": "Activity",
+                "field_id": 10010103,
+                "name": "Assigned To",
+                "FieldName": "AssignedTo",
+                "field_type": "Number"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Activity",
+                "field_id": 10010190,
+                "name": "Highlighted Color",
+                "FieldName": "Highlight",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Activity",
+                "field_id": 10010235,
+                "name": "Related Type",
+                "FieldName": "RelatedToType",
+                "field_type": "Number"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Activity",
+                "field_id": 10010234,
+                "name": "Related To",
+                "FieldName": "RelatedToName",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Activity",
+                "field_id": 10010163,
+                "name": "Contact",
+                "FieldName": "ContactName",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Activity",
+                "field_id": 10010244,
+                "name": "Status Code",
+                "FieldName": "StatusCode",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Activity",
+                "field_id": 10010217,
+                "name": "Partner Account",
+                "FieldName": "PartnerAccountName",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Activity",
+                "field_id": 10010219,
+                "name": "Partner Relation",
+                "FieldName": "PartnerContactName",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Activity",
+                "field_id": 10010061,
+                "name": "Account Name",
+                "FieldName": "AccountName",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Activity",
+                "field_id": 10010100,
+                "name": "Appointment Review Type",
+                "FieldName": "ActivityType",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Activity",
+                "field_id": 10010199,
+                "name": "Resources",
+                "FieldName": "ItemResource",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Activity",
+                "field_id": 10010106,
+                "name": "Attachments",
+                "FieldName": "Attachments",
+                "field_type": "Document"
+            }
+        ]
+    }
+]

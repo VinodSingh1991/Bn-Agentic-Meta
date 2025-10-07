@@ -1,0 +1,542 @@
+[
+    {
+        "query_label": "Lead Details",
+        "query_fields": [
+            {
+                "roleid": 1,
+                "object_name": "Lead",
+                "field_id": 10001660,
+                "name": "Name",
+                "FieldName": "LeadName",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Lead",
+                "field_id": 10001742,
+                "name": "Title",
+                "FieldName": "Title",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Lead",
+                "field_id": 10001592,
+                "name": "Company",
+                "FieldName": "CompanyName",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Lead",
+                "field_id": 10001744,
+                "name": "URL",
+                "FieldName": "WebsiteURL",
+                "field_type": "Url"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Lead",
+                "field_id": 10001627,
+                "name": "Industry",
+                "FieldName": "Industry",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Lead",
+                "field_id": 10001608,
+                "name": "Employees",
+                "FieldName": "EmployeeCount",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Lead",
+                "field_id": 10048343,
+                "name": "Product",
+                "FieldName": "Product",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Lead",
+                "field_id": 10001669,
+                "name": "Lead Source",
+                "FieldName": "LeadSource",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Lead",
+                "field_id": 10001714,
+                "name": "Lead Rating",
+                "FieldName": "Rating",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Lead",
+                "field_id": 10001584,
+                "name": "Campaign",
+                "FieldName": "CampaignName",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Lead",
+                "field_id": 10050495,
+                "name": "Lead Owner",
+                "FieldName": "LeadOwnerName",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Lead",
+                "field_id": 10001740,
+                "name": "Branch",
+                "FieldName": "TerritoryName",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Lead",
+                "field_id": 10001615,
+                "name": "First Activity On",
+                "FieldName": "FirstActivity",
+                "field_type": "DateTime"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Lead",
+                "field_id": 10001636,
+                "name": "Last Activity On",
+                "FieldName": "LastActivity",
+                "field_type": "DateTime"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Lead",
+                "field_id": 10001732,
+                "name": "Status Code",
+                "FieldName": "StatusCode",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Lead",
+                "field_id": 10001693,
+                "name": "Preferred Channel",
+                "FieldName": "PreferredChannel",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Lead",
+                "field_id": 10001569,
+                "name": "Lead Amount",
+                "FieldName": "Amount",
+                "field_type": "MulticurrencyAmount"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Lead",
+                "field_id": 10001621,
+                "name": "New Emails",
+                "FieldName": "HasUnReadEmail",
+                "field_type": "Number"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Lead",
+                "field_id": 151178942,
+                "name": "NewFormatwithFlagEmail",
+                "FieldName": "Lea_ex6_126",
+                "field_type": "Phone"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Lead",
+                "field_id": 151178944,
+                "name": "NewFormatwithOutFlagMobile",
+                "FieldName": "Lea_ex6_130",
+                "field_type": "Phone"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Lead",
+                "field_id": 151178943,
+                "name": "NewFormatwithFlagMobile",
+                "FieldName": "Lea_ex6_129",
+                "field_type": "Phone"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Lead",
+                "field_id": 151178945,
+                "name": "NewFormatCustomboolean",
+                "FieldName": "Lea_ex6_132",
+                "field_type": "Check"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Lead",
+                "field_id": 10001576,
+                "name": "Assign To",
+                "FieldName": "AssignTo",
+                "field_type": "Number"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Lead",
+                "field_id": 10001691,
+                "name": "Phone",
+                "FieldName": "Phone",
+                "field_type": "Phone"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Lead",
+                "field_id": 10001606,
+                "name": "Email",
+                "FieldName": "Email",
+                "field_type": "Email"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Lead",
+                "field_id": 10001682,
+                "name": "Office Phone",
+                "FieldName": "OfficePhone",
+                "field_type": "Phone"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Lead",
+                "field_id": 10001614,
+                "name": "Fax",
+                "FieldName": "Fax",
+                "field_type": "Phone"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Lead",
+                "field_id": 10001680,
+                "name": "Mobile",
+                "FieldName": "MobilePhone",
+                "field_type": "Phone"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Lead",
+                "field_id": 10001607,
+                "name": "Email Opt Out",
+                "FieldName": "EmailOptOut",
+                "field_type": "Check"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Lead",
+                "field_id": 10001568,
+                "name": "Address",
+                "FieldName": "Address",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Lead",
+                "field_id": 10001591,
+                "name": "Description",
+                "FieldName": "Comments",
+                "field_type": "Comments"
+            }
+        ]
+    },
+    {
+        "query_label": "Lead Key Information",
+        "query_fields": [
+            {
+                "roleid": 1,
+                "object_name": "Lead",
+                "field_id": 10001660,
+                "name": "Name",
+                "FieldName": "LeadName",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Lead",
+                "field_id": 10001742,
+                "name": "Title",
+                "FieldName": "Title",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Lead",
+                "field_id": 10001592,
+                "name": "Company",
+                "FieldName": "CompanyName",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Lead",
+                "field_id": 10001744,
+                "name": "URL",
+                "FieldName": "WebsiteURL",
+                "field_type": "Url"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Lead",
+                "field_id": 10001627,
+                "name": "Industry",
+                "FieldName": "Industry",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Lead",
+                "field_id": 10001608,
+                "name": "Employees",
+                "FieldName": "EmployeeCount",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Lead",
+                "field_id": 10048343,
+                "name": "Product",
+                "FieldName": "Product",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Lead",
+                "field_id": 10001669,
+                "name": "Lead Source",
+                "FieldName": "LeadSource",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Lead",
+                "field_id": 10001714,
+                "name": "Lead Rating",
+                "FieldName": "Rating",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Lead",
+                "field_id": 10001584,
+                "name": "Campaign",
+                "FieldName": "CampaignName",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Lead",
+                "field_id": 10050495,
+                "name": "Lead Owner",
+                "FieldName": "LeadOwnerName",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Lead",
+                "field_id": 10001740,
+                "name": "Branch",
+                "FieldName": "TerritoryName",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Lead",
+                "field_id": 10001615,
+                "name": "First Activity On",
+                "FieldName": "FirstActivity",
+                "field_type": "DateTime"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Lead",
+                "field_id": 10001636,
+                "name": "Last Activity On",
+                "FieldName": "LastActivity",
+                "field_type": "DateTime"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Lead",
+                "field_id": 10001732,
+                "name": "Status Code",
+                "FieldName": "StatusCode",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Lead",
+                "field_id": 10001693,
+                "name": "Preferred Channel",
+                "FieldName": "PreferredChannel",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Lead",
+                "field_id": 10001569,
+                "name": "Lead Amount",
+                "FieldName": "Amount",
+                "field_type": "MulticurrencyAmount"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Lead",
+                "field_id": 10001621,
+                "name": "New Emails",
+                "FieldName": "HasUnReadEmail",
+                "field_type": "Number"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Lead",
+                "field_id": 151178942,
+                "name": "NewFormatwithFlagEmail",
+                "FieldName": "Lea_ex6_126",
+                "field_type": "Phone"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Lead",
+                "field_id": 151178944,
+                "name": "NewFormatwithOutFlagMobile",
+                "FieldName": "Lea_ex6_130",
+                "field_type": "Phone"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Lead",
+                "field_id": 151178943,
+                "name": "NewFormatwithFlagMobile",
+                "FieldName": "Lea_ex6_129",
+                "field_type": "Phone"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Lead",
+                "field_id": 151178945,
+                "name": "NewFormatCustomboolean",
+                "FieldName": "Lea_ex6_132",
+                "field_type": "Check"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Lead",
+                "field_id": 10001576,
+                "name": "Assign To",
+                "FieldName": "AssignTo",
+                "field_type": "Number"
+            }
+        ]
+    },
+    {
+        "query_label": "Lead Contact Information",
+        "query_fields": [
+            {
+                "roleid": 1,
+                "object_name": "Lead",
+                "field_id": 10001691,
+                "name": "Phone",
+                "FieldName": "Phone",
+                "field_type": "Phone"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Lead",
+                "field_id": 10001606,
+                "name": "Email",
+                "FieldName": "Email",
+                "field_type": "Email"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Lead",
+                "field_id": 10001682,
+                "name": "Office Phone",
+                "FieldName": "OfficePhone",
+                "field_type": "Phone"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Lead",
+                "field_id": 10001614,
+                "name": "Fax",
+                "FieldName": "Fax",
+                "field_type": "Phone"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Lead",
+                "field_id": 10001680,
+                "name": "Mobile",
+                "FieldName": "MobilePhone",
+                "field_type": "Phone"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Lead",
+                "field_id": 10001607,
+                "name": "Email Opt Out",
+                "FieldName": "EmailOptOut",
+                "field_type": "Check"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Lead",
+                "field_id": 10001568,
+                "name": "Address",
+                "FieldName": "Address",
+                "field_type": "Text"
+            }
+        ]
+    },
+    {
+        "query_label": "Lead Additional Information",
+        "query_fields": [
+            {
+                "roleid": 1,
+                "object_name": "Lead",
+                "field_id": 10001591,
+                "name": "Description",
+                "FieldName": "Comments",
+                "field_type": "Comments"
+            }
+        ]
+    },
+    {
+        "query_label": "Lead Activities",
+        "query_fields": []
+    },
+    {
+        "query_label": "Lead Mailing List",
+        "query_fields": []
+    },
+    {
+        "query_label": "Lead Collaboration",
+        "query_fields": []
+    },
+    {
+        "query_label": "Lead Attachments",
+        "query_fields": []
+    },
+    {
+        "query_label": "Lead Notes",
+        "query_fields": []
+    },
+    {
+        "query_label": "Lead History",
+        "query_fields": []
+    }
+]

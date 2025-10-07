@@ -1,0 +1,1075 @@
+[
+    {
+        "query_label": "Lead Corporate Information",
+        "query_fields": [
+            {
+                "roleid": 1,
+                "object_name": "Lead",
+                "field_id": 10001742,
+                "name": "Name of the Corporate",
+                "FieldName": "Title",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Lead",
+                "field_id": 13107,
+                "name": "Corporate Segment",
+                "FieldName": "Lea_ex8_143",
+                "field_type": "Lookup"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Lead",
+                "field_id": 5059,
+                "name": "Entity Type",
+                "FieldName": "Lea_ex10_17",
+                "field_type": "Lookup"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Lead",
+                "field_id": 500,
+                "name": "Application Number",
+                "FieldName": "Lea_ex3_42",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Lead",
+                "field_id": 10001732,
+                "name": "Status Code",
+                "FieldName": "StatusCode",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Lead",
+                "field_id": 10001569,
+                "name": "Limit",
+                "FieldName": "Amount",
+                "field_type": "MulticurrencyAmount"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Lead",
+                "field_id": 95,
+                "name": "Are you Existing HDFC Customer?",
+                "FieldName": "Lea_ex1_74",
+                "field_type": "Lookup"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Lead",
+                "field_id": 13000,
+                "name": "HDFC  CustI D",
+                "FieldName": "Lea_ex7_129",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Lead",
+                "field_id": 10001627,
+                "name": "Industry",
+                "FieldName": "Industry",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Lead",
+                "field_id": 10001591,
+                "name": "Others",
+                "FieldName": "Comments",
+                "field_type": "Comments"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Lead",
+                "field_id": 10001671,
+                "name": "State",
+                "FieldName": "LeadState",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Lead",
+                "field_id": 13299,
+                "name": "Application Type ",
+                "FieldName": "Lea_ex4_129",
+                "field_type": "Lookup"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Lead",
+                "field_id": 10001654,
+                "name": "City",
+                "FieldName": "LeadCity",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Lead",
+                "field_id": 10001673,
+                "name": "ZipCode",
+                "FieldName": "LeadZipCode",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Lead",
+                "field_id": 3542,
+                "name": "LC Code",
+                "FieldName": "Lea_ex7_43",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Lead",
+                "field_id": 12701,
+                "name": "REL",
+                "FieldName": "Lea_ex5_140",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Lead",
+                "field_id": 100785357,
+                "name": "Product",
+                "FieldName": "Lea_ex3_184",
+                "field_type": "MultiLevel"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Lead",
+                "field_id": 100785358,
+                "name": "Product Sub Product",
+                "FieldName": "Lea_ex3_181",
+                "field_type": "MultiLevel"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Lead",
+                "field_id": 13118,
+                "name": "Salutation",
+                "FieldName": "Lea_ex8_154",
+                "field_type": "Lookup"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Lead",
+                "field_id": 12298,
+                "name": "First Name",
+                "FieldName": "Lea_ex4_124",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Lead",
+                "field_id": 12297,
+                "name": "Last Name",
+                "FieldName": "Lea_ex4_123",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Lead",
+                "field_id": 13098,
+                "name": "Department",
+                "FieldName": "Lea_ex8_134",
+                "field_type": "Lookup"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Lead",
+                "field_id": 13034,
+                "name": "Designation",
+                "FieldName": "Lea_ex7_163",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Lead",
+                "field_id": 10001680,
+                "name": "Mobile",
+                "FieldName": "MobilePhone",
+                "field_type": "Phone"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Lead",
+                "field_id": 10001606,
+                "name": "Email",
+                "FieldName": "Email",
+                "field_type": "Email"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Lead",
+                "field_id": 13110,
+                "name": "Salutation",
+                "FieldName": "Lea_ex8_146",
+                "field_type": "Lookup"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Lead",
+                "field_id": 12607,
+                "name": "First Name",
+                "FieldName": "Lea_ex5_114",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Lead",
+                "field_id": 394,
+                "name": "Last Name",
+                "FieldName": "Lea_ex2_85",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Lead",
+                "field_id": 13099,
+                "name": "Department",
+                "FieldName": "Lea_ex8_135",
+                "field_type": "Lookup"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Lead",
+                "field_id": 13033,
+                "name": "Designation",
+                "FieldName": "Lea_ex7_162",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Lead",
+                "field_id": 4180,
+                "name": "Mobile Number",
+                "FieldName": "Lea_ex9_92",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Lead",
+                "field_id": 12998,
+                "name": "Email",
+                "FieldName": "Lea_ex7_127",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Lead",
+                "field_id": 13125,
+                "name": "Add More KMP/ AUS",
+                "FieldName": "Lea_ex8_161",
+                "field_type": "Lookup"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Lead",
+                "field_id": 13111,
+                "name": "Salutation",
+                "FieldName": "Lea_ex8_147",
+                "field_type": "Lookup"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Lead",
+                "field_id": 12606,
+                "name": "First Name",
+                "FieldName": "Lea_ex5_113",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Lead",
+                "field_id": 395,
+                "name": "Last Name",
+                "FieldName": "Lea_ex2_86",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Lead",
+                "field_id": 13100,
+                "name": "Department",
+                "FieldName": "Lea_ex8_136",
+                "field_type": "Lookup"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Lead",
+                "field_id": 13032,
+                "name": "Designation",
+                "FieldName": "Lea_ex7_161",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Lead",
+                "field_id": 10001691,
+                "name": "Mobile",
+                "FieldName": "Phone",
+                "field_type": "Phone"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Lead",
+                "field_id": 309,
+                "name": "Email",
+                "FieldName": "Lea_ex2_57",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Lead",
+                "field_id": 8190,
+                "name": "Add More AUS",
+                "FieldName": "Lea_ex10_82",
+                "field_type": "Lookup"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Lead",
+                "field_id": 13112,
+                "name": "Salutation",
+                "FieldName": "Lea_ex8_148",
+                "field_type": "Lookup"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Lead",
+                "field_id": 12605,
+                "name": "First Name",
+                "FieldName": "Lea_ex5_112",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Lead",
+                "field_id": 396,
+                "name": "Last Name",
+                "FieldName": "Lea_ex2_87",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Lead",
+                "field_id": 13101,
+                "name": "Department",
+                "FieldName": "Lea_ex8_137",
+                "field_type": "Lookup"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Lead",
+                "field_id": 13031,
+                "name": "Designation",
+                "FieldName": "Lea_ex7_160",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Lead",
+                "field_id": 11577,
+                "name": "Mobile",
+                "FieldName": "Lea_ex1_187",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Lead",
+                "field_id": 423,
+                "name": "Email",
+                "FieldName": "Lea_ex3_12",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Lead",
+                "field_id": 8189,
+                "name": "Add More AUS",
+                "FieldName": "Lea_ex10_81",
+                "field_type": "Lookup"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Lead",
+                "field_id": 13113,
+                "name": "Salutation",
+                "FieldName": "Lea_ex8_149",
+                "field_type": "Lookup"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Lead",
+                "field_id": 12604,
+                "name": "First Name",
+                "FieldName": "Lea_ex5_111",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Lead",
+                "field_id": 397,
+                "name": "Last Name",
+                "FieldName": "Lea_ex2_88",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Lead",
+                "field_id": 13102,
+                "name": "Department",
+                "FieldName": "Lea_ex8_138",
+                "field_type": "Lookup"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Lead",
+                "field_id": 13030,
+                "name": "Designation",
+                "FieldName": "Lea_ex7_159",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Lead",
+                "field_id": 11578,
+                "name": "Mobile",
+                "FieldName": "Lea_ex1_188",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Lead",
+                "field_id": 560,
+                "name": "Email",
+                "FieldName": "Lea_ex3_71",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Lead",
+                "field_id": 8193,
+                "name": "Add More AUS",
+                "FieldName": "Lea_ex9_49",
+                "field_type": "Lookup"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Lead",
+                "field_id": 13114,
+                "name": "Salutation",
+                "FieldName": "Lea_ex8_150",
+                "field_type": "Lookup"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Lead",
+                "field_id": 12603,
+                "name": "First Name",
+                "FieldName": "Lea_ex5_110",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Lead",
+                "field_id": 3863,
+                "name": "Last Name",
+                "FieldName": "Lea_ex9_16",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Lead",
+                "field_id": 13103,
+                "name": "Department",
+                "FieldName": "Lea_ex8_139",
+                "field_type": "Lookup"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Lead",
+                "field_id": 13029,
+                "name": "Designation",
+                "FieldName": "Lea_ex7_158",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Lead",
+                "field_id": 2217,
+                "name": "Mobile",
+                "FieldName": "Lea_ex6_54",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Lead",
+                "field_id": 565,
+                "name": "Email",
+                "FieldName": "Lea_ex3_76",
+                "field_type": "Text"
+            }
+        ]
+    },
+    {
+        "query_label": "Lead Corporate Details",
+        "query_fields": [
+            {
+                "roleid": 1,
+                "object_name": "Lead",
+                "field_id": 10001742,
+                "name": "Name of the Corporate",
+                "FieldName": "Title",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Lead",
+                "field_id": 13107,
+                "name": "Corporate Segment",
+                "FieldName": "Lea_ex8_143",
+                "field_type": "Lookup"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Lead",
+                "field_id": 5059,
+                "name": "Entity Type",
+                "FieldName": "Lea_ex10_17",
+                "field_type": "Lookup"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Lead",
+                "field_id": 500,
+                "name": "Application Number",
+                "FieldName": "Lea_ex3_42",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Lead",
+                "field_id": 10001732,
+                "name": "Status Code",
+                "FieldName": "StatusCode",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Lead",
+                "field_id": 10001569,
+                "name": "Limit",
+                "FieldName": "Amount",
+                "field_type": "MulticurrencyAmount"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Lead",
+                "field_id": 95,
+                "name": "Are you Existing HDFC Customer?",
+                "FieldName": "Lea_ex1_74",
+                "field_type": "Lookup"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Lead",
+                "field_id": 13000,
+                "name": "HDFC  CustI D",
+                "FieldName": "Lea_ex7_129",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Lead",
+                "field_id": 10001627,
+                "name": "Industry",
+                "FieldName": "Industry",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Lead",
+                "field_id": 10001591,
+                "name": "Others",
+                "FieldName": "Comments",
+                "field_type": "Comments"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Lead",
+                "field_id": 10001671,
+                "name": "State",
+                "FieldName": "LeadState",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Lead",
+                "field_id": 13299,
+                "name": "Application Type ",
+                "FieldName": "Lea_ex4_129",
+                "field_type": "Lookup"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Lead",
+                "field_id": 10001654,
+                "name": "City",
+                "FieldName": "LeadCity",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Lead",
+                "field_id": 10001673,
+                "name": "ZipCode",
+                "FieldName": "LeadZipCode",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Lead",
+                "field_id": 3542,
+                "name": "LC Code",
+                "FieldName": "Lea_ex7_43",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Lead",
+                "field_id": 12701,
+                "name": "REL",
+                "FieldName": "Lea_ex5_140",
+                "field_type": "Text"
+            }
+        ]
+    },
+    {
+        "query_label": "Lead Product Information",
+        "query_fields": [
+            {
+                "roleid": 1,
+                "object_name": "Lead",
+                "field_id": 100785357,
+                "name": "Product",
+                "FieldName": "Lea_ex3_184",
+                "field_type": "MultiLevel"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Lead",
+                "field_id": 100785358,
+                "name": "Product Sub Product",
+                "FieldName": "Lea_ex3_181",
+                "field_type": "MultiLevel"
+            }
+        ]
+    },
+    {
+        "query_label": "Lead Primary Contact Details",
+        "query_fields": [
+            {
+                "roleid": 1,
+                "object_name": "Lead",
+                "field_id": 13118,
+                "name": "Salutation",
+                "FieldName": "Lea_ex8_154",
+                "field_type": "Lookup"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Lead",
+                "field_id": 12298,
+                "name": "First Name",
+                "FieldName": "Lea_ex4_124",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Lead",
+                "field_id": 12297,
+                "name": "Last Name",
+                "FieldName": "Lea_ex4_123",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Lead",
+                "field_id": 13098,
+                "name": "Department",
+                "FieldName": "Lea_ex8_134",
+                "field_type": "Lookup"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Lead",
+                "field_id": 13034,
+                "name": "Designation",
+                "FieldName": "Lea_ex7_163",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Lead",
+                "field_id": 10001680,
+                "name": "Mobile",
+                "FieldName": "MobilePhone",
+                "field_type": "Phone"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Lead",
+                "field_id": 10001606,
+                "name": "Email",
+                "FieldName": "Email",
+                "field_type": "Email"
+            }
+        ]
+    },
+    {
+        "query_label": "Lead Key Managerial Personal Details (Deemed signatories appointed by Company Board /Authorised Signatory appointed by Board Resolution) 1",
+        "query_fields": [
+            {
+                "roleid": 1,
+                "object_name": "Lead",
+                "field_id": 13110,
+                "name": "Salutation",
+                "FieldName": "Lea_ex8_146",
+                "field_type": "Lookup"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Lead",
+                "field_id": 12607,
+                "name": "First Name",
+                "FieldName": "Lea_ex5_114",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Lead",
+                "field_id": 394,
+                "name": "Last Name",
+                "FieldName": "Lea_ex2_85",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Lead",
+                "field_id": 13099,
+                "name": "Department",
+                "FieldName": "Lea_ex8_135",
+                "field_type": "Lookup"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Lead",
+                "field_id": 13033,
+                "name": "Designation",
+                "FieldName": "Lea_ex7_162",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Lead",
+                "field_id": 4180,
+                "name": "Mobile Number",
+                "FieldName": "Lea_ex9_92",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Lead",
+                "field_id": 12998,
+                "name": "Email",
+                "FieldName": "Lea_ex7_127",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Lead",
+                "field_id": 13125,
+                "name": "Add More KMP/ AUS",
+                "FieldName": "Lea_ex8_161",
+                "field_type": "Lookup"
+            }
+        ]
+    },
+    {
+        "query_label": "Lead Key Managerial Personal Details (Deemed signatories appointed by Company Board /Authorised Signatory appointed by Board Resolution) ",
+        "query_fields": [
+            {
+                "roleid": 1,
+                "object_name": "Lead",
+                "field_id": 13111,
+                "name": "Salutation",
+                "FieldName": "Lea_ex8_147",
+                "field_type": "Lookup"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Lead",
+                "field_id": 12606,
+                "name": "First Name",
+                "FieldName": "Lea_ex5_113",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Lead",
+                "field_id": 395,
+                "name": "Last Name",
+                "FieldName": "Lea_ex2_86",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Lead",
+                "field_id": 13100,
+                "name": "Department",
+                "FieldName": "Lea_ex8_136",
+                "field_type": "Lookup"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Lead",
+                "field_id": 13032,
+                "name": "Designation",
+                "FieldName": "Lea_ex7_161",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Lead",
+                "field_id": 10001691,
+                "name": "Mobile",
+                "FieldName": "Phone",
+                "field_type": "Phone"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Lead",
+                "field_id": 309,
+                "name": "Email",
+                "FieldName": "Lea_ex2_57",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Lead",
+                "field_id": 8190,
+                "name": "Add More AUS",
+                "FieldName": "Lea_ex10_82",
+                "field_type": "Lookup"
+            }
+        ]
+    },
+    {
+        "query_label": "Lead Key Managerial Personal Details (Deemed signatories appointed by Company Board /Authorised Signatory appointed by Board Resolution) 3",
+        "query_fields": [
+            {
+                "roleid": 1,
+                "object_name": "Lead",
+                "field_id": 13112,
+                "name": "Salutation",
+                "FieldName": "Lea_ex8_148",
+                "field_type": "Lookup"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Lead",
+                "field_id": 12605,
+                "name": "First Name",
+                "FieldName": "Lea_ex5_112",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Lead",
+                "field_id": 396,
+                "name": "Last Name",
+                "FieldName": "Lea_ex2_87",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Lead",
+                "field_id": 13101,
+                "name": "Department",
+                "FieldName": "Lea_ex8_137",
+                "field_type": "Lookup"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Lead",
+                "field_id": 13031,
+                "name": "Designation",
+                "FieldName": "Lea_ex7_160",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Lead",
+                "field_id": 11577,
+                "name": "Mobile",
+                "FieldName": "Lea_ex1_187",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Lead",
+                "field_id": 423,
+                "name": "Email",
+                "FieldName": "Lea_ex3_12",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Lead",
+                "field_id": 8189,
+                "name": "Add More AUS",
+                "FieldName": "Lea_ex10_81",
+                "field_type": "Lookup"
+            }
+        ]
+    },
+    {
+        "query_label": "Lead Key Managerial Personal Details (Deemed signatories appointed by Company Board /Authorised Signatory appointed by Board Resolution) 4",
+        "query_fields": [
+            {
+                "roleid": 1,
+                "object_name": "Lead",
+                "field_id": 13113,
+                "name": "Salutation",
+                "FieldName": "Lea_ex8_149",
+                "field_type": "Lookup"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Lead",
+                "field_id": 12604,
+                "name": "First Name",
+                "FieldName": "Lea_ex5_111",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Lead",
+                "field_id": 397,
+                "name": "Last Name",
+                "FieldName": "Lea_ex2_88",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Lead",
+                "field_id": 13102,
+                "name": "Department",
+                "FieldName": "Lea_ex8_138",
+                "field_type": "Lookup"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Lead",
+                "field_id": 13030,
+                "name": "Designation",
+                "FieldName": "Lea_ex7_159",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Lead",
+                "field_id": 11578,
+                "name": "Mobile",
+                "FieldName": "Lea_ex1_188",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Lead",
+                "field_id": 560,
+                "name": "Email",
+                "FieldName": "Lea_ex3_71",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Lead",
+                "field_id": 8193,
+                "name": "Add More AUS",
+                "FieldName": "Lea_ex9_49",
+                "field_type": "Lookup"
+            }
+        ]
+    },
+    {
+        "query_label": "Lead Key Managerial Personal Details (Deemed signatories appointed by Company Board /Authorised Signatory appointed by Board Resolution) 5",
+        "query_fields": [
+            {
+                "roleid": 1,
+                "object_name": "Lead",
+                "field_id": 13114,
+                "name": "Salutation",
+                "FieldName": "Lea_ex8_150",
+                "field_type": "Lookup"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Lead",
+                "field_id": 12603,
+                "name": "First Name",
+                "FieldName": "Lea_ex5_110",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Lead",
+                "field_id": 3863,
+                "name": "Last Name",
+                "FieldName": "Lea_ex9_16",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Lead",
+                "field_id": 13103,
+                "name": "Department",
+                "FieldName": "Lea_ex8_139",
+                "field_type": "Lookup"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Lead",
+                "field_id": 13029,
+                "name": "Designation",
+                "FieldName": "Lea_ex7_158",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Lead",
+                "field_id": 2217,
+                "name": "Mobile",
+                "FieldName": "Lea_ex6_54",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Lead",
+                "field_id": 565,
+                "name": "Email",
+                "FieldName": "Lea_ex3_76",
+                "field_type": "Text"
+            }
+        ]
+    },
+    {
+        "query_label": "Lead History",
+        "query_fields": []
+    }
+]

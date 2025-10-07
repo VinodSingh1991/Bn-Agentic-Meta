@@ -1,0 +1,490 @@
+[
+    {
+        "query_label": "Lead Details",
+        "query_fields": [
+            {
+                "roleid": 1,
+                "object_name": "Lead",
+                "field_id": 9,
+                "name": "Lead Number",
+                "FieldName": "Lea_ex1_1",
+                "field_type": "SequenceNumber"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Lead",
+                "field_id": 18975,
+                "name": "Lead Owner",
+                "FieldName": "Lea_ex6_124",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Lead",
+                "field_id": 18944,
+                "name": "Existing Corporate",
+                "FieldName": "Lea_ex6_118",
+                "field_type": "Lookup"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Lead",
+                "field_id": 46,
+                "name": "Customer ID",
+                "FieldName": "Lea_ex1_38",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Lead",
+                "field_id": 12088,
+                "name": "Corporate Name",
+                "FieldName": "Lea_ex3_169",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Lead",
+                "field_id": 18945,
+                "name": "SPOC Name",
+                "FieldName": "Lea_ex6_119",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Lead",
+                "field_id": 18948,
+                "name": "SPOC Email",
+                "FieldName": "Lea_ex6_121",
+                "field_type": "Email"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Lead",
+                "field_id": 18946,
+                "name": "SPOC Mobile Number",
+                "FieldName": "Lea_ex6_120",
+                "field_type": "Phone"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Lead",
+                "field_id": 10001740,
+                "name": "Branch",
+                "FieldName": "TerritoryName",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Lead",
+                "field_id": 10001669,
+                "name": "Lead Source",
+                "FieldName": "LeadSource",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Lead",
+                "field_id": 18928,
+                "name": "Lead Product",
+                "FieldName": "Lea_ex6_116",
+                "field_type": "LookupWithId"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Lead",
+                "field_id": 10048343,
+                "name": "Product",
+                "FieldName": "Product",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Lead",
+                "field_id": 971,
+                "name": "Lead Priority",
+                "FieldName": "Lea_ex4_35",
+                "field_type": "Lookup"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Lead",
+                "field_id": 18903,
+                "name": "No. of Employees",
+                "FieldName": "Lea_ex2_141",
+                "field_type": "Number"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Lead",
+                "field_id": 18984,
+                "name": "Lead Assign To",
+                "FieldName": "Lea_ex6_125",
+                "field_type": "UserPicker"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Lead",
+                "field_id": 10001568,
+                "name": "Address",
+                "FieldName": "Address",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Lead",
+                "field_id": 18941,
+                "name": "SPOC Comments",
+                "FieldName": "Lea_ex6_117",
+                "field_type": "Comments"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Lead",
+                "field_id": 18998,
+                "name": "Lead Created Date",
+                "FieldName": "Lea_ex6_122",
+                "field_type": "Date"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Lead",
+                "field_id": 18966,
+                "name": "Lead Reassigned To",
+                "FieldName": "Lea_ex6_123",
+                "field_type": "UserPicker"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Lead",
+                "field_id": 18913,
+                "name": "RH Comments",
+                "FieldName": "HtmlText_18913",
+                "field_type": "LongText"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Lead",
+                "field_id": 18906,
+                "name": "Meeting Date &amp; Time",
+                "FieldName": "Lea_ex2_152",
+                "field_type": "DateTime"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Lead",
+                "field_id": 18907,
+                "name": "Contact Status",
+                "FieldName": "Lea_ex3_115",
+                "field_type": "Lookup"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Lead",
+                "field_id": 10001732,
+                "name": "StatusCode",
+                "FieldName": "StatusCode",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Lead",
+                "field_id": 18908,
+                "name": "If Interested",
+                "FieldName": "Lea_ex3_125",
+                "field_type": "Lookup"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Lead",
+                "field_id": 18910,
+                "name": "Not Interested Reason",
+                "FieldName": "Lea_ex3_162",
+                "field_type": "Lookup"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Lead",
+                "field_id": 18909,
+                "name": "If Interested Expected Closure Date",
+                "FieldName": "Lea_ex3_161",
+                "field_type": "Date"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Lead",
+                "field_id": 18911,
+                "name": "Reminder for Follow up",
+                "FieldName": "Lea_ex3_165",
+                "field_type": "Check"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Lead",
+                "field_id": 18983,
+                "name": "Closed Date",
+                "FieldName": "Lea_ex3_167",
+                "field_type": "Date"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Lead",
+                "field_id": 18914,
+                "name": "RM Comments",
+                "FieldName": "HtmlText_18914",
+                "field_type": "LongText"
+            }
+        ]
+    },
+    {
+        "query_label": "Lead Key Information",
+        "query_fields": [
+            {
+                "roleid": 1,
+                "object_name": "Lead",
+                "field_id": 9,
+                "name": "Lead Number",
+                "FieldName": "Lea_ex1_1",
+                "field_type": "SequenceNumber"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Lead",
+                "field_id": 18975,
+                "name": "Lead Owner",
+                "FieldName": "Lea_ex6_124",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Lead",
+                "field_id": 18944,
+                "name": "Existing Corporate",
+                "FieldName": "Lea_ex6_118",
+                "field_type": "Lookup"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Lead",
+                "field_id": 46,
+                "name": "Customer ID",
+                "FieldName": "Lea_ex1_38",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Lead",
+                "field_id": 12088,
+                "name": "Corporate Name",
+                "FieldName": "Lea_ex3_169",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Lead",
+                "field_id": 18945,
+                "name": "SPOC Name",
+                "FieldName": "Lea_ex6_119",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Lead",
+                "field_id": 18948,
+                "name": "SPOC Email",
+                "FieldName": "Lea_ex6_121",
+                "field_type": "Email"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Lead",
+                "field_id": 18946,
+                "name": "SPOC Mobile Number",
+                "FieldName": "Lea_ex6_120",
+                "field_type": "Phone"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Lead",
+                "field_id": 10001740,
+                "name": "Branch",
+                "FieldName": "TerritoryName",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Lead",
+                "field_id": 10001669,
+                "name": "Lead Source",
+                "FieldName": "LeadSource",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Lead",
+                "field_id": 18928,
+                "name": "Lead Product",
+                "FieldName": "Lea_ex6_116",
+                "field_type": "LookupWithId"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Lead",
+                "field_id": 10048343,
+                "name": "Product",
+                "FieldName": "Product",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Lead",
+                "field_id": 971,
+                "name": "Lead Priority",
+                "FieldName": "Lea_ex4_35",
+                "field_type": "Lookup"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Lead",
+                "field_id": 18903,
+                "name": "No. of Employees",
+                "FieldName": "Lea_ex2_141",
+                "field_type": "Number"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Lead",
+                "field_id": 18984,
+                "name": "Lead Assign To",
+                "FieldName": "Lea_ex6_125",
+                "field_type": "UserPicker"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Lead",
+                "field_id": 10001568,
+                "name": "Address",
+                "FieldName": "Address",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Lead",
+                "field_id": 18941,
+                "name": "SPOC Comments",
+                "FieldName": "Lea_ex6_117",
+                "field_type": "Comments"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Lead",
+                "field_id": 18998,
+                "name": "Lead Created Date",
+                "FieldName": "Lea_ex6_122",
+                "field_type": "Date"
+            }
+        ]
+    },
+    {
+        "query_label": "Lead RH Reassignment",
+        "query_fields": [
+            {
+                "roleid": 1,
+                "object_name": "Lead",
+                "field_id": 18966,
+                "name": "Lead Reassigned To",
+                "FieldName": "Lea_ex6_123",
+                "field_type": "UserPicker"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Lead",
+                "field_id": 18913,
+                "name": "RH Comments",
+                "FieldName": "HtmlText_18913",
+                "field_type": "LongText"
+            }
+        ]
+    },
+    {
+        "query_label": "Lead RM",
+        "query_fields": [
+            {
+                "roleid": 1,
+                "object_name": "Lead",
+                "field_id": 18906,
+                "name": "Meeting Date &amp; Time",
+                "FieldName": "Lea_ex2_152",
+                "field_type": "DateTime"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Lead",
+                "field_id": 18907,
+                "name": "Contact Status",
+                "FieldName": "Lea_ex3_115",
+                "field_type": "Lookup"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Lead",
+                "field_id": 10001732,
+                "name": "StatusCode",
+                "FieldName": "StatusCode",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Lead",
+                "field_id": 18908,
+                "name": "If Interested",
+                "FieldName": "Lea_ex3_125",
+                "field_type": "Lookup"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Lead",
+                "field_id": 18910,
+                "name": "Not Interested Reason",
+                "FieldName": "Lea_ex3_162",
+                "field_type": "Lookup"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Lead",
+                "field_id": 18909,
+                "name": "If Interested Expected Closure Date",
+                "FieldName": "Lea_ex3_161",
+                "field_type": "Date"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Lead",
+                "field_id": 18911,
+                "name": "Reminder for Follow up",
+                "FieldName": "Lea_ex3_165",
+                "field_type": "Check"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Lead",
+                "field_id": 18983,
+                "name": "Closed Date",
+                "FieldName": "Lea_ex3_167",
+                "field_type": "Date"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Lead",
+                "field_id": 18914,
+                "name": "RM Comments",
+                "FieldName": "HtmlText_18914",
+                "field_type": "LongText"
+            }
+        ]
+    },
+    {
+        "query_label": "Lead History",
+        "query_fields": []
+    }
+]

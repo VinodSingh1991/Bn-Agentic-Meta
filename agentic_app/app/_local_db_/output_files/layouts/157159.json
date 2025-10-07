@@ -1,0 +1,60 @@
+[
+    {
+        "query_label": "Lead Details",
+        "query_fields": [
+            {
+                "roleid": 1,
+                "object_name": "Lead",
+                "field_id": 2553,
+                "name": "Status",
+                "FieldName": "Lea_ex4_95",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Lead",
+                "field_id": 2555,
+                "name": "Response Description",
+                "FieldName": "Lea_ex4_97",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Lead",
+                "field_id": 2556,
+                "name": "Response Code",
+                "FieldName": "Lea_ex4_98",
+                "field_type": "Text"
+            }
+        ]
+    },
+    {
+        "query_label": "Lead Result",
+        "query_fields": [
+            {
+                "roleid": 1,
+                "object_name": "Lead",
+                "field_id": 2553,
+                "name": "Status",
+                "FieldName": "Lea_ex4_95",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Lead",
+                "field_id": 2555,
+                "name": "Response Description",
+                "FieldName": "Lea_ex4_97",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Lead",
+                "field_id": 2556,
+                "name": "Response Code",
+                "FieldName": "Lea_ex4_98",
+                "field_type": "Text"
+            }
+        ]
+    }
+]

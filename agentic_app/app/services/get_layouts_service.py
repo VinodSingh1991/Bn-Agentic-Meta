@@ -21,14 +21,10 @@ class LayoutService:
         """
         try:
             
-            local_data = self.loader.loadJsonFile("layouts.json")
-            if local_data:
-                return local_data
-        
             # Fetch all required data
             layout_group = self.repository.get_layout_group()
             layout_ui_master = self.repository.get_layout_ui_master()
-            layout_role_mapping = self.repository.get_layout_role_mapping()
+            #layout_role_mapping = self.repository.get_layout_role_mapping()
 
             layouts = []
             
@@ -50,28 +46,33 @@ class LayoutService:
                         enriched_layout["LayoutName"] = "Unknown"
                         
                     # Find matching role mapping
-                    role_mapping = next(
-                        (r for r in layout_role_mapping if r.get("LayoutId") == layout.get("LayoutID")),
-                        None
-                    )
+                    # role_mapping = next(
+                    #     (r for r in layout_role_mapping if r.get("LayoutId") == layout.get("LayoutID")),
+                    #     None
+                    # )
 
-                    if role_mapping and isinstance(role_mapping, dict):
-                        roleid = role_mapping.get("RoleId", 1)
-                        enriched_layout["RoleId"] = roleid
-                    else:
-                        enriched_layout["RoleId"] = 1
-
-                    xml_json = self.layout_helper.get_field_from_xml(layout.get("LayoutXML", ""), enriched_layout.get("RoleId"))
-                    enriched_layout["LayoutFields"] = xml_json
-                    enriched_layout["LayoutXML"] = ""
-                    layouts.append(enriched_layout)
+                    # if role_mapping and isinstance(role_mapping, dict):
+                    #     roleid = role_mapping.get("RoleId", 1)
+                    #     enriched_layout["RoleId"] = roleid
+                    # else:
+                    #     enriched_layout["RoleId"] = 1
+                    enriched_layout["RoleId"] = 1
+                    #xml_json = self.layout_helper.get_field_from_xml(layout.get("LayoutXML", ""), enriched_layout.get("RoleId"))
+                    #enriched_layout["LayoutFields"] = xml_json
+                    #enriched_layout["LayoutXML"] = ""
+                    #layouts.append(enriched_layout)
+                    try:
+                        self.loader.save_files_for_layouts(f"{enriched_layout['LayoutID']}.json", enriched_layout)
+                        print(f"Successfully saved layout to file")
+                    except Exception as save_error:
+                        print(f"Warning: Could not save layout to file: {save_error}")
 
             # Save to file using the correct method name
-            try:
-                self.loader.save_files_at_orignal("layouts.json", layouts)
-                print(f"Successfully saved {len(layouts)} layouts to file")
-            except Exception as save_error:
-                print(f"Warning: Could not save layouts to file: {save_error}")
+            # try:
+            #     self.loader.save_files_at_orignal("layouts.json", layouts)
+            #     print(f"Successfully saved {len(layouts)} layouts to file")
+            # except Exception as save_error:
+            #     print(f"Warning: Could not save layouts to file: {save_error}")
             
             return layouts
             
@@ -92,7 +93,15 @@ class LayoutService:
         return layouts
 
     def create_layouts(self) -> Dict[str, Any]:
-        result = self.repository.get_layouts_file()
-        extracted_field = self.layout_helper.build_layout_fields(result)
-        self.loader.save_files_at_output("layouts_fields.json", extracted_field)
-        return extracted_field
+        files = self.loader.load_all_layouts()
+        layout_fields = []
+        for file in files:
+            print(file)
+            result = self.repository.get_layouts_file(file)
+            tabs = self.layout_helper.build_layout(result, layout_fields)
+            self.loader.save_files_at_output("layout_fields.json", layout_fields)
+            if tabs:
+                self.loader.save_files_for_layouts(file, tabs)
+            # return tabs
+        # If no files, return an empty dict to match the return type
+        return {}

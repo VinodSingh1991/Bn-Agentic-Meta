@@ -110,14 +110,14 @@ class LayoutRepository:
             print(f"Error fetching layouts: {e}")
             return []  
         
-    def get_layouts_file(self) -> List[Dict[str, Any]]:
+    def get_layouts_file(self, file) -> List[Dict[str, Any]]:
         """Load all fields from the __local__ JSON file
 
         Returns:
             List[Dict[str, Any]]: List of object dictionaries with relevant fields
         """
         try:
-            layouts = self.loader.loadJsonFile("layouts.json")
+            layouts = self.loader.loadJsonLayoutFile(file)
             print(f"Successfully fetched {len(layouts)} layouts")
 
             return layouts if layouts else []

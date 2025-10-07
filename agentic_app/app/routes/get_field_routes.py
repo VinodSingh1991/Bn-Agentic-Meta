@@ -4,14 +4,14 @@ from fastapi import APIRouter
 router = APIRouter()
 
 
-@router.get("/field")
+@router.get("/field_3")
 def get_fields():
     fields_service = FieldsService()
     fields_service.get_fields()
     return {"fields": "field file has been created"}
 
 
-@router.get("/create_fields")
+@router.get("/create_fields_4")
 def get_fields():
     fields_service = FieldsService()
     fields_service.create_fields_from_cache()

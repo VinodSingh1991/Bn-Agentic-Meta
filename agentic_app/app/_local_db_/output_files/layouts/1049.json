@@ -1,0 +1,973 @@
+[
+    {
+        "query_label": "Account Summary",
+        "query_fields": [
+            {
+                "roleid": 1,
+                "object_name": "Account",
+                "field_id": 10002744,
+                "name": "Account Name",
+                "FieldName": "Name",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Account",
+                "field_id": 10002749,
+                "name": "Parent Account",
+                "FieldName": "ParentAccountName",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Account",
+                "field_id": 10002778,
+                "name": "Short Name",
+                "FieldName": "ShortName",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Account",
+                "field_id": 10002674,
+                "name": "CSM Name",
+                "FieldName": "AssignedToName",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Account",
+                "field_id": 673,
+                "name": "Alias Name",
+                "FieldName": "Acc_ex2_64",
+                "field_type": "Lookup"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Account",
+                "field_id": 926,
+                "name": "CSM Details",
+                "FieldName": "Acc_ex3_3",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Account",
+                "field_id": 10001138,
+                "name": "Source Branch Code",
+                "FieldName": "TerritoryCode",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Account",
+                "field_id": 10002791,
+                "name": "Source Branch",
+                "FieldName": "TerritoryName",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Account",
+                "field_id": 236,
+                "name": "Account Type",
+                "FieldName": "Acc_ex1_72",
+                "field_type": "Lookup"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Account",
+                "field_id": 10002738,
+                "name": "Lead Source",
+                "FieldName": "LeadSource",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Account",
+                "field_id": 521,
+                "name": "Source Branch Mgr",
+                "FieldName": "Acc_ex1_99",
+                "field_type": "UserPicker"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Account",
+                "field_id": 10002668,
+                "name": "Type of customer",
+                "FieldName": "AccountType",
+                "field_type": "Number"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Account",
+                "field_id": 331,
+                "name": "Approved By",
+                "FieldName": "Acc_ex2_11",
+                "field_type": "Lookup"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Account",
+                "field_id": 332,
+                "name": "Nature of Business",
+                "FieldName": "Acc_ex2_12",
+                "field_type": "Lookup"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Account",
+                "field_id": 333,
+                "name": "Corporate type",
+                "FieldName": "Acc_ex2_13",
+                "field_type": "Lookup"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Account",
+                "field_id": 338,
+                "name": "Multi City Presence",
+                "FieldName": "Acc_ex2_18",
+                "field_type": "Lookup"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Account",
+                "field_id": 205,
+                "name": "Corporate",
+                "FieldName": "Acc_ex1_66",
+                "field_type": "Lookup"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Account",
+                "field_id": 695,
+                "name": "Account Type- City Type",
+                "FieldName": "Acc_ex2_98",
+                "field_type": "MultiLevel"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Account",
+                "field_id": 667,
+                "name": "City",
+                "FieldName": "Acc_ex2_94",
+                "field_type": "MultiPicker"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Account",
+                "field_id": 697,
+                "name": "Minimum Salary",
+                "FieldName": "Acc_ex2_100",
+                "field_type": "MultiLevel"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Account",
+                "field_id": 612,
+                "name": "Product Type",
+                "FieldName": "Acc_ex2_68",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Account",
+                "field_id": 342,
+                "name": "Approved for reimbursement",
+                "FieldName": "Acc_ex2_22",
+                "field_type": "Lookup"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Account",
+                "field_id": 696,
+                "name": "Min No of Accounts",
+                "FieldName": "Acc_ex2_99",
+                "field_type": "MultiLevel"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Account",
+                "field_id": 616,
+                "name": "Actual Salary Date",
+                "FieldName": "Acc_ex2_85",
+                "field_type": "Lookup"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Account",
+                "field_id": 329,
+                "name": "Actual No. of A/c",
+                "FieldName": "Acc_ex2_9",
+                "field_type": "Number"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Account",
+                "field_id": 330,
+                "name": "Average Salary",
+                "FieldName": "Acc_ex2_10",
+                "field_type": "Amount"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Account",
+                "field_id": 613,
+                "name": "Actual Salary Cut of Date",
+                "FieldName": "Acc_ex2_83",
+                "field_type": "Lookup"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Account",
+                "field_id": 336,
+                "name": "Emp-All India",
+                "FieldName": "Acc_ex2_16",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Account",
+                "field_id": 324,
+                "name": "Source City",
+                "FieldName": "Acc_ex2_4",
+                "field_type": "Lookup"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Account",
+                "field_id": 334,
+                "name": "CA with HDFC",
+                "FieldName": "Acc_ex2_14",
+                "field_type": "Lookup"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Account",
+                "field_id": 337,
+                "name": "Emp-Source City",
+                "FieldName": "Acc_ex2_17",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Account",
+                "field_id": 340,
+                "name": "Sole Banker Mandate",
+                "FieldName": "Acc_ex2_20",
+                "field_type": "Lookup"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Account",
+                "field_id": 335,
+                "name": "CA Number",
+                "FieldName": "Acc_ex2_15",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Account",
+                "field_id": 611,
+                "name": "Salary Upload",
+                "FieldName": "Acc_ex2_82",
+                "field_type": "Lookup"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Account",
+                "field_id": 341,
+                "name": "Mandate Comments",
+                "FieldName": "Acc_ex2_21",
+                "field_type": "Comments"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Account",
+                "field_id": 567,
+                "name": "Company Code ",
+                "FieldName": "Acc_ex2_71",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Account",
+                "field_id": 347,
+                "name": "Total Salary Upload",
+                "FieldName": "Acc_ex2_26",
+                "field_type": "ComputedField"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Account",
+                "field_id": 321,
+                "name": "Code Generator",
+                "FieldName": "Acc_ex1_96",
+                "field_type": "Lookup"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Account",
+                "field_id": 10002763,
+                "name": "Account Rating",
+                "FieldName": "Rating",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Account",
+                "field_id": 924,
+                "name": "Division Name",
+                "FieldName": "Acc_ex2_24",
+                "field_type": "Lookup"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Account",
+                "field_id": 320,
+                "name": "Code Gen. Date",
+                "FieldName": "Acc_ex1_95",
+                "field_type": "Date"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Account",
+                "field_id": 11914,
+                "name": "FlexCube Response Code",
+                "FieldName": "Acc_ex3_87",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Account",
+                "field_id": 11915,
+                "name": "FlexCube Response Desc",
+                "FieldName": "Acc_ex3_88",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Account",
+                "field_id": 925,
+                "name": "Reference Number",
+                "FieldName": "Acc_ex3_2",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Account",
+                "field_id": 962,
+                "name": "Company Listed In",
+                "FieldName": "Acc_ex3_4",
+                "field_type": "Lookup"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Account",
+                "field_id": 963,
+                "name": "Corporate Grade",
+                "FieldName": "Acc_ex3_5",
+                "field_type": "Lookup"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Account",
+                "field_id": 964,
+                "name": "Indemnity on Salary Reversal Submitted",
+                "FieldName": "Acc_ex3_6",
+                "field_type": "Lookup"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Account",
+                "field_id": 965,
+                "name": "Turnover of Corporate",
+                "FieldName": "Acc_ex3_7",
+                "field_type": "Lookup"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Account",
+                "field_id": 966,
+                "name": "Type of SM",
+                "FieldName": "Acc_ex3_8",
+                "field_type": "Lookup"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Account",
+                "field_id": 627,
+                "name": "Reasons of Rejection",
+                "FieldName": "Acc_ex2_86",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Account",
+                "field_id": 10002694,
+                "name": "Comments",
+                "FieldName": "Comments",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Account",
+                "field_id": 10002675,
+                "name": "Billing Address",
+                "FieldName": "Bill_Address",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Account",
+                "field_id": 10002768,
+                "name": "Shipping Address",
+                "FieldName": "Ship_Address",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Account",
+                "field_id": 10002755,
+                "name": "Phone",
+                "FieldName": "Phone",
+                "field_type": "Phone"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Account",
+                "field_id": 10002704,
+                "name": "Email",
+                "FieldName": "Email",
+                "field_type": "Email"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Account",
+                "field_id": 10002745,
+                "name": "Office Phone",
+                "FieldName": "OfficePhone",
+                "field_type": "Phone"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Account",
+                "field_id": 10002708,
+                "name": "Fax",
+                "FieldName": "Fax",
+                "field_type": "Phone"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Account",
+                "field_id": 10002743,
+                "name": "Mobile",
+                "FieldName": "MobilePhone",
+                "field_type": "Phone"
+            }
+        ]
+    },
+    {
+        "query_label": "Account Key Information",
+        "query_fields": [
+            {
+                "roleid": 1,
+                "object_name": "Account",
+                "field_id": 10002744,
+                "name": "Account Name",
+                "FieldName": "Name",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Account",
+                "field_id": 10002749,
+                "name": "Parent Account",
+                "FieldName": "ParentAccountName",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Account",
+                "field_id": 10002778,
+                "name": "Short Name",
+                "FieldName": "ShortName",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Account",
+                "field_id": 10002674,
+                "name": "CSM Name",
+                "FieldName": "AssignedToName",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Account",
+                "field_id": 673,
+                "name": "Alias Name",
+                "FieldName": "Acc_ex2_64",
+                "field_type": "Lookup"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Account",
+                "field_id": 926,
+                "name": "CSM Details",
+                "FieldName": "Acc_ex3_3",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Account",
+                "field_id": 10001138,
+                "name": "Source Branch Code",
+                "FieldName": "TerritoryCode",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Account",
+                "field_id": 10002791,
+                "name": "Source Branch",
+                "FieldName": "TerritoryName",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Account",
+                "field_id": 236,
+                "name": "Account Type",
+                "FieldName": "Acc_ex1_72",
+                "field_type": "Lookup"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Account",
+                "field_id": 10002738,
+                "name": "Lead Source",
+                "FieldName": "LeadSource",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Account",
+                "field_id": 521,
+                "name": "Source Branch Mgr",
+                "FieldName": "Acc_ex1_99",
+                "field_type": "UserPicker"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Account",
+                "field_id": 10002668,
+                "name": "Type of customer",
+                "FieldName": "AccountType",
+                "field_type": "Number"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Account",
+                "field_id": 331,
+                "name": "Approved By",
+                "FieldName": "Acc_ex2_11",
+                "field_type": "Lookup"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Account",
+                "field_id": 332,
+                "name": "Nature of Business",
+                "FieldName": "Acc_ex2_12",
+                "field_type": "Lookup"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Account",
+                "field_id": 333,
+                "name": "Corporate type",
+                "FieldName": "Acc_ex2_13",
+                "field_type": "Lookup"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Account",
+                "field_id": 338,
+                "name": "Multi City Presence",
+                "FieldName": "Acc_ex2_18",
+                "field_type": "Lookup"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Account",
+                "field_id": 205,
+                "name": "Corporate",
+                "FieldName": "Acc_ex1_66",
+                "field_type": "Lookup"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Account",
+                "field_id": 695,
+                "name": "Account Type- City Type",
+                "FieldName": "Acc_ex2_98",
+                "field_type": "MultiLevel"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Account",
+                "field_id": 667,
+                "name": "City",
+                "FieldName": "Acc_ex2_94",
+                "field_type": "MultiPicker"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Account",
+                "field_id": 697,
+                "name": "Minimum Salary",
+                "FieldName": "Acc_ex2_100",
+                "field_type": "MultiLevel"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Account",
+                "field_id": 612,
+                "name": "Product Type",
+                "FieldName": "Acc_ex2_68",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Account",
+                "field_id": 342,
+                "name": "Approved for reimbursement",
+                "FieldName": "Acc_ex2_22",
+                "field_type": "Lookup"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Account",
+                "field_id": 696,
+                "name": "Min No of Accounts",
+                "FieldName": "Acc_ex2_99",
+                "field_type": "MultiLevel"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Account",
+                "field_id": 616,
+                "name": "Actual Salary Date",
+                "FieldName": "Acc_ex2_85",
+                "field_type": "Lookup"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Account",
+                "field_id": 329,
+                "name": "Actual No. of A/c",
+                "FieldName": "Acc_ex2_9",
+                "field_type": "Number"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Account",
+                "field_id": 330,
+                "name": "Average Salary",
+                "FieldName": "Acc_ex2_10",
+                "field_type": "Amount"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Account",
+                "field_id": 613,
+                "name": "Actual Salary Cut of Date",
+                "FieldName": "Acc_ex2_83",
+                "field_type": "Lookup"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Account",
+                "field_id": 336,
+                "name": "Emp-All India",
+                "FieldName": "Acc_ex2_16",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Account",
+                "field_id": 324,
+                "name": "Source City",
+                "FieldName": "Acc_ex2_4",
+                "field_type": "Lookup"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Account",
+                "field_id": 334,
+                "name": "CA with HDFC",
+                "FieldName": "Acc_ex2_14",
+                "field_type": "Lookup"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Account",
+                "field_id": 337,
+                "name": "Emp-Source City",
+                "FieldName": "Acc_ex2_17",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Account",
+                "field_id": 340,
+                "name": "Sole Banker Mandate",
+                "FieldName": "Acc_ex2_20",
+                "field_type": "Lookup"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Account",
+                "field_id": 335,
+                "name": "CA Number",
+                "FieldName": "Acc_ex2_15",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Account",
+                "field_id": 611,
+                "name": "Salary Upload",
+                "FieldName": "Acc_ex2_82",
+                "field_type": "Lookup"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Account",
+                "field_id": 341,
+                "name": "Mandate Comments",
+                "FieldName": "Acc_ex2_21",
+                "field_type": "Comments"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Account",
+                "field_id": 567,
+                "name": "Company Code ",
+                "FieldName": "Acc_ex2_71",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Account",
+                "field_id": 347,
+                "name": "Total Salary Upload",
+                "FieldName": "Acc_ex2_26",
+                "field_type": "ComputedField"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Account",
+                "field_id": 321,
+                "name": "Code Generator",
+                "FieldName": "Acc_ex1_96",
+                "field_type": "Lookup"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Account",
+                "field_id": 10002763,
+                "name": "Account Rating",
+                "FieldName": "Rating",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Account",
+                "field_id": 924,
+                "name": "Division Name",
+                "FieldName": "Acc_ex2_24",
+                "field_type": "Lookup"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Account",
+                "field_id": 320,
+                "name": "Code Gen. Date",
+                "FieldName": "Acc_ex1_95",
+                "field_type": "Date"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Account",
+                "field_id": 11914,
+                "name": "FlexCube Response Code",
+                "FieldName": "Acc_ex3_87",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Account",
+                "field_id": 11915,
+                "name": "FlexCube Response Desc",
+                "FieldName": "Acc_ex3_88",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Account",
+                "field_id": 925,
+                "name": "Reference Number",
+                "FieldName": "Acc_ex3_2",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Account",
+                "field_id": 962,
+                "name": "Company Listed In",
+                "FieldName": "Acc_ex3_4",
+                "field_type": "Lookup"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Account",
+                "field_id": 963,
+                "name": "Corporate Grade",
+                "FieldName": "Acc_ex3_5",
+                "field_type": "Lookup"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Account",
+                "field_id": 964,
+                "name": "Indemnity on Salary Reversal Submitted",
+                "FieldName": "Acc_ex3_6",
+                "field_type": "Lookup"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Account",
+                "field_id": 965,
+                "name": "Turnover of Corporate",
+                "FieldName": "Acc_ex3_7",
+                "field_type": "Lookup"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Account",
+                "field_id": 966,
+                "name": "Type of SM",
+                "FieldName": "Acc_ex3_8",
+                "field_type": "Lookup"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Account",
+                "field_id": 627,
+                "name": "Reasons of Rejection",
+                "FieldName": "Acc_ex2_86",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Account",
+                "field_id": 10002694,
+                "name": "Comments",
+                "FieldName": "Comments",
+                "field_type": "Text"
+            }
+        ]
+    },
+    {
+        "query_label": "Account Contact Information",
+        "query_fields": [
+            {
+                "roleid": 1,
+                "object_name": "Account",
+                "field_id": 10002675,
+                "name": "Billing Address",
+                "FieldName": "Bill_Address",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Account",
+                "field_id": 10002768,
+                "name": "Shipping Address",
+                "FieldName": "Ship_Address",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Account",
+                "field_id": 10002755,
+                "name": "Phone",
+                "FieldName": "Phone",
+                "field_type": "Phone"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Account",
+                "field_id": 10002704,
+                "name": "Email",
+                "FieldName": "Email",
+                "field_type": "Email"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Account",
+                "field_id": 10002745,
+                "name": "Office Phone",
+                "FieldName": "OfficePhone",
+                "field_type": "Phone"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Account",
+                "field_id": 10002708,
+                "name": "Fax",
+                "FieldName": "Fax",
+                "field_type": "Phone"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Account",
+                "field_id": 10002743,
+                "name": "Mobile",
+                "FieldName": "MobilePhone",
+                "field_type": "Phone"
+            }
+        ]
+    },
+    {
+        "query_label": "Account Contacts",
+        "query_fields": []
+    },
+    {
+        "query_label": "Account Leads & Opportunities",
+        "query_fields": []
+    },
+    {
+        "query_label": "Account Offers",
+        "query_fields": []
+    },
+    {
+        "query_label": "Account Products",
+        "query_fields": []
+    },
+    {
+        "query_label": "Account Activities",
+        "query_fields": []
+    },
+    {
+        "query_label": "Account Cases",
+        "query_fields": []
+    },
+    {
+        "query_label": "Account Notes & Attachments",
+        "query_fields": []
+    }
+]

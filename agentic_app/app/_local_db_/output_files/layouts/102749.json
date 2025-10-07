@@ -1,0 +1,814 @@
+[
+    {
+        "query_label": "Case Summary",
+        "query_fields": [
+            {
+                "roleid": 1,
+                "object_name": "Case",
+                "field_id": 10005762,
+                "name": "Case Number",
+                "FieldName": "Case_ID",
+                "field_type": "ObjectNumber"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Case",
+                "field_id": 10005757,
+                "name": "Case Owner",
+                "FieldName": "AssignedToName",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Case",
+                "field_id": 10005852,
+                "name": "Product",
+                "FieldName": "Product",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Case",
+                "field_id": 10005782,
+                "name": "Assigned To",
+                "FieldName": "CurrentOwner",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Case",
+                "field_id": 1762,
+                "name": "Customer ID",
+                "FieldName": "Cas_ex3_52",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Case",
+                "field_id": 10005836,
+                "name": "Parent Case",
+                "FieldName": "ParentName",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Case",
+                "field_id": 10625,
+                "name": "Source",
+                "FieldName": "Cas_ex4_94",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Case",
+                "field_id": 10005891,
+                "name": "Status Code",
+                "FieldName": "StatusCode",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Case",
+                "field_id": 5149,
+                "name": "Application Number",
+                "FieldName": "Cas_ex3_20",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Case",
+                "field_id": 2550,
+                "name": "Customer Mobile",
+                "FieldName": "Cas_ex1_68",
+                "field_type": "Phone"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Case",
+                "field_id": 8071,
+                "name": "DOB",
+                "FieldName": "Cas_ex4_32",
+                "field_type": "Date"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Case",
+                "field_id": 1743,
+                "name": "PAN Number",
+                "FieldName": "Cas_ex3_33",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Case",
+                "field_id": 7091,
+                "name": "Phone Number",
+                "FieldName": "Cas_ex3_88",
+                "field_type": "Phone"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Case",
+                "field_id": 10630,
+                "name": "Gender",
+                "FieldName": "Cas_ex4_97",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Case",
+                "field_id": 10631,
+                "name": "Client Type",
+                "FieldName": "Cas_ex4_98",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Case",
+                "field_id": 5140,
+                "name": "Mailing Address 1",
+                "FieldName": "Cas_ex3_11",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Case",
+                "field_id": 8254,
+                "name": "Mailing address 2",
+                "FieldName": "Cas_ex4_20",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Case",
+                "field_id": 1742,
+                "name": "Mailing Address 3",
+                "FieldName": "Cas_ex3_32",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Case",
+                "field_id": 1350,
+                "name": "Office number",
+                "FieldName": "Cas_ex1_58",
+                "field_type": "Phone"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Case",
+                "field_id": 1303,
+                "name": "Customer city",
+                "FieldName": "Cas_ex1_36",
+                "field_type": "MultiPicker"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Case",
+                "field_id": 8450,
+                "name": "State",
+                "FieldName": "Cas_ex4_54",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Case",
+                "field_id": 5142,
+                "name": "Country",
+                "FieldName": "Cas_ex3_13",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Case",
+                "field_id": 15249,
+                "name": "Mobile_C",
+                "FieldName": "Cas_ex3_190",
+                "field_type": "Phone"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Case",
+                "field_id": 5144,
+                "name": "Pin code",
+                "FieldName": "Cas_ex3_15",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Case",
+                "field_id": 10632,
+                "name": "Permanent Address 1",
+                "FieldName": "Cas_ex4_99",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Case",
+                "field_id": 10633,
+                "name": "Permanent Address 2",
+                "FieldName": "Cas_ex4_100",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Case",
+                "field_id": 10637,
+                "name": "Permanent Country",
+                "FieldName": "Cas_ex5_1",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Case",
+                "field_id": 10638,
+                "name": "Permanent Pin code",
+                "FieldName": "Cas_ex5_2",
+                "field_type": "Number"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Case",
+                "field_id": 5146,
+                "name": "Mobile No",
+                "FieldName": "Cas_ex3_17",
+                "field_type": "Phone"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Case",
+                "field_id": 11045,
+                "name": "STD",
+                "FieldName": "Cas_ex5_17",
+                "field_type": "Number"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Case",
+                "field_id": 1301,
+                "name": "Phone No",
+                "FieldName": "Cas_ex1_34",
+                "field_type": "Phone"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Case",
+                "field_id": 11005,
+                "name": "Bank Account number",
+                "FieldName": "Cas_ex5_16",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Case",
+                "field_id": 10627,
+                "name": "PAN validated",
+                "FieldName": "Cas_ex4_96",
+                "field_type": "Lookup"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Case",
+                "field_id": 10626,
+                "name": "KYC Approved",
+                "FieldName": "Cas_ex4_95",
+                "field_type": "Lookup"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Case",
+                "field_id": 1299,
+                "name": "Home Branch",
+                "FieldName": "Cas_ex1_32",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Case",
+                "field_id": 7170,
+                "name": "Acquisition Date",
+                "FieldName": "Cas_ex3_92",
+                "field_type": "Date"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Case",
+                "field_id": 10640,
+                "name": "Acc stmt currency",
+                "FieldName": "Cas_ex5_4",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Case",
+                "field_id": 11044,
+                "name": "Customer Signature",
+                "FieldName": "HtmlText_11044",
+                "field_type": "Image"
+            }
+        ]
+    },
+    {
+        "query_label": "Case Case Information",
+        "query_fields": [
+            {
+                "roleid": 1,
+                "object_name": "Case",
+                "field_id": 10005762,
+                "name": "Case Number",
+                "FieldName": "Case_ID",
+                "field_type": "ObjectNumber"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Case",
+                "field_id": 10005757,
+                "name": "Case Owner",
+                "FieldName": "AssignedToName",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Case",
+                "field_id": 10005852,
+                "name": "Product",
+                "FieldName": "Product",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Case",
+                "field_id": 10005782,
+                "name": "Assigned To",
+                "FieldName": "CurrentOwner",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Case",
+                "field_id": 1762,
+                "name": "Customer ID",
+                "FieldName": "Cas_ex3_52",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Case",
+                "field_id": 10005836,
+                "name": "Parent Case",
+                "FieldName": "ParentName",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Case",
+                "field_id": 10625,
+                "name": "Source",
+                "FieldName": "Cas_ex4_94",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Case",
+                "field_id": 10005891,
+                "name": "Status Code",
+                "FieldName": "StatusCode",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Case",
+                "field_id": 5149,
+                "name": "Application Number",
+                "FieldName": "Cas_ex3_20",
+                "field_type": "Text"
+            }
+        ]
+    },
+    {
+        "query_label": "Case Personal Information",
+        "query_fields": [
+            {
+                "roleid": 1,
+                "object_name": "Case",
+                "field_id": 2550,
+                "name": "Customer Mobile",
+                "FieldName": "Cas_ex1_68",
+                "field_type": "Phone"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Case",
+                "field_id": 8071,
+                "name": "DOB",
+                "FieldName": "Cas_ex4_32",
+                "field_type": "Date"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Case",
+                "field_id": 1743,
+                "name": "PAN Number",
+                "FieldName": "Cas_ex3_33",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Case",
+                "field_id": 7091,
+                "name": "Phone Number",
+                "FieldName": "Cas_ex3_88",
+                "field_type": "Phone"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Case",
+                "field_id": 10630,
+                "name": "Gender",
+                "FieldName": "Cas_ex4_97",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Case",
+                "field_id": 10631,
+                "name": "Client Type",
+                "FieldName": "Cas_ex4_98",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Case",
+                "field_id": 5140,
+                "name": "Mailing Address 1",
+                "FieldName": "Cas_ex3_11",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Case",
+                "field_id": 8254,
+                "name": "Mailing address 2",
+                "FieldName": "Cas_ex4_20",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Case",
+                "field_id": 1742,
+                "name": "Mailing Address 3",
+                "FieldName": "Cas_ex3_32",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Case",
+                "field_id": 1350,
+                "name": "Office number",
+                "FieldName": "Cas_ex1_58",
+                "field_type": "Phone"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Case",
+                "field_id": 1303,
+                "name": "Customer city",
+                "FieldName": "Cas_ex1_36",
+                "field_type": "MultiPicker"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Case",
+                "field_id": 8450,
+                "name": "State",
+                "FieldName": "Cas_ex4_54",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Case",
+                "field_id": 5142,
+                "name": "Country",
+                "FieldName": "Cas_ex3_13",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Case",
+                "field_id": 15249,
+                "name": "Mobile_C",
+                "FieldName": "Cas_ex3_190",
+                "field_type": "Phone"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Case",
+                "field_id": 5144,
+                "name": "Pin code",
+                "FieldName": "Cas_ex3_15",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Case",
+                "field_id": 10632,
+                "name": "Permanent Address 1",
+                "FieldName": "Cas_ex4_99",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Case",
+                "field_id": 10633,
+                "name": "Permanent Address 2",
+                "FieldName": "Cas_ex4_100",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Case",
+                "field_id": 10637,
+                "name": "Permanent Country",
+                "FieldName": "Cas_ex5_1",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Case",
+                "field_id": 10638,
+                "name": "Permanent Pin code",
+                "FieldName": "Cas_ex5_2",
+                "field_type": "Number"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Case",
+                "field_id": 5146,
+                "name": "Mobile No",
+                "FieldName": "Cas_ex3_17",
+                "field_type": "Phone"
+            }
+        ]
+    },
+    {
+        "query_label": "Case Nominee Details",
+        "query_fields": [
+            {
+                "roleid": 1,
+                "object_name": "Case",
+                "field_id": 11045,
+                "name": "STD",
+                "FieldName": "Cas_ex5_17",
+                "field_type": "Number"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Case",
+                "field_id": 1301,
+                "name": "Phone No",
+                "FieldName": "Cas_ex1_34",
+                "field_type": "Phone"
+            }
+        ]
+    },
+    {
+        "query_label": "Case Bank Details",
+        "query_fields": [
+            {
+                "roleid": 1,
+                "object_name": "Case",
+                "field_id": 11005,
+                "name": "Bank Account number",
+                "FieldName": "Cas_ex5_16",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Case",
+                "field_id": 10627,
+                "name": "PAN validated",
+                "FieldName": "Cas_ex4_96",
+                "field_type": "Lookup"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Case",
+                "field_id": 10626,
+                "name": "KYC Approved",
+                "FieldName": "Cas_ex4_95",
+                "field_type": "Lookup"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Case",
+                "field_id": 1299,
+                "name": "Home Branch",
+                "FieldName": "Cas_ex1_32",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Case",
+                "field_id": 7170,
+                "name": "Acquisition Date",
+                "FieldName": "Cas_ex3_92",
+                "field_type": "Date"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Case",
+                "field_id": 10640,
+                "name": "Acc stmt currency",
+                "FieldName": "Cas_ex5_4",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Case",
+                "field_id": 11044,
+                "name": "Customer Signature",
+                "FieldName": "HtmlText_11044",
+                "field_type": "Image"
+            }
+        ]
+    },
+    {
+        "query_label": "Case Other Details",
+        "query_fields": [
+            {
+                "roleid": 1,
+                "object_name": "Case",
+                "field_id": 8002,
+                "name": "UH Category",
+                "FieldName": "Cas_ex4_17",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Case",
+                "field_id": 1295,
+                "name": "Account type",
+                "FieldName": "Cas_ex1_28",
+                "field_type": "Lookup"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Case",
+                "field_id": 8003,
+                "name": "Account Balance",
+                "FieldName": "Cas_ex4_18",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Case",
+                "field_id": 1318,
+                "name": "Product ID",
+                "FieldName": "Cas_ex1_51",
+                "field_type": "Lookup"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Case",
+                "field_id": 8557,
+                "name": "Account Status",
+                "FieldName": "Cas_ex4_56",
+                "field_type": "Lookup"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Case",
+                "field_id": 8250,
+                "name": "Sweep-In amount",
+                "FieldName": "Cas_ex3_76",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Case",
+                "field_id": 1341,
+                "name": "Currency code",
+                "FieldName": "Cas_ex2_36",
+                "field_type": "Number"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Case",
+                "field_id": 1691,
+                "name": "OD LIMIT",
+                "FieldName": "Cas_ex2_67",
+                "field_type": "Number"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Case",
+                "field_id": 10871,
+                "name": "Signature fetch",
+                "FieldName": "Cas_ex5_15",
+                "field_type": "Lookup"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Case",
+                "field_id": 1330,
+                "name": "CASA Error Code",
+                "FieldName": "Cas_ex2_25",
+                "field_type": "Lookup"
+            }
+        ]
+    },
+    {
+        "query_label": "Case CASA balance details",
+        "query_fields": [
+            {
+                "roleid": 1,
+                "object_name": "Case",
+                "field_id": 8002,
+                "name": "UH Category",
+                "FieldName": "Cas_ex4_17",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Case",
+                "field_id": 1295,
+                "name": "Account type",
+                "FieldName": "Cas_ex1_28",
+                "field_type": "Lookup"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Case",
+                "field_id": 8003,
+                "name": "Account Balance",
+                "FieldName": "Cas_ex4_18",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Case",
+                "field_id": 1318,
+                "name": "Product ID",
+                "FieldName": "Cas_ex1_51",
+                "field_type": "Lookup"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Case",
+                "field_id": 8557,
+                "name": "Account Status",
+                "FieldName": "Cas_ex4_56",
+                "field_type": "Lookup"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Case",
+                "field_id": 8250,
+                "name": "Sweep-In amount",
+                "FieldName": "Cas_ex3_76",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Case",
+                "field_id": 1341,
+                "name": "Currency code",
+                "FieldName": "Cas_ex2_36",
+                "field_type": "Number"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Case",
+                "field_id": 1691,
+                "name": "OD LIMIT",
+                "FieldName": "Cas_ex2_67",
+                "field_type": "Number"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Case",
+                "field_id": 10871,
+                "name": "Signature fetch",
+                "FieldName": "Cas_ex5_15",
+                "field_type": "Lookup"
+            }
+        ]
+    },
+    {
+        "query_label": "Case CASA STP status",
+        "query_fields": [
+            {
+                "roleid": 1,
+                "object_name": "Case",
+                "field_id": 1330,
+                "name": "CASA Error Code",
+                "FieldName": "Cas_ex2_25",
+                "field_type": "Lookup"
+            }
+        ]
+    },
+    {
+        "query_label": "Case tab 3",
+        "query_fields": []
+    }
+]

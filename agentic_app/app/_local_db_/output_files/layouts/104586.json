@@ -1,0 +1,1765 @@
+[
+    {
+        "query_label": "Activity HNW Sales Process",
+        "query_fields": [
+            {
+                "roleid": 1,
+                "object_name": "Activity",
+                "field_id": 10010172,
+                "name": "Due Date",
+                "FieldName": "DueDate",
+                "field_type": "Date"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Activity",
+                "field_id": 10010250,
+                "name": "Time",
+                "FieldName": "Time",
+                "field_type": "Time"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Activity",
+                "field_id": 1852,
+                "name": "Is Existing Customer",
+                "FieldName": "Act_ex2_53",
+                "field_type": "Lookup"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Activity",
+                "field_id": 10010103,
+                "name": "Assigned To",
+                "FieldName": "AssignedTo",
+                "field_type": "Number"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Activity",
+                "field_id": 1853,
+                "name": "Customer Name",
+                "FieldName": "Act_ex2_54",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Activity",
+                "field_id": 10010234,
+                "name": "Customer Name",
+                "FieldName": "RelatedToName",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Activity",
+                "field_id": 1854,
+                "name": "Customer ID",
+                "FieldName": "Act_ex2_55",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Activity",
+                "field_id": 76,
+                "name": "Phone Number",
+                "FieldName": "Act_ex1_5",
+                "field_type": "Phone"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Activity",
+                "field_id": 78,
+                "name": "Email ID",
+                "FieldName": "Act_ex1_7",
+                "field_type": "Email"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Activity",
+                "field_id": 1198,
+                "name": "Offer NI/Reject Re",
+                "FieldName": "Act_ex1_29",
+                "field_type": "MultiPicker"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Activity",
+                "field_id": 685,
+                "name": "Not Interested Reason",
+                "FieldName": "Act_ex1_26",
+                "field_type": "Lookup"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Activity",
+                "field_id": 11020,
+                "name": "Onboarding Checklist",
+                "FieldName": "Act_ex3_68",
+                "field_type": "MultiPicker"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Activity",
+                "field_id": 7187,
+                "name": "Type of Digital Demo",
+                "FieldName": "Act_ex1_62",
+                "field_type": "MultiPicker"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Activity",
+                "field_id": 1851,
+                "name": "Joint Call With",
+                "FieldName": "Act_ex2_52",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Activity",
+                "field_id": 1004,
+                "name": "Mode of Interaction",
+                "FieldName": "Act_ex1_27",
+                "field_type": "Lookup"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Activity",
+                "field_id": 10010243,
+                "name": "Interaction Status",
+                "FieldName": "Status",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Activity",
+                "field_id": 10010100,
+                "name": "Appointment Type",
+                "FieldName": "ActivityType",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Activity",
+                "field_id": 10010171,
+                "name": "Comments",
+                "FieldName": "Details",
+                "field_type": "Comments"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Activity",
+                "field_id": 11440,
+                "name": "Products Pitched",
+                "FieldName": "Act_ex4_24",
+                "field_type": "MultiPicker"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Activity",
+                "field_id": 11441,
+                "name": "Products Not Required by Customer",
+                "FieldName": "Act_ex4_25",
+                "field_type": "MultiPicker"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Activity",
+                "field_id": 11442,
+                "name": "Reasons for Liability Attrition",
+                "FieldName": "Act_ex4_26",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Activity",
+                "field_id": 11443,
+                "name": "When are Funds Expected",
+                "FieldName": "Act_ex4_27",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Activity",
+                "field_id": 11444,
+                "name": "Specify Inflow Expected",
+                "FieldName": "Act_ex4_28",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Activity",
+                "field_id": 11445,
+                "name": "RM Feedback",
+                "FieldName": "Act_ex4_19",
+                "field_type": "Comments"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Activity",
+                "field_id": 11501,
+                "name": "Supervisor Comments 1",
+                "FieldName": "Act_ex5_60",
+                "field_type": "Comments"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Activity",
+                "field_id": 11514,
+                "name": "Last Reviewed By 1",
+                "FieldName": "Act_ex4_40",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Activity",
+                "field_id": 11511,
+                "name": "Last Reviewed On 1",
+                "FieldName": "Act_ex4_37",
+                "field_type": "DateTime"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Activity",
+                "field_id": 11587,
+                "name": "Supervisor Comments 2",
+                "FieldName": "Act_ex4_86",
+                "field_type": "Comments"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Activity",
+                "field_id": 11515,
+                "name": "Last Reviewed By 2",
+                "FieldName": "Act_ex4_41",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Activity",
+                "field_id": 11512,
+                "name": "Last Reviewed On 2",
+                "FieldName": "Act_ex4_38",
+                "field_type": "DateTime"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Activity",
+                "field_id": 11588,
+                "name": "Supervisor Comments 3",
+                "FieldName": "Act_ex4_87",
+                "field_type": "Comments"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Activity",
+                "field_id": 11516,
+                "name": "Last Reviewed By 3",
+                "FieldName": "Act_ex4_42",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Activity",
+                "field_id": 11513,
+                "name": "Last Reviewed On 3",
+                "FieldName": "Act_ex4_39",
+                "field_type": "DateTime"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Activity",
+                "field_id": 11598,
+                "name": "Supervisor Comments 4",
+                "FieldName": "Act_ex4_94",
+                "field_type": "Comments"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Activity",
+                "field_id": 11618,
+                "name": "Last Reviewed By 4",
+                "FieldName": "Act_ex5_14",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Activity",
+                "field_id": 11608,
+                "name": "Last Reviewed On 4",
+                "FieldName": "Act_ex5_4",
+                "field_type": "DateTime"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Activity",
+                "field_id": 11599,
+                "name": "Supervisor Comments",
+                "FieldName": "Act_ex4_95",
+                "field_type": "Comments"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Activity",
+                "field_id": 11619,
+                "name": "Last Reviewed By 5",
+                "FieldName": "Act_ex5_15",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Activity",
+                "field_id": 11609,
+                "name": "Last Reviewed On 5",
+                "FieldName": "Act_ex5_5",
+                "field_type": "DateTime"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Activity",
+                "field_id": 11449,
+                "name": "Products Pitched",
+                "FieldName": "Act_ex4_18",
+                "field_type": "MultiPicker"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Activity",
+                "field_id": 11450,
+                "name": "Products Not Required by Customer",
+                "FieldName": "Act_ex4_22",
+                "field_type": "MultiPicker"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Activity",
+                "field_id": 11451,
+                "name": "Is Pre-Approved offers Communicated",
+                "FieldName": "Act_ex4_23",
+                "field_type": "Lookup"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Activity",
+                "field_id": 11452,
+                "name": "RM Feedback",
+                "FieldName": "Act_ex5_62",
+                "field_type": "Comments"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Activity",
+                "field_id": 11503,
+                "name": "Supervisor Comments 1",
+                "FieldName": "Act_ex4_12",
+                "field_type": "Comments"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Activity",
+                "field_id": 11523,
+                "name": "Last Reviewed By 1",
+                "FieldName": "Act_ex4_49",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Activity",
+                "field_id": 11526,
+                "name": "Last Reviewed On 1",
+                "FieldName": "Act_ex4_52",
+                "field_type": "DateTime"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Activity",
+                "field_id": 11583,
+                "name": "Supervisor Comments 2",
+                "FieldName": "Act_ex4_82",
+                "field_type": "Comments"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Activity",
+                "field_id": 11524,
+                "name": "Last Reviewed By 2",
+                "FieldName": "Act_ex4_50",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Activity",
+                "field_id": 11527,
+                "name": "Last Reviewed On 2",
+                "FieldName": "Act_ex4_53",
+                "field_type": "DateTime"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Activity",
+                "field_id": 11584,
+                "name": "Supervisor Comments 3",
+                "FieldName": "Act_ex4_83",
+                "field_type": "Comments"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Activity",
+                "field_id": 11525,
+                "name": "Last Reviewed By 3",
+                "FieldName": "Act_ex4_51",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Activity",
+                "field_id": 11528,
+                "name": "Last Reviewed On 3",
+                "FieldName": "Act_ex4_54",
+                "field_type": "DateTime"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Activity",
+                "field_id": 11602,
+                "name": "Supervisor Comments 4",
+                "FieldName": "Act_ex4_98",
+                "field_type": "Comments"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Activity",
+                "field_id": 11622,
+                "name": "Last Reviewed By 4",
+                "FieldName": "Act_ex5_18",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Activity",
+                "field_id": 11613,
+                "name": "Last Reviewed On 4",
+                "FieldName": "Act_ex5_9",
+                "field_type": "DateTime"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Activity",
+                "field_id": 11603,
+                "name": "Supervisor Comments 5",
+                "FieldName": "Act_ex4_99",
+                "field_type": "Comments"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Activity",
+                "field_id": 11623,
+                "name": "Last Reviewed By 5",
+                "FieldName": "Act_ex5_19",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Activity",
+                "field_id": 11612,
+                "name": "Last Reviewed On 5",
+                "FieldName": "Act_ex5_8",
+                "field_type": "DateTime"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Activity",
+                "field_id": 11456,
+                "name": "Products Pitched",
+                "FieldName": "Act_ex5_65",
+                "field_type": "MultiPicker"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Activity",
+                "field_id": 11457,
+                "name": "Products Not Required by Customer",
+                "FieldName": "Act_ex5_66",
+                "field_type": "MultiPicker"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Activity",
+                "field_id": 11458,
+                "name": "RM Feedback",
+                "FieldName": "Act_ex4_8",
+                "field_type": "Comments"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Activity",
+                "field_id": 11502,
+                "name": "Supervisor Comments 1",
+                "FieldName": "Act_ex5_61",
+                "field_type": "Comments"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Activity",
+                "field_id": 11522,
+                "name": "Last Reviewed By 1",
+                "FieldName": "Act_ex4_48",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Activity",
+                "field_id": 11519,
+                "name": "Last Reviewed On 1",
+                "FieldName": "Act_ex4_45",
+                "field_type": "DateTime"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Activity",
+                "field_id": 11585,
+                "name": "Supervisor Comments 2",
+                "FieldName": "Act_ex4_84",
+                "field_type": "Comments"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Activity",
+                "field_id": 11521,
+                "name": "Last Reviewed By 2",
+                "FieldName": "Act_ex4_47",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Activity",
+                "field_id": 11518,
+                "name": "Last Reviewed On 2",
+                "FieldName": "Act_ex4_44",
+                "field_type": "DateTime"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Activity",
+                "field_id": 11586,
+                "name": "Supervisor Comments 3",
+                "FieldName": "Act_ex4_85",
+                "field_type": "Comments"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Activity",
+                "field_id": 11520,
+                "name": "Last Reviewed By 3",
+                "FieldName": "Act_ex4_46",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Activity",
+                "field_id": 11517,
+                "name": "Last Reviewed On 3",
+                "FieldName": "Act_ex4_43",
+                "field_type": "DateTime"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Activity",
+                "field_id": 11600,
+                "name": "Supervisor Comments 4",
+                "FieldName": "Act_ex4_96",
+                "field_type": "Comments"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Activity",
+                "field_id": 11620,
+                "name": "Last Reviewed By 4",
+                "FieldName": "Act_ex5_16",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Activity",
+                "field_id": 11610,
+                "name": "Last Reviewed On 4",
+                "FieldName": "Act_ex5_6",
+                "field_type": "DateTime"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Activity",
+                "field_id": 11601,
+                "name": "Supervisor Comments 5",
+                "FieldName": "Act_ex4_97",
+                "field_type": "Comments"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Activity",
+                "field_id": 11621,
+                "name": "Last Reviewed By 5",
+                "FieldName": "Act_ex5_17",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Activity",
+                "field_id": 11611,
+                "name": "Last Reviewed On 5",
+                "FieldName": "Act_ex5_7",
+                "field_type": "DateTime"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Activity",
+                "field_id": 11462,
+                "name": "Products Pitched",
+                "FieldName": "Act_ex4_11",
+                "field_type": "MultiPicker"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Activity",
+                "field_id": 11464,
+                "name": "RM Feedback",
+                "FieldName": "Act_ex4_13",
+                "field_type": "Comments"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Activity",
+                "field_id": 11504,
+                "name": "Supervisor Comments 1",
+                "FieldName": "Act_ex4_30",
+                "field_type": "Comments"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Activity",
+                "field_id": 11532,
+                "name": "Last Reviewed By 1",
+                "FieldName": "Act_ex4_58",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Activity",
+                "field_id": 11529,
+                "name": "Last Reviewed On 1",
+                "FieldName": "Act_ex4_55",
+                "field_type": "DateTime"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Activity",
+                "field_id": 11581,
+                "name": "Supervisor Comments 2",
+                "FieldName": "Act_ex4_80",
+                "field_type": "Comments"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Activity",
+                "field_id": 11533,
+                "name": "Last Reviewed By 2",
+                "FieldName": "Act_ex4_59",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Activity",
+                "field_id": 11530,
+                "name": "Last Reviewed On 2",
+                "FieldName": "Act_ex4_56",
+                "field_type": "DateTime"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Activity",
+                "field_id": 11582,
+                "name": "Supervisor Comments 3",
+                "FieldName": "Act_ex4_81",
+                "field_type": "Comments"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Activity",
+                "field_id": 11534,
+                "name": "Last Reviewed By 3",
+                "FieldName": "Act_ex4_60",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Activity",
+                "field_id": 11531,
+                "name": "Last Reviewed On 3",
+                "FieldName": "Act_ex4_57",
+                "field_type": "DateTime"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Activity",
+                "field_id": 11604,
+                "name": "Supervisor Comments 4",
+                "FieldName": "Act_ex4_100",
+                "field_type": "Comments"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Activity",
+                "field_id": 11624,
+                "name": "Last Reviewed By 4",
+                "FieldName": "Act_ex5_20",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Activity",
+                "field_id": 11614,
+                "name": "Last Reviewed On 4",
+                "FieldName": "Act_ex5_10",
+                "field_type": "DateTime"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Activity",
+                "field_id": 11605,
+                "name": "Supervisor Comments 5",
+                "FieldName": "Act_ex5_1",
+                "field_type": "Comments"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Activity",
+                "field_id": 11625,
+                "name": "Last Reviewed By 5",
+                "FieldName": "Act_ex5_21",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Activity",
+                "field_id": 11615,
+                "name": "Last Reviewed On 5",
+                "FieldName": "Act_ex5_11",
+                "field_type": "DateTime"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Activity",
+                "field_id": 11535,
+                "name": "Other Supervisory Comments 1",
+                "FieldName": "Act_ex4_61",
+                "field_type": "Comments"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Activity",
+                "field_id": 11508,
+                "name": "Last Reviewed By 1",
+                "FieldName": "Act_ex4_34",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Activity",
+                "field_id": 11505,
+                "name": "Last Reviewed On 1",
+                "FieldName": "Act_ex4_31",
+                "field_type": "DateTime"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Activity",
+                "field_id": 11579,
+                "name": "Other Supervisory Comments 2",
+                "FieldName": "Act_ex4_78",
+                "field_type": "Comments"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Activity",
+                "field_id": 11509,
+                "name": "Last Reviewed By 2",
+                "FieldName": "Act_ex4_35",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Activity",
+                "field_id": 11506,
+                "name": "Last Reviewed On 2",
+                "FieldName": "Act_ex4_32",
+                "field_type": "DateTime"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Activity",
+                "field_id": 11580,
+                "name": "Other Supervisory Comments 3",
+                "FieldName": "Act_ex4_79",
+                "field_type": "Comments"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Activity",
+                "field_id": 11510,
+                "name": "Last Reviewed By 3",
+                "FieldName": "Act_ex4_36",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Activity",
+                "field_id": 11507,
+                "name": "Last Reviewed On 3",
+                "FieldName": "Act_ex4_33",
+                "field_type": "DateTime"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Activity",
+                "field_id": 11606,
+                "name": "Other Supervisor Comments 4",
+                "FieldName": "Act_ex5_2",
+                "field_type": "Comments"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Activity",
+                "field_id": 11626,
+                "name": "Last Reviewed By 4",
+                "FieldName": "Act_ex5_22",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Activity",
+                "field_id": 11616,
+                "name": "Last Reviewed On 4",
+                "FieldName": "Act_ex5_12",
+                "field_type": "DateTime"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Activity",
+                "field_id": 11607,
+                "name": "Other Supervisor Comments 5",
+                "FieldName": "Act_ex5_3",
+                "field_type": "Comments"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Activity",
+                "field_id": 11627,
+                "name": "Last Reviewed By 5",
+                "FieldName": "Act_ex5_23",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Activity",
+                "field_id": 11617,
+                "name": "Last Reviewed On 5",
+                "FieldName": "Act_ex5_13",
+                "field_type": "DateTime"
+            }
+        ]
+    },
+    {
+        "query_label": "Activity Service Interaction",
+        "query_fields": [
+            {
+                "roleid": 1,
+                "object_name": "Activity",
+                "field_id": 10010172,
+                "name": "Due Date",
+                "FieldName": "DueDate",
+                "field_type": "Date"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Activity",
+                "field_id": 10010250,
+                "name": "Time",
+                "FieldName": "Time",
+                "field_type": "Time"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Activity",
+                "field_id": 1852,
+                "name": "Is Existing Customer",
+                "FieldName": "Act_ex2_53",
+                "field_type": "Lookup"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Activity",
+                "field_id": 10010103,
+                "name": "Assigned To",
+                "FieldName": "AssignedTo",
+                "field_type": "Number"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Activity",
+                "field_id": 1853,
+                "name": "Customer Name",
+                "FieldName": "Act_ex2_54",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Activity",
+                "field_id": 10010234,
+                "name": "Customer Name",
+                "FieldName": "RelatedToName",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Activity",
+                "field_id": 1854,
+                "name": "Customer ID",
+                "FieldName": "Act_ex2_55",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Activity",
+                "field_id": 76,
+                "name": "Phone Number",
+                "FieldName": "Act_ex1_5",
+                "field_type": "Phone"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Activity",
+                "field_id": 78,
+                "name": "Email ID",
+                "FieldName": "Act_ex1_7",
+                "field_type": "Email"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Activity",
+                "field_id": 1198,
+                "name": "Offer NI/Reject Re",
+                "FieldName": "Act_ex1_29",
+                "field_type": "MultiPicker"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Activity",
+                "field_id": 685,
+                "name": "Not Interested Reason",
+                "FieldName": "Act_ex1_26",
+                "field_type": "Lookup"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Activity",
+                "field_id": 11020,
+                "name": "Onboarding Checklist",
+                "FieldName": "Act_ex3_68",
+                "field_type": "MultiPicker"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Activity",
+                "field_id": 7187,
+                "name": "Type of Digital Demo",
+                "FieldName": "Act_ex1_62",
+                "field_type": "MultiPicker"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Activity",
+                "field_id": 1851,
+                "name": "Joint Call With",
+                "FieldName": "Act_ex2_52",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Activity",
+                "field_id": 1004,
+                "name": "Mode of Interaction",
+                "FieldName": "Act_ex1_27",
+                "field_type": "Lookup"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Activity",
+                "field_id": 10010243,
+                "name": "Interaction Status",
+                "FieldName": "Status",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Activity",
+                "field_id": 10010100,
+                "name": "Appointment Type",
+                "FieldName": "ActivityType",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Activity",
+                "field_id": 10010171,
+                "name": "Comments",
+                "FieldName": "Details",
+                "field_type": "Comments"
+            }
+        ]
+    },
+    {
+        "query_label": "Activity Liabilities & Digital Products",
+        "query_fields": [
+            {
+                "roleid": 1,
+                "object_name": "Activity",
+                "field_id": 11440,
+                "name": "Products Pitched",
+                "FieldName": "Act_ex4_24",
+                "field_type": "MultiPicker"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Activity",
+                "field_id": 11441,
+                "name": "Products Not Required by Customer",
+                "FieldName": "Act_ex4_25",
+                "field_type": "MultiPicker"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Activity",
+                "field_id": 11442,
+                "name": "Reasons for Liability Attrition",
+                "FieldName": "Act_ex4_26",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Activity",
+                "field_id": 11443,
+                "name": "When are Funds Expected",
+                "FieldName": "Act_ex4_27",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Activity",
+                "field_id": 11444,
+                "name": "Specify Inflow Expected",
+                "FieldName": "Act_ex4_28",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Activity",
+                "field_id": 11445,
+                "name": "RM Feedback",
+                "FieldName": "Act_ex4_19",
+                "field_type": "Comments"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Activity",
+                "field_id": 11501,
+                "name": "Supervisor Comments 1",
+                "FieldName": "Act_ex5_60",
+                "field_type": "Comments"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Activity",
+                "field_id": 11514,
+                "name": "Last Reviewed By 1",
+                "FieldName": "Act_ex4_40",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Activity",
+                "field_id": 11511,
+                "name": "Last Reviewed On 1",
+                "FieldName": "Act_ex4_37",
+                "field_type": "DateTime"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Activity",
+                "field_id": 11587,
+                "name": "Supervisor Comments 2",
+                "FieldName": "Act_ex4_86",
+                "field_type": "Comments"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Activity",
+                "field_id": 11515,
+                "name": "Last Reviewed By 2",
+                "FieldName": "Act_ex4_41",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Activity",
+                "field_id": 11512,
+                "name": "Last Reviewed On 2",
+                "FieldName": "Act_ex4_38",
+                "field_type": "DateTime"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Activity",
+                "field_id": 11588,
+                "name": "Supervisor Comments 3",
+                "FieldName": "Act_ex4_87",
+                "field_type": "Comments"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Activity",
+                "field_id": 11516,
+                "name": "Last Reviewed By 3",
+                "FieldName": "Act_ex4_42",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Activity",
+                "field_id": 11513,
+                "name": "Last Reviewed On 3",
+                "FieldName": "Act_ex4_39",
+                "field_type": "DateTime"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Activity",
+                "field_id": 11598,
+                "name": "Supervisor Comments 4",
+                "FieldName": "Act_ex4_94",
+                "field_type": "Comments"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Activity",
+                "field_id": 11618,
+                "name": "Last Reviewed By 4",
+                "FieldName": "Act_ex5_14",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Activity",
+                "field_id": 11608,
+                "name": "Last Reviewed On 4",
+                "FieldName": "Act_ex5_4",
+                "field_type": "DateTime"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Activity",
+                "field_id": 11599,
+                "name": "Supervisor Comments",
+                "FieldName": "Act_ex4_95",
+                "field_type": "Comments"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Activity",
+                "field_id": 11619,
+                "name": "Last Reviewed By 5",
+                "FieldName": "Act_ex5_15",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Activity",
+                "field_id": 11609,
+                "name": "Last Reviewed On 5",
+                "FieldName": "Act_ex5_5",
+                "field_type": "DateTime"
+            }
+        ]
+    },
+    {
+        "query_label": "Activity Credit Cards & Assets",
+        "query_fields": [
+            {
+                "roleid": 1,
+                "object_name": "Activity",
+                "field_id": 11449,
+                "name": "Products Pitched",
+                "FieldName": "Act_ex4_18",
+                "field_type": "MultiPicker"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Activity",
+                "field_id": 11450,
+                "name": "Products Not Required by Customer",
+                "FieldName": "Act_ex4_22",
+                "field_type": "MultiPicker"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Activity",
+                "field_id": 11451,
+                "name": "Is Pre-Approved offers Communicated",
+                "FieldName": "Act_ex4_23",
+                "field_type": "Lookup"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Activity",
+                "field_id": 11452,
+                "name": "RM Feedback",
+                "FieldName": "Act_ex5_62",
+                "field_type": "Comments"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Activity",
+                "field_id": 11503,
+                "name": "Supervisor Comments 1",
+                "FieldName": "Act_ex4_12",
+                "field_type": "Comments"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Activity",
+                "field_id": 11523,
+                "name": "Last Reviewed By 1",
+                "FieldName": "Act_ex4_49",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Activity",
+                "field_id": 11526,
+                "name": "Last Reviewed On 1",
+                "FieldName": "Act_ex4_52",
+                "field_type": "DateTime"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Activity",
+                "field_id": 11583,
+                "name": "Supervisor Comments 2",
+                "FieldName": "Act_ex4_82",
+                "field_type": "Comments"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Activity",
+                "field_id": 11524,
+                "name": "Last Reviewed By 2",
+                "FieldName": "Act_ex4_50",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Activity",
+                "field_id": 11527,
+                "name": "Last Reviewed On 2",
+                "FieldName": "Act_ex4_53",
+                "field_type": "DateTime"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Activity",
+                "field_id": 11584,
+                "name": "Supervisor Comments 3",
+                "FieldName": "Act_ex4_83",
+                "field_type": "Comments"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Activity",
+                "field_id": 11525,
+                "name": "Last Reviewed By 3",
+                "FieldName": "Act_ex4_51",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Activity",
+                "field_id": 11528,
+                "name": "Last Reviewed On 3",
+                "FieldName": "Act_ex4_54",
+                "field_type": "DateTime"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Activity",
+                "field_id": 11602,
+                "name": "Supervisor Comments 4",
+                "FieldName": "Act_ex4_98",
+                "field_type": "Comments"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Activity",
+                "field_id": 11622,
+                "name": "Last Reviewed By 4",
+                "FieldName": "Act_ex5_18",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Activity",
+                "field_id": 11613,
+                "name": "Last Reviewed On 4",
+                "FieldName": "Act_ex5_9",
+                "field_type": "DateTime"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Activity",
+                "field_id": 11603,
+                "name": "Supervisor Comments 5",
+                "FieldName": "Act_ex4_99",
+                "field_type": "Comments"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Activity",
+                "field_id": 11623,
+                "name": "Last Reviewed By 5",
+                "FieldName": "Act_ex5_19",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Activity",
+                "field_id": 11612,
+                "name": "Last Reviewed On 5",
+                "FieldName": "Act_ex5_8",
+                "field_type": "DateTime"
+            }
+        ]
+    },
+    {
+        "query_label": "Activity Investment Products",
+        "query_fields": [
+            {
+                "roleid": 1,
+                "object_name": "Activity",
+                "field_id": 11456,
+                "name": "Products Pitched",
+                "FieldName": "Act_ex5_65",
+                "field_type": "MultiPicker"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Activity",
+                "field_id": 11457,
+                "name": "Products Not Required by Customer",
+                "FieldName": "Act_ex5_66",
+                "field_type": "MultiPicker"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Activity",
+                "field_id": 11458,
+                "name": "RM Feedback",
+                "FieldName": "Act_ex4_8",
+                "field_type": "Comments"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Activity",
+                "field_id": 11502,
+                "name": "Supervisor Comments 1",
+                "FieldName": "Act_ex5_61",
+                "field_type": "Comments"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Activity",
+                "field_id": 11522,
+                "name": "Last Reviewed By 1",
+                "FieldName": "Act_ex4_48",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Activity",
+                "field_id": 11519,
+                "name": "Last Reviewed On 1",
+                "FieldName": "Act_ex4_45",
+                "field_type": "DateTime"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Activity",
+                "field_id": 11585,
+                "name": "Supervisor Comments 2",
+                "FieldName": "Act_ex4_84",
+                "field_type": "Comments"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Activity",
+                "field_id": 11521,
+                "name": "Last Reviewed By 2",
+                "FieldName": "Act_ex4_47",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Activity",
+                "field_id": 11518,
+                "name": "Last Reviewed On 2",
+                "FieldName": "Act_ex4_44",
+                "field_type": "DateTime"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Activity",
+                "field_id": 11586,
+                "name": "Supervisor Comments 3",
+                "FieldName": "Act_ex4_85",
+                "field_type": "Comments"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Activity",
+                "field_id": 11520,
+                "name": "Last Reviewed By 3",
+                "FieldName": "Act_ex4_46",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Activity",
+                "field_id": 11517,
+                "name": "Last Reviewed On 3",
+                "FieldName": "Act_ex4_43",
+                "field_type": "DateTime"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Activity",
+                "field_id": 11600,
+                "name": "Supervisor Comments 4",
+                "FieldName": "Act_ex4_96",
+                "field_type": "Comments"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Activity",
+                "field_id": 11620,
+                "name": "Last Reviewed By 4",
+                "FieldName": "Act_ex5_16",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Activity",
+                "field_id": 11610,
+                "name": "Last Reviewed On 4",
+                "FieldName": "Act_ex5_6",
+                "field_type": "DateTime"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Activity",
+                "field_id": 11601,
+                "name": "Supervisor Comments 5",
+                "FieldName": "Act_ex4_97",
+                "field_type": "Comments"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Activity",
+                "field_id": 11621,
+                "name": "Last Reviewed By 5",
+                "FieldName": "Act_ex5_17",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Activity",
+                "field_id": 11611,
+                "name": "Last Reviewed On 5",
+                "FieldName": "Act_ex5_7",
+                "field_type": "DateTime"
+            }
+        ]
+    },
+    {
+        "query_label": "Activity Compliance",
+        "query_fields": [
+            {
+                "roleid": 1,
+                "object_name": "Activity",
+                "field_id": 11462,
+                "name": "Products Pitched",
+                "FieldName": "Act_ex4_11",
+                "field_type": "MultiPicker"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Activity",
+                "field_id": 11464,
+                "name": "RM Feedback",
+                "FieldName": "Act_ex4_13",
+                "field_type": "Comments"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Activity",
+                "field_id": 11504,
+                "name": "Supervisor Comments 1",
+                "FieldName": "Act_ex4_30",
+                "field_type": "Comments"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Activity",
+                "field_id": 11532,
+                "name": "Last Reviewed By 1",
+                "FieldName": "Act_ex4_58",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Activity",
+                "field_id": 11529,
+                "name": "Last Reviewed On 1",
+                "FieldName": "Act_ex4_55",
+                "field_type": "DateTime"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Activity",
+                "field_id": 11581,
+                "name": "Supervisor Comments 2",
+                "FieldName": "Act_ex4_80",
+                "field_type": "Comments"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Activity",
+                "field_id": 11533,
+                "name": "Last Reviewed By 2",
+                "FieldName": "Act_ex4_59",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Activity",
+                "field_id": 11530,
+                "name": "Last Reviewed On 2",
+                "FieldName": "Act_ex4_56",
+                "field_type": "DateTime"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Activity",
+                "field_id": 11582,
+                "name": "Supervisor Comments 3",
+                "FieldName": "Act_ex4_81",
+                "field_type": "Comments"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Activity",
+                "field_id": 11534,
+                "name": "Last Reviewed By 3",
+                "FieldName": "Act_ex4_60",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Activity",
+                "field_id": 11531,
+                "name": "Last Reviewed On 3",
+                "FieldName": "Act_ex4_57",
+                "field_type": "DateTime"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Activity",
+                "field_id": 11604,
+                "name": "Supervisor Comments 4",
+                "FieldName": "Act_ex4_100",
+                "field_type": "Comments"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Activity",
+                "field_id": 11624,
+                "name": "Last Reviewed By 4",
+                "FieldName": "Act_ex5_20",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Activity",
+                "field_id": 11614,
+                "name": "Last Reviewed On 4",
+                "FieldName": "Act_ex5_10",
+                "field_type": "DateTime"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Activity",
+                "field_id": 11605,
+                "name": "Supervisor Comments 5",
+                "FieldName": "Act_ex5_1",
+                "field_type": "Comments"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Activity",
+                "field_id": 11625,
+                "name": "Last Reviewed By 5",
+                "FieldName": "Act_ex5_21",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Activity",
+                "field_id": 11615,
+                "name": "Last Reviewed On 5",
+                "FieldName": "Act_ex5_11",
+                "field_type": "DateTime"
+            }
+        ]
+    },
+    {
+        "query_label": "Activity Additional Supervisory Review Comments",
+        "query_fields": [
+            {
+                "roleid": 1,
+                "object_name": "Activity",
+                "field_id": 11535,
+                "name": "Other Supervisory Comments 1",
+                "FieldName": "Act_ex4_61",
+                "field_type": "Comments"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Activity",
+                "field_id": 11508,
+                "name": "Last Reviewed By 1",
+                "FieldName": "Act_ex4_34",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Activity",
+                "field_id": 11505,
+                "name": "Last Reviewed On 1",
+                "FieldName": "Act_ex4_31",
+                "field_type": "DateTime"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Activity",
+                "field_id": 11579,
+                "name": "Other Supervisory Comments 2",
+                "FieldName": "Act_ex4_78",
+                "field_type": "Comments"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Activity",
+                "field_id": 11509,
+                "name": "Last Reviewed By 2",
+                "FieldName": "Act_ex4_35",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Activity",
+                "field_id": 11506,
+                "name": "Last Reviewed On 2",
+                "FieldName": "Act_ex4_32",
+                "field_type": "DateTime"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Activity",
+                "field_id": 11580,
+                "name": "Other Supervisory Comments 3",
+                "FieldName": "Act_ex4_79",
+                "field_type": "Comments"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Activity",
+                "field_id": 11510,
+                "name": "Last Reviewed By 3",
+                "FieldName": "Act_ex4_36",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Activity",
+                "field_id": 11507,
+                "name": "Last Reviewed On 3",
+                "FieldName": "Act_ex4_33",
+                "field_type": "DateTime"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Activity",
+                "field_id": 11606,
+                "name": "Other Supervisor Comments 4",
+                "FieldName": "Act_ex5_2",
+                "field_type": "Comments"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Activity",
+                "field_id": 11626,
+                "name": "Last Reviewed By 4",
+                "FieldName": "Act_ex5_22",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Activity",
+                "field_id": 11616,
+                "name": "Last Reviewed On 4",
+                "FieldName": "Act_ex5_12",
+                "field_type": "DateTime"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Activity",
+                "field_id": 11607,
+                "name": "Other Supervisor Comments 5",
+                "FieldName": "Act_ex5_3",
+                "field_type": "Comments"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Activity",
+                "field_id": 11627,
+                "name": "Last Reviewed By 5",
+                "FieldName": "Act_ex5_23",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Activity",
+                "field_id": 11617,
+                "name": "Last Reviewed On 5",
+                "FieldName": "Act_ex5_13",
+                "field_type": "DateTime"
+            }
+        ]
+    }
+]

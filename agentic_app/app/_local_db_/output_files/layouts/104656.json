@@ -1,0 +1,986 @@
+[
+    {
+        "query_label": "Case Summary",
+        "query_fields": [
+            {
+                "roleid": 1,
+                "object_name": "Case",
+                "field_id": 10005762,
+                "name": "Case Number",
+                "FieldName": "Case_ID",
+                "field_type": "ObjectNumber"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Case",
+                "field_id": 10005891,
+                "name": "Status Code",
+                "FieldName": "StatusCode",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Case",
+                "field_id": 10005757,
+                "name": "Case Owner",
+                "FieldName": "AssignedToName",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Case",
+                "field_id": 10005847,
+                "name": "Priority",
+                "FieldName": "Priority",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Case",
+                "field_id": 10005852,
+                "name": "Product",
+                "FieldName": "Product",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Case",
+                "field_id": 1335,
+                "name": "Rejected Reason",
+                "FieldName": "Cas_ex2_30",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Case",
+                "field_id": 1677,
+                "name": "Branch Code",
+                "FieldName": "Cas_ex1_87",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Case",
+                "field_id": 1343,
+                "name": "Branch Name",
+                "FieldName": "Cas_ex2_38",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Case",
+                "field_id": 10005901,
+                "name": "Subject",
+                "FieldName": "Subject",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Case",
+                "field_id": 1310,
+                "name": "Name of Entity/Company",
+                "FieldName": "Cas_ex1_43",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Case",
+                "field_id": 1289,
+                "name": "Company Customer ID",
+                "FieldName": "Cas_ex1_22",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Case",
+                "field_id": 1356,
+                "name": "Country of Birth ",
+                "FieldName": "Cas_ex1_5",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Case",
+                "field_id": 1357,
+                "name": "Entity Type ",
+                "FieldName": "Cas_ex1_6",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Case",
+                "field_id": 1299,
+                "name": "Name of Company 1",
+                "FieldName": "Cas_ex1_32",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Case",
+                "field_id": 1300,
+                "name": "Date of Incorporation 1",
+                "FieldName": "Cas_ex1_33",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Case",
+                "field_id": 7189,
+                "name": "CIN / Regn No 1",
+                "FieldName": "Cas_ex4_8",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Case",
+                "field_id": 5162,
+                "name": "Country of Incorporation 1",
+                "FieldName": "Cas_ex3_68",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Case",
+                "field_id": 8572,
+                "name": "Address 1",
+                "FieldName": "Cas_ex4_72",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Case",
+                "field_id": 10625,
+                "name": "Percentage of Ownership / Capital / Profits 1",
+                "FieldName": "Cas_ex4_94",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Case",
+                "field_id": 10637,
+                "name": "Name of Company 2",
+                "FieldName": "Cas_ex5_1",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Case",
+                "field_id": 10639,
+                "name": "Date of Incorporation 2",
+                "FieldName": "Cas_ex5_3",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Case",
+                "field_id": 11005,
+                "name": "Country of Incorporation 2",
+                "FieldName": "Cas_ex5_16",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Case",
+                "field_id": 7084,
+                "name": "CIN/Regn No 2",
+                "FieldName": "Cas_ex3_81",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Case",
+                "field_id": 11966,
+                "name": "Address 2",
+                "FieldName": "Cas_ex4_93",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Case",
+                "field_id": 1355,
+                "name": "Percentage of Ownership / Capital / Profits 2",
+                "FieldName": "Cas_ex1_4",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Case",
+                "field_id": 1672,
+                "name": "Name of Company 3",
+                "FieldName": "Cas_ex1_82",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Case",
+                "field_id": 1680,
+                "name": "Country of Incorporation 3",
+                "FieldName": "Cas_ex1_90",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Case",
+                "field_id": 1678,
+                "name": "Date of Incorporation 3",
+                "FieldName": "Cas_ex1_88",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Case",
+                "field_id": 1703,
+                "name": "CIN / Regn No 3",
+                "FieldName": "Cas_ex2_80",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Case",
+                "field_id": 1750,
+                "name": "Address 3",
+                "FieldName": "Cas_ex3_40",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Case",
+                "field_id": 1752,
+                "name": "Percentage of Ownership / Capital / Profits 4",
+                "FieldName": "Cas_ex3_42",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Case",
+                "field_id": 7209,
+                "name": "Senior Managing Official - Designation",
+                "FieldName": "Cas_ex4_10",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Case",
+                "field_id": 1758,
+                "name": "Name of the controlling person ",
+                "FieldName": "Cas_ex3_48",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Case",
+                "field_id": 1754,
+                "name": "Controlling person type code",
+                "FieldName": "Cas_ex3_44",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Case",
+                "field_id": 13176,
+                "name": "Date Of Birth",
+                "FieldName": "Cas_ex2_107",
+                "field_type": "Date"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Case",
+                "field_id": 1707,
+                "name": "Percentage of ownership/capital/profits ",
+                "FieldName": "Cas_ex2_84",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Case",
+                "field_id": 1759,
+                "name": "Place / City of Birth ",
+                "FieldName": "Cas_ex3_49",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Case",
+                "field_id": 1760,
+                "name": "Gender ",
+                "FieldName": "Cas_ex3_50",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Case",
+                "field_id": 1770,
+                "name": "Marital Status ",
+                "FieldName": "Cas_ex3_60",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Case",
+                "field_id": 7190,
+                "name": "Father's name",
+                "FieldName": "Cas_ex4_9",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Case",
+                "field_id": 1345,
+                "name": "Country of tax residence (Mention only if it is other than India)",
+                "FieldName": "Cas_ex2_40",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Case",
+                "field_id": 13506,
+                "name": "Tax identification number (or functional equivalent of country other than India) %",
+                "FieldName": "Cas_ex2_152",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Case",
+                "field_id": 10630,
+                "name": "Nationality (Please specify country) ",
+                "FieldName": "Cas_ex4_97",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Case",
+                "field_id": 13507,
+                "name": "Tax identification number type (for country other than India)",
+                "FieldName": "Cas_ex2_149",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Case",
+                "field_id": 1774,
+                "name": "Address 1",
+                "FieldName": "Cas_ex3_64",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Case",
+                "field_id": 1740,
+                "name": "Address 2",
+                "FieldName": "Cas_ex3_30",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Case",
+                "field_id": 1742,
+                "name": "Address 3",
+                "FieldName": "Cas_ex3_32",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Case",
+                "field_id": 1775,
+                "name": "Address &amp;nbsp;- City ",
+                "FieldName": "Cas_ex3_65",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Case",
+                "field_id": 2503,
+                "name": "Address &amp;nbsp;- State",
+                "FieldName": "Cas_ex2_10",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Case",
+                "field_id": 2510,
+                "name": "Address &amp;nbsp;- Country",
+                "FieldName": "Cas_ex2_17",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Case",
+                "field_id": 1368,
+                "name": "Address &amp;nbsp;- Pin Code",
+                "FieldName": "Cas_ex1_12",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Case",
+                "field_id": 2534,
+                "name": "Address Type for above",
+                "FieldName": "Cas_ex2_65",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Case",
+                "field_id": 5146,
+                "name": "Mobile Number",
+                "FieldName": "Cas_ex3_17",
+                "field_type": "Phone"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Case",
+                "field_id": 8002,
+                "name": "Occupation Type",
+                "FieldName": "Cas_ex4_17",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Case",
+                "field_id": 8450,
+                "name": "&amp;quot;Proof of Identity  (Tick relevant and mention the details)&amp;quot;",
+                "FieldName": "Cas_ex4_54",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Case",
+                "field_id": 10632,
+                "name": "&amp;quot;Proof of Address (attach self-attested proof) (any one) (Please select any one Address proof )&amp;quot;",
+                "FieldName": "Cas_ex4_99",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Case",
+                "field_id": 1344,
+                "name": "profile Photo",
+                "FieldName": "Cas_ex2_39",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Case",
+                "field_id": 13240,
+                "name": "Address Proof Upload",
+                "FieldName": "Cas_ex1_155",
+                "field_type": "Document"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Case",
+                "field_id": 15079,
+                "name": "Id Proof Upload",
+                "FieldName": "Cas_ex2_151",
+                "field_type": "Document"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Case",
+                "field_id": 13338,
+                "name": "Profile Photo",
+                "FieldName": "Cas_ex2_144",
+                "field_type": "Document"
+            }
+        ]
+    },
+    {
+        "query_label": "Case Case Information",
+        "query_fields": [
+            {
+                "roleid": 1,
+                "object_name": "Case",
+                "field_id": 10005762,
+                "name": "Case Number",
+                "FieldName": "Case_ID",
+                "field_type": "ObjectNumber"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Case",
+                "field_id": 10005891,
+                "name": "Status Code",
+                "FieldName": "StatusCode",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Case",
+                "field_id": 10005757,
+                "name": "Case Owner",
+                "FieldName": "AssignedToName",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Case",
+                "field_id": 10005847,
+                "name": "Priority",
+                "FieldName": "Priority",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Case",
+                "field_id": 10005852,
+                "name": "Product",
+                "FieldName": "Product",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Case",
+                "field_id": 1335,
+                "name": "Rejected Reason",
+                "FieldName": "Cas_ex2_30",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Case",
+                "field_id": 1677,
+                "name": "Branch Code",
+                "FieldName": "Cas_ex1_87",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Case",
+                "field_id": 1343,
+                "name": "Branch Name",
+                "FieldName": "Cas_ex2_38",
+                "field_type": "Text"
+            }
+        ]
+    },
+    {
+        "query_label": "Case Other Information",
+        "query_fields": [
+            {
+                "roleid": 1,
+                "object_name": "Case",
+                "field_id": 10005901,
+                "name": "Subject",
+                "FieldName": "Subject",
+                "field_type": "Text"
+            }
+        ]
+    },
+    {
+        "query_label": "Case Case Details",
+        "query_fields": [
+            {
+                "roleid": 1,
+                "object_name": "Case",
+                "field_id": 1310,
+                "name": "Name of Entity/Company",
+                "FieldName": "Cas_ex1_43",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Case",
+                "field_id": 1289,
+                "name": "Company Customer ID",
+                "FieldName": "Cas_ex1_22",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Case",
+                "field_id": 1356,
+                "name": "Country of Birth ",
+                "FieldName": "Cas_ex1_5",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Case",
+                "field_id": 1357,
+                "name": "Entity Type ",
+                "FieldName": "Cas_ex1_6",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Case",
+                "field_id": 1299,
+                "name": "Name of Company 1",
+                "FieldName": "Cas_ex1_32",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Case",
+                "field_id": 1300,
+                "name": "Date of Incorporation 1",
+                "FieldName": "Cas_ex1_33",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Case",
+                "field_id": 7189,
+                "name": "CIN / Regn No 1",
+                "FieldName": "Cas_ex4_8",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Case",
+                "field_id": 5162,
+                "name": "Country of Incorporation 1",
+                "FieldName": "Cas_ex3_68",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Case",
+                "field_id": 8572,
+                "name": "Address 1",
+                "FieldName": "Cas_ex4_72",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Case",
+                "field_id": 10625,
+                "name": "Percentage of Ownership / Capital / Profits 1",
+                "FieldName": "Cas_ex4_94",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Case",
+                "field_id": 10637,
+                "name": "Name of Company 2",
+                "FieldName": "Cas_ex5_1",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Case",
+                "field_id": 10639,
+                "name": "Date of Incorporation 2",
+                "FieldName": "Cas_ex5_3",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Case",
+                "field_id": 11005,
+                "name": "Country of Incorporation 2",
+                "FieldName": "Cas_ex5_16",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Case",
+                "field_id": 7084,
+                "name": "CIN/Regn No 2",
+                "FieldName": "Cas_ex3_81",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Case",
+                "field_id": 11966,
+                "name": "Address 2",
+                "FieldName": "Cas_ex4_93",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Case",
+                "field_id": 1355,
+                "name": "Percentage of Ownership / Capital / Profits 2",
+                "FieldName": "Cas_ex1_4",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Case",
+                "field_id": 1672,
+                "name": "Name of Company 3",
+                "FieldName": "Cas_ex1_82",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Case",
+                "field_id": 1680,
+                "name": "Country of Incorporation 3",
+                "FieldName": "Cas_ex1_90",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Case",
+                "field_id": 1678,
+                "name": "Date of Incorporation 3",
+                "FieldName": "Cas_ex1_88",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Case",
+                "field_id": 1703,
+                "name": "CIN / Regn No 3",
+                "FieldName": "Cas_ex2_80",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Case",
+                "field_id": 1750,
+                "name": "Address 3",
+                "FieldName": "Cas_ex3_40",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Case",
+                "field_id": 1752,
+                "name": "Percentage of Ownership / Capital / Profits 4",
+                "FieldName": "Cas_ex3_42",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Case",
+                "field_id": 7209,
+                "name": "Senior Managing Official - Designation",
+                "FieldName": "Cas_ex4_10",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Case",
+                "field_id": 1758,
+                "name": "Name of the controlling person ",
+                "FieldName": "Cas_ex3_48",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Case",
+                "field_id": 1754,
+                "name": "Controlling person type code",
+                "FieldName": "Cas_ex3_44",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Case",
+                "field_id": 13176,
+                "name": "Date Of Birth",
+                "FieldName": "Cas_ex2_107",
+                "field_type": "Date"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Case",
+                "field_id": 1707,
+                "name": "Percentage of ownership/capital/profits ",
+                "FieldName": "Cas_ex2_84",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Case",
+                "field_id": 1759,
+                "name": "Place / City of Birth ",
+                "FieldName": "Cas_ex3_49",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Case",
+                "field_id": 1760,
+                "name": "Gender ",
+                "FieldName": "Cas_ex3_50",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Case",
+                "field_id": 1770,
+                "name": "Marital Status ",
+                "FieldName": "Cas_ex3_60",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Case",
+                "field_id": 7190,
+                "name": "Father's name",
+                "FieldName": "Cas_ex4_9",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Case",
+                "field_id": 1345,
+                "name": "Country of tax residence (Mention only if it is other than India)",
+                "FieldName": "Cas_ex2_40",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Case",
+                "field_id": 13506,
+                "name": "Tax identification number (or functional equivalent of country other than India) %",
+                "FieldName": "Cas_ex2_152",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Case",
+                "field_id": 10630,
+                "name": "Nationality (Please specify country) ",
+                "FieldName": "Cas_ex4_97",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Case",
+                "field_id": 13507,
+                "name": "Tax identification number type (for country other than India)",
+                "FieldName": "Cas_ex2_149",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Case",
+                "field_id": 1774,
+                "name": "Address 1",
+                "FieldName": "Cas_ex3_64",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Case",
+                "field_id": 1740,
+                "name": "Address 2",
+                "FieldName": "Cas_ex3_30",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Case",
+                "field_id": 1742,
+                "name": "Address 3",
+                "FieldName": "Cas_ex3_32",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Case",
+                "field_id": 1775,
+                "name": "Address &amp;nbsp;- City ",
+                "FieldName": "Cas_ex3_65",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Case",
+                "field_id": 2503,
+                "name": "Address &amp;nbsp;- State",
+                "FieldName": "Cas_ex2_10",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Case",
+                "field_id": 2510,
+                "name": "Address &amp;nbsp;- Country",
+                "FieldName": "Cas_ex2_17",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Case",
+                "field_id": 1368,
+                "name": "Address &amp;nbsp;- Pin Code",
+                "FieldName": "Cas_ex1_12",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Case",
+                "field_id": 2534,
+                "name": "Address Type for above",
+                "FieldName": "Cas_ex2_65",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Case",
+                "field_id": 5146,
+                "name": "Mobile Number",
+                "FieldName": "Cas_ex3_17",
+                "field_type": "Phone"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Case",
+                "field_id": 8002,
+                "name": "Occupation Type",
+                "FieldName": "Cas_ex4_17",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Case",
+                "field_id": 8450,
+                "name": "&amp;quot;Proof of Identity  (Tick relevant and mention the details)&amp;quot;",
+                "FieldName": "Cas_ex4_54",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Case",
+                "field_id": 10632,
+                "name": "&amp;quot;Proof of Address (attach self-attested proof) (any one) (Please select any one Address proof )&amp;quot;",
+                "FieldName": "Cas_ex4_99",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Case",
+                "field_id": 1344,
+                "name": "profile Photo",
+                "FieldName": "Cas_ex2_39",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Case",
+                "field_id": 13240,
+                "name": "Address Proof Upload",
+                "FieldName": "Cas_ex1_155",
+                "field_type": "Document"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Case",
+                "field_id": 15079,
+                "name": "Id Proof Upload",
+                "FieldName": "Cas_ex2_151",
+                "field_type": "Document"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Case",
+                "field_id": 13338,
+                "name": "Profile Photo",
+                "FieldName": "Cas_ex2_144",
+                "field_type": "Document"
+            }
+        ]
+    },
+    {
+        "query_label": "Case Attachments",
+        "query_fields": []
+    }
+]

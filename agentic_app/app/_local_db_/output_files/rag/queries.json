@@ -1,0 +1,296 @@
+[
+    {
+        "query": "Show my Tasks",
+        "meta_data": {
+            "intent": "GET",
+            "output_format": "TABLE"
+        }
+    },
+    {
+        "query": "List all Tasks",
+        "meta_data": {
+            "intent": "GET",
+            "output_format": "LIST"
+        }
+    },
+    {
+        "query": "Get all Tasks",
+        "meta_data": {
+            "intent": "GET",
+            "output_format": "TABLE"
+        }
+    },
+    {
+        "query": "Fetch my Tasks",
+        "meta_data": {
+            "intent": "GET",
+            "output_format": "TABLE"
+        }
+    },
+    {
+        "query": "Show Tasks assigned to me",
+        "meta_data": {
+            "intent": "GET",
+            "output_format": "TABLE"
+        }
+    },
+    {
+        "query": "Send my Tasks assigned to me",
+        "meta_data": {
+            "intent": "GET",
+            "output_format": "TABLE"
+        }
+    },
+    {
+        "query": "Send me Tasks assigned to me",
+        "meta_data": {
+            "intent": "GET",
+            "output_format": "TABLE"
+        }
+    },
+    {
+        "query": "Show my Events",
+        "meta_data": {
+            "intent": "GET",
+            "output_format": "TABLE"
+        }
+    },
+    {
+        "query": "List all Events",
+        "meta_data": {
+            "intent": "GET",
+            "output_format": "LIST"
+        }
+    },
+    {
+        "query": "Get all Events",
+        "meta_data": {
+            "intent": "GET",
+            "output_format": "TABLE"
+        }
+    },
+    {
+        "query": "Fetch my Events",
+        "meta_data": {
+            "intent": "GET",
+            "output_format": "TABLE"
+        }
+    },
+    {
+        "query": "Show Events assigned to me",
+        "meta_data": {
+            "intent": "GET",
+            "output_format": "TABLE"
+        }
+    },
+    {
+        "query": "Send my Events assigned to me",
+        "meta_data": {
+            "intent": "GET",
+            "output_format": "TABLE"
+        }
+    },
+    {
+        "query": "Send me Events assigned to me",
+        "meta_data": {
+            "intent": "GET",
+            "output_format": "TABLE"
+        }
+    },
+    {
+        "query": "Show my Notes",
+        "meta_data": {
+            "intent": "GET",
+            "output_format": "TABLE"
+        }
+    },
+    {
+        "query": "List all Notes",
+        "meta_data": {
+            "intent": "GET",
+            "output_format": "LIST"
+        }
+    },
+    {
+        "query": "Get all Notes",
+        "meta_data": {
+            "intent": "GET",
+            "output_format": "TABLE"
+        }
+    },
+    {
+        "query": "Fetch my Notes",
+        "meta_data": {
+            "intent": "GET",
+            "output_format": "TABLE"
+        }
+    },
+    {
+        "query": "Show Notes assigned to me",
+        "meta_data": {
+            "intent": "GET",
+            "output_format": "TABLE"
+        }
+    },
+    {
+        "query": "Send my Notes assigned to me",
+        "meta_data": {
+            "intent": "GET",
+            "output_format": "TABLE"
+        }
+    },
+    {
+        "query": "Send me Notes assigned to me",
+        "meta_data": {
+            "intent": "GET",
+            "output_format": "TABLE"
+        }
+    },
+    {
+        "query": "Show my Contacts",
+        "meta_data": {
+            "intent": "GET",
+            "output_format": "TABLE"
+        }
+    },
+    {
+        "query": "List all Contacts",
+        "meta_data": {
+            "intent": "GET",
+            "output_format": "LIST"
+        }
+    },
+    {
+        "query": "Get all Contacts",
+        "meta_data": {
+            "intent": "GET",
+            "output_format": "TABLE"
+        }
+    },
+    {
+        "query": "Fetch my Contacts",
+        "meta_data": {
+            "intent": "GET",
+            "output_format": "TABLE"
+        }
+    },
+    {
+        "query": "Show Contacts assigned to me",
+        "meta_data": {
+            "intent": "GET",
+            "output_format": "TABLE"
+        }
+    },
+    {
+        "query": "Send my Contacts assigned to me",
+        "meta_data": {
+            "intent": "GET",
+            "output_format": "TABLE"
+        }
+    },
+    {
+        "query": "Send me Contacts assigned to me",
+        "meta_data": {
+            "intent": "GET",
+            "output_format": "TABLE"
+        }
+    },
+    {
+        "query": "Show my Leads",
+        "meta_data": {
+            "intent": "GET",
+            "output_format": "TABLE"
+        }
+    },
+    {
+        "query": "List all Leads",
+        "meta_data": {
+            "intent": "GET",
+            "output_format": "LIST"
+        }
+    },
+    {
+        "query": "Get all Leads",
+        "meta_data": {
+            "intent": "GET",
+            "output_format": "TABLE"
+        }
+    },
+    {
+        "query": "Fetch my Leads",
+        "meta_data": {
+            "intent": "GET",
+            "output_format": "TABLE"
+        }
+    },
+    {
+        "query": "Show Leads assigned to me",
+        "meta_data": {
+            "intent": "GET",
+            "output_format": "TABLE"
+        }
+    },
+    {
+        "query": "Send my Leads assigned to me",
+        "meta_data": {
+            "intent": "GET",
+            "output_format": "TABLE"
+        }
+    },
+    {
+        "query": "Send me Leads assigned to me",
+        "meta_data": {
+            "intent": "GET",
+            "output_format": "TABLE"
+        }
+    },
+    {
+        "query": "Show my Accounts",
+        "meta_data": {
+            "intent": "GET",
+            "output_format": "TABLE"
+        }
+    },
+    {
+        "query": "List all Accounts",
+        "meta_data": {
+            "intent": "GET",
+            "output_format": "LIST"
+        }
+    },
+    {
+        "query": "Get all Accounts",
+        "meta_data": {
+            "intent": "GET",
+            "output_format": "TABLE"
+        }
+    },
+    {
+        "query": "Fetch my Accounts",
+        "meta_data": {
+            "intent": "GET",
+            "output_format": "TABLE"
+        }
+    },
+    {
+        "query": "Show Accounts assigned to me",
+        "meta_data": {
+            "intent": "GET",
+            "output_format": "TABLE"
+        }
+    },
+    {
+        "query": "Send my Accounts assigned to me",
+        "meta_data": {
+            "intent": "GET",
+            "output_format": "TABLE"
+        }
+    },
+    {
+        "query": "Send me Accounts assigned to me",
+        "meta_data": {
+            "intent": "GET",
+            "output_format": "TABLE"
+        }
+    }
+]

@@ -1,0 +1,268 @@
+[
+    {
+        "query_label": "Activity New Task",
+        "query_fields": [
+            {
+                "roleid": 1,
+                "object_name": "Activity",
+                "field_id": 10010103,
+                "name": "Assigned To",
+                "FieldName": "AssignedTo",
+                "field_type": "Number"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Activity",
+                "field_id": 1149,
+                "name": "Action Point",
+                "FieldName": "Act_ex1_83",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Activity",
+                "field_id": 10010172,
+                "name": "Target Date",
+                "FieldName": "DueDate",
+                "field_type": "Date"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Activity",
+                "field_id": 5173,
+                "name": "Volume",
+                "FieldName": "Act_ex1_53",
+                "field_type": "Number"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Activity",
+                "field_id": 7034,
+                "name": "Status Code",
+                "FieldName": "Act_ex1_61",
+                "field_type": "Lookup"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Activity",
+                "field_id": 7029,
+                "name": "RM Comments",
+                "FieldName": "Act_ex1_58",
+                "field_type": "Comments"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Activity",
+                "field_id": 10010171,
+                "name": "Other Comments",
+                "FieldName": "Details",
+                "field_type": "Comments"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Activity",
+                "field_id": 1144,
+                "name": "Supervisor Comments",
+                "FieldName": "Act_ex1_78",
+                "field_type": "Comments"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Activity",
+                "field_id": 10000047,
+                "name": "Subject",
+                "FieldName": "Subject",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Activity",
+                "field_id": 10010100,
+                "name": "Task Type",
+                "FieldName": "ActivityType",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Activity",
+                "field_id": 1066,
+                "name": "Subject",
+                "FieldName": "Act_ex1_50",
+                "field_type": "LookupWithId"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Activity",
+                "field_id": 10010242,
+                "name": "Start Date",
+                "FieldName": "StartDate",
+                "field_type": "Date"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Activity",
+                "field_id": 1174,
+                "name": "Employee Code",
+                "FieldName": "Act_ex2_26",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Activity",
+                "field_id": 10010243,
+                "name": "Status Code",
+                "FieldName": "Status",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Activity",
+                "field_id": 11051,
+                "name": "Account RM",
+                "FieldName": "Act_ex3_49",
+                "field_type": "UserPicker"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Activity",
+                "field_id": 11050,
+                "name": "APR/Business Code",
+                "FieldName": "Act_ex3_37",
+                "field_type": "Text"
+            }
+        ]
+    },
+    {
+        "query_label": "Activity Create Task",
+        "query_fields": [
+            {
+                "roleid": 1,
+                "object_name": "Activity",
+                "field_id": 10010103,
+                "name": "Assigned To",
+                "FieldName": "AssignedTo",
+                "field_type": "Number"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Activity",
+                "field_id": 1149,
+                "name": "Action Point",
+                "FieldName": "Act_ex1_83",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Activity",
+                "field_id": 10010172,
+                "name": "Target Date",
+                "FieldName": "DueDate",
+                "field_type": "Date"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Activity",
+                "field_id": 5173,
+                "name": "Volume",
+                "FieldName": "Act_ex1_53",
+                "field_type": "Number"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Activity",
+                "field_id": 7034,
+                "name": "Status Code",
+                "FieldName": "Act_ex1_61",
+                "field_type": "Lookup"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Activity",
+                "field_id": 7029,
+                "name": "RM Comments",
+                "FieldName": "Act_ex1_58",
+                "field_type": "Comments"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Activity",
+                "field_id": 10010171,
+                "name": "Other Comments",
+                "FieldName": "Details",
+                "field_type": "Comments"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Activity",
+                "field_id": 1144,
+                "name": "Supervisor Comments",
+                "FieldName": "Act_ex1_78",
+                "field_type": "Comments"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Activity",
+                "field_id": 10000047,
+                "name": "Subject",
+                "FieldName": "Subject",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Activity",
+                "field_id": 10010100,
+                "name": "Task Type",
+                "FieldName": "ActivityType",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Activity",
+                "field_id": 1066,
+                "name": "Subject",
+                "FieldName": "Act_ex1_50",
+                "field_type": "LookupWithId"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Activity",
+                "field_id": 10010242,
+                "name": "Start Date",
+                "FieldName": "StartDate",
+                "field_type": "Date"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Activity",
+                "field_id": 1174,
+                "name": "Employee Code",
+                "FieldName": "Act_ex2_26",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Activity",
+                "field_id": 10010243,
+                "name": "Status Code",
+                "FieldName": "Status",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Activity",
+                "field_id": 11051,
+                "name": "Account RM",
+                "FieldName": "Act_ex3_49",
+                "field_type": "UserPicker"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Activity",
+                "field_id": 11050,
+                "name": "APR/Business Code",
+                "FieldName": "Act_ex3_37",
+                "field_type": "Text"
+            }
+        ]
+    }
+]

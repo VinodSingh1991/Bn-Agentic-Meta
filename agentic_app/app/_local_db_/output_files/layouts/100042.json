@@ -1,0 +1,108 @@
+[
+    {
+        "query_label": "Account key",
+        "query_fields": [
+            {
+                "roleid": 1,
+                "object_name": "Account",
+                "field_id": 10002744,
+                "name": "Name",
+                "FieldName": "Name",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Account",
+                "field_id": 10002778,
+                "name": "Short Name",
+                "FieldName": "ShortName",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Account",
+                "field_id": 10002763,
+                "name": "Account Rating",
+                "FieldName": "Rating",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Account",
+                "field_id": 10002674,
+                "name": "Account Owner",
+                "FieldName": "AssignedToName",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Account",
+                "field_id": 201,
+                "name": "BM Instructions",
+                "FieldName": "Acc_ex1_62",
+                "field_type": "Comments"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Account",
+                "field_id": 10002715,
+                "name": "Importance",
+                "FieldName": "Importance",
+                "field_type": "Text"
+            }
+        ]
+    },
+    {
+        "query_label": "Account BM INSTRUCTIONS",
+        "query_fields": [
+            {
+                "roleid": 1,
+                "object_name": "Account",
+                "field_id": 10002744,
+                "name": "Name",
+                "FieldName": "Name",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Account",
+                "field_id": 10002778,
+                "name": "Short Name",
+                "FieldName": "ShortName",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Account",
+                "field_id": 10002763,
+                "name": "Account Rating",
+                "FieldName": "Rating",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Account",
+                "field_id": 10002674,
+                "name": "Account Owner",
+                "FieldName": "AssignedToName",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Account",
+                "field_id": 201,
+                "name": "BM Instructions",
+                "FieldName": "Acc_ex1_62",
+                "field_type": "Comments"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Account",
+                "field_id": 10002715,
+                "name": "Importance",
+                "FieldName": "Importance",
+                "field_type": "Text"
+            }
+        ]
+    }
+]

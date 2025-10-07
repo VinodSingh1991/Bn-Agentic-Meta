@@ -1,0 +1,2047 @@
+[
+    {
+        "query_label": "Contact Open Activities",
+        "query_field": []
+    },
+    {
+        "query_label": "Lead Open Activities",
+        "query_field": [
+            {
+                "roleid": 1,
+                "object_name": "Lead",
+                "field_id": 10051161,
+                "name": "SN_SUBJECT",
+                "FieldName": "Subject",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Lead",
+                "field_id": 10002533,
+                "name": "SN_View_EH_AssignedToName",
+                "FieldName": "AssignedToName",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Lead",
+                "field_id": 10053664,
+                "name": "SN_View_Status",
+                "FieldName": "Status",
+                "field_type": "Text"
+            }
+        ]
+    },
+    {
+        "query_label": "Account Open Activities",
+        "query_field": [
+            {
+                "roleid": 1,
+                "object_name": "Account",
+                "field_id": 10050978,
+                "name": "SN_SUBJECT",
+                "FieldName": "Subject",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Account",
+                "field_id": 10002674,
+                "name": "SN_Account_AssignedToName",
+                "FieldName": "AssignedToName",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Account",
+                "field_id": 10002782,
+                "name": "SN_Account_Status",
+                "FieldName": "Status",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Account",
+                "field_id": 10050945,
+                "name": "SN_RelatedToName",
+                "FieldName": "RelatedtoName",
+                "field_type": "Text"
+            }
+        ]
+    },
+    {
+        "query_label": "Opportunity Open Activities",
+        "query_field": [
+            {
+                "roleid": 1,
+                "object_name": "Opportunity",
+                "field_id": 10003928,
+                "name": "SN_Opportunities_Status",
+                "FieldName": "Status",
+                "field_type": "Text"
+            }
+        ]
+    },
+    {
+        "query_label": "Case Open Activities",
+        "query_field": [
+            {
+                "roleid": 1,
+                "object_name": "Case",
+                "field_id": 10005901,
+                "name": "SN_SUBJECT",
+                "FieldName": "Subject",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Case",
+                "field_id": 10005757,
+                "name": "SN_CURRENTOWNER",
+                "FieldName": "AssignedToName",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Case",
+                "field_id": 10005890,
+                "name": "SN_STATUS",
+                "FieldName": "Status",
+                "field_type": "Text"
+            }
+        ]
+    },
+    {
+        "query_label": "Issue Open Activities",
+        "query_field": [
+            {
+                "roleid": 1,
+                "object_name": "Issue",
+                "field_id": 10008760,
+                "name": "SN_SUBJECT",
+                "FieldName": "Subject",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Issue",
+                "field_id": 10008713,
+                "name": "SN_ASSIGNEDTONAME",
+                "FieldName": "AssignedToName",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Issue",
+                "field_id": 10008755,
+                "name": "SN_STATUS",
+                "FieldName": "Status",
+                "field_type": "Text"
+            }
+        ]
+    },
+    {
+        "query_label": "Activity Open Activities",
+        "query_field": [
+            {
+                "roleid": 1,
+                "object_name": "Activity",
+                "field_id": 10010247,
+                "name": "SN_SUBJECT",
+                "FieldName": "Subject",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Activity",
+                "field_id": 10010172,
+                "name": "SN_TASK_DUEDATE",
+                "FieldName": "DueDate",
+                "field_type": "Date"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Activity",
+                "field_id": 10010100,
+                "name": "SN_ACTIVITYTYPE",
+                "FieldName": "ActivityType",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Activity",
+                "field_id": 10010198,
+                "name": "SN_IS_TASK",
+                "FieldName": "IsTask",
+                "field_type": "Check"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Activity",
+                "field_id": 10010105,
+                "name": "SN_AssignToName",
+                "FieldName": "AssignedToName",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Activity",
+                "field_id": 10010243,
+                "name": "SN_STATUS",
+                "FieldName": "Status",
+                "field_type": "Text"
+            }
+        ]
+    },
+    {
+        "query_label": "Contract Open Activities",
+        "query_field": [
+            {
+                "roleid": 1,
+                "object_name": "Contract",
+                "field_id": 10011093,
+                "name": "SN_DUEDATE",
+                "FieldName": "DueDate",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Contract",
+                "field_id": 10011063,
+                "name": "SN_ASSIGNEDTONAME",
+                "FieldName": "AssignedToName",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Contract",
+                "field_id": 10011121,
+                "name": "SN_STATUS",
+                "FieldName": "Status",
+                "field_type": "Number"
+            }
+        ]
+    },
+    {
+        "query_label": "Contact Closed Activities",
+        "query_field": []
+    },
+    {
+        "query_label": "Lead Closed Activities",
+        "query_field": [
+            {
+                "roleid": 1,
+                "object_name": "Lead",
+                "field_id": 10051161,
+                "name": "SN_SUBJECT",
+                "FieldName": "Subject",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Lead",
+                "field_id": 10002533,
+                "name": "SN_View_EH_AssignedToName",
+                "FieldName": "AssignedToName",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Lead",
+                "field_id": 10053664,
+                "name": "SN_View_Status",
+                "FieldName": "Status",
+                "field_type": "Text"
+            }
+        ]
+    },
+    {
+        "query_label": "Account Closed Activities",
+        "query_field": [
+            {
+                "roleid": 1,
+                "object_name": "Account",
+                "field_id": 10050978,
+                "name": "SN_SUBJECT",
+                "FieldName": "Subject",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Account",
+                "field_id": 10002674,
+                "name": "SN_Account_AssignedToName",
+                "FieldName": "AssignedToName",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Account",
+                "field_id": 10002782,
+                "name": "SN_Account_Status",
+                "FieldName": "Status",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Account",
+                "field_id": 10050945,
+                "name": "SN_RelatedToName",
+                "FieldName": "RelatedtoName",
+                "field_type": "Text"
+            }
+        ]
+    },
+    {
+        "query_label": "Opportunity Closed Activities",
+        "query_field": [
+            {
+                "roleid": 1,
+                "object_name": "Opportunity",
+                "field_id": 10003928,
+                "name": "SN_Opportunities_Status",
+                "FieldName": "Status",
+                "field_type": "Text"
+            }
+        ]
+    },
+    {
+        "query_label": "Case Closed Activities",
+        "query_field": [
+            {
+                "roleid": 1,
+                "object_name": "Case",
+                "field_id": 10005901,
+                "name": "SN_SUBJECT",
+                "FieldName": "Subject",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Case",
+                "field_id": 10005757,
+                "name": "SN_CURRENTOWNER",
+                "FieldName": "AssignedToName",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Case",
+                "field_id": 10005890,
+                "name": "SN_STATUS",
+                "FieldName": "Status",
+                "field_type": "Text"
+            }
+        ]
+    },
+    {
+        "query_label": "Issue Closed Activities",
+        "query_field": [
+            {
+                "roleid": 1,
+                "object_name": "Issue",
+                "field_id": 10008760,
+                "name": "SN_SUBJECT",
+                "FieldName": "Subject",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Issue",
+                "field_id": 10008713,
+                "name": "SN_ASSIGNEDTONAME",
+                "FieldName": "AssignedToName",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Issue",
+                "field_id": 10008755,
+                "name": "SN_STATUS",
+                "FieldName": "Status",
+                "field_type": "Text"
+            }
+        ]
+    },
+    {
+        "query_label": "Activity Closed Activities",
+        "query_field": [
+            {
+                "roleid": 1,
+                "object_name": "Activity",
+                "field_id": 10010247,
+                "name": "SN_SUBJECT",
+                "FieldName": "Subject",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Activity",
+                "field_id": 10010172,
+                "name": "SN_TASK_DUEDATE",
+                "FieldName": "DueDate",
+                "field_type": "Date"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Activity",
+                "field_id": 10010100,
+                "name": "SN_ACTIVITYTYPE",
+                "FieldName": "ActivityType",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Activity",
+                "field_id": 10010198,
+                "name": "SN_IS_TASK",
+                "FieldName": "IsTask",
+                "field_type": "Check"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Activity",
+                "field_id": 10010105,
+                "name": "SN_AssignToName",
+                "FieldName": "AssignedToName",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Activity",
+                "field_id": 10010243,
+                "name": "SN_STATUS",
+                "FieldName": "Status",
+                "field_type": "Text"
+            }
+        ]
+    },
+    {
+        "query_label": "Contract Closed Activities",
+        "query_field": [
+            {
+                "roleid": 1,
+                "object_name": "Contract",
+                "field_id": 10011093,
+                "name": "SN_DUEDATE",
+                "FieldName": "DueDate",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Contract",
+                "field_id": 10011063,
+                "name": "SN_ASSIGNEDTONAME",
+                "FieldName": "AssignedToName",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Contract",
+                "field_id": 10011121,
+                "name": "SN_STATUS",
+                "FieldName": "Status",
+                "field_type": "Number"
+            }
+        ]
+    },
+    {
+        "query_label": "Issue Related History",
+        "query_field": []
+    },
+    {
+        "query_label": "Case Related Responses",
+        "query_field": [
+            {
+                "roleid": 1,
+                "object_name": "Case",
+                "field_id": 10005901,
+                "name": "SN_SUBJECT",
+                "FieldName": "Subject",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Case",
+                "field_id": 10005778,
+                "name": "SN_CreatedBy",
+                "FieldName": "CreatedByName",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Case",
+                "field_id": 10005781,
+                "name": "SN_CREATEDON",
+                "FieldName": "CreatedOn",
+                "field_type": "DateTime"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Case",
+                "field_id": 10005835,
+                "name": "SN_PARENTID",
+                "FieldName": "ParentID",
+                "field_type": "Number"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Case",
+                "field_id": 10050260,
+                "name": "SN_ItemID",
+                "FieldName": "ItemID",
+                "field_type": "ObjectNumber"
+            }
+        ]
+    },
+    {
+        "query_label": "Issue Related Discussion",
+        "query_field": [
+            {
+                "roleid": 1,
+                "object_name": "Issue",
+                "field_id": 10008760,
+                "name": "SN_SUBJECT",
+                "FieldName": "Subject",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Issue",
+                "field_id": 10008723,
+                "name": "SN_CREATEDBY",
+                "FieldName": "CreatedByName",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Issue",
+                "field_id": 10008726,
+                "name": "SN_CREATEDON",
+                "FieldName": "CreatedOn",
+                "field_type": "DateTime"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Issue",
+                "field_id": 10060292,
+                "name": "SN_PARENTID",
+                "FieldName": "ParentID",
+                "field_type": "Number"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Issue",
+                "field_id": 10008735,
+                "name": "SN_ItemID",
+                "FieldName": "ItemID",
+                "field_type": "Number"
+            }
+        ]
+    },
+    {
+        "query_label": "Lead Lead Escalation History",
+        "query_field": [
+            {
+                "roleid": 1,
+                "object_name": "Lead",
+                "field_id": 10002531,
+                "name": "SN_View_EH_ActionLevel",
+                "FieldName": "ActionLevel",
+                "field_type": "Number"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Lead",
+                "field_id": 10002538,
+                "name": "SN_View_EH_Duration",
+                "FieldName": "Duration",
+                "field_type": "Duration"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Lead",
+                "field_id": 10002289,
+                "name": "SN_Lead_ElapsedTime",
+                "FieldName": "ElapsedTime",
+                "field_type": "Duration"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Lead",
+                "field_id": 10002533,
+                "name": "SN_View_EH_AssignedToName",
+                "FieldName": "AssignedToName",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Lead",
+                "field_id": 10002546,
+                "name": "SN_View_EH_PreAssignedToName",
+                "FieldName": "PreAssignedToName",
+                "field_type": "Text"
+            }
+        ]
+    },
+    {
+        "query_label": "Case Case Escalation History",
+        "query_field": [
+            {
+                "roleid": 1,
+                "object_name": "Case",
+                "field_id": 10050241,
+                "name": "SN_View_EH_ActionLevel",
+                "FieldName": "ActionLevel",
+                "field_type": "Number"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Case",
+                "field_id": 10050254,
+                "name": "SN_View_EH_Duration",
+                "FieldName": "Duration",
+                "field_type": "Duration"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Case",
+                "field_id": 10006446,
+                "name": "SN_Cases_ElapsedTime",
+                "FieldName": "ElapsedTime",
+                "field_type": "Duration"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Case",
+                "field_id": 10005757,
+                "name": "SN_CURRENTOWNER",
+                "FieldName": "AssignedToName",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Case",
+                "field_id": 10050267,
+                "name": "SN_View_EH_PreAssignedToName",
+                "FieldName": "PreAssignedToName",
+                "field_type": "Text"
+            }
+        ]
+    },
+    {
+        "query_label": "Account Related Child Account",
+        "query_field": [
+            {
+                "roleid": 1,
+                "object_name": "Account",
+                "field_id": 10002666,
+                "name": "SN_Account_ID",
+                "FieldName": "AccountID",
+                "field_type": "Number"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Account",
+                "field_id": 10002744,
+                "name": "SN_Account_Name",
+                "FieldName": "Name",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Account",
+                "field_id": 10002783,
+                "name": "SN_Account_StatusCode",
+                "FieldName": "StatusCode",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Account",
+                "field_id": 10002733,
+                "name": "SN_Account_LastModifiedOn",
+                "FieldName": "LastModifiedOn",
+                "field_type": "DateTime"
+            }
+        ]
+    },
+    {
+        "query_label": "Contact Related Notes",
+        "query_field": [
+            {
+                "roleid": 1,
+                "object_name": "Contact",
+                "field_id": 10001013,
+                "name": "SN_CreatedBy",
+                "FieldName": "CreatedByName",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Contact",
+                "field_id": 10001016,
+                "name": "SN_CREATEDON",
+                "FieldName": "CreatedOn",
+                "field_type": "DateTime"
+            }
+        ]
+    },
+    {
+        "query_label": "Lead Related Notes",
+        "query_field": [
+            {
+                "roleid": 1,
+                "object_name": "Lead",
+                "field_id": 10051161,
+                "name": "SN_SUBJECT",
+                "FieldName": "Subject",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Lead",
+                "field_id": 10001599,
+                "name": "SN_CREATEDBY",
+                "FieldName": "CreatedByName",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Lead",
+                "field_id": 10001602,
+                "name": "SN_CREATEDON",
+                "FieldName": "CreatedOn",
+                "field_type": "DateTime"
+            }
+        ]
+    },
+    {
+        "query_label": "Account Related Notes",
+        "query_field": [
+            {
+                "roleid": 1,
+                "object_name": "Account",
+                "field_id": 10050978,
+                "name": "SN_SUBJECT",
+                "FieldName": "Subject",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Account",
+                "field_id": 10002700,
+                "name": "SN_Account_CreatedByName",
+                "FieldName": "CreatedByName",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Account",
+                "field_id": 10002703,
+                "name": "SN_CREATEDON",
+                "FieldName": "CreatedOn",
+                "field_type": "DateTime"
+            }
+        ]
+    },
+    {
+        "query_label": "Opportunity Related Notes",
+        "query_field": [
+            {
+                "roleid": 1,
+                "object_name": "Opportunity",
+                "field_id": 10003727,
+                "name": "SN_CreatedBy",
+                "FieldName": "CreatedByName",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Opportunity",
+                "field_id": 10003730,
+                "name": "SN_CREATEDON",
+                "FieldName": "CreatedOn",
+                "field_type": "DateTime"
+            }
+        ]
+    },
+    {
+        "query_label": "Case Related Notes",
+        "query_field": [
+            {
+                "roleid": 1,
+                "object_name": "Case",
+                "field_id": 10005901,
+                "name": "SN_SUBJECT",
+                "FieldName": "Subject",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Case",
+                "field_id": 10005778,
+                "name": "SN_CreatedBy",
+                "FieldName": "CreatedByName",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Case",
+                "field_id": 10005781,
+                "name": "SN_CREATEDON",
+                "FieldName": "CreatedOn",
+                "field_type": "DateTime"
+            }
+        ]
+    },
+    {
+        "query_label": "Issue Related Notes",
+        "query_field": [
+            {
+                "roleid": 1,
+                "object_name": "Issue",
+                "field_id": 10008760,
+                "name": "SN_SUBJECT",
+                "FieldName": "Subject",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Issue",
+                "field_id": 10008723,
+                "name": "SN_CREATEDBY",
+                "FieldName": "CreatedByName",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Issue",
+                "field_id": 10008726,
+                "name": "SN_CREATEDON",
+                "FieldName": "CreatedOn",
+                "field_type": "DateTime"
+            }
+        ]
+    },
+    {
+        "query_label": "Activity Related Notes",
+        "query_field": [
+            {
+                "roleid": 1,
+                "object_name": "Activity",
+                "field_id": 10010247,
+                "name": "SN_SUBJECT",
+                "FieldName": "Subject",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Activity",
+                "field_id": 10010166,
+                "name": "SN_CreatedBy",
+                "FieldName": "CreatedByName",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Activity",
+                "field_id": 10010169,
+                "name": "SN_CREATEDON",
+                "FieldName": "CreatedOn",
+                "field_type": "DateTime"
+            }
+        ]
+    },
+    {
+        "query_label": "Contract Related Notes",
+        "query_field": [
+            {
+                "roleid": 1,
+                "object_name": "Contract",
+                "field_id": 10011085,
+                "name": "SN_CreatedBy",
+                "FieldName": "CreatedByName",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Contract",
+                "field_id": 10011086,
+                "name": "SN_CREATEDON",
+                "FieldName": "CreatedOn",
+                "field_type": "DateTime"
+            }
+        ]
+    },
+    {
+        "query_label": "Contact Contact History",
+        "query_field": [
+            {
+                "roleid": 1,
+                "object_name": "Contact",
+                "field_id": 10000976,
+                "name": "SN_ACCOUNTNAME",
+                "FieldName": "AccountName",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Contact",
+                "field_id": 10001140,
+                "name": "SN_TITLE",
+                "FieldName": "Title",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Contact",
+                "field_id": 10001315,
+                "name": "SN_ReportsTo",
+                "FieldName": "ReportsTo",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Contact",
+                "field_id": 10001018,
+                "name": "SN_EMAIL",
+                "FieldName": "Email",
+                "field_type": "Email"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Contact",
+                "field_id": 10001046,
+                "name": "SN_LASTMODIFIEDON",
+                "FieldName": "LastModifiedOn",
+                "field_type": "DateTime"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Contact",
+                "field_id": 10001043,
+                "name": "SN_LASTMODIFIEDBYNAME",
+                "FieldName": "LastModifiedByName",
+                "field_type": "Text"
+            }
+        ]
+    },
+    {
+        "query_label": "Lead Related History",
+        "query_field": [
+            {
+                "roleid": 1,
+                "object_name": "Lead",
+                "field_id": 10001732,
+                "name": "SN_STATUSCODE",
+                "FieldName": "StatusCode",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Lead",
+                "field_id": 10002520,
+                "name": "SN_lEAD_ROLE_NAME",
+                "FieldName": "RoleName",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Lead",
+                "field_id": 10001645,
+                "name": "SN_LASTMODIFIEDON",
+                "FieldName": "LastModifiedOn",
+                "field_type": "DateTime"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Lead",
+                "field_id": 10001591,
+                "name": "SN_COMMENTS",
+                "FieldName": "Comments",
+                "field_type": "Comments"
+            }
+        ]
+    },
+    {
+        "query_label": "Account AccHistory",
+        "query_field": [
+            {
+                "roleid": 1,
+                "object_name": "Account",
+                "field_id": 10002778,
+                "name": "SN_Account_ShortName",
+                "FieldName": "ShortName",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Account",
+                "field_id": 10002743,
+                "name": "SN_MOBILE",
+                "FieldName": "MobilePhone",
+                "field_type": "Phone"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Account",
+                "field_id": 10002723,
+                "name": "SN_Account_KeyContactName",
+                "FieldName": "KeyContactName",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Account",
+                "field_id": 10002669,
+                "name": "SN_Account_TypeName",
+                "FieldName": "AccountTypeName",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Account",
+                "field_id": 10002674,
+                "name": "SN_Account_AssignedToName",
+                "FieldName": "AssignedToName",
+                "field_type": "Text"
+            }
+        ]
+    },
+    {
+        "query_label": "Opportunity Modification History",
+        "query_field": [
+            {
+                "roleid": 1,
+                "object_name": "Opportunity",
+                "field_id": 10004132,
+                "name": "SN_Opportunities_StageName",
+                "FieldName": "StageName",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Opportunity",
+                "field_id": 10003787,
+                "name": "SN_Opportunities_Probability",
+                "FieldName": "Probability",
+                "field_type": "Percentage"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Opportunity",
+                "field_id": 10003816,
+                "name": "SN_Opportunities_Value",
+                "FieldName": "YourPrice",
+                "field_type": "MulticurrencyAmount"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Opportunity",
+                "field_id": 10003739,
+                "name": "SN_FORECAST_FORECASTAMOUNT",
+                "FieldName": "ForecastAmount",
+                "field_type": "MulticurrencyAmount"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Opportunity",
+                "field_id": 10003749,
+                "name": "SN_Opportunities_LastModifiedByName",
+                "FieldName": "LastModifiedByName",
+                "field_type": "Text"
+            }
+        ]
+    },
+    {
+        "query_label": "Case case History",
+        "query_field": [
+            {
+                "roleid": 1,
+                "object_name": "Case",
+                "field_id": 10005891,
+                "name": "SN_STATUSCODE",
+                "FieldName": "StatusCode",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Case",
+                "field_id": 10005847,
+                "name": "SN_PRIORITY",
+                "FieldName": "Priority",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Case",
+                "field_id": 10005901,
+                "name": "SN_SUBJECT",
+                "FieldName": "Subject",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Case",
+                "field_id": 10005782,
+                "name": "SN_ASSIGNEDTONAME",
+                "FieldName": "CurrentOwner",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Case",
+                "field_id": 10005821,
+                "name": "SN_LASTMODIFIEDON",
+                "FieldName": "LastModifiedOn",
+                "field_type": "DateTime"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Case",
+                "field_id": 10005818,
+                "name": "SN_LASTMODIFIEDBYNAME",
+                "FieldName": "LastModifiedByName",
+                "field_type": "Text"
+            }
+        ]
+    },
+    {
+        "query_label": "Product Product History",
+        "query_field": []
+    },
+    {
+        "query_label": "Contract Contract History",
+        "query_field": [
+            {
+                "roleid": 1,
+                "object_name": "Contract",
+                "field_id": 10011552,
+                "name": "SN_Contract_History_ContractTitle",
+                "FieldName": "ContractTitle",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Contract",
+                "field_id": 10011121,
+                "name": "SN_STATUS",
+                "FieldName": "Status",
+                "field_type": "Number"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Contract",
+                "field_id": 10011119,
+                "name": "SN_STARTDATE",
+                "FieldName": "StartDate",
+                "field_type": "Date"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Contract",
+                "field_id": 10011094,
+                "name": "SN_ENDDATE",
+                "FieldName": "EndDate",
+                "field_type": "Date"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Contract",
+                "field_id": 10011097,
+                "name": "SN_LASTMODIFIEDBYNAME",
+                "FieldName": "LastModifiedByName",
+                "field_type": "Text"
+            }
+        ]
+    },
+    {
+        "query_label": "Contact Related Issues",
+        "query_field": []
+    },
+    {
+        "query_label": "Lead Related Issues",
+        "query_field": [
+            {
+                "roleid": 1,
+                "object_name": "Lead",
+                "field_id": 10051161,
+                "name": "SN_SUBJECT",
+                "FieldName": "Subject",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Lead",
+                "field_id": 10053664,
+                "name": "SN_View_Status",
+                "FieldName": "Status",
+                "field_type": "Text"
+            }
+        ]
+    },
+    {
+        "query_label": "Account Related Issues",
+        "query_field": [
+            {
+                "roleid": 1,
+                "object_name": "Account",
+                "field_id": 10050978,
+                "name": "SN_SUBJECT",
+                "FieldName": "Subject",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Account",
+                "field_id": 10059991,
+                "name": "SN_REV_View_CategoryName",
+                "FieldName": "CategoryName",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Account",
+                "field_id": 10002782,
+                "name": "SN_Account_Status",
+                "FieldName": "Status",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Account",
+                "field_id": 10059470,
+                "name": "SN_Alert_PriorityID",
+                "FieldName": "PriorityID",
+                "field_type": "Number"
+            }
+        ]
+    },
+    {
+        "query_label": "Opportunity Related Issues",
+        "query_field": [
+            {
+                "roleid": 1,
+                "object_name": "Opportunity",
+                "field_id": 10003928,
+                "name": "SN_Opportunities_Status",
+                "FieldName": "Status",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Opportunity",
+                "field_id": 10003914,
+                "name": "SN_Opportunities_PriorityID",
+                "FieldName": "PriorityID",
+                "field_type": "Number"
+            }
+        ]
+    },
+    {
+        "query_label": "Case Related Issues",
+        "query_field": [
+            {
+                "roleid": 1,
+                "object_name": "Case",
+                "field_id": 10005901,
+                "name": "SN_SUBJECT",
+                "FieldName": "Subject",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Case",
+                "field_id": 10005890,
+                "name": "SN_STATUS",
+                "FieldName": "Status",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Case",
+                "field_id": 10005848,
+                "name": "SN_PRIORITY",
+                "FieldName": "PriorityID",
+                "field_type": "Number"
+            }
+        ]
+    },
+    {
+        "query_label": "Contract Related Issues",
+        "query_field": [
+            {
+                "roleid": 1,
+                "object_name": "Contract",
+                "field_id": 10011121,
+                "name": "SN_STATUS",
+                "FieldName": "Status",
+                "field_type": "Number"
+            }
+        ]
+    },
+    {
+        "query_label": "Contract Approval Information",
+        "query_field": []
+    },
+    {
+        "query_label": "Account Related Products",
+        "query_field": []
+    },
+    {
+        "query_label": "Opportunity Related Products",
+        "query_field": []
+    },
+    {
+        "query_label": "Case Related Child Cases",
+        "query_field": [
+            {
+                "roleid": 1,
+                "object_name": "Case",
+                "field_id": 10005765,
+                "name": "SN_CASEID",
+                "FieldName": "CaseID",
+                "field_type": "Number"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Case",
+                "field_id": 10005901,
+                "name": "SN_SUBJECT",
+                "FieldName": "Subject",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Case",
+                "field_id": 10005891,
+                "name": "SN_STATUSCODE",
+                "FieldName": "StatusCode",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Case",
+                "field_id": 10006390,
+                "name": "SN_ProductName",
+                "FieldName": "ProductName",
+                "field_type": "Text"
+            }
+        ]
+    },
+    {
+        "query_label": "Contact Related Leads",
+        "query_field": [
+            {
+                "roleid": 1,
+                "object_name": "Contact",
+                "field_id": 10047218,
+                "name": "SN_View_Contr_Territory_Name",
+                "FieldName": "TerritoryName",
+                "field_type": "Text"
+            }
+        ]
+    },
+    {
+        "query_label": "Account Related Leads",
+        "query_field": [
+            {
+                "roleid": 1,
+                "object_name": "Account",
+                "field_id": 10002744,
+                "name": "SN_Account_Name",
+                "FieldName": "Name",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Account",
+                "field_id": 10003323,
+                "name": "SN_Account_ProductName",
+                "FieldName": "ProductName",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Account",
+                "field_id": 10002743,
+                "name": "SN_MOBILE",
+                "FieldName": "MobilePhone",
+                "field_type": "Phone"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Account",
+                "field_id": 10060173,
+                "name": "SN_ASSET_AMOUNT",
+                "FieldName": "Amount",
+                "field_type": "Amount"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Account",
+                "field_id": 10002689,
+                "name": "SN_Account_CampaignName",
+                "FieldName": "CampaignName",
+                "field_type": "Text"
+            }
+        ]
+    },
+    {
+        "query_label": "Contact Open Opportunities",
+        "query_field": [
+            {
+                "roleid": 1,
+                "object_name": "Contact",
+                "field_id": 10000976,
+                "name": "SN_ACCOUNTNAME",
+                "FieldName": "AccountName",
+                "field_type": "Text"
+            }
+        ]
+    },
+    {
+        "query_label": "Account Open Opportunities",
+        "query_field": []
+    },
+    {
+        "query_label": "Activity Open Opportunities",
+        "query_field": [
+            {
+                "roleid": 1,
+                "object_name": "Activity",
+                "field_id": 10048216,
+                "name": "SN_Offer_OpportunityName",
+                "FieldName": "OpportunityName",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Activity",
+                "field_id": 10010061,
+                "name": "SN_ACCOUNTNAME",
+                "FieldName": "AccountName",
+                "field_type": "Text"
+            }
+        ]
+    },
+    {
+        "query_label": "Contact Closed Opportunities",
+        "query_field": [
+            {
+                "roleid": 1,
+                "object_name": "Contact",
+                "field_id": 10000976,
+                "name": "SN_ACCOUNTNAME",
+                "FieldName": "AccountName",
+                "field_type": "Text"
+            }
+        ]
+    },
+    {
+        "query_label": "Account Closed Opportunities",
+        "query_field": []
+    },
+    {
+        "query_label": "Activity Close Opportunities",
+        "query_field": [
+            {
+                "roleid": 1,
+                "object_name": "Activity",
+                "field_id": 10048216,
+                "name": "SN_Offer_OpportunityName",
+                "FieldName": "OpportunityName",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Activity",
+                "field_id": 10010061,
+                "name": "SN_ACCOUNTNAME",
+                "FieldName": "AccountName",
+                "field_type": "Text"
+            }
+        ]
+    },
+    {
+        "query_label": "Lead Related Contacts",
+        "query_field": [
+            {
+                "roleid": 1,
+                "object_name": "Lead",
+                "field_id": 10052326,
+                "name": "SN_Contact_ContactOwnerName",
+                "FieldName": "ContactOwnerName",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Lead",
+                "field_id": 10002520,
+                "name": "SN_lEAD_ROLE_NAME",
+                "FieldName": "RoleName",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Lead",
+                "field_id": 10052300,
+                "name": "SN_Contract_Contact_Role",
+                "FieldName": "Con_ContactRole",
+                "field_type": "Text"
+            }
+        ]
+    },
+    {
+        "query_label": "Account Related Contacts",
+        "query_field": [
+            {
+                "roleid": 1,
+                "object_name": "Account",
+                "field_id": 10002743,
+                "name": "SN_MOBILE",
+                "FieldName": "MobilePhone",
+                "field_type": "Phone"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Account",
+                "field_id": 10002704,
+                "name": "SN_EMAIL",
+                "FieldName": "Email",
+                "field_type": "Email"
+            }
+        ]
+    },
+    {
+        "query_label": "Opportunity Related Contacts",
+        "query_field": [
+            {
+                "roleid": 1,
+                "object_name": "Opportunity",
+                "field_id": 10005592,
+                "name": "SN_Event_ContactName",
+                "FieldName": "ContactName",
+                "field_type": "Text"
+            }
+        ]
+    },
+    {
+        "query_label": "Contract Related Contacts",
+        "query_field": []
+    },
+    {
+        "query_label": "Contact Related Contracts",
+        "query_field": []
+    },
+    {
+        "query_label": "Account AccContracts",
+        "query_field": []
+    },
+    {
+        "query_label": "Case Related Contracts",
+        "query_field": []
+    },
+    {
+        "query_label": "Contact Related Cases",
+        "query_field": [
+            {
+                "roleid": 1,
+                "object_name": "Contact",
+                "field_id": 10001013,
+                "name": "SN_CreatedBy",
+                "FieldName": "CreatedByName",
+                "field_type": "Text"
+            }
+        ]
+    },
+    {
+        "query_label": "Account Open Cases",
+        "query_field": []
+    },
+    {
+        "query_label": "Account Closed Cases",
+        "query_field": []
+    },
+    {
+        "query_label": "Account ##Account## Partner",
+        "query_field": []
+    },
+    {
+        "query_label": "Opportunity Related Partners",
+        "query_field": []
+    },
+    {
+        "query_label": "Opportunity Related Competitors",
+        "query_field": []
+    },
+    {
+        "query_label": "Contract Open Cases",
+        "query_field": []
+    },
+    {
+        "query_label": "Contract Closed Cases",
+        "query_field": []
+    },
+    {
+        "query_label": "Case Related Responses",
+        "query_field": [
+            {
+                "roleid": 1,
+                "object_name": "Case",
+                "field_id": 10005901,
+                "name": "SN_SUBJECT",
+                "FieldName": "Subject",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Case",
+                "field_id": 10005778,
+                "name": "SN_CreatedBy",
+                "FieldName": "CreatedByName",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Case",
+                "field_id": 10005781,
+                "name": "SN_CREATEDON",
+                "FieldName": "CreatedOn",
+                "field_type": "DateTime"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Case",
+                "field_id": 10005835,
+                "name": "SN_PARENTID",
+                "FieldName": "ParentID",
+                "field_type": "Number"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Case",
+                "field_id": 10050260,
+                "name": "SN_ItemID",
+                "FieldName": "ItemID",
+                "field_type": "ObjectNumber"
+            }
+        ]
+    },
+    {
+        "query_label": "Lead Lead Child",
+        "query_field": [
+            {
+                "roleid": 1,
+                "object_name": "Lead",
+                "field_id": 10001659,
+                "name": "SN_Lead_ID",
+                "FieldName": "LeadID",
+                "field_type": "Number"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Lead",
+                "field_id": 10001660,
+                "name": "SN_Lead_Name",
+                "FieldName": "LeadName",
+                "field_type": "Text"
+            }
+        ]
+    },
+    {
+        "query_label": "Lead Related charge with Lead",
+        "query_field": [
+            {
+                "roleid": 1,
+                "object_name": "Lead",
+                "field_id": 10051161,
+                "name": "SN_SUBJECT",
+                "FieldName": "Subject",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Lead",
+                "field_id": 10001569,
+                "name": "SN_AMOUNT",
+                "FieldName": "Amount",
+                "field_type": "MulticurrencyAmount"
+            }
+        ]
+    },
+    {
+        "query_label": "Account AccAppointmentActions",
+        "query_field": [
+            {
+                "roleid": 1,
+                "object_name": "Account",
+                "field_id": 10050978,
+                "name": "SN_SUBJECT",
+                "FieldName": "Subject",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Account",
+                "field_id": 10002674,
+                "name": "SN_Account_AssignedToName",
+                "FieldName": "AssignedToName",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Account",
+                "field_id": 10002782,
+                "name": "SN_Account_Status",
+                "FieldName": "Status",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Account",
+                "field_id": 10050945,
+                "name": "SN_RelatedToName",
+                "FieldName": "RelatedtoName",
+                "field_type": "Text"
+            }
+        ]
+    },
+    {
+        "query_label": "Product Pricing Information",
+        "query_field": [
+            {
+                "roleid": 1,
+                "object_name": "Product",
+                "field_id": 10009876,
+                "name": "SN_NAME",
+                "FieldName": "Name",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Product",
+                "field_id": 10063458,
+                "name": "SN_PRICE",
+                "FieldName": "Price",
+                "field_type": "Decimal"
+            }
+        ]
+    },
+    {
+        "query_label": "Contact ConActivities",
+        "query_field": []
+    },
+    {
+        "query_label": "Lead LeadActivities",
+        "query_field": [
+            {
+                "roleid": 1,
+                "object_name": "Lead",
+                "field_id": 10051161,
+                "name": "SN_SUBJECT",
+                "FieldName": "Subject",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Lead",
+                "field_id": 10002533,
+                "name": "SN_View_EH_AssignedToName",
+                "FieldName": "AssignedToName",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Lead",
+                "field_id": 10053664,
+                "name": "SN_View_Status",
+                "FieldName": "Status",
+                "field_type": "Text"
+            }
+        ]
+    },
+    {
+        "query_label": "Account AccActivities",
+        "query_field": [
+            {
+                "roleid": 1,
+                "object_name": "Account",
+                "field_id": 10050978,
+                "name": "SN_SUBJECT",
+                "FieldName": "Subject",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Account",
+                "field_id": 10002674,
+                "name": "SN_Account_AssignedToName",
+                "FieldName": "AssignedToName",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Account",
+                "field_id": 10002782,
+                "name": "SN_Account_Status",
+                "FieldName": "Status",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Account",
+                "field_id": 10050945,
+                "name": "SN_RelatedToName",
+                "FieldName": "RelatedtoName",
+                "field_type": "Text"
+            }
+        ]
+    },
+    {
+        "query_label": "Opportunity OppActvities",
+        "query_field": [
+            {
+                "roleid": 1,
+                "object_name": "Opportunity",
+                "field_id": 10003928,
+                "name": "SN_Opportunities_Status",
+                "FieldName": "Status",
+                "field_type": "Text"
+            }
+        ]
+    },
+    {
+        "query_label": "Case CaseActvities",
+        "query_field": [
+            {
+                "roleid": 1,
+                "object_name": "Case",
+                "field_id": 10005901,
+                "name": "SN_SUBJECT",
+                "FieldName": "Subject",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Case",
+                "field_id": 10005757,
+                "name": "SN_CURRENTOWNER",
+                "FieldName": "AssignedToName",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Case",
+                "field_id": 10005890,
+                "name": "SN_STATUS",
+                "FieldName": "Status",
+                "field_type": "Text"
+            }
+        ]
+    },
+    {
+        "query_label": "Issue IssueActivities",
+        "query_field": [
+            {
+                "roleid": 1,
+                "object_name": "Issue",
+                "field_id": 10008760,
+                "name": "SN_SUBJECT",
+                "FieldName": "Subject",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Issue",
+                "field_id": 10008713,
+                "name": "SN_ASSIGNEDTONAME",
+                "FieldName": "AssignedToName",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Issue",
+                "field_id": 10008755,
+                "name": "SN_STATUS",
+                "FieldName": "Status",
+                "field_type": "Text"
+            }
+        ]
+    },
+    {
+        "query_label": "Activity ParentActivity",
+        "query_field": [
+            {
+                "roleid": 1,
+                "object_name": "Activity",
+                "field_id": 10010247,
+                "name": "SN_SUBJECT",
+                "FieldName": "Subject",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Activity",
+                "field_id": 10010172,
+                "name": "SN_TASK_DUEDATE",
+                "FieldName": "DueDate",
+                "field_type": "Date"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Activity",
+                "field_id": 10010100,
+                "name": "SN_ACTIVITYTYPE",
+                "FieldName": "ActivityType",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Activity",
+                "field_id": 10010198,
+                "name": "SN_IS_TASK",
+                "FieldName": "IsTask",
+                "field_type": "Check"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Activity",
+                "field_id": 10010105,
+                "name": "SN_AssignToName",
+                "FieldName": "AssignedToName",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Activity",
+                "field_id": 10010243,
+                "name": "SN_STATUS",
+                "FieldName": "Status",
+                "field_type": "Text"
+            }
+        ]
+    },
+    {
+        "query_label": "Contract ContractActvities",
+        "query_field": [
+            {
+                "roleid": 1,
+                "object_name": "Contract",
+                "field_id": 10011093,
+                "name": "SN_DUEDATE",
+                "FieldName": "DueDate",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Contract",
+                "field_id": 10011063,
+                "name": "SN_ASSIGNEDTONAME",
+                "FieldName": "AssignedToName",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Contract",
+                "field_id": 10011121,
+                "name": "SN_STATUS",
+                "FieldName": "Status",
+                "field_type": "Number"
+            }
+        ]
+    },
+    {
+        "query_label": "Contact ConOpportunities",
+        "query_field": [
+            {
+                "roleid": 1,
+                "object_name": "Contact",
+                "field_id": 10000976,
+                "name": "SN_ACCOUNTNAME",
+                "FieldName": "AccountName",
+                "field_type": "Text"
+            }
+        ]
+    },
+    {
+        "query_label": "Account AccountOpportunities",
+        "query_field": []
+    },
+    {
+        "query_label": "Activity Open Opportunities",
+        "query_field": [
+            {
+                "roleid": 1,
+                "object_name": "Activity",
+                "field_id": 10048216,
+                "name": "SN_Offer_OpportunityName",
+                "FieldName": "OpportunityName",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Activity",
+                "field_id": 10010061,
+                "name": "SN_ACCOUNTNAME",
+                "FieldName": "AccountName",
+                "field_type": "Text"
+            }
+        ]
+    },
+    {
+        "query_label": "Account AccountCases",
+        "query_field": []
+    },
+    {
+        "query_label": "Opportunity Related Contracts",
+        "query_field": []
+    },
+    {
+        "query_label": "Account RelatedService",
+        "query_field": [
+            {
+                "roleid": 1,
+                "object_name": "Account",
+                "field_id": 10079860,
+                "name": "SN_Subject",
+                "FieldName": "SrvcSubject",
+                "field_type": "Text"
+            }
+        ]
+    },
+    {
+        "query_label": "Opportunity Opportunity Child",
+        "query_field": []
+    },
+    {
+        "query_label": "Lead MarcomListLead",
+        "query_field": [
+            {
+                "roleid": 1,
+                "object_name": "Lead",
+                "field_id": 10001742,
+                "name": "SN_TITLE",
+                "FieldName": "Title",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Lead",
+                "field_id": 10001602,
+                "name": "SN_CREATEDON",
+                "FieldName": "CreatedOn",
+                "field_type": "DateTime"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Lead",
+                "field_id": 10053664,
+                "name": "SN_View_Status",
+                "FieldName": "Status",
+                "field_type": "Text"
+            }
+        ]
+    }
+]

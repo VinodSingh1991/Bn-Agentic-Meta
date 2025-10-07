@@ -1,0 +1,108 @@
+[
+    {
+        "query_label": "Product Summary",
+        "query_fields": [
+            {
+                "roleid": 1,
+                "object_name": "Product",
+                "field_id": 10009880,
+                "name": "Code",
+                "FieldName": "ProductCode",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Product",
+                "field_id": 10009876,
+                "name": "Name",
+                "FieldName": "Name",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Product",
+                "field_id": 10009868,
+                "name": "Created On",
+                "FieldName": "CreatedOn",
+                "field_type": "DateTime"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Product",
+                "field_id": 4735,
+                "name": "Credit to be Shared",
+                "FieldName": "Pro_ex1_29",
+                "field_type": "LookupWithId"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Product",
+                "field_id": 110,
+                "name": "Insta Product Type",
+                "FieldName": "Pro_ex1_50",
+                "field_type": "LookupWithId"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Product",
+                "field_id": 7884,
+                "name": "Product Category",
+                "FieldName": "Pro_ex1_31",
+                "field_type": "Lookup"
+            }
+        ]
+    },
+    {
+        "query_label": "Product Key Information",
+        "query_fields": [
+            {
+                "roleid": 1,
+                "object_name": "Product",
+                "field_id": 10009880,
+                "name": "Code",
+                "FieldName": "ProductCode",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Product",
+                "field_id": 10009876,
+                "name": "Name",
+                "FieldName": "Name",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Product",
+                "field_id": 10009868,
+                "name": "Created On",
+                "FieldName": "CreatedOn",
+                "field_type": "DateTime"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Product",
+                "field_id": 4735,
+                "name": "Credit to be Shared",
+                "FieldName": "Pro_ex1_29",
+                "field_type": "LookupWithId"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Product",
+                "field_id": 110,
+                "name": "Insta Product Type",
+                "FieldName": "Pro_ex1_50",
+                "field_type": "LookupWithId"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Product",
+                "field_id": 7884,
+                "name": "Product Category",
+                "FieldName": "Pro_ex1_31",
+                "field_type": "Lookup"
+            }
+        ]
+    }
+]

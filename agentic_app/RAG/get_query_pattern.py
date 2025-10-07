@@ -1,0 +1,122 @@
+query_patterns = {
+    "list_view": [
+        "Show my {ObjectPlural}",
+        "List all {ObjectPlural}",
+        "Show {ObjectPlural} assigned to me",
+        "Show {ObjectPlural} created this week",
+        "Show {ObjectPlural} created this month",
+        "List {ObjectPlural} by status",
+        "Show top {N} {ObjectPlural}",
+        "Show recent {N} {ObjectPlural}",
+        "Show {ObjectPlural} sorted by {Field}",
+        "Show {ObjectPlural} filtered by {Field} = {Value}"
+    ],
+    "detail_view": [
+        "Show me the detail of {Object}",
+        "Get details of {Object}",
+        "Show full detail of {Object}",
+        "Show {Object} information",
+        "Show record {RecordID} of {Object}",
+        "Show one {Object} record",
+        "Get detailed view of {Object}",
+        "Show {Object} fields",
+        "Show {Object} by {Field}",
+        "Show complete information of {Object}"
+    ],
+    "card_grid_view": [
+        "Show {ObjectPlural} in card view",
+        "Display {ObjectPlural} in card format",
+        "Show {ObjectPlural} in grid view",
+        "Display {ObjectPlural} in table format",
+        "Show {ObjectPlural} in dashboard view",
+        "Show {ObjectPlural} as tiles",
+        "Show {ObjectPlural} in Kanban view",
+        "Show {ObjectPlural} in compact cards",
+        "Show {ObjectPlural} as visual cards",
+        "Display {ObjectPlural} as list of cards"
+    ],
+    "graph_chart_view": [
+        "Show {ObjectPlural} in graph view",
+        "Display {ObjectPlural} in chart",
+        "Show {ObjectPlural} statistics in chart",
+        "Compare {ObjectPlural} by {Field} in graph",
+        "Show {ObjectPlural} trend by {Field}",
+        "Show {ObjectPlural} grouped by {Field} in chart",
+        "Display {ObjectPlural} as pie chart",
+        "Display {ObjectPlural} as bar chart",
+        "Show {ObjectPlural} performance graph",
+        "Show {ObjectPlural} summary in graph view"
+    ],
+    "pagination_n_records": [
+        "Show 1 {Object} record",
+        "Show 5 {ObjectPlural}",
+        "Show top {N} {ObjectPlural}",
+        "Show recent {N} {ObjectPlural}",
+        "Show next {N} {ObjectPlural}",
+        "Show first {N} {ObjectPlural}",
+        "Show last {N} {ObjectPlural}",
+        "Show {N} {ObjectPlural} sorted by {Field}",
+        "Show {N} {ObjectPlural} filtered by {Field} = {Value}",
+        "Show {N} {ObjectPlural} grouped by {Field}"
+    ],
+    "summarize": [
+        "Summarize {ObjectPlural}",
+        "Give me a summary of {ObjectPlural}",
+        "Show summarized {ObjectPlural}",
+        "Show {ObjectPlural} report",
+        "Show {ObjectPlural} insights",
+        "Show total {ObjectPlural} count",
+        "Show {ObjectPlural} summary by {Field}",
+        "Show {ObjectPlural} aggregated by {Field}",
+        "Summarize {ObjectPlural} performance",
+        "Summarize {ObjectPlural} by region/status/type"
+    ],
+    "related_objects": [
+        "Show {ObjectPlural} related to {OtherObject}",
+        "List {ObjectPlural} linked to {OtherObject}",
+        "Show {ObjectPlural} connected to {OtherObject}",
+        "Show {ObjectPlural} for {OtherObject} = {Value}",
+        "Show {ObjectPlural} under {OtherObject}",
+        "Show {ObjectPlural} associated with {OtherObject}",
+        "List {ObjectPlural} for account {AccountName}",
+        "Show {ObjectPlural} for lead {LeadName}",
+        "Show {ObjectPlural} connected to opportunity {OpportunityName}",
+        "Show {ObjectPlural} related to case {CaseID}"
+    ],
+    "filters_conditions": [
+        "Show {ObjectPlural} where {Field} = {Value}",
+        "Show {ObjectPlural} where {Field} contains {Value}",
+        "Show {ObjectPlural} where {Field} starts with {Value}",
+        "Show {ObjectPlural} where {Field} ends with {Value}",
+        "Show {ObjectPlural} created between {Date1} and {Date2}",
+        "Show {ObjectPlural} updated after {Date}",
+        "Show {ObjectPlural} with status = {Status}",
+        "Show {ObjectPlural} owned by me",
+        "Show {ObjectPlural} assigned to {UserName}",
+        "Show {ObjectPlural} by priority = {High/Medium/Low}"
+    ],
+    "search_find": [
+        "Find {ObjectPlural} by {Field}",
+        "Search {ObjectPlural} where {Field} = {Value}",
+        "Search for {Object} with {Field} = {Value}",
+        "Look up {Object} by {Field}",
+        "Search {ObjectPlural} containing {Keyword}",
+        "Find {ObjectPlural} created by {UserName}",
+        "Find {ObjectPlural} updated by {UserName}",
+        "Search {ObjectPlural} by multiple fields",
+        "Search {ObjectPlural} with condition {Field} = {Value}",
+        "Find {ObjectPlural} for {OtherObject}"
+    ],
+    "misc_advanced": [
+        "Show overdue {ObjectPlural}",
+        "Show upcoming {ObjectPlural}",
+        "Show completed {ObjectPlural}",
+        "Show pending {ObjectPlural}",
+        "Show {ObjectPlural} grouped by {Field}",
+        "Show {ObjectPlural} by {Field} in descending order",
+        "Show {ObjectPlural} by {Field} in ascending order",
+        "Compare {ObjectPlural} by {Field}",
+        "Show {ObjectPlural} trends over time",
+        "Show {ObjectPlural} count by {Field}"
+    ]
+}

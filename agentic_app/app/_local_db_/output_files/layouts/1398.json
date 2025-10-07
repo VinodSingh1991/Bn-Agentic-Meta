@@ -1,0 +1,1094 @@
+[
+    {
+        "query_label": "Case Customer Information",
+        "query_fields": [
+            {
+                "roleid": 1,
+                "object_name": "Case",
+                "field_id": 1689,
+                "name": "DQMS Request Number_as",
+                "FieldName": "Cas_ex1_99",
+                "field_type": "Number"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Case",
+                "field_id": 1687,
+                "name": "In Time of Customer_as",
+                "FieldName": "Cas_ex1_97",
+                "field_type": "Time"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Case",
+                "field_id": 1770,
+                "name": "Reference Number 1_as",
+                "FieldName": "Cas_ex3_60",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Case",
+                "field_id": 10005872,
+                "name": "SN_REPORTEDON",
+                "FieldName": "ReportedOn",
+                "field_type": "DateTime"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Case",
+                "field_id": 1351,
+                "name": "Reclassified By_c",
+                "FieldName": "Cas_ex1_59",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Case",
+                "field_id": 10005752,
+                "name": "SN_ACCOUNTNAME",
+                "FieldName": "AccountName",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Case",
+                "field_id": 1674,
+                "name": "Customer Name_as",
+                "FieldName": "Cas_ex1_84",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Case",
+                "field_id": 1771,
+                "name": "LAN_as",
+                "FieldName": "Cas_ex3_61",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Case",
+                "field_id": 1762,
+                "name": "Cust ID asset_as",
+                "FieldName": "Cas_ex3_52",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Case",
+                "field_id": 1761,
+                "name": "Registration Number 2_as",
+                "FieldName": "Cas_ex3_51",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Case",
+                "field_id": 1763,
+                "name": "Loan Amount asset_as",
+                "FieldName": "Cas_ex3_53",
+                "field_type": "Amount"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Case",
+                "field_id": 1679,
+                "name": "Loan Status_as",
+                "FieldName": "Cas_ex1_89",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Case",
+                "field_id": 1675,
+                "name": "Phone Number_as",
+                "FieldName": "Cas_ex1_85",
+                "field_type": "Phone"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Case",
+                "field_id": 1686,
+                "name": "Email Id_as",
+                "FieldName": "Cas_ex1_96",
+                "field_type": "Email"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Case",
+                "field_id": 1677,
+                "name": "Product_as",
+                "FieldName": "Cas_ex1_87",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Case",
+                "field_id": 1680,
+                "name": "Application Status_as",
+                "FieldName": "Cas_ex1_90",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Case",
+                "field_id": 10005852,
+                "name": "SN_PRODUCT",
+                "FieldName": "Product",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Case",
+                "field_id": 1291,
+                "name": "Customer Mobile_c",
+                "FieldName": "Cas_ex1_24",
+                "field_type": "Phone"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Case",
+                "field_id": 10005757,
+                "name": "SN_CURRENTOWNER",
+                "FieldName": "AssignedToName",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Case",
+                "field_id": 1379,
+                "name": "Type_c",
+                "FieldName": "Cas_ex1_60",
+                "field_type": "Lookup"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Case",
+                "field_id": 10005847,
+                "name": "SN_PRIORITY",
+                "FieldName": "Priority",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Case",
+                "field_id": 10005901,
+                "name": "SN_SUBJECT",
+                "FieldName": "Subject",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Case",
+                "field_id": 1678,
+                "name": "Caller Name_as",
+                "FieldName": "Cas_ex1_88",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Case",
+                "field_id": 10005769,
+                "name": "SN_CATEGORY",
+                "FieldName": "Category",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Case",
+                "field_id": 10005897,
+                "name": "SN_SUBCATEGORY",
+                "FieldName": "SubCategory",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Case",
+                "field_id": 10005898,
+                "name": "SN_CASE_SUBCATEGORYID1",
+                "FieldName": "SubCategory1",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Case",
+                "field_id": 1684,
+                "name": "KYC_as",
+                "FieldName": "Cas_ex1_94",
+                "field_type": "LookupWithId"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Case",
+                "field_id": 10005891,
+                "name": "SN_STATUSCODE",
+                "FieldName": "StatusCode",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Case",
+                "field_id": 10005904,
+                "name": "SN_TERRITORY_NAME",
+                "FieldName": "TerritoryName",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Case",
+                "field_id": 1769,
+                "name": "Approval Team 4_as",
+                "FieldName": "Cas_ex3_59",
+                "field_type": "MultiLevel"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Case",
+                "field_id": 1767,
+                "name": "CPU Team_as",
+                "FieldName": "Cas_ex3_57",
+                "field_type": "MultiLevel"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Case",
+                "field_id": 1726,
+                "name": "Location2_as",
+                "FieldName": "Cas_ex3_22",
+                "field_type": "Lookup"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Case",
+                "field_id": 1732,
+                "name": "Asset_CPU_as",
+                "FieldName": "Cas_ex3_23",
+                "field_type": "Lookup"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Case",
+                "field_id": 10005788,
+                "name": "SN_DETAILS",
+                "FieldName": "Details",
+                "field_type": "Comments"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Case",
+                "field_id": 1682,
+                "name": "Customer Comments_as",
+                "FieldName": "Cas_ex1_92",
+                "field_type": "Comments"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Case",
+                "field_id": 1685,
+                "name": "Mode of Request_as",
+                "FieldName": "Cas_ex1_95",
+                "field_type": "LookupWithId"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Case",
+                "field_id": 1683,
+                "name": "Customer Contacted_as",
+                "FieldName": "Cas_ex1_93",
+                "field_type": "Lookup"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Case",
+                "field_id": 1743,
+                "name": "PAN Number_as",
+                "FieldName": "Cas_ex3_33",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Case",
+                "field_id": 1718,
+                "name": "Reasons Foreclosure2_as",
+                "FieldName": "Cas_ex2_95",
+                "field_type": "LookupWithId"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Case",
+                "field_id": 1692,
+                "name": "Docs Requested_as",
+                "FieldName": "Cas_ex2_68",
+                "field_type": "LookupWithId"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Case",
+                "field_id": 1697,
+                "name": "Cheque Date_as",
+                "FieldName": "Cas_ex2_74",
+                "field_type": "Date"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Case",
+                "field_id": 1695,
+                "name": "Payment Type_as",
+                "FieldName": "Cas_ex2_72",
+                "field_type": "LookupWithId"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Case",
+                "field_id": 1696,
+                "name": "Cheque Number_as",
+                "FieldName": "Cas_ex2_73",
+                "field_type": "Number"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Case",
+                "field_id": 1698,
+                "name": "Cheque Amount_as",
+                "FieldName": "Cas_ex2_75",
+                "field_type": "Number"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Case",
+                "field_id": 1701,
+                "name": "Foreclosure Amount_as",
+                "FieldName": "Cas_ex2_78",
+                "field_type": "Number"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Case",
+                "field_id": 1699,
+                "name": "Value Date_as",
+                "FieldName": "Cas_ex2_76",
+                "field_type": "Date"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Case",
+                "field_id": 1700,
+                "name": "Cash Amount_as",
+                "FieldName": "Cas_ex2_77",
+                "field_type": "Number"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Case",
+                "field_id": 1703,
+                "name": "SWAP Request Form_as",
+                "FieldName": "Cas_ex2_80",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Case",
+                "field_id": 1702,
+                "name": "SI Mandate_as",
+                "FieldName": "Cas_ex2_79",
+                "field_type": "LookupWithId"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Case",
+                "field_id": 1705,
+                "name": "SWAP Charges_as",
+                "FieldName": "Cas_ex2_82",
+                "field_type": "Decimal"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Case",
+                "field_id": 1704,
+                "name": "ECS Mandate_as",
+                "FieldName": "Cas_ex2_81",
+                "field_type": "LookupWithId"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Case",
+                "field_id": 1706,
+                "name": "Signature Verified_as",
+                "FieldName": "Cas_ex2_83",
+                "field_type": "LookupWithId"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Case",
+                "field_id": 1745,
+                "name": "PDC Number_as",
+                "FieldName": "Cas_ex3_35",
+                "field_type": "Number"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Case",
+                "field_id": 1707,
+                "name": "New Address_as",
+                "FieldName": "Cas_ex2_84",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Case",
+                "field_id": 1709,
+                "name": "Address Proof_as",
+                "FieldName": "Cas_ex2_86",
+                "field_type": "LookupWithId"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Case",
+                "field_id": 1708,
+                "name": "Bank Account Number_as",
+                "FieldName": "Cas_ex2_85",
+                "field_type": "Number"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Case",
+                "field_id": 1710,
+                "name": "Send To_as",
+                "FieldName": "Cas_ex2_87",
+                "field_type": "LookupWithId"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Case",
+                "field_id": 1711,
+                "name": "Dispatch Branch_as",
+                "FieldName": "Cas_ex2_88",
+                "field_type": "LookupWithId"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Case",
+                "field_id": 1712,
+                "name": "Financial Year_as",
+                "FieldName": "Cas_ex2_89",
+                "field_type": "LookupWithId"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Case",
+                "field_id": 1713,
+                "name": "Part Payment Amount_as",
+                "FieldName": "Cas_ex2_90",
+                "field_type": "Decimal"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Case",
+                "field_id": 1714,
+                "name": "Reasons NOC Blocking_as",
+                "FieldName": "Cas_ex2_91",
+                "field_type": "LookupWithId"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Case",
+                "field_id": 1694,
+                "name": "Types of Special NOC_as",
+                "FieldName": "Cas_ex2_71",
+                "field_type": "LookupWithId"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Case",
+                "field_id": 1719,
+                "name": "Reasons Cancellation2_as",
+                "FieldName": "Cas_ex2_96",
+                "field_type": "LookupWithId"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Case",
+                "field_id": 1716,
+                "name": "Reasons Cancellation_as",
+                "FieldName": "Cas_ex2_93",
+                "field_type": "Comments"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Case",
+                "field_id": 1720,
+                "name": "Reasons SWAP Charges2_as",
+                "FieldName": "Cas_ex2_97",
+                "field_type": "LookupWithId"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Case",
+                "field_id": 1742,
+                "name": "Mailing Address_as",
+                "FieldName": "Cas_ex3_32",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Case",
+                "field_id": 1773,
+                "name": "Sub-Category Details_as",
+                "FieldName": "Cas_ex3_63",
+                "field_type": "Comments"
+            }
+        ]
+    },
+    {
+        "query_label": "Case DQMS Details",
+        "query_fields": [
+            {
+                "roleid": 1,
+                "object_name": "Case",
+                "field_id": 1689,
+                "name": "DQMS Request Number_as",
+                "FieldName": "Cas_ex1_99",
+                "field_type": "Number"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Case",
+                "field_id": 1687,
+                "name": "In Time of Customer_as",
+                "FieldName": "Cas_ex1_97",
+                "field_type": "Time"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Case",
+                "field_id": 1770,
+                "name": "Reference Number 1_as",
+                "FieldName": "Cas_ex3_60",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Case",
+                "field_id": 10005872,
+                "name": "SN_REPORTEDON",
+                "FieldName": "ReportedOn",
+                "field_type": "DateTime"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Case",
+                "field_id": 1351,
+                "name": "Reclassified By_c",
+                "FieldName": "Cas_ex1_59",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Case",
+                "field_id": 10005752,
+                "name": "SN_ACCOUNTNAME",
+                "FieldName": "AccountName",
+                "field_type": "Text"
+            }
+        ]
+    },
+    {
+        "query_label": "Case Key Customer Information",
+        "query_fields": [
+            {
+                "roleid": 1,
+                "object_name": "Case",
+                "field_id": 1674,
+                "name": "Customer Name_as",
+                "FieldName": "Cas_ex1_84",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Case",
+                "field_id": 1771,
+                "name": "LAN_as",
+                "FieldName": "Cas_ex3_61",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Case",
+                "field_id": 1762,
+                "name": "Cust ID asset_as",
+                "FieldName": "Cas_ex3_52",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Case",
+                "field_id": 1761,
+                "name": "Registration Number 2_as",
+                "FieldName": "Cas_ex3_51",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Case",
+                "field_id": 1763,
+                "name": "Loan Amount asset_as",
+                "FieldName": "Cas_ex3_53",
+                "field_type": "Amount"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Case",
+                "field_id": 1679,
+                "name": "Loan Status_as",
+                "FieldName": "Cas_ex1_89",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Case",
+                "field_id": 1675,
+                "name": "Phone Number_as",
+                "FieldName": "Cas_ex1_85",
+                "field_type": "Phone"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Case",
+                "field_id": 1686,
+                "name": "Email Id_as",
+                "FieldName": "Cas_ex1_96",
+                "field_type": "Email"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Case",
+                "field_id": 1677,
+                "name": "Product_as",
+                "FieldName": "Cas_ex1_87",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Case",
+                "field_id": 1680,
+                "name": "Application Status_as",
+                "FieldName": "Cas_ex1_90",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Case",
+                "field_id": 10005852,
+                "name": "SN_PRODUCT",
+                "FieldName": "Product",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Case",
+                "field_id": 1291,
+                "name": "Customer Mobile_c",
+                "FieldName": "Cas_ex1_24",
+                "field_type": "Phone"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Case",
+                "field_id": 10005757,
+                "name": "SN_CURRENTOWNER",
+                "FieldName": "AssignedToName",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Case",
+                "field_id": 1379,
+                "name": "Type_c",
+                "FieldName": "Cas_ex1_60",
+                "field_type": "Lookup"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Case",
+                "field_id": 10005847,
+                "name": "SN_PRIORITY",
+                "FieldName": "Priority",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Case",
+                "field_id": 10005901,
+                "name": "SN_SUBJECT",
+                "FieldName": "Subject",
+                "field_type": "Text"
+            }
+        ]
+    },
+    {
+        "query_label": "Case SR Information",
+        "query_fields": [
+            {
+                "roleid": 1,
+                "object_name": "Case",
+                "field_id": 1678,
+                "name": "Caller Name_as",
+                "FieldName": "Cas_ex1_88",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Case",
+                "field_id": 10005769,
+                "name": "SN_CATEGORY",
+                "FieldName": "Category",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Case",
+                "field_id": 10005897,
+                "name": "SN_SUBCATEGORY",
+                "FieldName": "SubCategory",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Case",
+                "field_id": 10005898,
+                "name": "SN_CASE_SUBCATEGORYID1",
+                "FieldName": "SubCategory1",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Case",
+                "field_id": 1684,
+                "name": "KYC_as",
+                "FieldName": "Cas_ex1_94",
+                "field_type": "LookupWithId"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Case",
+                "field_id": 10005891,
+                "name": "SN_STATUSCODE",
+                "FieldName": "StatusCode",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Case",
+                "field_id": 10005904,
+                "name": "SN_TERRITORY_NAME",
+                "FieldName": "TerritoryName",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Case",
+                "field_id": 1769,
+                "name": "Approval Team 4_as",
+                "FieldName": "Cas_ex3_59",
+                "field_type": "MultiLevel"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Case",
+                "field_id": 1767,
+                "name": "CPU Team_as",
+                "FieldName": "Cas_ex3_57",
+                "field_type": "MultiLevel"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Case",
+                "field_id": 1726,
+                "name": "Location2_as",
+                "FieldName": "Cas_ex3_22",
+                "field_type": "Lookup"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Case",
+                "field_id": 1732,
+                "name": "Asset_CPU_as",
+                "FieldName": "Cas_ex3_23",
+                "field_type": "Lookup"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Case",
+                "field_id": 10005788,
+                "name": "SN_DETAILS",
+                "FieldName": "Details",
+                "field_type": "Comments"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Case",
+                "field_id": 1682,
+                "name": "Customer Comments_as",
+                "FieldName": "Cas_ex1_92",
+                "field_type": "Comments"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Case",
+                "field_id": 1685,
+                "name": "Mode of Request_as",
+                "FieldName": "Cas_ex1_95",
+                "field_type": "LookupWithId"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Case",
+                "field_id": 1683,
+                "name": "Customer Contacted_as",
+                "FieldName": "Cas_ex1_93",
+                "field_type": "Lookup"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Case",
+                "field_id": 1743,
+                "name": "PAN Number_as",
+                "FieldName": "Cas_ex3_33",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Case",
+                "field_id": 1718,
+                "name": "Reasons Foreclosure2_as",
+                "FieldName": "Cas_ex2_95",
+                "field_type": "LookupWithId"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Case",
+                "field_id": 1692,
+                "name": "Docs Requested_as",
+                "FieldName": "Cas_ex2_68",
+                "field_type": "LookupWithId"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Case",
+                "field_id": 1697,
+                "name": "Cheque Date_as",
+                "FieldName": "Cas_ex2_74",
+                "field_type": "Date"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Case",
+                "field_id": 1695,
+                "name": "Payment Type_as",
+                "FieldName": "Cas_ex2_72",
+                "field_type": "LookupWithId"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Case",
+                "field_id": 1696,
+                "name": "Cheque Number_as",
+                "FieldName": "Cas_ex2_73",
+                "field_type": "Number"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Case",
+                "field_id": 1698,
+                "name": "Cheque Amount_as",
+                "FieldName": "Cas_ex2_75",
+                "field_type": "Number"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Case",
+                "field_id": 1701,
+                "name": "Foreclosure Amount_as",
+                "FieldName": "Cas_ex2_78",
+                "field_type": "Number"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Case",
+                "field_id": 1699,
+                "name": "Value Date_as",
+                "FieldName": "Cas_ex2_76",
+                "field_type": "Date"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Case",
+                "field_id": 1700,
+                "name": "Cash Amount_as",
+                "FieldName": "Cas_ex2_77",
+                "field_type": "Number"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Case",
+                "field_id": 1703,
+                "name": "SWAP Request Form_as",
+                "FieldName": "Cas_ex2_80",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Case",
+                "field_id": 1702,
+                "name": "SI Mandate_as",
+                "FieldName": "Cas_ex2_79",
+                "field_type": "LookupWithId"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Case",
+                "field_id": 1705,
+                "name": "SWAP Charges_as",
+                "FieldName": "Cas_ex2_82",
+                "field_type": "Decimal"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Case",
+                "field_id": 1704,
+                "name": "ECS Mandate_as",
+                "FieldName": "Cas_ex2_81",
+                "field_type": "LookupWithId"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Case",
+                "field_id": 1706,
+                "name": "Signature Verified_as",
+                "FieldName": "Cas_ex2_83",
+                "field_type": "LookupWithId"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Case",
+                "field_id": 1745,
+                "name": "PDC Number_as",
+                "FieldName": "Cas_ex3_35",
+                "field_type": "Number"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Case",
+                "field_id": 1707,
+                "name": "New Address_as",
+                "FieldName": "Cas_ex2_84",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Case",
+                "field_id": 1709,
+                "name": "Address Proof_as",
+                "FieldName": "Cas_ex2_86",
+                "field_type": "LookupWithId"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Case",
+                "field_id": 1708,
+                "name": "Bank Account Number_as",
+                "FieldName": "Cas_ex2_85",
+                "field_type": "Number"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Case",
+                "field_id": 1710,
+                "name": "Send To_as",
+                "FieldName": "Cas_ex2_87",
+                "field_type": "LookupWithId"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Case",
+                "field_id": 1711,
+                "name": "Dispatch Branch_as",
+                "FieldName": "Cas_ex2_88",
+                "field_type": "LookupWithId"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Case",
+                "field_id": 1712,
+                "name": "Financial Year_as",
+                "FieldName": "Cas_ex2_89",
+                "field_type": "LookupWithId"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Case",
+                "field_id": 1713,
+                "name": "Part Payment Amount_as",
+                "FieldName": "Cas_ex2_90",
+                "field_type": "Decimal"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Case",
+                "field_id": 1714,
+                "name": "Reasons NOC Blocking_as",
+                "FieldName": "Cas_ex2_91",
+                "field_type": "LookupWithId"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Case",
+                "field_id": 1694,
+                "name": "Types of Special NOC_as",
+                "FieldName": "Cas_ex2_71",
+                "field_type": "LookupWithId"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Case",
+                "field_id": 1719,
+                "name": "Reasons Cancellation2_as",
+                "FieldName": "Cas_ex2_96",
+                "field_type": "LookupWithId"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Case",
+                "field_id": 1716,
+                "name": "Reasons Cancellation_as",
+                "FieldName": "Cas_ex2_93",
+                "field_type": "Comments"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Case",
+                "field_id": 1720,
+                "name": "Reasons SWAP Charges2_as",
+                "FieldName": "Cas_ex2_97",
+                "field_type": "LookupWithId"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Case",
+                "field_id": 1742,
+                "name": "Mailing Address_as",
+                "FieldName": "Cas_ex3_32",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Case",
+                "field_id": 1773,
+                "name": "Sub-Category Details_as",
+                "FieldName": "Cas_ex3_63",
+                "field_type": "Comments"
+            }
+        ]
+    }
+]

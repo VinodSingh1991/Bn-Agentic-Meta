@@ -1,0 +1,462 @@
+[
+    {
+        "query_label": "Lead Details",
+        "query_fields": [
+            {
+                "roleid": 1,
+                "object_name": "Lead",
+                "field_id": 10001660,
+                "name": "SN_Lead_Name",
+                "FieldName": "LeadName",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Lead",
+                "field_id": 10001742,
+                "name": "SN_TITLE",
+                "FieldName": "Title",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Lead",
+                "field_id": 10001592,
+                "name": "SN_ACCOUNTID",
+                "FieldName": "CompanyName",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Lead",
+                "field_id": 10001744,
+                "name": "SN_WEBSITEURL",
+                "FieldName": "WebsiteURL",
+                "field_type": "Url"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Lead",
+                "field_id": 10001627,
+                "name": "SN_INDUSTRY",
+                "FieldName": "Industry",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Lead",
+                "field_id": 10001608,
+                "name": "SN_EMPLOYEECOUNT",
+                "FieldName": "EmployeeCount",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Lead",
+                "field_id": 10048343,
+                "name": "SN_Lead_ProductName",
+                "FieldName": "Product",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Lead",
+                "field_id": 10001669,
+                "name": "SN_SOURCE",
+                "FieldName": "LeadSource",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Lead",
+                "field_id": 10001714,
+                "name": "SN_RATING",
+                "FieldName": "Rating",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Lead",
+                "field_id": 10001584,
+                "name": "SN_CAMPAIGNNAME",
+                "FieldName": "CampaignName",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Lead",
+                "field_id": 10050495,
+                "name": "SN_Lead_OwnerName",
+                "FieldName": "LeadOwnerName",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Lead",
+                "field_id": 10001740,
+                "name": "SN_TERRITORY_NAME",
+                "FieldName": "TerritoryName",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Lead",
+                "field_id": 10001615,
+                "name": "SN_FIRSTACTIVITYON",
+                "FieldName": "FirstActivity",
+                "field_type": "DateTime"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Lead",
+                "field_id": 10001636,
+                "name": "SN_LASTACTIVITY",
+                "FieldName": "LastActivity",
+                "field_type": "DateTime"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Lead",
+                "field_id": 10001732,
+                "name": "SN_STATUSCODE",
+                "FieldName": "StatusCode",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Lead",
+                "field_id": 10001693,
+                "name": "SN_PREFERREDCHANNEL",
+                "FieldName": "PreferredChannel",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Lead",
+                "field_id": 10001569,
+                "name": "SN_AMOUNT",
+                "FieldName": "Amount",
+                "field_type": "MulticurrencyAmount"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Lead",
+                "field_id": 10001621,
+                "name": "SN_READEMAIL",
+                "FieldName": "HasUnReadEmail",
+                "field_type": "Number"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Lead",
+                "field_id": 10001691,
+                "name": "SN_PHONE",
+                "FieldName": "Phone",
+                "field_type": "Phone"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Lead",
+                "field_id": 10001606,
+                "name": "SN_EMAIL",
+                "FieldName": "Email",
+                "field_type": "Email"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Lead",
+                "field_id": 10001682,
+                "name": "SN_OFFICEPHONE",
+                "FieldName": "OfficePhone",
+                "field_type": "Phone"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Lead",
+                "field_id": 10001614,
+                "name": "SN_FAX",
+                "FieldName": "Fax",
+                "field_type": "Phone"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Lead",
+                "field_id": 10001680,
+                "name": "SN_MOBILE",
+                "FieldName": "MobilePhone",
+                "field_type": "Phone"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Lead",
+                "field_id": 10001607,
+                "name": "SN_EMAILOPTOUT",
+                "FieldName": "EmailOptOut",
+                "field_type": "Check"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Lead",
+                "field_id": 10001568,
+                "name": "SN_ADDRESS",
+                "FieldName": "Address",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Lead",
+                "field_id": 10001591,
+                "name": "SN_COMMENTS",
+                "FieldName": "Comments",
+                "field_type": "Comments"
+            }
+        ]
+    },
+    {
+        "query_label": "Lead Key Information",
+        "query_fields": [
+            {
+                "roleid": 1,
+                "object_name": "Lead",
+                "field_id": 10001660,
+                "name": "SN_Lead_Name",
+                "FieldName": "LeadName",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Lead",
+                "field_id": 10001742,
+                "name": "SN_TITLE",
+                "FieldName": "Title",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Lead",
+                "field_id": 10001592,
+                "name": "SN_ACCOUNTID",
+                "FieldName": "CompanyName",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Lead",
+                "field_id": 10001744,
+                "name": "SN_WEBSITEURL",
+                "FieldName": "WebsiteURL",
+                "field_type": "Url"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Lead",
+                "field_id": 10001627,
+                "name": "SN_INDUSTRY",
+                "FieldName": "Industry",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Lead",
+                "field_id": 10001608,
+                "name": "SN_EMPLOYEECOUNT",
+                "FieldName": "EmployeeCount",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Lead",
+                "field_id": 10048343,
+                "name": "SN_Lead_ProductName",
+                "FieldName": "Product",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Lead",
+                "field_id": 10001669,
+                "name": "SN_SOURCE",
+                "FieldName": "LeadSource",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Lead",
+                "field_id": 10001714,
+                "name": "SN_RATING",
+                "FieldName": "Rating",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Lead",
+                "field_id": 10001584,
+                "name": "SN_CAMPAIGNNAME",
+                "FieldName": "CampaignName",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Lead",
+                "field_id": 10050495,
+                "name": "SN_Lead_OwnerName",
+                "FieldName": "LeadOwnerName",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Lead",
+                "field_id": 10001740,
+                "name": "SN_TERRITORY_NAME",
+                "FieldName": "TerritoryName",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Lead",
+                "field_id": 10001615,
+                "name": "SN_FIRSTACTIVITYON",
+                "FieldName": "FirstActivity",
+                "field_type": "DateTime"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Lead",
+                "field_id": 10001636,
+                "name": "SN_LASTACTIVITY",
+                "FieldName": "LastActivity",
+                "field_type": "DateTime"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Lead",
+                "field_id": 10001732,
+                "name": "SN_STATUSCODE",
+                "FieldName": "StatusCode",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Lead",
+                "field_id": 10001693,
+                "name": "SN_PREFERREDCHANNEL",
+                "FieldName": "PreferredChannel",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Lead",
+                "field_id": 10001569,
+                "name": "SN_AMOUNT",
+                "FieldName": "Amount",
+                "field_type": "MulticurrencyAmount"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Lead",
+                "field_id": 10001621,
+                "name": "SN_READEMAIL",
+                "FieldName": "HasUnReadEmail",
+                "field_type": "Number"
+            }
+        ]
+    },
+    {
+        "query_label": "Lead Contact Information",
+        "query_fields": [
+            {
+                "roleid": 1,
+                "object_name": "Lead",
+                "field_id": 10001691,
+                "name": "SN_PHONE",
+                "FieldName": "Phone",
+                "field_type": "Phone"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Lead",
+                "field_id": 10001606,
+                "name": "SN_EMAIL",
+                "FieldName": "Email",
+                "field_type": "Email"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Lead",
+                "field_id": 10001682,
+                "name": "SN_OFFICEPHONE",
+                "FieldName": "OfficePhone",
+                "field_type": "Phone"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Lead",
+                "field_id": 10001614,
+                "name": "SN_FAX",
+                "FieldName": "Fax",
+                "field_type": "Phone"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Lead",
+                "field_id": 10001680,
+                "name": "SN_MOBILE",
+                "FieldName": "MobilePhone",
+                "field_type": "Phone"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Lead",
+                "field_id": 10001607,
+                "name": "SN_EMAILOPTOUT",
+                "FieldName": "EmailOptOut",
+                "field_type": "Check"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Lead",
+                "field_id": 10001568,
+                "name": "SN_ADDRESS",
+                "FieldName": "Address",
+                "field_type": "Text"
+            }
+        ]
+    },
+    {
+        "query_label": "Lead Additional Information",
+        "query_fields": [
+            {
+                "roleid": 1,
+                "object_name": "Lead",
+                "field_id": 10001591,
+                "name": "SN_COMMENTS",
+                "FieldName": "Comments",
+                "field_type": "Comments"
+            }
+        ]
+    },
+    {
+        "query_label": "Lead Activities",
+        "query_fields": []
+    },
+    {
+        "query_label": "Lead Mailing List",
+        "query_fields": []
+    },
+    {
+        "query_label": "Lead Collaboration",
+        "query_fields": []
+    },
+    {
+        "query_label": "Lead Attachments",
+        "query_fields": []
+    },
+    {
+        "query_label": "Lead ##Notes##",
+        "query_fields": []
+    },
+    {
+        "query_label": "Lead History",
+        "query_fields": []
+    }
+]

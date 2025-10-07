@@ -1,0 +1,554 @@
+[
+    {
+        "query_label": "Case Summary",
+        "query_fields": [
+            {
+                "roleid": 1,
+                "object_name": "Case",
+                "field_id": 10005762,
+                "name": "Case Number",
+                "FieldName": "Case_ID",
+                "field_type": "ObjectNumber"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Case",
+                "field_id": 10005891,
+                "name": "Status Code",
+                "FieldName": "StatusCode",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Case",
+                "field_id": 10005757,
+                "name": "Case Owner",
+                "FieldName": "AssignedToName",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Case",
+                "field_id": 10005847,
+                "name": "Priority",
+                "FieldName": "Priority",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Case",
+                "field_id": 10005775,
+                "name": "Relation Name",
+                "FieldName": "ContactName",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Case",
+                "field_id": 10005830,
+                "name": "Origin",
+                "FieldName": "Origin",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Case",
+                "field_id": 10005829,
+                "name": "Opportunity",
+                "FieldName": "OpportunityName",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Case",
+                "field_id": 10005852,
+                "name": "Product",
+                "FieldName": "Product",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Case",
+                "field_id": 10005752,
+                "name": "Account Name",
+                "FieldName": "AccountName",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Case",
+                "field_id": 10005908,
+                "name": "Type",
+                "FieldName": "TypeName",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Case",
+                "field_id": 10005769,
+                "name": "Category",
+                "FieldName": "Category",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Case",
+                "field_id": 10005864,
+                "name": "Reason",
+                "FieldName": "Reason",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Case",
+                "field_id": 10005782,
+                "name": "Assigned To",
+                "FieldName": "CurrentOwner",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Case",
+                "field_id": 10005763,
+                "name": "Wallet Share",
+                "FieldName": "CaseAsset",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Case",
+                "field_id": 10005836,
+                "name": "Parent Case",
+                "FieldName": "ParentName",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Case",
+                "field_id": 10005872,
+                "name": "Reported On",
+                "FieldName": "ReportedOn",
+                "field_type": "DateTime"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Case",
+                "field_id": 10005773,
+                "name": "Closing Date",
+                "FieldName": "CloseDate",
+                "field_type": "DateTime"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Case",
+                "field_id": 10005901,
+                "name": "Subject",
+                "FieldName": "Subject",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Case",
+                "field_id": 10005788,
+                "name": "Details",
+                "FieldName": "Details",
+                "field_type": "Comments"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Case",
+                "field_id": 10005880,
+                "name": "Severity",
+                "FieldName": "Severity",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Case",
+                "field_id": 10005800,
+                "name": "New Emails",
+                "FieldName": "HasUnReadEmail",
+                "field_type": "Check"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Case",
+                "field_id": 1344,
+                "name": "Account holder name",
+                "FieldName": "Cas_ex2_39",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Case",
+                "field_id": 14137,
+                "name": "CustID",
+                "FieldName": "Cas_ex2_187",
+                "field_type": "Number"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Case",
+                "field_id": 5149,
+                "name": "Demat account number",
+                "FieldName": "Cas_ex3_20",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Case",
+                "field_id": 1761,
+                "name": "Holder",
+                "FieldName": "Cas_ex3_51",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Case",
+                "field_id": 8263,
+                "name": "PAN",
+                "FieldName": "Cas_ex4_29",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Case",
+                "field_id": 13237,
+                "name": "Email ID",
+                "FieldName": "Cas_ex1_198",
+                "field_type": "Email"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Case",
+                "field_id": 1356,
+                "name": "Email id belongs to",
+                "FieldName": "Cas_ex1_5",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Case",
+                "field_id": 5146,
+                "name": "Mobile No",
+                "FieldName": "Cas_ex3_17",
+                "field_type": "Phone"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Case",
+                "field_id": 12066,
+                "name": "Mobile number belongs to",
+                "FieldName": "Cas_ex5_14",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Case",
+                "field_id": 1679,
+                "name": "Income Range",
+                "FieldName": "Cas_ex1_89",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Case",
+                "field_id": 13159,
+                "name": "do you want to replicate the above details in your other demat accounts linked with this custid?",
+                "FieldName": "Cas_ex2_123",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Case",
+                "field_id": 1357,
+                "name": "I here by confirm to update the kyc details in my demat account ",
+                "FieldName": "Cas_ex1_6",
+                "field_type": "Text"
+            }
+        ]
+    },
+    {
+        "query_label": "Case Case Information",
+        "query_fields": [
+            {
+                "roleid": 1,
+                "object_name": "Case",
+                "field_id": 10005762,
+                "name": "Case Number",
+                "FieldName": "Case_ID",
+                "field_type": "ObjectNumber"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Case",
+                "field_id": 10005891,
+                "name": "Status Code",
+                "FieldName": "StatusCode",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Case",
+                "field_id": 10005757,
+                "name": "Case Owner",
+                "FieldName": "AssignedToName",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Case",
+                "field_id": 10005847,
+                "name": "Priority",
+                "FieldName": "Priority",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Case",
+                "field_id": 10005775,
+                "name": "Relation Name",
+                "FieldName": "ContactName",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Case",
+                "field_id": 10005830,
+                "name": "Origin",
+                "FieldName": "Origin",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Case",
+                "field_id": 10005829,
+                "name": "Opportunity",
+                "FieldName": "OpportunityName",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Case",
+                "field_id": 10005852,
+                "name": "Product",
+                "FieldName": "Product",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Case",
+                "field_id": 10005752,
+                "name": "Account Name",
+                "FieldName": "AccountName",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Case",
+                "field_id": 10005908,
+                "name": "Type",
+                "FieldName": "TypeName",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Case",
+                "field_id": 10005769,
+                "name": "Category",
+                "FieldName": "Category",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Case",
+                "field_id": 10005864,
+                "name": "Reason",
+                "FieldName": "Reason",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Case",
+                "field_id": 10005782,
+                "name": "Assigned To",
+                "FieldName": "CurrentOwner",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Case",
+                "field_id": 10005763,
+                "name": "Wallet Share",
+                "FieldName": "CaseAsset",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Case",
+                "field_id": 10005836,
+                "name": "Parent Case",
+                "FieldName": "ParentName",
+                "field_type": "Text"
+            }
+        ]
+    },
+    {
+        "query_label": "Case Other Information",
+        "query_fields": [
+            {
+                "roleid": 1,
+                "object_name": "Case",
+                "field_id": 10005872,
+                "name": "Reported On",
+                "FieldName": "ReportedOn",
+                "field_type": "DateTime"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Case",
+                "field_id": 10005773,
+                "name": "Closing Date",
+                "FieldName": "CloseDate",
+                "field_type": "DateTime"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Case",
+                "field_id": 10005901,
+                "name": "Subject",
+                "FieldName": "Subject",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Case",
+                "field_id": 10005788,
+                "name": "Details",
+                "FieldName": "Details",
+                "field_type": "Comments"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Case",
+                "field_id": 10005880,
+                "name": "Severity",
+                "FieldName": "Severity",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Case",
+                "field_id": 10005800,
+                "name": "New Emails",
+                "FieldName": "HasUnReadEmail",
+                "field_type": "Check"
+            }
+        ]
+    },
+    {
+        "query_label": "Case Demat Update",
+        "query_fields": [
+            {
+                "roleid": 1,
+                "object_name": "Case",
+                "field_id": 1344,
+                "name": "Account holder name",
+                "FieldName": "Cas_ex2_39",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Case",
+                "field_id": 14137,
+                "name": "CustID",
+                "FieldName": "Cas_ex2_187",
+                "field_type": "Number"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Case",
+                "field_id": 5149,
+                "name": "Demat account number",
+                "FieldName": "Cas_ex3_20",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Case",
+                "field_id": 1761,
+                "name": "Holder",
+                "FieldName": "Cas_ex3_51",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Case",
+                "field_id": 8263,
+                "name": "PAN",
+                "FieldName": "Cas_ex4_29",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Case",
+                "field_id": 13237,
+                "name": "Email ID",
+                "FieldName": "Cas_ex1_198",
+                "field_type": "Email"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Case",
+                "field_id": 1356,
+                "name": "Email id belongs to",
+                "FieldName": "Cas_ex1_5",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Case",
+                "field_id": 5146,
+                "name": "Mobile No",
+                "FieldName": "Cas_ex3_17",
+                "field_type": "Phone"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Case",
+                "field_id": 12066,
+                "name": "Mobile number belongs to",
+                "FieldName": "Cas_ex5_14",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Case",
+                "field_id": 1679,
+                "name": "Income Range",
+                "FieldName": "Cas_ex1_89",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Case",
+                "field_id": 13159,
+                "name": "do you want to replicate the above details in your other demat accounts linked with this custid?",
+                "FieldName": "Cas_ex2_123",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Case",
+                "field_id": 1357,
+                "name": "I here by confirm to update the kyc details in my demat account ",
+                "FieldName": "Cas_ex1_6",
+                "field_type": "Text"
+            }
+        ]
+    },
+    {
+        "query_label": "Case History",
+        "query_fields": []
+    }
+]

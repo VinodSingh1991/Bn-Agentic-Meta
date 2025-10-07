@@ -1,0 +1,460 @@
+[
+    {
+        "query_label": "Opportunity Summary",
+        "query_fields": [
+            {
+                "roleid": 1,
+                "object_name": "Opportunity",
+                "field_id": 10003761,
+                "name": "Opportunity Name",
+                "FieldName": "Name",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Opportunity",
+                "field_id": 10003778,
+                "name": "Owner",
+                "FieldName": "OppOwnerName",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Opportunity",
+                "field_id": 10003711,
+                "name": "Account",
+                "FieldName": "AccountName",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Opportunity",
+                "field_id": 10003804,
+                "name": "Start On",
+                "FieldName": "StartDate",
+                "field_type": "Date"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Opportunity",
+                "field_id": 10003737,
+                "name": "Close Date",
+                "FieldName": "ExpEndDate",
+                "field_type": "Date"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Opportunity",
+                "field_id": 10003732,
+                "name": "Stage",
+                "FieldName": "CurrentStage",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Opportunity",
+                "field_id": 10003810,
+                "name": "Team",
+                "FieldName": "TeamName",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Opportunity",
+                "field_id": 10003811,
+                "name": "Branch Code",
+                "FieldName": "TerritoryCode",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Opportunity",
+                "field_id": 10003813,
+                "name": "Branch",
+                "FieldName": "TerritoryName",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Opportunity",
+                "field_id": 348,
+                "name": "Need Special Approval",
+                "FieldName": "Opp_ex1_1",
+                "field_type": "Lookup"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Opportunity",
+                "field_id": 580,
+                "name": "Special Approval by",
+                "FieldName": "Opp_ex1_2",
+                "field_type": "MultiPicker"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Opportunity",
+                "field_id": 351,
+                "name": "BM Reject Reasons",
+                "FieldName": "Opp_ex1_4",
+                "field_type": "Lookup"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Opportunity",
+                "field_id": 350,
+                "name": "Proposal Accepted by Client",
+                "FieldName": "Opp_ex1_3",
+                "field_type": "Lookup"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Opportunity",
+                "field_id": 10003775,
+                "name": "Opportunity Type",
+                "FieldName": "OpportunityType",
+                "field_type": "Number"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Opportunity",
+                "field_id": 568,
+                "name": "Company Code ",
+                "FieldName": "Opp_ex1_5",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Opportunity",
+                "field_id": 10003796,
+                "name": "Lead Source",
+                "FieldName": "Source",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Opportunity",
+                "field_id": 10003717,
+                "name": "Campaign",
+                "FieldName": "CampaignName",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Opportunity",
+                "field_id": 579,
+                "name": "CPU Reject Reasons",
+                "FieldName": "Opp_ex1_6",
+                "field_type": "MultiPicker"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Opportunity",
+                "field_id": 679,
+                "name": "Captured Details in Account",
+                "FieldName": "Opp_ex1_8",
+                "field_type": "Lookup"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Opportunity",
+                "field_id": 692,
+                "name": "BM Approval",
+                "FieldName": "Opp_ex1_10",
+                "field_type": "Lookup"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Opportunity",
+                "field_id": 10003722,
+                "name": "Comments",
+                "FieldName": "Comment",
+                "field_type": "Comments"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Opportunity",
+                "field_id": 3566,
+                "name": "Dispatch Date",
+                "FieldName": "Opp_ex2_21",
+                "field_type": "Date"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Opportunity",
+                "field_id": 3567,
+                "name": "POD No",
+                "FieldName": "Opp_ex2_22",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Opportunity",
+                "field_id": 3568,
+                "name": "Courier Name",
+                "FieldName": "Opp_ex2_23",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Opportunity",
+                "field_id": 11020,
+                "name": "Assign To",
+                "FieldName": "Act_ex3_68",
+                "field_type": "MultiPicker"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Opportunity",
+                "field_id": 11041,
+                "name": "CH Reject Reasons",
+                "FieldName": "Opp_ex1_18",
+                "field_type": "Comments"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Opportunity",
+                "field_id": 11042,
+                "name": "CH/ZH Reject Reason",
+                "FieldName": "Opp_ex1_19",
+                "field_type": "Comments"
+            }
+        ]
+    },
+    {
+        "query_label": "Opportunity Key Information",
+        "query_fields": [
+            {
+                "roleid": 1,
+                "object_name": "Opportunity",
+                "field_id": 10003761,
+                "name": "Opportunity Name",
+                "FieldName": "Name",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Opportunity",
+                "field_id": 10003778,
+                "name": "Owner",
+                "FieldName": "OppOwnerName",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Opportunity",
+                "field_id": 10003711,
+                "name": "Account",
+                "FieldName": "AccountName",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Opportunity",
+                "field_id": 10003804,
+                "name": "Start On",
+                "FieldName": "StartDate",
+                "field_type": "Date"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Opportunity",
+                "field_id": 10003737,
+                "name": "Close Date",
+                "FieldName": "ExpEndDate",
+                "field_type": "Date"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Opportunity",
+                "field_id": 10003732,
+                "name": "Stage",
+                "FieldName": "CurrentStage",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Opportunity",
+                "field_id": 10003810,
+                "name": "Team",
+                "FieldName": "TeamName",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Opportunity",
+                "field_id": 10003811,
+                "name": "Branch Code",
+                "FieldName": "TerritoryCode",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Opportunity",
+                "field_id": 10003813,
+                "name": "Branch",
+                "FieldName": "TerritoryName",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Opportunity",
+                "field_id": 348,
+                "name": "Need Special Approval",
+                "FieldName": "Opp_ex1_1",
+                "field_type": "Lookup"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Opportunity",
+                "field_id": 580,
+                "name": "Special Approval by",
+                "FieldName": "Opp_ex1_2",
+                "field_type": "MultiPicker"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Opportunity",
+                "field_id": 351,
+                "name": "BM Reject Reasons",
+                "FieldName": "Opp_ex1_4",
+                "field_type": "Lookup"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Opportunity",
+                "field_id": 350,
+                "name": "Proposal Accepted by Client",
+                "FieldName": "Opp_ex1_3",
+                "field_type": "Lookup"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Opportunity",
+                "field_id": 10003775,
+                "name": "Opportunity Type",
+                "FieldName": "OpportunityType",
+                "field_type": "Number"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Opportunity",
+                "field_id": 568,
+                "name": "Company Code ",
+                "FieldName": "Opp_ex1_5",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Opportunity",
+                "field_id": 10003796,
+                "name": "Lead Source",
+                "FieldName": "Source",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Opportunity",
+                "field_id": 10003717,
+                "name": "Campaign",
+                "FieldName": "CampaignName",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Opportunity",
+                "field_id": 579,
+                "name": "CPU Reject Reasons",
+                "FieldName": "Opp_ex1_6",
+                "field_type": "MultiPicker"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Opportunity",
+                "field_id": 679,
+                "name": "Captured Details in Account",
+                "FieldName": "Opp_ex1_8",
+                "field_type": "Lookup"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Opportunity",
+                "field_id": 692,
+                "name": "BM Approval",
+                "FieldName": "Opp_ex1_10",
+                "field_type": "Lookup"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Opportunity",
+                "field_id": 10003722,
+                "name": "Comments",
+                "FieldName": "Comment",
+                "field_type": "Comments"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Opportunity",
+                "field_id": 3566,
+                "name": "Dispatch Date",
+                "FieldName": "Opp_ex2_21",
+                "field_type": "Date"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Opportunity",
+                "field_id": 3567,
+                "name": "POD No",
+                "FieldName": "Opp_ex2_22",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Opportunity",
+                "field_id": 3568,
+                "name": "Courier Name",
+                "FieldName": "Opp_ex2_23",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Opportunity",
+                "field_id": 11020,
+                "name": "Assign To",
+                "FieldName": "Act_ex3_68",
+                "field_type": "MultiPicker"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Opportunity",
+                "field_id": 11041,
+                "name": "CH Reject Reasons",
+                "FieldName": "Opp_ex1_18",
+                "field_type": "Comments"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Opportunity",
+                "field_id": 11042,
+                "name": "CH/ZH Reject Reason",
+                "FieldName": "Opp_ex1_19",
+                "field_type": "Comments"
+            }
+        ]
+    },
+    {
+        "query_label": "Opportunity Contacts",
+        "query_fields": []
+    },
+    {
+        "query_label": "Opportunity Activities",
+        "query_fields": []
+    },
+    {
+        "query_label": "Opportunity Notes & Attachments",
+        "query_fields": []
+    },
+    {
+        "query_label": "Opportunity History",
+        "query_fields": []
+    }
+]

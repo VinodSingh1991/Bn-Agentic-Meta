@@ -1,0 +1,354 @@
+[
+    {
+        "query_label": "Case Summary",
+        "query_fields": [
+            {
+                "roleid": 1,
+                "object_name": "Case",
+                "field_id": 3003,
+                "name": "LEA Type",
+                "FieldName": "Cas_ex4_155",
+                "field_type": "Lookup"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Case",
+                "field_id": 19377,
+                "name": "LEA Name",
+                "FieldName": "Cas_ex6_125",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Case",
+                "field_id": 19376,
+                "name": "LEA Officer Name",
+                "FieldName": "Cas_ex6_124",
+                "field_type": "Lookup"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Case",
+                "field_id": 10005901,
+                "name": "Subject Line",
+                "FieldName": "Subject",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Case",
+                "field_id": 10005891,
+                "name": "Status Code",
+                "FieldName": "StatusCode",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Case",
+                "field_id": 3001,
+                "name": "LEA Mailbox User Name",
+                "FieldName": "Cas_ex6_113",
+                "field_type": "Lookup"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Case",
+                "field_id": 19398,
+                "name": "LEA Officer Email",
+                "FieldName": "Cas_ex6_138",
+                "field_type": "Email"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Case",
+                "field_id": 19399,
+                "name": "LEA Officer Mobile",
+                "FieldName": "Cas_ex6_139",
+                "field_type": "Phone"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Case",
+                "field_id": 19378,
+                "name": "Date of Allocation",
+                "FieldName": "Cas_ex6_126",
+                "field_type": "Date"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Case",
+                "field_id": 19372,
+                "name": "Date of receiving case",
+                "FieldName": "Cas_ex6_121",
+                "field_type": "Date"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Case",
+                "field_id": 19434,
+                "name": "Location",
+                "FieldName": "Cas_ex6_159",
+                "field_type": "MultiLevel"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Case",
+                "field_id": 19433,
+                "name": "State",
+                "FieldName": "Cas_ex6_158",
+                "field_type": "MultiLevel"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Case",
+                "field_id": 19432,
+                "name": "Region",
+                "FieldName": "Cas_ex6_157",
+                "field_type": "MultiLevel"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Case",
+                "field_id": 19368,
+                "name": "Central LEA Analyst",
+                "FieldName": "Cas_ex6_117",
+                "field_type": "Lookup"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Case",
+                "field_id": 19441,
+                "name": "Attachment 1",
+                "FieldName": "Cas_ex6_166",
+                "field_type": "Document"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Case",
+                "field_id": 19443,
+                "name": "Attachment 2",
+                "FieldName": "Cas_ex6_168",
+                "field_type": "Document"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Case",
+                "field_id": 10005788,
+                "name": "Details",
+                "FieldName": "Details",
+                "field_type": "Comments"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Case",
+                "field_id": 19373,
+                "name": "Account Number/Demat Number",
+                "FieldName": "Cas_ex6_122",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Case",
+                "field_id": 19374,
+                "name": "Remarks",
+                "FieldName": "Cas_ex6_123",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Case",
+                "field_id": 19380,
+                "name": "Redirection Remarks",
+                "FieldName": "Cas_ex6_128",
+                "field_type": "Comments"
+            }
+        ]
+    },
+    {
+        "query_label": "Case Notice/Case Details",
+        "query_fields": [
+            {
+                "roleid": 1,
+                "object_name": "Case",
+                "field_id": 3003,
+                "name": "LEA Type",
+                "FieldName": "Cas_ex4_155",
+                "field_type": "Lookup"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Case",
+                "field_id": 19377,
+                "name": "LEA Name",
+                "FieldName": "Cas_ex6_125",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Case",
+                "field_id": 19376,
+                "name": "LEA Officer Name",
+                "FieldName": "Cas_ex6_124",
+                "field_type": "Lookup"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Case",
+                "field_id": 10005901,
+                "name": "Subject Line",
+                "FieldName": "Subject",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Case",
+                "field_id": 10005891,
+                "name": "Status Code",
+                "FieldName": "StatusCode",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Case",
+                "field_id": 3001,
+                "name": "LEA Mailbox User Name",
+                "FieldName": "Cas_ex6_113",
+                "field_type": "Lookup"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Case",
+                "field_id": 19398,
+                "name": "LEA Officer Email",
+                "FieldName": "Cas_ex6_138",
+                "field_type": "Email"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Case",
+                "field_id": 19399,
+                "name": "LEA Officer Mobile",
+                "FieldName": "Cas_ex6_139",
+                "field_type": "Phone"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Case",
+                "field_id": 19378,
+                "name": "Date of Allocation",
+                "FieldName": "Cas_ex6_126",
+                "field_type": "Date"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Case",
+                "field_id": 19372,
+                "name": "Date of receiving case",
+                "FieldName": "Cas_ex6_121",
+                "field_type": "Date"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Case",
+                "field_id": 19434,
+                "name": "Location",
+                "FieldName": "Cas_ex6_159",
+                "field_type": "MultiLevel"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Case",
+                "field_id": 19433,
+                "name": "State",
+                "FieldName": "Cas_ex6_158",
+                "field_type": "MultiLevel"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Case",
+                "field_id": 19432,
+                "name": "Region",
+                "FieldName": "Cas_ex6_157",
+                "field_type": "MultiLevel"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Case",
+                "field_id": 19368,
+                "name": "Central LEA Analyst",
+                "FieldName": "Cas_ex6_117",
+                "field_type": "Lookup"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Case",
+                "field_id": 19441,
+                "name": "Attachment 1",
+                "FieldName": "Cas_ex6_166",
+                "field_type": "Document"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Case",
+                "field_id": 19443,
+                "name": "Attachment 2",
+                "FieldName": "Cas_ex6_168",
+                "field_type": "Document"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Case",
+                "field_id": 10005788,
+                "name": "Details",
+                "FieldName": "Details",
+                "field_type": "Comments"
+            }
+        ]
+    },
+    {
+        "query_label": "Case Details",
+        "query_fields": [
+            {
+                "roleid": 1,
+                "object_name": "Case",
+                "field_id": 19373,
+                "name": "Account Number/Demat Number",
+                "FieldName": "Cas_ex6_122",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Case",
+                "field_id": 19374,
+                "name": "Remarks",
+                "FieldName": "Cas_ex6_123",
+                "field_type": "Text"
+            }
+        ]
+    },
+    {
+        "query_label": "Case Redirection Reason",
+        "query_fields": [
+            {
+                "roleid": 1,
+                "object_name": "Case",
+                "field_id": 19380,
+                "name": "Redirection Remarks",
+                "FieldName": "Cas_ex6_128",
+                "field_type": "Comments"
+            }
+        ]
+    },
+    {
+        "query_label": "Case Task Details",
+        "query_fields": []
+    },
+    {
+        "query_label": "Case Attachments",
+        "query_fields": []
+    },
+    {
+        "query_label": "Case History",
+        "query_fields": []
+    }
+]

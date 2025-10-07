@@ -1,0 +1,60 @@
+[
+    {
+        "query_label": "Note Note Details",
+        "query_fields": [
+            {
+                "roleid": 1,
+                "object_name": "Note",
+                "field_id": 10000954,
+                "name": "SN_Note_RelatedName",
+                "FieldName": "RelatedName",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Note",
+                "field_id": 10000955,
+                "name": "SN_SUBJECT",
+                "FieldName": "Subject",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Note",
+                "field_id": 10000944,
+                "name": "SN_DETAILS",
+                "FieldName": "Details",
+                "field_type": "HTML"
+            }
+        ]
+    },
+    {
+        "query_label": "Note Note Details",
+        "query_fields": [
+            {
+                "roleid": 1,
+                "object_name": "Note",
+                "field_id": 10000954,
+                "name": "SN_Note_RelatedName",
+                "FieldName": "RelatedName",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Note",
+                "field_id": 10000955,
+                "name": "SN_SUBJECT",
+                "FieldName": "Subject",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Note",
+                "field_id": 10000944,
+                "name": "SN_DETAILS",
+                "FieldName": "Details",
+                "field_type": "HTML"
+            }
+        ]
+    }
+]

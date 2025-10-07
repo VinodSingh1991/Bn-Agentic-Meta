@@ -1,0 +1,571 @@
+[
+    {
+        "query_label": "Activity Interaction Details",
+        "query_fields": [
+            {
+                "roleid": 1,
+                "object_name": "Activity",
+                "field_id": 10010172,
+                "name": "Date",
+                "FieldName": "DueDate",
+                "field_type": "Date"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Activity",
+                "field_id": 10010250,
+                "name": "Time",
+                "FieldName": "Time",
+                "field_type": "Time"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Activity",
+                "field_id": 1853,
+                "name": "Customer Name",
+                "FieldName": "Act_ex2_54",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Activity",
+                "field_id": 10010103,
+                "name": "Assigned To",
+                "FieldName": "AssignedTo",
+                "field_type": "Number"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Activity",
+                "field_id": 1854,
+                "name": "Customer ID",
+                "FieldName": "Act_ex2_55",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Activity",
+                "field_id": 10642,
+                "name": "Group ID",
+                "FieldName": "Act_ex2_4",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Activity",
+                "field_id": 5171,
+                "name": "UCIC ID",
+                "FieldName": "Act_ex1_51",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Activity",
+                "field_id": 76,
+                "name": "Phone Number",
+                "FieldName": "Act_ex1_5",
+                "field_type": "Phone"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Activity",
+                "field_id": 78,
+                "name": "Email ID",
+                "FieldName": "Act_ex1_7",
+                "field_type": "Email"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Activity",
+                "field_id": 10010243,
+                "name": "Interaction Status",
+                "FieldName": "Status",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Activity",
+                "field_id": 13170,
+                "name": "Master Initiative Segment",
+                "FieldName": "Act_ex5_92",
+                "field_type": "MultiLevel"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Activity",
+                "field_id": 13171,
+                "name": "Master Initiative Sub Segment",
+                "FieldName": "Act_ex5_93",
+                "field_type": "MultiLevel"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Activity",
+                "field_id": 11996,
+                "name": "Joint / Repeat Call",
+                "FieldName": "Act_ex5_76",
+                "field_type": "Lookup"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Activity",
+                "field_id": 1174,
+                "name": "Joint Call with E Code",
+                "FieldName": "Act_ex2_26",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Activity",
+                "field_id": 12005,
+                "name": "From Location",
+                "FieldName": "Act_ex5_38",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Activity",
+                "field_id": 12006,
+                "name": "To Location",
+                "FieldName": "Act_ex5_41",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Activity",
+                "field_id": 13601,
+                "name": "Claim Amount",
+                "FieldName": "Act_ex4_135",
+                "field_type": "Number"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Activity",
+                "field_id": 13513,
+                "name": "KMs Travelled",
+                "FieldName": "Act_ex4_134",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Activity",
+                "field_id": 13512,
+                "name": "Mode of Transport",
+                "FieldName": "Act_ex4_133",
+                "field_type": "LookupWithId"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Activity",
+                "field_id": 10010171,
+                "name": "Comments",
+                "FieldName": "Details",
+                "field_type": "Comments"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Activity",
+                "field_id": 12389,
+                "name": "Interaction Update",
+                "FieldName": "Act_ex5_89",
+                "field_type": "Comments"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Activity",
+                "field_id": 10000028,
+                "name": "LastModifiedOn",
+                "FieldName": "LastModifiedOn",
+                "field_type": "DateTime"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Activity",
+                "field_id": 11580,
+                "name": "Review and Coaching Feedback",
+                "FieldName": "Act_ex4_79",
+                "field_type": "Comments"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Activity",
+                "field_id": 11510,
+                "name": "Last Reviewed By",
+                "FieldName": "Act_ex4_36",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Activity",
+                "field_id": 11507,
+                "name": "Last Reviewed On",
+                "FieldName": "Act_ex4_33",
+                "field_type": "DateTime"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Activity",
+                "field_id": 12291,
+                "name": "Interaction Review Rating",
+                "FieldName": "Act_ex5_48",
+                "field_type": "Lookup"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Activity",
+                "field_id": 11503,
+                "name": "Review and Coaching Feedback",
+                "FieldName": "Act_ex4_12",
+                "field_type": "Comments"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Activity",
+                "field_id": 11523,
+                "name": "Last Reviewed By",
+                "FieldName": "Act_ex4_49",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Activity",
+                "field_id": 11526,
+                "name": "Last Reviewed On",
+                "FieldName": "Act_ex4_52",
+                "field_type": "DateTime"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Activity",
+                "field_id": 12289,
+                "name": "Interaction Review Rating",
+                "FieldName": "Act_ex5_51",
+                "field_type": "Lookup"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Activity",
+                "field_id": 11602,
+                "name": "Review and Coaching Feedback",
+                "FieldName": "Act_ex4_98",
+                "field_type": "Comments"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Activity",
+                "field_id": 11622,
+                "name": "Last Reviewed By",
+                "FieldName": "Act_ex5_18",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Activity",
+                "field_id": 11613,
+                "name": "Last Reviewed On",
+                "FieldName": "Act_ex5_9",
+                "field_type": "DateTime"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Activity",
+                "field_id": 12290,
+                "name": "Interaction Review Rating",
+                "FieldName": "Act_ex5_52",
+                "field_type": "Lookup"
+            }
+        ]
+    },
+    {
+        "query_label": "Activity Service Interaction",
+        "query_fields": [
+            {
+                "roleid": 1,
+                "object_name": "Activity",
+                "field_id": 10010172,
+                "name": "Date",
+                "FieldName": "DueDate",
+                "field_type": "Date"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Activity",
+                "field_id": 10010250,
+                "name": "Time",
+                "FieldName": "Time",
+                "field_type": "Time"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Activity",
+                "field_id": 1853,
+                "name": "Customer Name",
+                "FieldName": "Act_ex2_54",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Activity",
+                "field_id": 10010103,
+                "name": "Assigned To",
+                "FieldName": "AssignedTo",
+                "field_type": "Number"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Activity",
+                "field_id": 1854,
+                "name": "Customer ID",
+                "FieldName": "Act_ex2_55",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Activity",
+                "field_id": 10642,
+                "name": "Group ID",
+                "FieldName": "Act_ex2_4",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Activity",
+                "field_id": 5171,
+                "name": "UCIC ID",
+                "FieldName": "Act_ex1_51",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Activity",
+                "field_id": 76,
+                "name": "Phone Number",
+                "FieldName": "Act_ex1_5",
+                "field_type": "Phone"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Activity",
+                "field_id": 78,
+                "name": "Email ID",
+                "FieldName": "Act_ex1_7",
+                "field_type": "Email"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Activity",
+                "field_id": 10010243,
+                "name": "Interaction Status",
+                "FieldName": "Status",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Activity",
+                "field_id": 13170,
+                "name": "Master Initiative Segment",
+                "FieldName": "Act_ex5_92",
+                "field_type": "MultiLevel"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Activity",
+                "field_id": 13171,
+                "name": "Master Initiative Sub Segment",
+                "FieldName": "Act_ex5_93",
+                "field_type": "MultiLevel"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Activity",
+                "field_id": 11996,
+                "name": "Joint / Repeat Call",
+                "FieldName": "Act_ex5_76",
+                "field_type": "Lookup"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Activity",
+                "field_id": 1174,
+                "name": "Joint Call with E Code",
+                "FieldName": "Act_ex2_26",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Activity",
+                "field_id": 12005,
+                "name": "From Location",
+                "FieldName": "Act_ex5_38",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Activity",
+                "field_id": 12006,
+                "name": "To Location",
+                "FieldName": "Act_ex5_41",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Activity",
+                "field_id": 13601,
+                "name": "Claim Amount",
+                "FieldName": "Act_ex4_135",
+                "field_type": "Number"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Activity",
+                "field_id": 13513,
+                "name": "KMs Travelled",
+                "FieldName": "Act_ex4_134",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Activity",
+                "field_id": 13512,
+                "name": "Mode of Transport",
+                "FieldName": "Act_ex4_133",
+                "field_type": "LookupWithId"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Activity",
+                "field_id": 10010171,
+                "name": "Comments",
+                "FieldName": "Details",
+                "field_type": "Comments"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Activity",
+                "field_id": 12389,
+                "name": "Interaction Update",
+                "FieldName": "Act_ex5_89",
+                "field_type": "Comments"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Activity",
+                "field_id": 10000028,
+                "name": "LastModifiedOn",
+                "FieldName": "LastModifiedOn",
+                "field_type": "DateTime"
+            }
+        ]
+    },
+    {
+        "query_label": "Activity Supervisory Review 1",
+        "query_fields": [
+            {
+                "roleid": 1,
+                "object_name": "Activity",
+                "field_id": 11580,
+                "name": "Review and Coaching Feedback",
+                "FieldName": "Act_ex4_79",
+                "field_type": "Comments"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Activity",
+                "field_id": 11510,
+                "name": "Last Reviewed By",
+                "FieldName": "Act_ex4_36",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Activity",
+                "field_id": 11507,
+                "name": "Last Reviewed On",
+                "FieldName": "Act_ex4_33",
+                "field_type": "DateTime"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Activity",
+                "field_id": 12291,
+                "name": "Interaction Review Rating",
+                "FieldName": "Act_ex5_48",
+                "field_type": "Lookup"
+            }
+        ]
+    },
+    {
+        "query_label": "Activity Supervisory Review 2",
+        "query_fields": [
+            {
+                "roleid": 1,
+                "object_name": "Activity",
+                "field_id": 11503,
+                "name": "Review and Coaching Feedback",
+                "FieldName": "Act_ex4_12",
+                "field_type": "Comments"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Activity",
+                "field_id": 11523,
+                "name": "Last Reviewed By",
+                "FieldName": "Act_ex4_49",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Activity",
+                "field_id": 11526,
+                "name": "Last Reviewed On",
+                "FieldName": "Act_ex4_52",
+                "field_type": "DateTime"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Activity",
+                "field_id": 12289,
+                "name": "Interaction Review Rating",
+                "FieldName": "Act_ex5_51",
+                "field_type": "Lookup"
+            }
+        ]
+    },
+    {
+        "query_label": "Activity Supervisory Review 3",
+        "query_fields": [
+            {
+                "roleid": 1,
+                "object_name": "Activity",
+                "field_id": 11602,
+                "name": "Review and Coaching Feedback",
+                "FieldName": "Act_ex4_98",
+                "field_type": "Comments"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Activity",
+                "field_id": 11622,
+                "name": "Last Reviewed By",
+                "FieldName": "Act_ex5_18",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Activity",
+                "field_id": 11613,
+                "name": "Last Reviewed On",
+                "FieldName": "Act_ex5_9",
+                "field_type": "DateTime"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Activity",
+                "field_id": 12290,
+                "name": "Interaction Review Rating",
+                "FieldName": "Act_ex5_52",
+                "field_type": "Lookup"
+            }
+        ]
+    }
+]

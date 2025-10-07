@@ -1,0 +1,205 @@
+[
+    {
+        "query_label": "Issue Summary",
+        "query_fields": [
+            {
+                "roleid": 1,
+                "object_name": "Issue",
+                "field_id": 10008713,
+                "name": "SN_ASSIGNEDTONAME",
+                "FieldName": "AssignedToName",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Issue",
+                "field_id": 10008710,
+                "name": "SN_Issues_AssignedByName",
+                "FieldName": "AssignedByName",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Issue",
+                "field_id": 10008718,
+                "name": "SN_Issues_CClist",
+                "FieldName": "CClist",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Issue",
+                "field_id": 10008717,
+                "name": "SN_CATEGORYNAME",
+                "FieldName": "CategoryName",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Issue",
+                "field_id": 10008731,
+                "name": "SN_EXPECTED_ENDDATE",
+                "FieldName": "ExpectedEndDate",
+                "field_type": "Date"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Issue",
+                "field_id": 10008760,
+                "name": "SN_SUBJECT",
+                "FieldName": "Subject",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Issue",
+                "field_id": 10008729,
+                "name": "SN_DETAILS",
+                "FieldName": "Details",
+                "field_type": "Comments"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Issue",
+                "field_id": 10008747,
+                "name": "SN_PRIORITY",
+                "FieldName": "Priority",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Issue",
+                "field_id": 10008756,
+                "name": "SN_STATUSCODE",
+                "FieldName": "StatusCode",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Issue",
+                "field_id": 10008753,
+                "name": "SN_RELATEDTO",
+                "FieldName": "RelatedToName",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Issue",
+                "field_id": 10008720,
+                "name": "SN_CONTACTNAME",
+                "FieldName": "ContactName",
+                "field_type": "Text"
+            }
+        ]
+    },
+    {
+        "query_label": "Issue Key Information",
+        "query_fields": [
+            {
+                "roleid": 1,
+                "object_name": "Issue",
+                "field_id": 10008713,
+                "name": "SN_ASSIGNEDTONAME",
+                "FieldName": "AssignedToName",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Issue",
+                "field_id": 10008710,
+                "name": "SN_Issues_AssignedByName",
+                "FieldName": "AssignedByName",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Issue",
+                "field_id": 10008718,
+                "name": "SN_Issues_CClist",
+                "FieldName": "CClist",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Issue",
+                "field_id": 10008717,
+                "name": "SN_CATEGORYNAME",
+                "FieldName": "CategoryName",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Issue",
+                "field_id": 10008731,
+                "name": "SN_EXPECTED_ENDDATE",
+                "FieldName": "ExpectedEndDate",
+                "field_type": "Date"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Issue",
+                "field_id": 10008760,
+                "name": "SN_SUBJECT",
+                "FieldName": "Subject",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Issue",
+                "field_id": 10008729,
+                "name": "SN_DETAILS",
+                "FieldName": "Details",
+                "field_type": "Comments"
+            }
+        ]
+    },
+    {
+        "query_label": "Issue Classification Information",
+        "query_fields": [
+            {
+                "roleid": 1,
+                "object_name": "Issue",
+                "field_id": 10008747,
+                "name": "SN_PRIORITY",
+                "FieldName": "Priority",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Issue",
+                "field_id": 10008756,
+                "name": "SN_STATUSCODE",
+                "FieldName": "StatusCode",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Issue",
+                "field_id": 10008753,
+                "name": "SN_RELATEDTO",
+                "FieldName": "RelatedToName",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Issue",
+                "field_id": 10008720,
+                "name": "SN_CONTACTNAME",
+                "FieldName": "ContactName",
+                "field_type": "Text"
+            }
+        ]
+    },
+    {
+        "query_label": "Issue Discussion",
+        "query_fields": []
+    },
+    {
+        "query_label": "Issue Attachments",
+        "query_fields": []
+    },
+    {
+        "query_label": "Issue ##notes##",
+        "query_fields": []
+    }
+]

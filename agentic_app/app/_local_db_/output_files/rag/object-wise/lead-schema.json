@@ -1,0 +1,208 @@
+{
+    "Lead": {
+        "object_name": "Lead",
+        "queries": [
+            {
+                "query_id": "basic_lead_detail",
+                "title": "basic lead detail",
+                "tags": [
+                    "leads",
+                    "basic leads",
+                    "basic lead fields",
+                    "simple lead fields",
+                    "essential lead fields",
+                    "core lead fields",
+                    "primary lead fields",
+                    "fundamental lead fields",
+                    "key lead fields",
+                    "minimal lead fields",
+                    "lead overview",
+                    "lead summary",
+                    "lead info",
+                    "lead data"
+                ],
+                "sample_question": [
+                    "show my basic fields for lead"
+                ],
+                "fields": [
+                    {
+                        "FieldName": "LeadID",
+                        "FieldId": "10001659",
+                        "DisplayLabel": "Lead ID",
+                        "Description": "Unique identifier for the lead",
+                        "DataType": "number"
+                    },
+                    {
+                        "FieldName": "LeadName",
+                        "FieldId": "10001660",
+                        "DisplayLabel": "Lead Name",
+                        "Description": "The name of the lead",
+                        "DataType": "string"
+                    },
+                    {
+                        "FieldName": "Email",
+                        "FieldId": "10001606",
+                        "DisplayLabel": "Email",
+                        "Description": "The email address of the lead",
+                        "DataType": "string"
+                    }
+                ]
+            },
+            {
+                "query_id": "advance_leads_detail",
+                "title": "advance leads Detail",
+                "tags": [
+                    "full leads",
+                    "advanced leads",
+                    "advanced lead fields",
+                    "detailed leads",
+                    "detailed lead fields",
+                    "complete lead fields",
+                    "comprehensive lead fields",
+                    "in-depth lead fields",
+                    "extensive lead fields",
+                    "thorough lead fields",
+                    "elaborate lead fields",
+                    "all lead fields",
+                    "lead information",
+                    "lead attributes"
+                ],
+                "sample_question": [
+                    "show my basic fields for lead"
+                ],
+                "fields": [
+                    {
+                        "FieldName": "LeadID",
+                        "FieldId": "10001659",
+                        "DisplayLabel": "Lead ID",
+                        "Description": "Unique identifier for the lead",
+                        "DataType": "number"
+                    },
+                    {
+                        "FieldName": "LeadName",
+                        "FieldId": "10001660",
+                        "DisplayLabel": "Lead Name",
+                        "Description": "The name of the lead",
+                        "DataType": "string"
+                    },
+                    {
+                        "FieldName": "Email",
+                        "FieldId": "10001606",
+                        "DisplayLabel": "Email",
+                        "Description": "The email address of the lead",
+                        "DataType": "string"
+                    },
+                    {
+                        "FieldId": 10001915,
+                        "FieldName": "Title",
+                        "DisplayLabel": "Title",
+                        "Description": "The job title of the lead"
+                    },
+                    {
+                        "FieldId": 10001916,
+                        "FieldName": "WebsiteURL",
+                        "DisplayLabel": "Website URL",
+                        "Description": "The website URL of the lead"
+                    },
+                    {
+                        "FieldId": 10001917,
+                        "FieldName": "ZipCode",
+                        "DisplayLabel": "Zip Code",
+                        "Description": "The zip code of the lead"
+                    }
+                ]
+            }
+        ],
+        "filter_fields": [
+            {
+                "FieldName": "StatusCode",
+                "FieldId": "10001910",
+                "DisplayLabel": "Status",
+                "Description": "The status code of the lead",
+                "DataType": "enum",
+                "options": [
+                    {
+                        "label": "New",
+                        "value": 1
+                    },
+                    {
+                        "label": "Contacted",
+                        "value": 2
+                    },
+                    {
+                        "label": "Qualified",
+                        "value": 3
+                    },
+                    {
+                        "label": "Disqualified",
+                        "value": 4
+                    }
+                ]
+            },
+            {
+                "FieldName": "Owner",
+                "FieldId": "10001644",
+                "DisplayLabel": "Owner",
+                "Description": "The user who owns the lead",
+                "DataType": "string"
+            },
+            {
+                "FieldId": 10001917,
+                "FieldName": "ZipCode",
+                "DisplayLabel": "Zip Code",
+                "Description": "The zip code of the lead"
+            }
+        ],
+        "sortable_fields": [
+            {
+                "FieldName": "LeadName",
+                "FieldId": "10001660",
+                "DisplayLabel": "Lead Name",
+                "Description": "The name of the lead",
+                "DataType": "string"
+            }
+        ],
+        "groupby_fields": [
+            {
+                "FieldName": "LeadState",
+                "FieldId": "10001671",
+                "DisplayLabel": "Lead State",
+                "Description": "The state of the lead",
+                "DataType": "enum"
+            }
+        ],
+        "aggregatable_fields": [
+            {
+                "field": {
+                    "FieldName": "LeadID",
+                    "FieldId": "10001659",
+                    "DisplayLabel": "Lead ID",
+                    "Description": "Unique identifier for the lead",
+                    "DataType": "number"
+                },
+                "function": [
+                    "COUNT"
+                ]
+            },
+            {
+                "field": {
+                    "FieldName": "amount",
+                    "FieldId": "10001659",
+                    "DisplayLabel": "Amount",
+                    "Description": "The amount associated with the lead",
+                    "DataType": "number"
+                },
+                "function": [
+                    "SUM",
+                    "AVG",
+                    "MIN",
+                    "MAX"
+                ]
+            }
+        ],
+        "related_entities": {
+            "Account": "AccontId",
+            "Case": "CaseId"
+        }
+    }
+}

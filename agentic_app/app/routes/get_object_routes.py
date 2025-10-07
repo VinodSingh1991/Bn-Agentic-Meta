@@ -4,7 +4,7 @@ from fastapi import APIRouter
 router = APIRouter()
 
 
-@router.get("/objects")
+@router.get("/objects_two")
 def get_objects():
     object_service = ObjectService()
     objects = object_service.get_objects()

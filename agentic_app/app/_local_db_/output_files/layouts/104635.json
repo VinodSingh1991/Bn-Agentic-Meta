@@ -1,0 +1,425 @@
+[
+    {
+        "query_label": "Activity Summary",
+        "query_fields": [
+            {
+                "roleid": 1,
+                "object_name": "Activity",
+                "field_id": 10010221,
+                "name": "Priority",
+                "FieldName": "Priority",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Activity",
+                "field_id": 10010242,
+                "name": "Start Date",
+                "FieldName": "StartDate",
+                "field_type": "Date"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Activity",
+                "field_id": 10010172,
+                "name": "Due Date",
+                "FieldName": "DueDate",
+                "field_type": "Date"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Activity",
+                "field_id": 10010103,
+                "name": "Assigned To",
+                "FieldName": "AssignedTo",
+                "field_type": "Number"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Activity",
+                "field_id": 10010102,
+                "name": "Assigned By",
+                "FieldName": "AssignedBy",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Activity",
+                "field_id": 10010110,
+                "name": "Cc List",
+                "FieldName": "CCs",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Activity",
+                "field_id": 10060861,
+                "name": "Agenda",
+                "FieldName": "Agenda",
+                "field_type": "HTML"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Activity",
+                "field_id": 10000047,
+                "name": "Subject",
+                "FieldName": "Subject",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Activity",
+                "field_id": 10010171,
+                "name": "Description",
+                "FieldName": "Details",
+                "field_type": "Comments"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Activity",
+                "field_id": 100785479,
+                "name": "Insta Source2",
+                "FieldName": "Act_ex4_122",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Activity",
+                "field_id": 100785482,
+                "name": "Insta Mobile Number2",
+                "FieldName": "Act_ex4_125",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Activity",
+                "field_id": 100785481,
+                "name": "Insta LC Code2",
+                "FieldName": "Act_ex4_124",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Activity",
+                "field_id": 100785480,
+                "name": "Insta Cretaed on2",
+                "FieldName": "Act_ex4_123",
+                "field_type": "DateTime"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Activity",
+                "field_id": 10060897,
+                "name": "RelatedTask",
+                "FieldName": "RelatedTask",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Activity",
+                "field_id": 13494,
+                "name": "Insta phone number3",
+                "FieldName": "Act_ex4_132",
+                "field_type": "Phone"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Activity",
+                "field_id": 10932,
+                "name": "Flag",
+                "FieldName": "Act_ex3_84",
+                "field_type": "Lookup"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Activity",
+                "field_id": 10010100,
+                "name": "Task Type",
+                "FieldName": "ActivityType",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Activity",
+                "field_id": 10010243,
+                "name": "Status",
+                "FieldName": "Status",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Activity",
+                "field_id": 10010235,
+                "name": "Related Type",
+                "FieldName": "RelatedToType",
+                "field_type": "Number"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Activity",
+                "field_id": 10010234,
+                "name": "Related To",
+                "FieldName": "RelatedToName",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Activity",
+                "field_id": 10010163,
+                "name": "Contact",
+                "FieldName": "ContactName",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Activity",
+                "field_id": 10010244,
+                "name": "Status Code",
+                "FieldName": "StatusCode",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Activity",
+                "field_id": 10010217,
+                "name": "Partner Account",
+                "FieldName": "PartnerAccountName",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Activity",
+                "field_id": 10010219,
+                "name": "Partner Relation",
+                "FieldName": "PartnerContactName",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Activity",
+                "field_id": 10010106,
+                "name": "Attachments",
+                "FieldName": "Attachments",
+                "field_type": "Document"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Activity",
+                "field_id": 10047463,
+                "name": "PlannedDate",
+                "FieldName": "PlannedDate",
+                "field_type": "Date"
+            }
+        ]
+    },
+    {
+        "query_label": "Activity Key Information",
+        "query_fields": [
+            {
+                "roleid": 1,
+                "object_name": "Activity",
+                "field_id": 10010242,
+                "name": "Start Date",
+                "FieldName": "StartDate",
+                "field_type": "Date"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Activity",
+                "field_id": 10010172,
+                "name": "Due Date",
+                "FieldName": "DueDate",
+                "field_type": "Date"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Activity",
+                "field_id": 10010103,
+                "name": "Assigned To",
+                "FieldName": "AssignedTo",
+                "field_type": "Number"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Activity",
+                "field_id": 10010102,
+                "name": "Assigned By",
+                "FieldName": "AssignedBy",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Activity",
+                "field_id": 10010110,
+                "name": "Cc List",
+                "FieldName": "CCs",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Activity",
+                "field_id": 10060861,
+                "name": "Agenda",
+                "FieldName": "Agenda",
+                "field_type": "HTML"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Activity",
+                "field_id": 10000047,
+                "name": "Subject",
+                "FieldName": "Subject",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Activity",
+                "field_id": 10010171,
+                "name": "Description",
+                "FieldName": "Details",
+                "field_type": "Comments"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Activity",
+                "field_id": 100785479,
+                "name": "Insta Source2",
+                "FieldName": "Act_ex4_122",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Activity",
+                "field_id": 100785482,
+                "name": "Insta Mobile Number2",
+                "FieldName": "Act_ex4_125",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Activity",
+                "field_id": 100785481,
+                "name": "Insta LC Code2",
+                "FieldName": "Act_ex4_124",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Activity",
+                "field_id": 100785480,
+                "name": "Insta Cretaed on2",
+                "FieldName": "Act_ex4_123",
+                "field_type": "DateTime"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Activity",
+                "field_id": 10060897,
+                "name": "RelatedTask",
+                "FieldName": "RelatedTask",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Activity",
+                "field_id": 13494,
+                "name": "Insta phone number3",
+                "FieldName": "Act_ex4_132",
+                "field_type": "Phone"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Activity",
+                "field_id": 10932,
+                "name": "Flag",
+                "FieldName": "Act_ex3_84",
+                "field_type": "Lookup"
+            }
+        ]
+    },
+    {
+        "query_label": "Activity Classification Information",
+        "query_fields": [
+            {
+                "roleid": 1,
+                "object_name": "Activity",
+                "field_id": 10010100,
+                "name": "Task Type",
+                "FieldName": "ActivityType",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Activity",
+                "field_id": 10010243,
+                "name": "Status",
+                "FieldName": "Status",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Activity",
+                "field_id": 10010235,
+                "name": "Related Type",
+                "FieldName": "RelatedToType",
+                "field_type": "Number"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Activity",
+                "field_id": 10010234,
+                "name": "Related To",
+                "FieldName": "RelatedToName",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Activity",
+                "field_id": 10010163,
+                "name": "Contact",
+                "FieldName": "ContactName",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Activity",
+                "field_id": 10010244,
+                "name": "Status Code",
+                "FieldName": "StatusCode",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Activity",
+                "field_id": 10010217,
+                "name": "Partner Account",
+                "FieldName": "PartnerAccountName",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Activity",
+                "field_id": 10010219,
+                "name": "Partner Relation",
+                "FieldName": "PartnerContactName",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Activity",
+                "field_id": 10010106,
+                "name": "Attachments",
+                "FieldName": "Attachments",
+                "field_type": "Document"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Activity",
+                "field_id": 10047463,
+                "name": "PlannedDate",
+                "FieldName": "PlannedDate",
+                "field_type": "Date"
+            }
+        ]
+    }
+]

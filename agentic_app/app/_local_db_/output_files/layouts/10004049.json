@@ -1,0 +1,438 @@
+[
+    {
+        "query_label": "Activity New Appointment Review",
+        "query_fields": [
+            {
+                "roleid": 1,
+                "object_name": "Activity",
+                "field_id": 10010172,
+                "name": "Date",
+                "FieldName": "DueDate",
+                "field_type": "Date"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Activity",
+                "field_id": 10010250,
+                "name": "Time",
+                "FieldName": "Time",
+                "field_type": "Time"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Activity",
+                "field_id": 10010173,
+                "name": "Duration",
+                "FieldName": "Duration",
+                "field_type": "Duration"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Activity",
+                "field_id": 10010243,
+                "name": "Status",
+                "FieldName": "Status",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Activity",
+                "field_id": 10010103,
+                "name": "Assigned To",
+                "FieldName": "AssignedTo",
+                "field_type": "Number"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Activity",
+                "field_id": 10010215,
+                "name": "Participants",
+                "FieldName": "Participants",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Activity",
+                "field_id": 10010193,
+                "name": "Invitees",
+                "FieldName": "InvResource",
+                "field_type": "LongText"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Activity",
+                "field_id": 10010199,
+                "name": "Resources",
+                "FieldName": "ItemResource",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Activity",
+                "field_id": 10010106,
+                "name": "Attachments",
+                "FieldName": "Attachments",
+                "field_type": "Document"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Activity",
+                "field_id": 10010100,
+                "name": "Appointment Review Type",
+                "FieldName": "ActivityType",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Activity",
+                "field_id": 10010240,
+                "name": "Scheduling",
+                "FieldName": "Scheduling",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Activity",
+                "field_id": 10000047,
+                "name": "Subject",
+                "FieldName": "Subject",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Activity",
+                "field_id": 10010171,
+                "name": "Description",
+                "FieldName": "Details",
+                "field_type": "Comments"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Activity",
+                "field_id": 10010234,
+                "name": "Related To",
+                "FieldName": "RelatedToName",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Activity",
+                "field_id": 10010163,
+                "name": "Contact",
+                "FieldName": "ContactName",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Activity",
+                "field_id": 10010217,
+                "name": "Partner Account",
+                "FieldName": "PartnerAccountName",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Activity",
+                "field_id": 10010219,
+                "name": "Partner Relation",
+                "FieldName": "PartnerContactName",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Activity",
+                "field_id": 10010244,
+                "name": "Status Code",
+                "FieldName": "StatusCode",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Activity",
+                "field_id": 10010210,
+                "name": "Stage",
+                "FieldName": "MobileStage",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Activity",
+                "field_id": 10010190,
+                "name": "Highlight",
+                "FieldName": "Highlight",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Activity",
+                "field_id": 10010209,
+                "name": "Location",
+                "FieldName": "Location",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Activity",
+                "field_id": 10010181,
+                "name": "Followup Date",
+                "FieldName": "FUDueDate",
+                "field_type": "Date"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Activity",
+                "field_id": 10010182,
+                "name": "Followup Time",
+                "FieldName": "FUDueTime",
+                "field_type": "Time"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Activity",
+                "field_id": 10010185,
+                "name": "Followup Type",
+                "FieldName": "FUType",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Activity",
+                "field_id": 10010184,
+                "name": "Followup Subject",
+                "FieldName": "FUSubject",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Activity",
+                "field_id": 10010180,
+                "name": "Followup Description",
+                "FieldName": "FUDetails",
+                "field_type": "Comments"
+            }
+        ]
+    },
+    {
+        "query_label": "Activity Calendar Information",
+        "query_fields": [
+            {
+                "roleid": 1,
+                "object_name": "Activity",
+                "field_id": 10010172,
+                "name": "Date",
+                "FieldName": "DueDate",
+                "field_type": "Date"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Activity",
+                "field_id": 10010250,
+                "name": "Time",
+                "FieldName": "Time",
+                "field_type": "Time"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Activity",
+                "field_id": 10010173,
+                "name": "Duration",
+                "FieldName": "Duration",
+                "field_type": "Duration"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Activity",
+                "field_id": 10010243,
+                "name": "Status",
+                "FieldName": "Status",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Activity",
+                "field_id": 10010103,
+                "name": "Assigned To",
+                "FieldName": "AssignedTo",
+                "field_type": "Number"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Activity",
+                "field_id": 10010215,
+                "name": "Participants",
+                "FieldName": "Participants",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Activity",
+                "field_id": 10010193,
+                "name": "Invitees",
+                "FieldName": "InvResource",
+                "field_type": "LongText"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Activity",
+                "field_id": 10010199,
+                "name": "Resources",
+                "FieldName": "ItemResource",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Activity",
+                "field_id": 10010106,
+                "name": "Attachments",
+                "FieldName": "Attachments",
+                "field_type": "Document"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Activity",
+                "field_id": 10010100,
+                "name": "Appointment Review Type",
+                "FieldName": "ActivityType",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Activity",
+                "field_id": 10010240,
+                "name": "Scheduling",
+                "FieldName": "Scheduling",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Activity",
+                "field_id": 10000047,
+                "name": "Subject",
+                "FieldName": "Subject",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Activity",
+                "field_id": 10010171,
+                "name": "Description",
+                "FieldName": "Details",
+                "field_type": "Comments"
+            }
+        ]
+    },
+    {
+        "query_label": "Activity Classification Information",
+        "query_fields": [
+            {
+                "roleid": 1,
+                "object_name": "Activity",
+                "field_id": 10010234,
+                "name": "Related To",
+                "FieldName": "RelatedToName",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Activity",
+                "field_id": 10010163,
+                "name": "Contact",
+                "FieldName": "ContactName",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Activity",
+                "field_id": 10010217,
+                "name": "Partner Account",
+                "FieldName": "PartnerAccountName",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Activity",
+                "field_id": 10010219,
+                "name": "Partner Relation",
+                "FieldName": "PartnerContactName",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Activity",
+                "field_id": 10010244,
+                "name": "Status Code",
+                "FieldName": "StatusCode",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Activity",
+                "field_id": 10010210,
+                "name": "Stage",
+                "FieldName": "MobileStage",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Activity",
+                "field_id": 10010190,
+                "name": "Highlight",
+                "FieldName": "Highlight",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Activity",
+                "field_id": 10010209,
+                "name": "Location",
+                "FieldName": "Location",
+                "field_type": "Text"
+            }
+        ]
+    },
+    {
+        "query_label": "Activity Followup Appointment Review",
+        "query_fields": [
+            {
+                "roleid": 1,
+                "object_name": "Activity",
+                "field_id": 10010181,
+                "name": "Followup Date",
+                "FieldName": "FUDueDate",
+                "field_type": "Date"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Activity",
+                "field_id": 10010182,
+                "name": "Followup Time",
+                "FieldName": "FUDueTime",
+                "field_type": "Time"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Activity",
+                "field_id": 10010185,
+                "name": "Followup Type",
+                "FieldName": "FUType",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Activity",
+                "field_id": 10010184,
+                "name": "Followup Subject",
+                "FieldName": "FUSubject",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Activity",
+                "field_id": 10010180,
+                "name": "Followup Description",
+                "FieldName": "FUDetails",
+                "field_type": "Comments"
+            }
+        ]
+    }
+]

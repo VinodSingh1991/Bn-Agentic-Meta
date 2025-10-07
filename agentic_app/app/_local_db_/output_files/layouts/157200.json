@@ -1,0 +1,108 @@
+[
+    {
+        "query_label": "Case Summary",
+        "query_fields": [
+            {
+                "roleid": 1,
+                "object_name": "Case",
+                "field_id": 16020,
+                "name": "No of Transaction Disputed",
+                "FieldName": "Cas_ex5_160",
+                "field_type": "Number"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Case",
+                "field_id": 18006,
+                "name": "Bank Name",
+                "FieldName": "Cas_ex5_161",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Case",
+                "field_id": 18007,
+                "name": "Merchant Name",
+                "FieldName": "Cas_ex5_162",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Case",
+                "field_id": 16023,
+                "name": "Transaction Date",
+                "FieldName": "Cas_ex5_163",
+                "field_type": "Date"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Case",
+                "field_id": 16024,
+                "name": "Transaction Amount",
+                "FieldName": "Cas_ex5_164",
+                "field_type": "Decimal"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Case",
+                "field_id": 16025,
+                "name": "Disputed Amount",
+                "FieldName": "Cas_ex5_165",
+                "field_type": "Decimal"
+            }
+        ]
+    },
+    {
+        "query_label": "Case Case Information",
+        "query_fields": [
+            {
+                "roleid": 1,
+                "object_name": "Case",
+                "field_id": 16020,
+                "name": "No of Transaction Disputed",
+                "FieldName": "Cas_ex5_160",
+                "field_type": "Number"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Case",
+                "field_id": 18006,
+                "name": "Bank Name",
+                "FieldName": "Cas_ex5_161",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Case",
+                "field_id": 18007,
+                "name": "Merchant Name",
+                "FieldName": "Cas_ex5_162",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Case",
+                "field_id": 16023,
+                "name": "Transaction Date",
+                "FieldName": "Cas_ex5_163",
+                "field_type": "Date"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Case",
+                "field_id": 16024,
+                "name": "Transaction Amount",
+                "FieldName": "Cas_ex5_164",
+                "field_type": "Decimal"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Case",
+                "field_id": 16025,
+                "name": "Disputed Amount",
+                "FieldName": "Cas_ex5_165",
+                "field_type": "Decimal"
+            }
+        ]
+    }
+]

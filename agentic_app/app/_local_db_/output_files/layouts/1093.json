@@ -1,0 +1,928 @@
+[
+    {
+        "query_label": "Activity Corporate Calling & Activity Planner",
+        "query_fields": [
+            {
+                "roleid": 1,
+                "object_name": "Activity",
+                "field_id": 10010103,
+                "name": "User Name",
+                "FieldName": "AssignedTo",
+                "field_type": "Number"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Activity",
+                "field_id": 1158,
+                "name": "User Location",
+                "FieldName": "Act_ex1_92",
+                "field_type": "Lookup"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Activity",
+                "field_id": 10010234,
+                "name": "Corp. Customer Name",
+                "FieldName": "RelatedToName",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Activity",
+                "field_id": 1182,
+                "name": "Location Of Company",
+                "FieldName": "Act_ex2_29",
+                "field_type": "MultiPicker"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Activity",
+                "field_id": 10010172,
+                "name": "Planned Date",
+                "FieldName": "DueDate",
+                "field_type": "Date"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Activity",
+                "field_id": 1166,
+                "name": "Delay in Plan Reason",
+                "FieldName": "Act_ex1_100",
+                "field_type": "Lookup"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Activity",
+                "field_id": 1173,
+                "name": "Actual Date",
+                "FieldName": "Act_ex2_25",
+                "field_type": "Date"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Activity",
+                "field_id": 1168,
+                "name": "Reason for Delay",
+                "FieldName": "Act_ex2_21",
+                "field_type": "Lookup"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Activity",
+                "field_id": 1140,
+                "name": "Action Plan",
+                "FieldName": "Act_ex1_74",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Activity",
+                "field_id": 1141,
+                "name": "To Progress On",
+                "FieldName": "Act_ex1_75",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Activity",
+                "field_id": 1143,
+                "name": "Remarks",
+                "FieldName": "Act_ex1_77",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Activity",
+                "field_id": 1144,
+                "name": "Supervisor Comments",
+                "FieldName": "Act_ex1_78",
+                "field_type": "Comments"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Activity",
+                "field_id": 1146,
+                "name": "Reviewed Date",
+                "FieldName": "Act_ex1_80",
+                "field_type": "Date"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Activity",
+                "field_id": 1145,
+                "name": "Reviewed By",
+                "FieldName": "Act_ex1_79",
+                "field_type": "UserPicker"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Activity",
+                "field_id": 1148,
+                "name": "SM Name",
+                "FieldName": "Act_ex1_82",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Activity",
+                "field_id": 1162,
+                "name": "Activity Plan",
+                "FieldName": "Act_ex1_96",
+                "field_type": "Lookup"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Activity",
+                "field_id": 1164,
+                "name": "Activity Held",
+                "FieldName": "Act_ex1_98",
+                "field_type": "Lookup"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Activity",
+                "field_id": 12384,
+                "name": "Footfall",
+                "FieldName": "Act_ex5_47",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Activity",
+                "field_id": 1163,
+                "name": "Activity Category",
+                "FieldName": "Act_ex1_97",
+                "field_type": "Lookup"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Activity",
+                "field_id": 1161,
+                "name": "No. Of Employees",
+                "FieldName": "Act_ex1_95",
+                "field_type": "Lookup"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Activity",
+                "field_id": 1160,
+                "name": "No. Of Salary Acc.",
+                "FieldName": "Act_ex1_94",
+                "field_type": "Lookup"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Activity",
+                "field_id": 1172,
+                "name": "Target Product",
+                "FieldName": "Act_ex2_23",
+                "field_type": "MultiPicker"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Activity",
+                "field_id": 1169,
+                "name": "Business Outcome",
+                "FieldName": "Act_ex2_22",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Activity",
+                "field_id": 1167,
+                "name": "No Activity Reason",
+                "FieldName": "Act_ex1_70",
+                "field_type": "Lookup"
+            }
+        ]
+    },
+    {
+        "query_label": "Activity Calendar Information",
+        "query_fields": [
+            {
+                "roleid": 1,
+                "object_name": "Activity",
+                "field_id": 10010103,
+                "name": "User Name",
+                "FieldName": "AssignedTo",
+                "field_type": "Number"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Activity",
+                "field_id": 1158,
+                "name": "User Location",
+                "FieldName": "Act_ex1_92",
+                "field_type": "Lookup"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Activity",
+                "field_id": 10010234,
+                "name": "Corp. Customer Name",
+                "FieldName": "RelatedToName",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Activity",
+                "field_id": 1182,
+                "name": "Location Of Company",
+                "FieldName": "Act_ex2_29",
+                "field_type": "MultiPicker"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Activity",
+                "field_id": 10010172,
+                "name": "Planned Date",
+                "FieldName": "DueDate",
+                "field_type": "Date"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Activity",
+                "field_id": 1166,
+                "name": "Delay in Plan Reason",
+                "FieldName": "Act_ex1_100",
+                "field_type": "Lookup"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Activity",
+                "field_id": 1173,
+                "name": "Actual Date",
+                "FieldName": "Act_ex2_25",
+                "field_type": "Date"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Activity",
+                "field_id": 1168,
+                "name": "Reason for Delay",
+                "FieldName": "Act_ex2_21",
+                "field_type": "Lookup"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Activity",
+                "field_id": 1140,
+                "name": "Action Plan",
+                "FieldName": "Act_ex1_74",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Activity",
+                "field_id": 1141,
+                "name": "To Progress On",
+                "FieldName": "Act_ex1_75",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Activity",
+                "field_id": 1143,
+                "name": "Remarks",
+                "FieldName": "Act_ex1_77",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Activity",
+                "field_id": 1144,
+                "name": "Supervisor Comments",
+                "FieldName": "Act_ex1_78",
+                "field_type": "Comments"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Activity",
+                "field_id": 1146,
+                "name": "Reviewed Date",
+                "FieldName": "Act_ex1_80",
+                "field_type": "Date"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Activity",
+                "field_id": 1145,
+                "name": "Reviewed By",
+                "FieldName": "Act_ex1_79",
+                "field_type": "UserPicker"
+            }
+        ]
+    },
+    {
+        "query_label": "Activity Monthly Activity Plan",
+        "query_fields": [
+            {
+                "roleid": 1,
+                "object_name": "Activity",
+                "field_id": 1148,
+                "name": "SM Name",
+                "FieldName": "Act_ex1_82",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Activity",
+                "field_id": 1162,
+                "name": "Activity Plan",
+                "FieldName": "Act_ex1_96",
+                "field_type": "Lookup"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Activity",
+                "field_id": 1164,
+                "name": "Activity Held",
+                "FieldName": "Act_ex1_98",
+                "field_type": "Lookup"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Activity",
+                "field_id": 12384,
+                "name": "Footfall",
+                "FieldName": "Act_ex5_47",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Activity",
+                "field_id": 1163,
+                "name": "Activity Category",
+                "FieldName": "Act_ex1_97",
+                "field_type": "Lookup"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Activity",
+                "field_id": 1161,
+                "name": "No. Of Employees",
+                "FieldName": "Act_ex1_95",
+                "field_type": "Lookup"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Activity",
+                "field_id": 1160,
+                "name": "No. Of Salary Acc.",
+                "FieldName": "Act_ex1_94",
+                "field_type": "Lookup"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Activity",
+                "field_id": 1172,
+                "name": "Target Product",
+                "FieldName": "Act_ex2_23",
+                "field_type": "MultiPicker"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Activity",
+                "field_id": 1169,
+                "name": "Business Outcome",
+                "FieldName": "Act_ex2_22",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Activity",
+                "field_id": 1167,
+                "name": "No Activity Reason",
+                "FieldName": "Act_ex1_70",
+                "field_type": "Lookup"
+            }
+        ]
+    },
+    {
+        "query_label": "Activity Corporate Call Report",
+        "query_fields": [
+            {
+                "roleid": 1,
+                "object_name": "Activity",
+                "field_id": 1147,
+                "name": "Date Of Prev. Visit",
+                "FieldName": "Act_ex1_81",
+                "field_type": "Date"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Activity",
+                "field_id": 1159,
+                "name": "Joint Call With",
+                "FieldName": "Act_ex1_93",
+                "field_type": "Lookup"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Activity",
+                "field_id": 1175,
+                "name": "Customer Officials",
+                "FieldName": "Act_ex2_27",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Activity",
+                "field_id": 1171,
+                "name": "Bank Officials",
+                "FieldName": "Act_ex2_24",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Activity",
+                "field_id": 10010243,
+                "name": "Status",
+                "FieldName": "Status",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Activity",
+                "field_id": 8164,
+                "name": "Agenda 1",
+                "FieldName": "Act_ex1_57",
+                "field_type": "Lookup"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Activity",
+                "field_id": 1187,
+                "name": "Narration 1",
+                "FieldName": "Act_ex1_28",
+                "field_type": "Comments"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Activity",
+                "field_id": 1637,
+                "name": "Narration 2",
+                "FieldName": "Act_ex1_45",
+                "field_type": "Comments"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Activity",
+                "field_id": 1624,
+                "name": "Potential No. of A/c",
+                "FieldName": "Act_ex1_32",
+                "field_type": "Number"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Activity",
+                "field_id": 1625,
+                "name": "Expected No. of A/c",
+                "FieldName": "Act_ex1_33",
+                "field_type": "Number"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Activity",
+                "field_id": 1626,
+                "name": "Potential Salary Upload",
+                "FieldName": "Act_ex1_34",
+                "field_type": "Amount"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Activity",
+                "field_id": 1627,
+                "name": "Expected Salary Upload",
+                "FieldName": "Act_ex1_35",
+                "field_type": "Amount"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Activity",
+                "field_id": 1628,
+                "name": "No. of Employees [Salary>50K]",
+                "FieldName": "Act_ex1_36",
+                "field_type": "Number"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Activity",
+                "field_id": 1629,
+                "name": "Any Captive ATM",
+                "FieldName": "Act_ex1_37",
+                "field_type": "Lookup"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Activity",
+                "field_id": 1630,
+                "name": "Competitors",
+                "FieldName": "Act_ex1_38",
+                "field_type": "Lookup"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Activity",
+                "field_id": 1622,
+                "name": "Offer by Competitors",
+                "FieldName": "Act_ex1_30",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Activity",
+                "field_id": 1623,
+                "name": "Potential for Other Business",
+                "FieldName": "Act_ex1_31",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Activity",
+                "field_id": 1149,
+                "name": "Action Point 1",
+                "FieldName": "Act_ex1_83",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Activity",
+                "field_id": 1154,
+                "name": "Responsibility 1",
+                "FieldName": "Act_ex1_88",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Activity",
+                "field_id": 1155,
+                "name": "Target Date 1",
+                "FieldName": "Act_ex1_89",
+                "field_type": "Date"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Activity",
+                "field_id": 1150,
+                "name": "Action Point 2",
+                "FieldName": "Act_ex1_84",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Activity",
+                "field_id": 1153,
+                "name": "Responsibility 2",
+                "FieldName": "Act_ex1_87",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Activity",
+                "field_id": 1156,
+                "name": "Target Date 2",
+                "FieldName": "Act_ex1_90",
+                "field_type": "Date"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Activity",
+                "field_id": 1151,
+                "name": "Action Point 3",
+                "FieldName": "Act_ex1_85",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Activity",
+                "field_id": 1152,
+                "name": "Responsibility 3",
+                "FieldName": "Act_ex1_86",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Activity",
+                "field_id": 1157,
+                "name": "Target Date 3",
+                "FieldName": "Act_ex1_91",
+                "field_type": "Date"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Activity",
+                "field_id": 1631,
+                "name": "Action Point 4",
+                "FieldName": "Act_ex1_39",
+                "field_type": "Comments"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Activity",
+                "field_id": 1633,
+                "name": "Responsibility 4",
+                "FieldName": "Act_ex1_41",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Activity",
+                "field_id": 1635,
+                "name": "Target Date 4",
+                "FieldName": "Act_ex1_43",
+                "field_type": "Date"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Activity",
+                "field_id": 1632,
+                "name": "Action Point 5",
+                "FieldName": "Act_ex1_40",
+                "field_type": "Comments"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Activity",
+                "field_id": 1634,
+                "name": "Responsibility 5",
+                "FieldName": "Act_ex1_42",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Activity",
+                "field_id": 1636,
+                "name": "Target Date 5",
+                "FieldName": "Act_ex1_44",
+                "field_type": "Date"
+            }
+        ]
+    },
+    {
+        "query_label": "Activity CCR Details",
+        "query_fields": [
+            {
+                "roleid": 1,
+                "object_name": "Activity",
+                "field_id": 1147,
+                "name": "Date Of Prev. Visit",
+                "FieldName": "Act_ex1_81",
+                "field_type": "Date"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Activity",
+                "field_id": 1159,
+                "name": "Joint Call With",
+                "FieldName": "Act_ex1_93",
+                "field_type": "Lookup"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Activity",
+                "field_id": 1175,
+                "name": "Customer Officials",
+                "FieldName": "Act_ex2_27",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Activity",
+                "field_id": 1171,
+                "name": "Bank Officials",
+                "FieldName": "Act_ex2_24",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Activity",
+                "field_id": 10010243,
+                "name": "Status",
+                "FieldName": "Status",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Activity",
+                "field_id": 8164,
+                "name": "Agenda 1",
+                "FieldName": "Act_ex1_57",
+                "field_type": "Lookup"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Activity",
+                "field_id": 1187,
+                "name": "Narration 1",
+                "FieldName": "Act_ex1_28",
+                "field_type": "Comments"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Activity",
+                "field_id": 1637,
+                "name": "Narration 2",
+                "FieldName": "Act_ex1_45",
+                "field_type": "Comments"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Activity",
+                "field_id": 1624,
+                "name": "Potential No. of A/c",
+                "FieldName": "Act_ex1_32",
+                "field_type": "Number"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Activity",
+                "field_id": 1625,
+                "name": "Expected No. of A/c",
+                "FieldName": "Act_ex1_33",
+                "field_type": "Number"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Activity",
+                "field_id": 1626,
+                "name": "Potential Salary Upload",
+                "FieldName": "Act_ex1_34",
+                "field_type": "Amount"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Activity",
+                "field_id": 1627,
+                "name": "Expected Salary Upload",
+                "FieldName": "Act_ex1_35",
+                "field_type": "Amount"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Activity",
+                "field_id": 1628,
+                "name": "No. of Employees [Salary>50K]",
+                "FieldName": "Act_ex1_36",
+                "field_type": "Number"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Activity",
+                "field_id": 1629,
+                "name": "Any Captive ATM",
+                "FieldName": "Act_ex1_37",
+                "field_type": "Lookup"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Activity",
+                "field_id": 1630,
+                "name": "Competitors",
+                "FieldName": "Act_ex1_38",
+                "field_type": "Lookup"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Activity",
+                "field_id": 1622,
+                "name": "Offer by Competitors",
+                "FieldName": "Act_ex1_30",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Activity",
+                "field_id": 1623,
+                "name": "Potential for Other Business",
+                "FieldName": "Act_ex1_31",
+                "field_type": "Text"
+            }
+        ]
+    },
+    {
+        "query_label": "Activity Actionables",
+        "query_fields": [
+            {
+                "roleid": 1,
+                "object_name": "Activity",
+                "field_id": 1149,
+                "name": "Action Point 1",
+                "FieldName": "Act_ex1_83",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Activity",
+                "field_id": 1154,
+                "name": "Responsibility 1",
+                "FieldName": "Act_ex1_88",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Activity",
+                "field_id": 1155,
+                "name": "Target Date 1",
+                "FieldName": "Act_ex1_89",
+                "field_type": "Date"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Activity",
+                "field_id": 1150,
+                "name": "Action Point 2",
+                "FieldName": "Act_ex1_84",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Activity",
+                "field_id": 1153,
+                "name": "Responsibility 2",
+                "FieldName": "Act_ex1_87",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Activity",
+                "field_id": 1156,
+                "name": "Target Date 2",
+                "FieldName": "Act_ex1_90",
+                "field_type": "Date"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Activity",
+                "field_id": 1151,
+                "name": "Action Point 3",
+                "FieldName": "Act_ex1_85",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Activity",
+                "field_id": 1152,
+                "name": "Responsibility 3",
+                "FieldName": "Act_ex1_86",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Activity",
+                "field_id": 1157,
+                "name": "Target Date 3",
+                "FieldName": "Act_ex1_91",
+                "field_type": "Date"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Activity",
+                "field_id": 1631,
+                "name": "Action Point 4",
+                "FieldName": "Act_ex1_39",
+                "field_type": "Comments"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Activity",
+                "field_id": 1633,
+                "name": "Responsibility 4",
+                "FieldName": "Act_ex1_41",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Activity",
+                "field_id": 1635,
+                "name": "Target Date 4",
+                "FieldName": "Act_ex1_43",
+                "field_type": "Date"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Activity",
+                "field_id": 1632,
+                "name": "Action Point 5",
+                "FieldName": "Act_ex1_40",
+                "field_type": "Comments"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Activity",
+                "field_id": 1634,
+                "name": "Responsibility 5",
+                "FieldName": "Act_ex1_42",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Activity",
+                "field_id": 1636,
+                "name": "Target Date 5",
+                "FieldName": "Act_ex1_44",
+                "field_type": "Date"
+            }
+        ]
+    }
+]

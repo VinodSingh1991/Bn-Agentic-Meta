@@ -1,0 +1,70 @@
+{
+    "Intent": "GET",
+    "PrimaryObjects": [
+        {
+            "ObjectName": "Lead",
+            "Filter": {
+                "Field": "Status",
+                "Operator": "=",
+                "Value": "Open"
+            },
+            "OutPutFields": [
+                "Region",
+                "Revenue"
+            ],
+            "Sort": [
+                {
+                    "Field": "Revenue",
+                    "Direction": "DESC"
+                }
+            ],
+            "GroupBy": [
+                "Region"
+            ],
+            "Aggregations": [
+                {
+                    "Field": "Revenue",
+                    "Function": "SUM",
+                    "Alias": "TotalRevenue"
+                }
+            ],
+            "Pagination": {
+                "Limit": 100,
+                "Offset": 0
+            }
+        },
+        {
+            "ObjectName": "Case",
+            "Filter": {
+                "Field": "Status",
+                "Operator": "=",
+                "Value": "Open"
+            },
+            "OutPutFields": [
+                "Case_Region",
+                "Case_Revenue"
+            ],
+            "Sort": [
+                {
+                    "Field": "Case_Revenue",
+                    "Direction": "DESC"
+                }
+            ],
+            "GroupBy": [
+                "Region"
+            ],
+            "Aggregations": [
+                {
+                    "Field": "Revenue",
+                    "Function": "SUM",
+                    "Alias": "TotalRevenue"
+                }
+            ],
+            "Pagination": {
+                "Limit": 100,
+                "Offset": 0
+            }
+        }
+    ],
+    "Output": "LIST"
+}

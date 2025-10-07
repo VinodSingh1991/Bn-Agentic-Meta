@@ -1,0 +1,192 @@
+[
+    {
+        "query_label": "Account Service Interaction",
+        "query_fields": []
+    },
+    {
+        "query_label": "Account Summary",
+        "query_fields": [
+            {
+                "roleid": 1,
+                "object_name": "Account",
+                "field_id": 10002744,
+                "name": "Potential Customer Name",
+                "FieldName": "Name",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Account",
+                "field_id": 10002666,
+                "name": "Account No.",
+                "FieldName": "AccountID",
+                "field_type": "Number"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Account",
+                "field_id": 10002674,
+                "name": "Account Owner",
+                "FieldName": "AssignedToName",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Account",
+                "field_id": 140,
+                "name": "Cust ID",
+                "FieldName": "Acc_ex1_2",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Account",
+                "field_id": 141,
+                "name": "Group ID",
+                "FieldName": "Acc_ex1_3",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Account",
+                "field_id": 498,
+                "name": "UCIC ID",
+                "FieldName": "Acc_ex1_57",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Account",
+                "field_id": 10002743,
+                "name": "Mobile",
+                "FieldName": "MobilePhone",
+                "field_type": "Phone"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Account",
+                "field_id": 10002778,
+                "name": "Short Name",
+                "FieldName": "ShortName",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Account",
+                "field_id": 10002749,
+                "name": "Parent Account",
+                "FieldName": "ParentAccountName",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Account",
+                "field_id": 10002763,
+                "name": "Account Rating",
+                "FieldName": "Rating",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Account",
+                "field_id": 10002715,
+                "name": "Importance",
+                "FieldName": "Importance",
+                "field_type": "Text"
+            }
+        ]
+    },
+    {
+        "query_label": "Account Key Information",
+        "query_fields": [
+            {
+                "roleid": 1,
+                "object_name": "Account",
+                "field_id": 10002744,
+                "name": "Potential Customer Name",
+                "FieldName": "Name",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Account",
+                "field_id": 10002666,
+                "name": "Account No.",
+                "FieldName": "AccountID",
+                "field_type": "Number"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Account",
+                "field_id": 10002674,
+                "name": "Account Owner",
+                "FieldName": "AssignedToName",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Account",
+                "field_id": 140,
+                "name": "Cust ID",
+                "FieldName": "Acc_ex1_2",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Account",
+                "field_id": 141,
+                "name": "Group ID",
+                "FieldName": "Acc_ex1_3",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Account",
+                "field_id": 498,
+                "name": "UCIC ID",
+                "FieldName": "Acc_ex1_57",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Account",
+                "field_id": 10002743,
+                "name": "Mobile",
+                "FieldName": "MobilePhone",
+                "field_type": "Phone"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Account",
+                "field_id": 10002778,
+                "name": "Short Name",
+                "FieldName": "ShortName",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Account",
+                "field_id": 10002749,
+                "name": "Parent Account",
+                "FieldName": "ParentAccountName",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Account",
+                "field_id": 10002763,
+                "name": "Account Rating",
+                "FieldName": "Rating",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Account",
+                "field_id": 10002715,
+                "name": "Importance",
+                "FieldName": "Importance",
+                "field_type": "Text"
+            }
+        ]
+    }
+]

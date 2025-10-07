@@ -1,0 +1,686 @@
+[
+    {
+        "query_label": "Case Summary",
+        "query_fields": [
+            {
+                "roleid": 1,
+                "object_name": "Case",
+                "field_id": 1289,
+                "name": "Cust ID",
+                "FieldName": "Cas_ex1_22",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Case",
+                "field_id": 15796,
+                "name": "Account No.",
+                "FieldName": "Cas_ex5_114",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Case",
+                "field_id": 19277,
+                "name": "Customer Name",
+                "FieldName": "Cas_ex6_74",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Case",
+                "field_id": 19273,
+                "name": "Customer Mobile",
+                "FieldName": "Cas_ex6_71",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Case",
+                "field_id": 19274,
+                "name": "Email",
+                "FieldName": "Cas_ex6_72",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Case",
+                "field_id": 19213,
+                "name": "Type of death",
+                "FieldName": "Cas_ex4_152",
+                "field_type": "Lookup"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Case",
+                "field_id": 19211,
+                "name": "Date of Death",
+                "FieldName": "Cas_ex4_150",
+                "field_type": "Date"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Case",
+                "field_id": 19212,
+                "name": "Date of Intimation of Death",
+                "FieldName": "Cas_ex4_151",
+                "field_type": "Date"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Case",
+                "field_id": 1310,
+                "name": "Nominee Name",
+                "FieldName": "Cas_ex1_43",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Case",
+                "field_id": 11844,
+                "name": "Nominee DOB",
+                "FieldName": "Cas_ex4_91",
+                "field_type": "Date"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Case",
+                "field_id": 19214,
+                "name": "Death Certificate",
+                "FieldName": "Cas_ex4_159",
+                "field_type": "Document"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Case",
+                "field_id": 19215,
+                "name": "Request letter",
+                "FieldName": "Cas_ex4_161",
+                "field_type": "Document"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Case",
+                "field_id": 19216,
+                "name": "Additional Document",
+                "FieldName": "Cas_ex4_168",
+                "field_type": "Document"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Case",
+                "field_id": 19217,
+                "name": "Additional Document",
+                "FieldName": "Cas_ex4_184",
+                "field_type": "Document"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Case",
+                "field_id": 19340,
+                "name": "Additional Document",
+                "FieldName": "Cas_ex6_111",
+                "field_type": "Document"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Case",
+                "field_id": 19341,
+                "name": "Additional Document",
+                "FieldName": "Cas_ex6_112",
+                "field_type": "Document"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Case",
+                "field_id": 10005891,
+                "name": "Status Code",
+                "FieldName": "StatusCode",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Case",
+                "field_id": 10005757,
+                "name": "Owner",
+                "FieldName": "AssignedToName",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Case",
+                "field_id": 10005782,
+                "name": "Assigned To",
+                "FieldName": "CurrentOwner",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Case",
+                "field_id": 1321,
+                "name": "Logging Branch Name",
+                "FieldName": "Cas_ex1_53",
+                "field_type": "Lookup"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Case",
+                "field_id": 1299,
+                "name": "Logging Branch Code",
+                "FieldName": "Cas_ex1_32",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Case",
+                "field_id": 10005904,
+                "name": "Resolving Branch Name",
+                "FieldName": "TerritoryName",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Case",
+                "field_id": 1325,
+                "name": "Requirement in brief",
+                "FieldName": "Cas_ex1_57",
+                "field_type": "Comments"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Case",
+                "field_id": 1296,
+                "name": "Additional Remarks, if any",
+                "FieldName": "Cas_ex1_29",
+                "field_type": "Comments"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Case",
+                "field_id": 1312,
+                "name": "Solution",
+                "FieldName": "Cas_ex1_45",
+                "field_type": "Comments"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Case",
+                "field_id": 1375,
+                "name": "Reason for case pending",
+                "FieldName": "Cas_ex1_18",
+                "field_type": "Comments"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Case",
+                "field_id": 19269,
+                "name": "Re-Assign Reason",
+                "FieldName": "Cas_ex6_67",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Case",
+                "field_id": 1349,
+                "name": "Closure Days",
+                "FieldName": "Cas_ex2_44",
+                "field_type": "ComputedField"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Case",
+                "field_id": 19109,
+                "name": "Within TAT ",
+                "FieldName": "Cas_ex6_64",
+                "field_type": "ComputedField"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Case",
+                "field_id": 10005872,
+                "name": "Date of Input",
+                "FieldName": "ReportedOn",
+                "field_type": "DateTime"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Case",
+                "field_id": 10005773,
+                "name": "Actual date of closure",
+                "FieldName": "CloseDate",
+                "field_type": "DateTime"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Case",
+                "field_id": 19310,
+                "name": "Demat Account",
+                "FieldName": "Cas_ex6_96",
+                "field_type": "Check"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Case",
+                "field_id": 19311,
+                "name": "Credit Card",
+                "FieldName": "Cas_ex6_97",
+                "field_type": "Check"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Case",
+                "field_id": 19312,
+                "name": "Installment loan",
+                "FieldName": "Cas_ex6_98",
+                "field_type": "Check"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Case",
+                "field_id": 19313,
+                "name": "Personal loan",
+                "FieldName": "Cas_ex6_99",
+                "field_type": "Check"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Case",
+                "field_id": 19314,
+                "name": "Consumer Durable loan",
+                "FieldName": "Cas_ex6_100",
+                "field_type": "Check"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Case",
+                "field_id": 19315,
+                "name": "Merchant Acquired",
+                "FieldName": "Cas_ex6_101",
+                "field_type": "Check"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Case",
+                "field_id": 19316,
+                "name": "Third Party Product",
+                "FieldName": "Cas_ex6_102",
+                "field_type": "Check"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Case",
+                "field_id": 19317,
+                "name": "Business Correspondent",
+                "FieldName": "Cas_ex6_103",
+                "field_type": "Check"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Case",
+                "field_id": 19318,
+                "name": "Sovereign Gold Bond",
+                "FieldName": "Cas_ex6_104",
+                "field_type": "Check"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Case",
+                "field_id": 19319,
+                "name": "RBI bond",
+                "FieldName": "Cas_ex6_105",
+                "field_type": "Check"
+            }
+        ]
+    },
+    {
+        "query_label": "Case Customer  Information",
+        "query_fields": [
+            {
+                "roleid": 1,
+                "object_name": "Case",
+                "field_id": 1289,
+                "name": "Cust ID",
+                "FieldName": "Cas_ex1_22",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Case",
+                "field_id": 15796,
+                "name": "Account No.",
+                "FieldName": "Cas_ex5_114",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Case",
+                "field_id": 19277,
+                "name": "Customer Name",
+                "FieldName": "Cas_ex6_74",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Case",
+                "field_id": 19273,
+                "name": "Customer Mobile",
+                "FieldName": "Cas_ex6_71",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Case",
+                "field_id": 19274,
+                "name": "Email",
+                "FieldName": "Cas_ex6_72",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Case",
+                "field_id": 19213,
+                "name": "Type of death",
+                "FieldName": "Cas_ex4_152",
+                "field_type": "Lookup"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Case",
+                "field_id": 19211,
+                "name": "Date of Death",
+                "FieldName": "Cas_ex4_150",
+                "field_type": "Date"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Case",
+                "field_id": 19212,
+                "name": "Date of Intimation of Death",
+                "FieldName": "Cas_ex4_151",
+                "field_type": "Date"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Case",
+                "field_id": 1310,
+                "name": "Nominee Name",
+                "FieldName": "Cas_ex1_43",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Case",
+                "field_id": 11844,
+                "name": "Nominee DOB",
+                "FieldName": "Cas_ex4_91",
+                "field_type": "Date"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Case",
+                "field_id": 19214,
+                "name": "Death Certificate",
+                "FieldName": "Cas_ex4_159",
+                "field_type": "Document"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Case",
+                "field_id": 19215,
+                "name": "Request letter",
+                "FieldName": "Cas_ex4_161",
+                "field_type": "Document"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Case",
+                "field_id": 19216,
+                "name": "Additional Document",
+                "FieldName": "Cas_ex4_168",
+                "field_type": "Document"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Case",
+                "field_id": 19217,
+                "name": "Additional Document",
+                "FieldName": "Cas_ex4_184",
+                "field_type": "Document"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Case",
+                "field_id": 19340,
+                "name": "Additional Document",
+                "FieldName": "Cas_ex6_111",
+                "field_type": "Document"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Case",
+                "field_id": 19341,
+                "name": "Additional Document",
+                "FieldName": "Cas_ex6_112",
+                "field_type": "Document"
+            }
+        ]
+    },
+    {
+        "query_label": "Case Case Information",
+        "query_fields": [
+            {
+                "roleid": 1,
+                "object_name": "Case",
+                "field_id": 10005891,
+                "name": "Status Code",
+                "FieldName": "StatusCode",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Case",
+                "field_id": 10005757,
+                "name": "Owner",
+                "FieldName": "AssignedToName",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Case",
+                "field_id": 10005782,
+                "name": "Assigned To",
+                "FieldName": "CurrentOwner",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Case",
+                "field_id": 1321,
+                "name": "Logging Branch Name",
+                "FieldName": "Cas_ex1_53",
+                "field_type": "Lookup"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Case",
+                "field_id": 1299,
+                "name": "Logging Branch Code",
+                "FieldName": "Cas_ex1_32",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Case",
+                "field_id": 10005904,
+                "name": "Resolving Branch Name",
+                "FieldName": "TerritoryName",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Case",
+                "field_id": 1325,
+                "name": "Requirement in brief",
+                "FieldName": "Cas_ex1_57",
+                "field_type": "Comments"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Case",
+                "field_id": 1296,
+                "name": "Additional Remarks, if any",
+                "FieldName": "Cas_ex1_29",
+                "field_type": "Comments"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Case",
+                "field_id": 1312,
+                "name": "Solution",
+                "FieldName": "Cas_ex1_45",
+                "field_type": "Comments"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Case",
+                "field_id": 1375,
+                "name": "Reason for case pending",
+                "FieldName": "Cas_ex1_18",
+                "field_type": "Comments"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Case",
+                "field_id": 19269,
+                "name": "Re-Assign Reason",
+                "FieldName": "Cas_ex6_67",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Case",
+                "field_id": 1349,
+                "name": "Closure Days",
+                "FieldName": "Cas_ex2_44",
+                "field_type": "ComputedField"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Case",
+                "field_id": 19109,
+                "name": "Within TAT ",
+                "FieldName": "Cas_ex6_64",
+                "field_type": "ComputedField"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Case",
+                "field_id": 10005872,
+                "name": "Date of Input",
+                "FieldName": "ReportedOn",
+                "field_type": "DateTime"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Case",
+                "field_id": 10005773,
+                "name": "Actual date of closure",
+                "FieldName": "CloseDate",
+                "field_type": "DateTime"
+            }
+        ]
+    },
+    {
+        "query_label": "Case Product Linkages",
+        "query_fields": [
+            {
+                "roleid": 1,
+                "object_name": "Case",
+                "field_id": 19310,
+                "name": "Demat Account",
+                "FieldName": "Cas_ex6_96",
+                "field_type": "Check"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Case",
+                "field_id": 19311,
+                "name": "Credit Card",
+                "FieldName": "Cas_ex6_97",
+                "field_type": "Check"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Case",
+                "field_id": 19312,
+                "name": "Installment loan",
+                "FieldName": "Cas_ex6_98",
+                "field_type": "Check"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Case",
+                "field_id": 19313,
+                "name": "Personal loan",
+                "FieldName": "Cas_ex6_99",
+                "field_type": "Check"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Case",
+                "field_id": 19314,
+                "name": "Consumer Durable loan",
+                "FieldName": "Cas_ex6_100",
+                "field_type": "Check"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Case",
+                "field_id": 19315,
+                "name": "Merchant Acquired",
+                "FieldName": "Cas_ex6_101",
+                "field_type": "Check"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Case",
+                "field_id": 19316,
+                "name": "Third Party Product",
+                "FieldName": "Cas_ex6_102",
+                "field_type": "Check"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Case",
+                "field_id": 19317,
+                "name": "Business Correspondent",
+                "FieldName": "Cas_ex6_103",
+                "field_type": "Check"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Case",
+                "field_id": 19318,
+                "name": "Sovereign Gold Bond",
+                "FieldName": "Cas_ex6_104",
+                "field_type": "Check"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Case",
+                "field_id": 19319,
+                "name": "RBI bond",
+                "FieldName": "Cas_ex6_105",
+                "field_type": "Check"
+            }
+        ]
+    },
+    {
+        "query_label": "Case Child Case",
+        "query_fields": []
+    },
+    {
+        "query_label": "Case History",
+        "query_fields": []
+    }
+]

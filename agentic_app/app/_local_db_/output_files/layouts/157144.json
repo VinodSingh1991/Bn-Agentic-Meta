@@ -1,0 +1,424 @@
+[
+    {
+        "query_label": "Lead Lead Inititaion",
+        "query_fields": [
+            {
+                "roleid": 1,
+                "object_name": "Lead",
+                "field_id": 10001660,
+                "name": "Name",
+                "FieldName": "LeadName",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Lead",
+                "field_id": 10048343,
+                "name": "Product",
+                "FieldName": "Product",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Lead",
+                "field_id": 10001714,
+                "name": "Lead Rating",
+                "FieldName": "Rating",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Lead",
+                "field_id": 10050495,
+                "name": "Lead Owner",
+                "FieldName": "LeadOwnerName",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Lead",
+                "field_id": 13692,
+                "name": "JourneyID_Adobe",
+                "FieldName": "Lea_ex7_195",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Lead",
+                "field_id": 13669,
+                "name": "Journey Type",
+                "FieldName": "Lea_ex6_159",
+                "field_type": "Lookup"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Lead",
+                "field_id": 14176,
+                "name": "Please select a Journey",
+                "FieldName": "Lea_ex7_130",
+                "field_type": "Lookup"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Lead",
+                "field_id": 13659,
+                "name": "Customer ID",
+                "FieldName": "Lea_ex6_163",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Lead",
+                "field_id": 13660,
+                "name": "Customer Name",
+                "FieldName": "Lea_ex6_164",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Lead",
+                "field_id": 13661,
+                "name": "Mobile Number",
+                "FieldName": "Lea_ex6_165",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Lead",
+                "field_id": 41,
+                "name": "AAN Number",
+                "FieldName": "Lea_ex1_33",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Lead",
+                "field_id": 14236,
+                "name": "Credit Card Number",
+                "FieldName": "Lea_ex8_102",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Lead",
+                "field_id": 2395,
+                "name": "Product Code",
+                "FieldName": "Lea_ex8_90",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Lead",
+                "field_id": 9,
+                "name": "Lead Number",
+                "FieldName": "Lea_ex1_1",
+                "field_type": "SequenceNumber"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Lead",
+                "field_id": 1869,
+                "name": "Eligible Loan Amount",
+                "FieldName": "Lea_ex6_28",
+                "field_type": "Amount"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Lead",
+                "field_id": 551,
+                "name": "Minimum Loan Amount",
+                "FieldName": "Lea_ex3_65",
+                "field_type": "Number"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Lead",
+                "field_id": 13670,
+                "name": "Enter Loan Amount",
+                "FieldName": "Lea_ex6_160",
+                "field_type": "Number"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Lead",
+                "field_id": 13671,
+                "name": "Enter Loan Duration",
+                "FieldName": "Lea_ex6_161",
+                "field_type": "Number"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Lead",
+                "field_id": 13705,
+                "name": "Rate of Interest (%)",
+                "FieldName": "Lea_ex7_200",
+                "field_type": "Percentage"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Lead",
+                "field_id": 13674,
+                "name": "Processing Fees",
+                "FieldName": "Lea_ex7_197",
+                "field_type": "Number"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Lead",
+                "field_id": 13673,
+                "name": "Monthly Rate of Interest %",
+                "FieldName": "Lea_ex7_198",
+                "field_type": "Number"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Lead",
+                "field_id": 13672,
+                "name": "Monthly EMI (Rs)",
+                "FieldName": "Lea_ex6_162",
+                "field_type": "Number"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Lead",
+                "field_id": 13675,
+                "name": "Net Amount Payable",
+                "FieldName": "Lea_ex9_183",
+                "field_type": "Number"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Lead",
+                "field_id": 2277,
+                "name": "Maximum Tenure ",
+                "FieldName": "Lea_ex6_96",
+                "field_type": "Number"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Lead",
+                "field_id": 2276,
+                "name": "Minimum Tenure ",
+                "FieldName": "Lea_ex6_95",
+                "field_type": "Number"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Lead",
+                "field_id": 2472,
+                "name": "Interest Rate",
+                "FieldName": "Lea_ex6_27",
+                "field_type": "Decimal"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Lead",
+                "field_id": 15013,
+                "name": "LG Code",
+                "FieldName": "Lea_ex9_157",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Lead",
+                "field_id": 15012,
+                "name": "LC Code",
+                "FieldName": "Lea_ex9_156",
+                "field_type": "Text"
+            }
+        ]
+    },
+    {
+        "query_label": "Lead Customer Details",
+        "query_fields": [
+            {
+                "roleid": 1,
+                "object_name": "Lead",
+                "field_id": 13659,
+                "name": "Customer ID",
+                "FieldName": "Lea_ex6_163",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Lead",
+                "field_id": 13660,
+                "name": "Customer Name",
+                "FieldName": "Lea_ex6_164",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Lead",
+                "field_id": 13661,
+                "name": "Mobile Number",
+                "FieldName": "Lea_ex6_165",
+                "field_type": "Text"
+            }
+        ]
+    },
+    {
+        "query_label": "Lead Credit Card Details",
+        "query_fields": [
+            {
+                "roleid": 1,
+                "object_name": "Lead",
+                "field_id": 41,
+                "name": "AAN Number",
+                "FieldName": "Lea_ex1_33",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Lead",
+                "field_id": 14236,
+                "name": "Credit Card Number",
+                "FieldName": "Lea_ex8_102",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Lead",
+                "field_id": 2395,
+                "name": "Product Code",
+                "FieldName": "Lea_ex8_90",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Lead",
+                "field_id": 9,
+                "name": "Lead Number",
+                "FieldName": "Lea_ex1_1",
+                "field_type": "SequenceNumber"
+            }
+        ]
+    },
+    {
+        "query_label": "Lead Loan Details",
+        "query_fields": [
+            {
+                "roleid": 1,
+                "object_name": "Lead",
+                "field_id": 1869,
+                "name": "Eligible Loan Amount",
+                "FieldName": "Lea_ex6_28",
+                "field_type": "Amount"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Lead",
+                "field_id": 551,
+                "name": "Minimum Loan Amount",
+                "FieldName": "Lea_ex3_65",
+                "field_type": "Number"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Lead",
+                "field_id": 13670,
+                "name": "Enter Loan Amount",
+                "FieldName": "Lea_ex6_160",
+                "field_type": "Number"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Lead",
+                "field_id": 13671,
+                "name": "Enter Loan Duration",
+                "FieldName": "Lea_ex6_161",
+                "field_type": "Number"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Lead",
+                "field_id": 13705,
+                "name": "Rate of Interest (%)",
+                "FieldName": "Lea_ex7_200",
+                "field_type": "Percentage"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Lead",
+                "field_id": 13674,
+                "name": "Processing Fees",
+                "FieldName": "Lea_ex7_197",
+                "field_type": "Number"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Lead",
+                "field_id": 13673,
+                "name": "Monthly Rate of Interest %",
+                "FieldName": "Lea_ex7_198",
+                "field_type": "Number"
+            }
+        ]
+    },
+    {
+        "query_label": "Lead Calculations Based on Loan Amount",
+        "query_fields": [
+            {
+                "roleid": 1,
+                "object_name": "Lead",
+                "field_id": 13672,
+                "name": "Monthly EMI (Rs)",
+                "FieldName": "Lea_ex6_162",
+                "field_type": "Number"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Lead",
+                "field_id": 13675,
+                "name": "Net Amount Payable",
+                "FieldName": "Lea_ex9_183",
+                "field_type": "Number"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Lead",
+                "field_id": 2277,
+                "name": "Maximum Tenure ",
+                "FieldName": "Lea_ex6_96",
+                "field_type": "Number"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Lead",
+                "field_id": 2276,
+                "name": "Minimum Tenure ",
+                "FieldName": "Lea_ex6_95",
+                "field_type": "Number"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Lead",
+                "field_id": 2472,
+                "name": "Interest Rate",
+                "FieldName": "Lea_ex6_27",
+                "field_type": "Decimal"
+            }
+        ]
+    },
+    {
+        "query_label": "Lead Employee Details",
+        "query_fields": [
+            {
+                "roleid": 1,
+                "object_name": "Lead",
+                "field_id": 15013,
+                "name": "LG Code",
+                "FieldName": "Lea_ex9_157",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Lead",
+                "field_id": 15012,
+                "name": "LC Code",
+                "FieldName": "Lea_ex9_156",
+                "field_type": "Text"
+            }
+        ]
+    }
+]

@@ -1,23 +1,5 @@
 [
     {
-        "ObjectId": 2,
-        "ObjectName": "Event",
-        "listingtype": 3,
-        "RelatedKeyID": 2,
-        "RelationShipID": "ACT_RELATED_ACTIVITIES",
-        "RelationShipName": "ActActivity",
-        "ModifiedListingName": "Event ActActivity"
-    },
-    {
-        "ObjectId": 2,
-        "ObjectName": "Event",
-        "listingtype": 3,
-        "RelatedKeyID": 2,
-        "RelationShipID": "ACT_RELATED_OPEN_ACTIVITIES",
-        "RelationShipName": "Open Activities",
-        "ModifiedListingName": "Event Open Activities"
-    },
-    {
         "ObjectId": 5,
         "ObjectName": "Contact",
         "listingtype": 3,
@@ -193,15 +175,6 @@
         "ObjectName": "Lead",
         "listingtype": 6,
         "RelatedKeyID": 6,
-        "RelationShipID": "_HISTORY",
-        "RelationShipName": "Related History",
-        "ModifiedListingName": "Lead Related History"
-    },
-    {
-        "ObjectId": 6,
-        "ObjectName": "Lead",
-        "listingtype": 6,
-        "RelatedKeyID": 6,
         "RelationShipID": "LE_HISTORY",
         "RelationShipName": "Related History",
         "ModifiedListingName": "Lead Related History"
@@ -264,15 +237,6 @@
         "ObjectId": 6,
         "ObjectName": "Lead",
         "listingtype": 1197,
-        "RelatedKeyID": 6,
-        "RelationShipID": "MARCOM_LIST",
-        "RelationShipName": "MarcomListLead",
-        "ModifiedListingName": "Lead MarcomListLead"
-    },
-    {
-        "ObjectId": 6,
-        "ObjectName": "Lead",
-        "listingtype": 1201,
         "RelatedKeyID": 6,
         "RelationShipID": "MARCOM_LIST",
         "RelationShipName": "MarcomListLead",
@@ -383,6 +347,15 @@
         "listingtype": 29,
         "RelatedKeyID": 56,
         "RelationShipID": "AC_RELATED_CONTRACTS",
+        "RelationShipName": "AccContracts",
+        "ModifiedListingName": "Account AccContracts"
+    },
+    {
+        "ObjectId": 7,
+        "ObjectName": "Account",
+        "listingtype": 29,
+        "RelatedKeyID": 56,
+        "RelationShipID": "AC_RELATED_CONTRACTS",
         "RelationShipName": "Related Contracts",
         "ModifiedListingName": "Account Related Contracts"
     },
@@ -403,6 +376,15 @@
         "RelationShipID": "AC_CLOSED_CASES",
         "RelationShipName": "Closed Cases",
         "ModifiedListingName": "Account Closed Cases"
+    },
+    {
+        "ObjectId": 7,
+        "ObjectName": "Account",
+        "listingtype": 34,
+        "RelatedKeyID": 7,
+        "RelationShipID": "AC_PARTNER",
+        "RelationShipName": "##Account## Partner",
+        "ModifiedListingName": "Account ##Account## Partner"
     },
     {
         "ObjectId": 7,

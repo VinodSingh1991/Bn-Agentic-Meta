@@ -1,0 +1,192 @@
+[
+    {
+        "query_label": "Contact Details",
+        "query_fields": [
+            {
+                "roleid": 1,
+                "object_name": "Contact",
+                "field_id": 10001062,
+                "name": "SN_NAME",
+                "FieldName": "Name",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Contact",
+                "field_id": 10001115,
+                "name": "SN_SHORTNAME",
+                "FieldName": "ShortName",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Contact",
+                "field_id": 10001006,
+                "name": "SN_OWNERNAME",
+                "FieldName": "ContactOwnerName",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Contact",
+                "field_id": 977,
+                "name": "Designation - CA Profile",
+                "FieldName": "Con_ex1_39",
+                "field_type": "Lookup"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Contact",
+                "field_id": 973,
+                "name": "Contact Type - CA Profile",
+                "FieldName": "Con_ex1_35",
+                "field_type": "Lookup"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Contact",
+                "field_id": 972,
+                "name": "Company Name - CA Profile",
+                "FieldName": "Con_ex1_34",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Contact",
+                "field_id": 976,
+                "name": "Location",
+                "FieldName": "Con_ex1_38",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Contact",
+                "field_id": 974,
+                "name": "Office Number",
+                "FieldName": "Con_ex1_36",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Contact",
+                "field_id": 975,
+                "name": "Mobile Number",
+                "FieldName": "Con_ex1_37",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Contact",
+                "field_id": 978,
+                "name": "HDFC Bank Customer",
+                "FieldName": "Con_ex1_40",
+                "field_type": "Lookup"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Contact",
+                "field_id": 10000991,
+                "name": "SN_COMMENTS",
+                "FieldName": "Comments",
+                "field_type": "Comments"
+            }
+        ]
+    },
+    {
+        "query_label": "Contact Key Information",
+        "query_fields": [
+            {
+                "roleid": 1,
+                "object_name": "Contact",
+                "field_id": 10001062,
+                "name": "SN_NAME",
+                "FieldName": "Name",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Contact",
+                "field_id": 10001115,
+                "name": "SN_SHORTNAME",
+                "FieldName": "ShortName",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Contact",
+                "field_id": 10001006,
+                "name": "SN_OWNERNAME",
+                "FieldName": "ContactOwnerName",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Contact",
+                "field_id": 977,
+                "name": "Designation - CA Profile",
+                "FieldName": "Con_ex1_39",
+                "field_type": "Lookup"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Contact",
+                "field_id": 973,
+                "name": "Contact Type - CA Profile",
+                "FieldName": "Con_ex1_35",
+                "field_type": "Lookup"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Contact",
+                "field_id": 972,
+                "name": "Company Name - CA Profile",
+                "FieldName": "Con_ex1_34",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Contact",
+                "field_id": 976,
+                "name": "Location",
+                "FieldName": "Con_ex1_38",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Contact",
+                "field_id": 974,
+                "name": "Office Number",
+                "FieldName": "Con_ex1_36",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Contact",
+                "field_id": 975,
+                "name": "Mobile Number",
+                "FieldName": "Con_ex1_37",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Contact",
+                "field_id": 978,
+                "name": "HDFC Bank Customer",
+                "FieldName": "Con_ex1_40",
+                "field_type": "Lookup"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Contact",
+                "field_id": 10000991,
+                "name": "SN_COMMENTS",
+                "FieldName": "Comments",
+                "field_type": "Comments"
+            }
+        ]
+    },
+    {
+        "query_label": "Contact Activities",
+        "query_fields": []
+    }
+]

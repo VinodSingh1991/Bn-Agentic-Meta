@@ -1,0 +1,79 @@
+[
+    {
+        "entity": "Lead",
+        "intent": "GET",
+        "related_to": null,
+        "output_format": "structured",
+        "output_type": "list",
+        "template_type": "20",
+        "fields": [
+            {
+                "FieldName": "LeadID",
+                "FieldId": "10001659",
+                "DisplayLabel": "Lead ID",
+                "Description": "Unique identifier for the lead",
+                "DataType": "number"
+            },
+            {
+                "FieldName": "LeadName",
+                "FieldId": "10001660",
+                "DisplayLabel": "Lead Name",
+                "Description": "The name of the lead",
+                "DataType": "string"
+            },
+            {
+                "FieldName": "Email",
+                "FieldId": "10001606",
+                "DisplayLabel": "Email",
+                "Description": "The email address of the lead",
+                "DataType": "string"
+            }
+        ],
+        "filters": [
+            {
+                "field": {
+                    "FieldName": "StatusCode",
+                    "FieldId": "10001910",
+                    "DisplayLabel": "Status",
+                    "Description": "The status code of the lead"
+                },
+                "operator": "EQUALS",
+                "value": "open"
+            }
+        ],
+        "limit": 10,
+        "order": [
+            {
+                "field": {
+                    "FieldName": "LeadName",
+                    "FieldId": "10001660",
+                    "DisplayLabel": "Lead Name",
+                    "Description": "The name of the lead",
+                    "DataType": "string"
+                },
+                "direction": "DESC"
+            }
+        ],
+        "groupBy": [
+            {
+                "FieldName": "LeadState",
+                "FieldId": "10001671",
+                "DisplayLabel": "Lead State",
+                "Description": "The state of the lead",
+                "DataType": "enum"
+            }
+        ],
+        "aggregates": [
+            {
+                "function": "COUNT",
+                "field": {
+                    "FieldName": "LeadID",
+                    "FieldId": "10001659",
+                    "DisplayLabel": "Lead ID",
+                    "Description": "Unique identifier for the lead",
+                    "DataType": "number"
+                }
+            }
+        ]
+    }
+]

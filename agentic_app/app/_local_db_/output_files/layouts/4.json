@@ -1,0 +1,418 @@
+[
+    {
+        "query_label": "Opportunity Summary",
+        "query_fields": [
+            {
+                "roleid": 1,
+                "object_name": "Opportunity",
+                "field_id": 10003780,
+                "name": "SN_PRIORITY",
+                "FieldName": "OppStatus_Priority",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Opportunity",
+                "field_id": 10003761,
+                "name": "SN_NAME",
+                "FieldName": "Name",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Opportunity",
+                "field_id": 10003778,
+                "name": "SN_OWNERNAME",
+                "FieldName": "OppOwnerName",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Opportunity",
+                "field_id": 10003711,
+                "name": "SN_ACCOUNTNAME",
+                "FieldName": "AccountName",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Opportunity",
+                "field_id": 10003804,
+                "name": "SN_STARTDATE",
+                "FieldName": "StartDate",
+                "field_type": "Date"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Opportunity",
+                "field_id": 10003737,
+                "name": "SN_EXPECTED_ENDDATE",
+                "FieldName": "ExpEndDate",
+                "field_type": "Date"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Opportunity",
+                "field_id": 10003732,
+                "name": "SN_Opportunities_CurrentStage",
+                "FieldName": "CurrentStage",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Opportunity",
+                "field_id": 10003800,
+                "name": "SN_STAGE_ENDDATE",
+                "FieldName": "StageEndDate",
+                "field_type": "Date"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Opportunity",
+                "field_id": 10003816,
+                "name": "SN_Opportunities_Value",
+                "FieldName": "YourPrice",
+                "field_type": "MulticurrencyAmount"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Opportunity",
+                "field_id": 10003739,
+                "name": "SN_FORECAST_FORECASTAMOUNT",
+                "FieldName": "ForecastAmount",
+                "field_type": "MulticurrencyAmount"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Opportunity",
+                "field_id": 10003768,
+                "name": "SN_OppDiscount",
+                "FieldName": "OppDiscount",
+                "field_type": "Amount"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Opportunity",
+                "field_id": 10003741,
+                "name": "SN_QUOTE_FREIGHTAMOUNT",
+                "FieldName": "FreightAmount",
+                "field_type": "MulticurrencyAmount"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Opportunity",
+                "field_id": 10003735,
+                "name": "SN_Opportunities_DutyTax",
+                "FieldName": "DutyTax",
+                "field_type": "Percentage"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Opportunity",
+                "field_id": 10003762,
+                "name": "SN_Opportunities_NetAmount",
+                "FieldName": "NetAmount",
+                "field_type": "MulticurrencyAmount"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Opportunity",
+                "field_id": 10003775,
+                "name": "SN_Opportunities_Type",
+                "FieldName": "OpportunityType",
+                "field_type": "Number"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Opportunity",
+                "field_id": 10003718,
+                "name": "SN_CATEGORY",
+                "FieldName": "CategoryID",
+                "field_type": "Number"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Opportunity",
+                "field_id": 10003810,
+                "name": "SN_TEAM",
+                "FieldName": "TeamName",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Opportunity",
+                "field_id": 10003813,
+                "name": "SN_TERRITORY_NAME",
+                "FieldName": "TerritoryName",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Opportunity",
+                "field_id": 10003796,
+                "name": "SN_SOURCE",
+                "FieldName": "Source",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Opportunity",
+                "field_id": 10003717,
+                "name": "SN_CAMPAIGNNAME",
+                "FieldName": "CampaignName",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Opportunity",
+                "field_id": 10003787,
+                "name": "SN_Opportunities_Probability",
+                "FieldName": "Probability",
+                "field_type": "Percentage"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Opportunity",
+                "field_id": 10003808,
+                "name": "SN_Opportunities_Tax",
+                "FieldName": "Tax",
+                "field_type": "Percentage"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Opportunity",
+                "field_id": 10003722,
+                "name": "SN_COMMENTS",
+                "FieldName": "Comment",
+                "field_type": "Comments"
+            }
+        ]
+    },
+    {
+        "query_label": "Opportunity Key Information",
+        "query_fields": [
+            {
+                "roleid": 1,
+                "object_name": "Opportunity",
+                "field_id": 10003761,
+                "name": "SN_NAME",
+                "FieldName": "Name",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Opportunity",
+                "field_id": 10003778,
+                "name": "SN_OWNERNAME",
+                "FieldName": "OppOwnerName",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Opportunity",
+                "field_id": 10003711,
+                "name": "SN_ACCOUNTNAME",
+                "FieldName": "AccountName",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Opportunity",
+                "field_id": 10003804,
+                "name": "SN_STARTDATE",
+                "FieldName": "StartDate",
+                "field_type": "Date"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Opportunity",
+                "field_id": 10003737,
+                "name": "SN_EXPECTED_ENDDATE",
+                "FieldName": "ExpEndDate",
+                "field_type": "Date"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Opportunity",
+                "field_id": 10003732,
+                "name": "SN_Opportunities_CurrentStage",
+                "FieldName": "CurrentStage",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Opportunity",
+                "field_id": 10003800,
+                "name": "SN_STAGE_ENDDATE",
+                "FieldName": "StageEndDate",
+                "field_type": "Date"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Opportunity",
+                "field_id": 10003816,
+                "name": "SN_Opportunities_Value",
+                "FieldName": "YourPrice",
+                "field_type": "MulticurrencyAmount"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Opportunity",
+                "field_id": 10003739,
+                "name": "SN_FORECAST_FORECASTAMOUNT",
+                "FieldName": "ForecastAmount",
+                "field_type": "MulticurrencyAmount"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Opportunity",
+                "field_id": 10003768,
+                "name": "SN_OppDiscount",
+                "FieldName": "OppDiscount",
+                "field_type": "Amount"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Opportunity",
+                "field_id": 10003741,
+                "name": "SN_QUOTE_FREIGHTAMOUNT",
+                "FieldName": "FreightAmount",
+                "field_type": "MulticurrencyAmount"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Opportunity",
+                "field_id": 10003735,
+                "name": "SN_Opportunities_DutyTax",
+                "FieldName": "DutyTax",
+                "field_type": "Percentage"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Opportunity",
+                "field_id": 10003762,
+                "name": "SN_Opportunities_NetAmount",
+                "FieldName": "NetAmount",
+                "field_type": "MulticurrencyAmount"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Opportunity",
+                "field_id": 10003775,
+                "name": "SN_Opportunities_Type",
+                "FieldName": "OpportunityType",
+                "field_type": "Number"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Opportunity",
+                "field_id": 10003718,
+                "name": "SN_CATEGORY",
+                "FieldName": "CategoryID",
+                "field_type": "Number"
+            }
+        ]
+    },
+    {
+        "query_label": "Opportunity Classification Information",
+        "query_fields": [
+            {
+                "roleid": 1,
+                "object_name": "Opportunity",
+                "field_id": 10003810,
+                "name": "SN_TEAM",
+                "FieldName": "TeamName",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Opportunity",
+                "field_id": 10003813,
+                "name": "SN_TERRITORY_NAME",
+                "FieldName": "TerritoryName",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Opportunity",
+                "field_id": 10003796,
+                "name": "SN_SOURCE",
+                "FieldName": "Source",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Opportunity",
+                "field_id": 10003717,
+                "name": "SN_CAMPAIGNNAME",
+                "FieldName": "CampaignName",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Opportunity",
+                "field_id": 10003787,
+                "name": "SN_Opportunities_Probability",
+                "FieldName": "Probability",
+                "field_type": "Percentage"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Opportunity",
+                "field_id": 10003808,
+                "name": "SN_Opportunities_Tax",
+                "FieldName": "Tax",
+                "field_type": "Percentage"
+            }
+        ]
+    },
+    {
+        "query_label": "Opportunity Additional Information",
+        "query_fields": [
+            {
+                "roleid": 1,
+                "object_name": "Opportunity",
+                "field_id": 10003722,
+                "name": "SN_COMMENTS",
+                "FieldName": "Comment",
+                "field_type": "Comments"
+            }
+        ]
+    },
+    {
+        "query_label": "Opportunity ##Products##",
+        "query_fields": []
+    },
+    {
+        "query_label": "Opportunity Activities",
+        "query_fields": []
+    },
+    {
+        "query_label": "Opportunity ##Contacts##",
+        "query_fields": []
+    },
+    {
+        "query_label": "Opportunity Competitors",
+        "query_fields": []
+    },
+    {
+        "query_label": "Opportunity ##Partners##",
+        "query_fields": []
+    },
+    {
+        "query_label": "Opportunity Collaboration",
+        "query_fields": []
+    },
+    {
+        "query_label": "Opportunity Attachments",
+        "query_fields": []
+    },
+    {
+        "query_label": "Opportunity ##Notes##",
+        "query_fields": []
+    },
+    {
+        "query_label": "Opportunity History",
+        "query_fields": []
+    }
+]

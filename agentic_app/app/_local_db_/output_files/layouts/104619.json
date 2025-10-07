@@ -1,0 +1,283 @@
+[
+    {
+        "query_label": "Lead Key Information",
+        "query_fields": [
+            {
+                "roleid": 1,
+                "object_name": "Lead",
+                "field_id": 12223,
+                "name": "Is Customer Existing",
+                "FieldName": "Lea_ex4_102",
+                "field_type": "Lookup"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Lead",
+                "field_id": 10001660,
+                "name": "Name",
+                "FieldName": "LeadName",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Lead",
+                "field_id": 10050495,
+                "name": "Lead Owner",
+                "FieldName": "LeadOwnerName",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Lead",
+                "field_id": 10001714,
+                "name": "Lead Rating",
+                "FieldName": "Rating",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Lead",
+                "field_id": 10048343,
+                "name": "Product",
+                "FieldName": "Product",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Lead",
+                "field_id": 12526,
+                "name": "Service Flag",
+                "FieldName": "Lea_ex4_195",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Lead",
+                "field_id": 12531,
+                "name": "Service Flag_2",
+                "FieldName": "Lea_ex4_200",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Lead",
+                "field_id": 12475,
+                "name": "Mobile Number",
+                "FieldName": "Lea_ex4_192",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Lead",
+                "field_id": 12472,
+                "name": "Customer Name",
+                "FieldName": "Lea_ex4_189",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Lead",
+                "field_id": 12470,
+                "name": "Customer ID",
+                "FieldName": "Lea_ex4_187",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Lead",
+                "field_id": 12471,
+                "name": "Customer ID",
+                "FieldName": "Lea_ex4_188",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Lead",
+                "field_id": 12473,
+                "name": "Customer Name",
+                "FieldName": "Lea_ex4_190",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Lead",
+                "field_id": 12476,
+                "name": "Mobile Number",
+                "FieldName": "Lea_ex4_193",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Lead",
+                "field_id": 10001606,
+                "name": "Email",
+                "FieldName": "Email",
+                "field_type": "Email"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Lead",
+                "field_id": 12474,
+                "name": "Email ID",
+                "FieldName": "Lea_ex4_191",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Lead",
+                "field_id": 12462,
+                "name": "Lead Layout",
+                "FieldName": "Lea_ex4_184",
+                "field_type": "Lookup"
+            }
+        ]
+    },
+    {
+        "query_label": "Lead Key Information",
+        "query_fields": [
+            {
+                "roleid": 1,
+                "object_name": "Lead",
+                "field_id": 12223,
+                "name": "Is Customer Existing",
+                "FieldName": "Lea_ex4_102",
+                "field_type": "Lookup"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Lead",
+                "field_id": 10001660,
+                "name": "Name",
+                "FieldName": "LeadName",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Lead",
+                "field_id": 10050495,
+                "name": "Lead Owner",
+                "FieldName": "LeadOwnerName",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Lead",
+                "field_id": 10001714,
+                "name": "Lead Rating",
+                "FieldName": "Rating",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Lead",
+                "field_id": 10048343,
+                "name": "Product",
+                "FieldName": "Product",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Lead",
+                "field_id": 12526,
+                "name": "Service Flag",
+                "FieldName": "Lea_ex4_195",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Lead",
+                "field_id": 12531,
+                "name": "Service Flag_2",
+                "FieldName": "Lea_ex4_200",
+                "field_type": "Text"
+            }
+        ]
+    },
+    {
+        "query_label": "Lead FC Service Details",
+        "query_fields": [
+            {
+                "roleid": 1,
+                "object_name": "Lead",
+                "field_id": 12475,
+                "name": "Mobile Number",
+                "FieldName": "Lea_ex4_192",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Lead",
+                "field_id": 12472,
+                "name": "Customer Name",
+                "FieldName": "Lea_ex4_189",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Lead",
+                "field_id": 12470,
+                "name": "Customer ID",
+                "FieldName": "Lea_ex4_187",
+                "field_type": "Text"
+            }
+        ]
+    },
+    {
+        "query_label": "Lead Demographic Details",
+        "query_fields": [
+            {
+                "roleid": 1,
+                "object_name": "Lead",
+                "field_id": 12471,
+                "name": "Customer ID",
+                "FieldName": "Lea_ex4_188",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Lead",
+                "field_id": 12473,
+                "name": "Customer Name",
+                "FieldName": "Lea_ex4_190",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Lead",
+                "field_id": 12476,
+                "name": "Mobile Number",
+                "FieldName": "Lea_ex4_193",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Lead",
+                "field_id": 10001606,
+                "name": "Email",
+                "FieldName": "Email",
+                "field_type": "Email"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Lead",
+                "field_id": 12474,
+                "name": "Email ID",
+                "FieldName": "Lea_ex4_191",
+                "field_type": "Text"
+            }
+        ]
+    },
+    {
+        "query_label": "Lead Lead Creation",
+        "query_fields": [
+            {
+                "roleid": 1,
+                "object_name": "Lead",
+                "field_id": 12462,
+                "name": "Lead Layout",
+                "FieldName": "Lea_ex4_184",
+                "field_type": "Lookup"
+            }
+        ]
+    }
+]

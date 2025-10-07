@@ -1,0 +1,204 @@
+[
+    {
+        "query_label": "Contact Details",
+        "query_fields": [
+            {
+                "roleid": 1,
+                "object_name": "Contact",
+                "field_id": 10001062,
+                "name": "Name",
+                "FieldName": "Name",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Contact",
+                "field_id": 10001140,
+                "name": "Relationship",
+                "FieldName": "Title",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Contact",
+                "field_id": 614,
+                "name": "PAN No.",
+                "FieldName": "Con_ex1_3",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Contact",
+                "field_id": 978,
+                "name": "HDFC Bank Customer",
+                "FieldName": "Con_ex1_40",
+                "field_type": "Lookup"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Contact",
+                "field_id": 10000986,
+                "name": "DOB",
+                "FieldName": "BirthDate",
+                "field_type": "Date"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Contact",
+                "field_id": 10000979,
+                "name": "Anniversary",
+                "FieldName": "AnniversaryDate",
+                "field_type": "Date"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Contact",
+                "field_id": 10001059,
+                "name": "Mobile",
+                "FieldName": "MobilePhone",
+                "field_type": "Phone"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Contact",
+                "field_id": 10001018,
+                "name": "Email",
+                "FieldName": "Email",
+                "field_type": "Email"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Contact",
+                "field_id": 10001006,
+                "name": "Relation Owner",
+                "FieldName": "ContactOwnerName",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Contact",
+                "field_id": 10000976,
+                "name": "Primary Customer",
+                "FieldName": "AccountName",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Contact",
+                "field_id": 10001115,
+                "name": "Short Name",
+                "FieldName": "ShortName",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Contact",
+                "field_id": 10000991,
+                "name": "Comments",
+                "FieldName": "Comments",
+                "field_type": "Comments"
+            }
+        ]
+    },
+    {
+        "query_label": "Contact Key Information",
+        "query_fields": [
+            {
+                "roleid": 1,
+                "object_name": "Contact",
+                "field_id": 10001062,
+                "name": "Name",
+                "FieldName": "Name",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Contact",
+                "field_id": 10001140,
+                "name": "Relationship",
+                "FieldName": "Title",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Contact",
+                "field_id": 614,
+                "name": "PAN No.",
+                "FieldName": "Con_ex1_3",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Contact",
+                "field_id": 978,
+                "name": "HDFC Bank Customer",
+                "FieldName": "Con_ex1_40",
+                "field_type": "Lookup"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Contact",
+                "field_id": 10000986,
+                "name": "DOB",
+                "FieldName": "BirthDate",
+                "field_type": "Date"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Contact",
+                "field_id": 10000979,
+                "name": "Anniversary",
+                "FieldName": "AnniversaryDate",
+                "field_type": "Date"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Contact",
+                "field_id": 10001059,
+                "name": "Mobile",
+                "FieldName": "MobilePhone",
+                "field_type": "Phone"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Contact",
+                "field_id": 10001018,
+                "name": "Email",
+                "FieldName": "Email",
+                "field_type": "Email"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Contact",
+                "field_id": 10001006,
+                "name": "Relation Owner",
+                "FieldName": "ContactOwnerName",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Contact",
+                "field_id": 10000976,
+                "name": "Primary Customer",
+                "FieldName": "AccountName",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Contact",
+                "field_id": 10001115,
+                "name": "Short Name",
+                "FieldName": "ShortName",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Contact",
+                "field_id": 10000991,
+                "name": "Comments",
+                "FieldName": "Comments",
+                "field_type": "Comments"
+            }
+        ]
+    }
+]

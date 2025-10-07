@@ -1,0 +1,590 @@
+[
+    {
+        "query_label": "Contact Details",
+        "query_fields": [
+            {
+                "roleid": 1,
+                "object_name": "Contact",
+                "field_id": 10001062,
+                "name": "SN_NAME",
+                "FieldName": "Name",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Contact",
+                "field_id": 927,
+                "name": "r_Signature",
+                "FieldName": "HtmlText_927",
+                "field_type": "Image"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Contact",
+                "field_id": 10001140,
+                "name": "SN_TITLE",
+                "FieldName": "Title",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Contact",
+                "field_id": 931,
+                "name": "r_Signatory Authorized Date",
+                "FieldName": "Con_ex1_13",
+                "field_type": "Date"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Contact",
+                "field_id": 928,
+                "name": "r_Signature Upload Date",
+                "FieldName": "Con_ex1_10",
+                "field_type": "Date"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Contact",
+                "field_id": 932,
+                "name": "r_Signatory Rejected Date",
+                "FieldName": "Con_ex1_14",
+                "field_type": "Date"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Contact",
+                "field_id": 10000976,
+                "name": "SN_ACCOUNTNAME",
+                "FieldName": "AccountName",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Contact",
+                "field_id": 929,
+                "name": "r_Company Code",
+                "FieldName": "Con_ex1_11",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Contact",
+                "field_id": 10001135,
+                "name": "SN_STATUSCODE",
+                "FieldName": "StatusCode",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Contact",
+                "field_id": 903,
+                "name": "Contact Type",
+                "FieldName": "Con_ex1_7",
+                "field_type": "Lookup"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Contact",
+                "field_id": 1535,
+                "name": "Email Introduction_con",
+                "FieldName": "Con_ex1_42",
+                "field_type": "Lookup"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Contact",
+                "field_id": 1537,
+                "name": "Email ID AUS_con",
+                "FieldName": "Con_ex1_44",
+                "field_type": "Email"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Contact",
+                "field_id": 933,
+                "name": "r_Maker",
+                "FieldName": "Con_ex1_15",
+                "field_type": "UserPicker"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Contact",
+                "field_id": 934,
+                "name": "r_Checker",
+                "FieldName": "Con_ex1_16",
+                "field_type": "UserPicker"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Contact",
+                "field_id": 945,
+                "name": "r_Location",
+                "FieldName": "Con_ex1_27",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Contact",
+                "field_id": 946,
+                "name": "r_Documents Provided",
+                "FieldName": "Con_ex1_28",
+                "field_type": "MultiPicker"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Contact",
+                "field_id": 947,
+                "name": "r_Employee No.",
+                "FieldName": "Con_ex1_29",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Contact",
+                "field_id": 1005,
+                "name": "Approver For",
+                "FieldName": "Con_ex1_41",
+                "field_type": "MultiPicker"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Contact",
+                "field_id": 948,
+                "name": "r_Rejection reason",
+                "FieldName": "Con_ex1_30",
+                "field_type": "Comments"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Contact",
+                "field_id": 10001115,
+                "name": "SN_SHORTNAME",
+                "FieldName": "ShortName",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Contact",
+                "field_id": 10001006,
+                "name": "SN_OWNERNAME",
+                "FieldName": "ContactOwnerName",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Contact",
+                "field_id": 614,
+                "name": "PAN No._r",
+                "FieldName": "Con_ex1_3",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Contact",
+                "field_id": 950,
+                "name": "r_Cust ID",
+                "FieldName": "Con_ex1_32",
+                "field_type": "Number"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Contact",
+                "field_id": 10000979,
+                "name": "SN_ANNIVERSARYDATE",
+                "FieldName": "AnniversaryDate",
+                "field_type": "Date"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Contact",
+                "field_id": 10000986,
+                "name": "SN_BIRTHDATE",
+                "FieldName": "BirthDate",
+                "field_type": "Date"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Contact",
+                "field_id": 10001017,
+                "name": "SN_DEPARTMENT",
+                "FieldName": "Department",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Contact",
+                "field_id": 905,
+                "name": "City_R",
+                "FieldName": "Con_ex1_9",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Contact",
+                "field_id": 10001059,
+                "name": "SN_MOBILE",
+                "FieldName": "MobilePhone",
+                "field_type": "Phone"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Contact",
+                "field_id": 10001018,
+                "name": "SN_EMAIL",
+                "FieldName": "Email",
+                "field_type": "Email"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Contact",
+                "field_id": 10001086,
+                "name": "SN_PHONE",
+                "FieldName": "Phone",
+                "field_type": "Phone"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Contact",
+                "field_id": 10001067,
+                "name": "SN_OFFICEPHONE",
+                "FieldName": "OfficePhone",
+                "field_type": "Phone"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Contact",
+                "field_id": 904,
+                "name": "Address",
+                "FieldName": "Con_ex1_8",
+                "field_type": "Comments"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Contact",
+                "field_id": 670,
+                "name": "Local Office Address",
+                "FieldName": "Con_ex1_5",
+                "field_type": "Comments"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Contact",
+                "field_id": 671,
+                "name": "Head Office Address",
+                "FieldName": "Con_ex1_6",
+                "field_type": "Comments"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Contact",
+                "field_id": 10000991,
+                "name": "SN_COMMENTS",
+                "FieldName": "Comments",
+                "field_type": "Comments"
+            }
+        ]
+    },
+    {
+        "query_label": "Contact Signature Information",
+        "query_fields": [
+            {
+                "roleid": 1,
+                "object_name": "Contact",
+                "field_id": 10001062,
+                "name": "SN_NAME",
+                "FieldName": "Name",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Contact",
+                "field_id": 927,
+                "name": "r_Signature",
+                "FieldName": "HtmlText_927",
+                "field_type": "Image"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Contact",
+                "field_id": 10001140,
+                "name": "SN_TITLE",
+                "FieldName": "Title",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Contact",
+                "field_id": 931,
+                "name": "r_Signatory Authorized Date",
+                "FieldName": "Con_ex1_13",
+                "field_type": "Date"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Contact",
+                "field_id": 928,
+                "name": "r_Signature Upload Date",
+                "FieldName": "Con_ex1_10",
+                "field_type": "Date"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Contact",
+                "field_id": 932,
+                "name": "r_Signatory Rejected Date",
+                "FieldName": "Con_ex1_14",
+                "field_type": "Date"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Contact",
+                "field_id": 10000976,
+                "name": "SN_ACCOUNTNAME",
+                "FieldName": "AccountName",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Contact",
+                "field_id": 929,
+                "name": "r_Company Code",
+                "FieldName": "Con_ex1_11",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Contact",
+                "field_id": 10001135,
+                "name": "SN_STATUSCODE",
+                "FieldName": "StatusCode",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Contact",
+                "field_id": 903,
+                "name": "Contact Type",
+                "FieldName": "Con_ex1_7",
+                "field_type": "Lookup"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Contact",
+                "field_id": 1535,
+                "name": "Email Introduction_con",
+                "FieldName": "Con_ex1_42",
+                "field_type": "Lookup"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Contact",
+                "field_id": 1537,
+                "name": "Email ID AUS_con",
+                "FieldName": "Con_ex1_44",
+                "field_type": "Email"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Contact",
+                "field_id": 933,
+                "name": "r_Maker",
+                "FieldName": "Con_ex1_15",
+                "field_type": "UserPicker"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Contact",
+                "field_id": 934,
+                "name": "r_Checker",
+                "FieldName": "Con_ex1_16",
+                "field_type": "UserPicker"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Contact",
+                "field_id": 945,
+                "name": "r_Location",
+                "FieldName": "Con_ex1_27",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Contact",
+                "field_id": 946,
+                "name": "r_Documents Provided",
+                "FieldName": "Con_ex1_28",
+                "field_type": "MultiPicker"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Contact",
+                "field_id": 947,
+                "name": "r_Employee No.",
+                "FieldName": "Con_ex1_29",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Contact",
+                "field_id": 1005,
+                "name": "Approver For",
+                "FieldName": "Con_ex1_41",
+                "field_type": "MultiPicker"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Contact",
+                "field_id": 948,
+                "name": "r_Rejection reason",
+                "FieldName": "Con_ex1_30",
+                "field_type": "Comments"
+            }
+        ]
+    },
+    {
+        "query_label": "Contact Key Information",
+        "query_fields": [
+            {
+                "roleid": 1,
+                "object_name": "Contact",
+                "field_id": 10001115,
+                "name": "SN_SHORTNAME",
+                "FieldName": "ShortName",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Contact",
+                "field_id": 10001006,
+                "name": "SN_OWNERNAME",
+                "FieldName": "ContactOwnerName",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Contact",
+                "field_id": 614,
+                "name": "PAN No._r",
+                "FieldName": "Con_ex1_3",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Contact",
+                "field_id": 950,
+                "name": "r_Cust ID",
+                "FieldName": "Con_ex1_32",
+                "field_type": "Number"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Contact",
+                "field_id": 10000979,
+                "name": "SN_ANNIVERSARYDATE",
+                "FieldName": "AnniversaryDate",
+                "field_type": "Date"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Contact",
+                "field_id": 10000986,
+                "name": "SN_BIRTHDATE",
+                "FieldName": "BirthDate",
+                "field_type": "Date"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Contact",
+                "field_id": 10001017,
+                "name": "SN_DEPARTMENT",
+                "FieldName": "Department",
+                "field_type": "Text"
+            }
+        ]
+    },
+    {
+        "query_label": "Contact Contact Information",
+        "query_fields": [
+            {
+                "roleid": 1,
+                "object_name": "Contact",
+                "field_id": 905,
+                "name": "City_R",
+                "FieldName": "Con_ex1_9",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Contact",
+                "field_id": 10001059,
+                "name": "SN_MOBILE",
+                "FieldName": "MobilePhone",
+                "field_type": "Phone"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Contact",
+                "field_id": 10001018,
+                "name": "SN_EMAIL",
+                "FieldName": "Email",
+                "field_type": "Email"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Contact",
+                "field_id": 10001086,
+                "name": "SN_PHONE",
+                "FieldName": "Phone",
+                "field_type": "Phone"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Contact",
+                "field_id": 10001067,
+                "name": "SN_OFFICEPHONE",
+                "FieldName": "OfficePhone",
+                "field_type": "Phone"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Contact",
+                "field_id": 904,
+                "name": "Address",
+                "FieldName": "Con_ex1_8",
+                "field_type": "Comments"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Contact",
+                "field_id": 670,
+                "name": "Local Office Address",
+                "FieldName": "Con_ex1_5",
+                "field_type": "Comments"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Contact",
+                "field_id": 671,
+                "name": "Head Office Address",
+                "FieldName": "Con_ex1_6",
+                "field_type": "Comments"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Contact",
+                "field_id": 10000991,
+                "name": "SN_COMMENTS",
+                "FieldName": "Comments",
+                "field_type": "Comments"
+            }
+        ]
+    },
+    {
+        "query_label": "Contact Activities",
+        "query_fields": []
+    },
+    {
+        "query_label": "Contact History",
+        "query_fields": []
+    }
+]

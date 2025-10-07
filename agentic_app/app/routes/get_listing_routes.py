@@ -30,3 +30,9 @@ def get_listing_gold5_enriched():
     listing_service.map_object_and_gold5_listing()
     return {"listing": "listing file has been created"}
 
+@router.get("/listing_rpt_enriched")
+def get_listing_rpt_enriched():
+    listing_service = ListingService()
+    listing_service.map_object_and_rpt_listing()
+    return {"listing": "listing file has been created"}
+

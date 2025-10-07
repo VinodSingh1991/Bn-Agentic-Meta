@@ -1,0 +1,1987 @@
+[
+    {
+        "query_label": "Activity Review",
+        "query_fields": [
+            {
+                "roleid": 1,
+                "object_name": "Activity",
+                "field_id": 10642,
+                "name": "In addition to the Primary objective has multiple products been discussed?",
+                "FieldName": "Act_ex2_4",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Activity",
+                "field_id": 10643,
+                "name": "Is it correalted with APT if Product not held and effort to Sale made?",
+                "FieldName": "Act_ex2_5",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Activity",
+                "field_id": 10644,
+                "name": "Have adequate leads been generated for relevant products?",
+                "FieldName": "Act_ex2_6",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Activity",
+                "field_id": 10645,
+                "name": "Have all digital modes been activated?",
+                "FieldName": "Act_ex2_7",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Activity",
+                "field_id": 10646,
+                "name": "Are logical reasons given for Not Interested Products?",
+                "FieldName": "Act_ex2_8",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Activity",
+                "field_id": 10647,
+                "name": "If product held with competition has RM spoken to respective product group for relevant pitch for a take over?",
+                "FieldName": "Act_ex2_9",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Activity",
+                "field_id": 10648,
+                "name": "If issue is pricing has competitive pricing been given for best deal?",
+                "FieldName": "Act_ex2_10",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Activity",
+                "field_id": 10649,
+                "name": "If account is depleting has RM effort on getting funds been checked?",
+                "FieldName": "Act_ex2_11",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Activity",
+                "field_id": 10650,
+                "name": "If customer is met ReKYC Aadhar Pan and Contact details addressed?",
+                "FieldName": "Act_ex2_12",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Activity",
+                "field_id": 10651,
+                "name": "If Credit Card is not being used have the reasons been discussed?",
+                "FieldName": "Act_ex2_13",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Activity",
+                "field_id": 10657,
+                "name": "Is the new pre-approved offer communicated to the customer by the RM? ",
+                "FieldName": "Act_ex2_19",
+                "field_type": "Lookup"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Activity",
+                "field_id": 10658,
+                "name": "Is the customer interested and did it result into a lead? ",
+                "FieldName": "Act_ex2_20",
+                "field_type": "Lookup"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Activity",
+                "field_id": 10652,
+                "name": "If lead not generated why? ",
+                "FieldName": "Act_ex2_14",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Activity",
+                "field_id": 10653,
+                "name": "Any other feedback on targeted pre-approved offers ",
+                "FieldName": "Act_ex2_15",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Activity",
+                "field_id": 10659,
+                "name": "Has the RM spoken about Marketing Campaigns? ",
+                "FieldName": "Act_ex2_30",
+                "field_type": "Lookup"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Activity",
+                "field_id": 10654,
+                "name": "If product is relevant and lead not generated why?",
+                "FieldName": "Act_ex2_16",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Activity",
+                "field_id": 10655,
+                "name": "Reasons for Not Interested in Product campaigns",
+                "FieldName": "Act_ex2_17",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Activity",
+                "field_id": 10660,
+                "name": "Is pre-call planning done with RM",
+                "FieldName": "Act_ex2_31",
+                "field_type": "Lookup"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Activity",
+                "field_id": 10656,
+                "name": "Any other input for the customer",
+                "FieldName": "Act_ex2_18",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Activity",
+                "field_id": 10838,
+                "name": "Reviewed By",
+                "FieldName": "Act_ex3_53",
+                "field_type": "UserPicker"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Activity",
+                "field_id": 10837,
+                "name": "Reviewed On",
+                "FieldName": "Act_ex3_52",
+                "field_type": "DateTime"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Activity",
+                "field_id": 10868,
+                "name": "If account is depleting has RM effort on getting funds been checked?",
+                "FieldName": "Act_ex3_63",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Activity",
+                "field_id": 10869,
+                "name": "Have new accounts/references been discussed by the RM",
+                "FieldName": "Act_ex3_64",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Activity",
+                "field_id": 10870,
+                "name": "Are all accounts Active and meeting the product criteria (Minimum Balance)",
+                "FieldName": "Act_ex3_65",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Activity",
+                "field_id": 10662,
+                "name": "Comments",
+                "FieldName": "Act_ex2_32",
+                "field_type": "Comments"
+            }
+        ]
+    },
+    {
+        "query_label": "Activity Supervisor Review Sections",
+        "query_fields": [
+            {
+                "roleid": 1,
+                "object_name": "Activity",
+                "field_id": 10642,
+                "name": "In addition to the Primary objective has multiple products been discussed?",
+                "FieldName": "Act_ex2_4",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Activity",
+                "field_id": 10643,
+                "name": "Is it correalted with APT if Product not held and effort to Sale made?",
+                "FieldName": "Act_ex2_5",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Activity",
+                "field_id": 10644,
+                "name": "Have adequate leads been generated for relevant products?",
+                "FieldName": "Act_ex2_6",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Activity",
+                "field_id": 10645,
+                "name": "Have all digital modes been activated?",
+                "FieldName": "Act_ex2_7",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Activity",
+                "field_id": 10646,
+                "name": "Are logical reasons given for Not Interested Products?",
+                "FieldName": "Act_ex2_8",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Activity",
+                "field_id": 10647,
+                "name": "If product held with competition has RM spoken to respective product group for relevant pitch for a take over?",
+                "FieldName": "Act_ex2_9",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Activity",
+                "field_id": 10648,
+                "name": "If issue is pricing has competitive pricing been given for best deal?",
+                "FieldName": "Act_ex2_10",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Activity",
+                "field_id": 10649,
+                "name": "If account is depleting has RM effort on getting funds been checked?",
+                "FieldName": "Act_ex2_11",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Activity",
+                "field_id": 10650,
+                "name": "If customer is met ReKYC Aadhar Pan and Contact details addressed?",
+                "FieldName": "Act_ex2_12",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Activity",
+                "field_id": 10651,
+                "name": "If Credit Card is not being used have the reasons been discussed?",
+                "FieldName": "Act_ex2_13",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Activity",
+                "field_id": 10657,
+                "name": "Is the new pre-approved offer communicated to the customer by the RM? ",
+                "FieldName": "Act_ex2_19",
+                "field_type": "Lookup"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Activity",
+                "field_id": 10658,
+                "name": "Is the customer interested and did it result into a lead? ",
+                "FieldName": "Act_ex2_20",
+                "field_type": "Lookup"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Activity",
+                "field_id": 10652,
+                "name": "If lead not generated why? ",
+                "FieldName": "Act_ex2_14",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Activity",
+                "field_id": 10653,
+                "name": "Any other feedback on targeted pre-approved offers ",
+                "FieldName": "Act_ex2_15",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Activity",
+                "field_id": 10659,
+                "name": "Has the RM spoken about Marketing Campaigns? ",
+                "FieldName": "Act_ex2_30",
+                "field_type": "Lookup"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Activity",
+                "field_id": 10654,
+                "name": "If product is relevant and lead not generated why?",
+                "FieldName": "Act_ex2_16",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Activity",
+                "field_id": 10655,
+                "name": "Reasons for Not Interested in Product campaigns",
+                "FieldName": "Act_ex2_17",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Activity",
+                "field_id": 10660,
+                "name": "Is pre-call planning done with RM",
+                "FieldName": "Act_ex2_31",
+                "field_type": "Lookup"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Activity",
+                "field_id": 10656,
+                "name": "Any other input for the customer",
+                "FieldName": "Act_ex2_18",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Activity",
+                "field_id": 10838,
+                "name": "Reviewed By",
+                "FieldName": "Act_ex3_53",
+                "field_type": "UserPicker"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Activity",
+                "field_id": 10837,
+                "name": "Reviewed On",
+                "FieldName": "Act_ex3_52",
+                "field_type": "DateTime"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Activity",
+                "field_id": 10868,
+                "name": "If account is depleting has RM effort on getting funds been checked?",
+                "FieldName": "Act_ex3_63",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Activity",
+                "field_id": 10869,
+                "name": "Have new accounts/references been discussed by the RM",
+                "FieldName": "Act_ex3_64",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Activity",
+                "field_id": 10870,
+                "name": "Are all accounts Active and meeting the product criteria (Minimum Balance)",
+                "FieldName": "Act_ex3_65",
+                "field_type": "Text"
+            }
+        ]
+    },
+    {
+        "query_label": "Activity Senior's Review",
+        "query_fields": [
+            {
+                "roleid": 1,
+                "object_name": "Activity",
+                "field_id": 10662,
+                "name": "Comments",
+                "FieldName": "Act_ex2_32",
+                "field_type": "Comments"
+            }
+        ]
+    },
+    {
+        "query_label": "Activity HNW Sales Process",
+        "query_fields": [
+            {
+                "roleid": 1,
+                "object_name": "Activity",
+                "field_id": 10784,
+                "name": "Customer Already Active (Prior to RMs interaction) on which of the following digital platforms",
+                "FieldName": "Act_ex3_40",
+                "field_type": "MultiPicker"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Activity",
+                "field_id": 10725,
+                "name": "Is NB/MB Activated during the call?",
+                "FieldName": "Act_ex2_76",
+                "field_type": "Lookup"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Activity",
+                "field_id": 10727,
+                "name": "Is the FD/RD booked Online",
+                "FieldName": "Act_ex2_78",
+                "field_type": "Lookup"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Activity",
+                "field_id": 10734,
+                "name": "Reason for NB/MB not active",
+                "FieldName": "Act_ex2_85",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Activity",
+                "field_id": 10731,
+                "name": "What is the reason for not booking FDs online",
+                "FieldName": "Act_ex2_82",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Activity",
+                "field_id": 10754,
+                "name": "Is the customer aware of Smartbuy and its offers",
+                "FieldName": "Act_ex3_5",
+                "field_type": "Lookup"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Activity",
+                "field_id": 10766,
+                "name": "Is there any Bill Pay Offer of Competition which the customer is talking off",
+                "FieldName": "Act_ex3_17",
+                "field_type": "Lookup"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Activity",
+                "field_id": 10768,
+                "name": "Specifically mention the Offer",
+                "FieldName": "Act_ex3_19",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Activity",
+                "field_id": 10769,
+                "name": "Product Name",
+                "FieldName": "Act_ex3_20",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Activity",
+                "field_id": 10756,
+                "name": "Bill Pay Activated during the call",
+                "FieldName": "Act_ex3_7",
+                "field_type": "Lookup"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Activity",
+                "field_id": 10764,
+                "name": "No of SI on Bill Pay added during the call",
+                "FieldName": "Act_ex3_15",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Activity",
+                "field_id": 10762,
+                "name": "Reason for Bill Pay Not active with HDFC Bank",
+                "FieldName": "Act_ex3_13",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Activity",
+                "field_id": 10705,
+                "name": "Have Banking Transactions been activated digitally",
+                "FieldName": "Act_ex2_56",
+                "field_type": "Lookup"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Activity",
+                "field_id": 10708,
+                "name": "Is the customer interested in Shopping and E-Commerce digitally",
+                "FieldName": "Act_ex2_59",
+                "field_type": "Lookup"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Activity",
+                "field_id": 10698,
+                "name": "Reason for Banking Transactions not activated",
+                "FieldName": "Act_ex2_45",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Activity",
+                "field_id": 10713,
+                "name": "Reason for not interested in Shopping and E-Commerce ",
+                "FieldName": "Act_ex2_64",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Activity",
+                "field_id": 10710,
+                "name": "Is the customer interested in Assets/Investments digitally",
+                "FieldName": "Act_ex2_61",
+                "field_type": "Lookup"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Activity",
+                "field_id": 10715,
+                "name": "Reason for not interested in Assets/Investments digitally",
+                "FieldName": "Act_ex2_66",
+                "field_type": "Lookup"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Activity",
+                "field_id": 10741,
+                "name": "In the customer interested in Transaction Migration from Physical to Online",
+                "FieldName": "Act_ex2_92",
+                "field_type": "Lookup"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Activity",
+                "field_id": 10717,
+                "name": "Reason for not interested in transaction migration ",
+                "FieldName": "Act_ex2_68",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Activity",
+                "field_id": 10770,
+                "name": "Any feedback releated to Digital Products specifically ",
+                "FieldName": "Act_ex3_26",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Activity",
+                "field_id": 10771,
+                "name": "Credit Card sold during the call/upgraded",
+                "FieldName": "Act_ex3_27",
+                "field_type": "Lookup"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Activity",
+                "field_id": 10772,
+                "name": "Lead number for Credit Card Sold",
+                "FieldName": "Act_ex3_28",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Activity",
+                "field_id": 10774,
+                "name": "Reason for credit card not with the Bank",
+                "FieldName": "Act_ex3_30",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Activity",
+                "field_id": 10773,
+                "name": "Credit Card activated during the call",
+                "FieldName": "Act_ex3_29",
+                "field_type": "Lookup"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Activity",
+                "field_id": 10776,
+                "name": "Any feedback releated to Credit Card",
+                "FieldName": "Act_ex3_32",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Activity",
+                "field_id": 10775,
+                "name": "Reason for credit card not active with Bank",
+                "FieldName": "Act_ex3_31",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Activity",
+                "field_id": 10777,
+                "name": "Do you believe any other card can be given to the customer basis profile ? if Yes mention name",
+                "FieldName": "Act_ex3_33",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Activity",
+                "field_id": 10785,
+                "name": "Other Retail Assets",
+                "FieldName": "Act_ex3_41",
+                "field_type": "MultiPicker"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Activity",
+                "field_id": 10778,
+                "name": "AL",
+                "FieldName": "Act_ex3_34",
+                "field_type": "Lookup"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Activity",
+                "field_id": 10779,
+                "name": "Lead Number AL",
+                "FieldName": "Act_ex3_35",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Activity",
+                "field_id": 10780,
+                "name": "Reason for AL Not Availing from HDFC Bank",
+                "FieldName": "Act_ex3_36",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Activity",
+                "field_id": 10699,
+                "name": "Pl Or Bl",
+                "FieldName": "Act_ex2_46",
+                "field_type": "Lookup"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Activity",
+                "field_id": 10700,
+                "name": "Lead Number Bl/Pl",
+                "FieldName": "Act_ex2_47",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Activity",
+                "field_id": 10701,
+                "name": "Reason for BL/PL Not Availing from HDFC Bank",
+                "FieldName": "Act_ex2_48",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Activity",
+                "field_id": 10702,
+                "name": "Hl",
+                "FieldName": "Act_ex2_49",
+                "field_type": "Lookup"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Activity",
+                "field_id": 10703,
+                "name": "Lead Number Hl",
+                "FieldName": "Act_ex2_50",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Activity",
+                "field_id": 10704,
+                "name": "Reason for HL Not Availing from HDFC Bank",
+                "FieldName": "Act_ex2_51",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Activity",
+                "field_id": 10706,
+                "name": "Lead Number Retail Asset",
+                "FieldName": "Act_ex2_57",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Activity",
+                "field_id": 10707,
+                "name": "Reason for Retail Asset Not Availing from HDFC Bank",
+                "FieldName": "Act_ex2_58",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Activity",
+                "field_id": 10786,
+                "name": "Business Assets",
+                "FieldName": "Act_ex3_42",
+                "field_type": "MultiPicker"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Activity",
+                "field_id": 10709,
+                "name": "Lead Number Business Asset",
+                "FieldName": "Act_ex2_60",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Activity",
+                "field_id": 10711,
+                "name": "Reason for Business Asset Not Availing from HDFC Bank",
+                "FieldName": "Act_ex2_62",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Activity",
+                "field_id": 10712,
+                "name": "Any Developmental Feedback",
+                "FieldName": "Act_ex2_63",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Activity",
+                "field_id": 10714,
+                "name": "Is the new pre-approved offer commuincated to the customer",
+                "FieldName": "Act_ex2_65",
+                "field_type": "Lookup"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Activity",
+                "field_id": 10716,
+                "name": "Is customer interested and did it result in lead",
+                "FieldName": "Act_ex2_67",
+                "field_type": "Lookup"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Activity",
+                "field_id": 10720,
+                "name": "Any other Feedback on targeted Pre-Approved Offers",
+                "FieldName": "Act_ex2_71",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Activity",
+                "field_id": 10718,
+                "name": "If lead not generated why ?",
+                "FieldName": "Act_ex2_69",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Activity",
+                "field_id": 10722,
+                "name": "Has Insurance been pitched",
+                "FieldName": "Act_ex2_73",
+                "field_type": "Lookup"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Activity",
+                "field_id": 10723,
+                "name": "Has MF/Other investment been pitched",
+                "FieldName": "Act_ex2_74",
+                "field_type": "Lookup"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Activity",
+                "field_id": 10724,
+                "name": "Has HSL been pitched?",
+                "FieldName": "Act_ex2_75",
+                "field_type": "Lookup"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Activity",
+                "field_id": 10726,
+                "name": "Reason for HSL not availaing from HDFC Bank",
+                "FieldName": "Act_ex2_77",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Activity",
+                "field_id": 10748,
+                "name": "Is customer is of trading type or long term investors",
+                "FieldName": "Act_ex2_99",
+                "field_type": "Lookup"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Activity",
+                "field_id": 10796,
+                "name": "Does customer or his/her your family member invest in equity or related products through any other broker ",
+                "FieldName": "Act_ex3_50",
+                "field_type": "Lookup"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Activity",
+                "field_id": 10763,
+                "name": "% of investment through HDFC Securities (Field in %)",
+                "FieldName": "Act_ex3_14",
+                "field_type": "Number"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Activity",
+                "field_id": 10765,
+                "name": "Name of the broker",
+                "FieldName": "Act_ex3_16",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Activity",
+                "field_id": 10719,
+                "name": "Volume of transactions in a year",
+                "FieldName": "Act_ex2_70",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Activity",
+                "field_id": 10728,
+                "name": "Reason for CA Attrition",
+                "FieldName": "Act_ex2_79",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Activity",
+                "field_id": 10729,
+                "name": "When will the funds come back",
+                "FieldName": "Act_ex2_80",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Activity",
+                "field_id": 10730,
+                "name": "Specify Inflow Expected",
+                "FieldName": "Act_ex2_81",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Activity",
+                "field_id": 10732,
+                "name": "Reason if funds will not come back",
+                "FieldName": "Act_ex2_83",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Activity",
+                "field_id": 10733,
+                "name": "Is Aadhar Card updated for all members in the Group ",
+                "FieldName": "Act_ex2_84",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Activity",
+                "field_id": 10735,
+                "name": "Reason for SA/SB Attrition",
+                "FieldName": "Act_ex2_86",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Activity",
+                "field_id": 10736,
+                "name": "When will the funds come back 1",
+                "FieldName": "Act_ex2_87",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Activity",
+                "field_id": 10738,
+                "name": "Specify Inflow Expected 1 ",
+                "FieldName": "Act_ex2_89",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Activity",
+                "field_id": 10740,
+                "name": "Reason if funds will not come back 1",
+                "FieldName": "Act_ex2_91",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Activity",
+                "field_id": 10742,
+                "name": "Please mention the Cust IDs with whom discussion is done (separated by commas)",
+                "FieldName": "Act_ex2_93",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Activity",
+                "field_id": 10853,
+                "name": "Reason if Re-KYC not updated",
+                "FieldName": "Act_ex1_65",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Activity",
+                "field_id": 10854,
+                "name": "Reason if PAN Card not updated",
+                "FieldName": "Act_ex1_66",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Activity",
+                "field_id": 10855,
+                "name": "Reason if Mobile No / Email ID not updated",
+                "FieldName": "Act_ex1_67",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Activity",
+                "field_id": 10856,
+                "name": "Customer ID 1:",
+                "FieldName": "Act_ex2_42",
+                "field_type": "Number"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Activity",
+                "field_id": 10857,
+                "name": "Reason for Attrition 1",
+                "FieldName": "Act_ex3_38",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Activity",
+                "field_id": 10858,
+                "name": "Expected Funds 1",
+                "FieldName": "Act_ex3_45",
+                "field_type": "Number"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Activity",
+                "field_id": 10859,
+                "name": "Timeline 1",
+                "FieldName": "Act_ex3_46",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Activity",
+                "field_id": 10860,
+                "name": "Customer ID 2:",
+                "FieldName": "Act_ex3_47",
+                "field_type": "Number"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Activity",
+                "field_id": 10861,
+                "name": "Reason for Attrition 2",
+                "FieldName": "Act_ex3_56",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Activity",
+                "field_id": 10862,
+                "name": "Expected Funds 2",
+                "FieldName": "Act_ex3_57",
+                "field_type": "Number"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Activity",
+                "field_id": 10863,
+                "name": "Timeline 2",
+                "FieldName": "Act_ex3_58",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Activity",
+                "field_id": 10864,
+                "name": "Customer ID 3:",
+                "FieldName": "Act_ex3_59",
+                "field_type": "Number"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Activity",
+                "field_id": 10865,
+                "name": "Reason for Attrition 3",
+                "FieldName": "Act_ex3_60",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Activity",
+                "field_id": 10866,
+                "name": "Expected Funds 3",
+                "FieldName": "Act_ex3_61",
+                "field_type": "Number"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Activity",
+                "field_id": 10867,
+                "name": "Timeline 3",
+                "FieldName": "Act_ex3_62",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Activity",
+                "field_id": 10787,
+                "name": "Market Campaign 1",
+                "FieldName": "Act_ex3_43",
+                "field_type": "Lookup"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Activity",
+                "field_id": 10744,
+                "name": "If Marketing Campaign Available to Customer",
+                "FieldName": "Act_ex2_95",
+                "field_type": "Lookup"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Activity",
+                "field_id": 10746,
+                "name": "Is the campaign relevant to the customer (If relevant then lead no.) 1",
+                "FieldName": "Act_ex2_97",
+                "field_type": "Lookup"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Activity",
+                "field_id": 10749,
+                "name": "Reasons for not interested in Product Campaign 1",
+                "FieldName": "Act_ex2_100",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Activity",
+                "field_id": 10739,
+                "name": "Reason for customer not interested",
+                "FieldName": "Act_ex2_90",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Activity",
+                "field_id": 10747,
+                "name": "If product is relevant and lead not generated why 1",
+                "FieldName": "Act_ex2_98",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Activity",
+                "field_id": 10788,
+                "name": "Market Campaign 2",
+                "FieldName": "Act_ex3_44",
+                "field_type": "Lookup"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Activity",
+                "field_id": 10751,
+                "name": "If Marketing Campaign Available to Customer",
+                "FieldName": "Act_ex3_2",
+                "field_type": "Lookup"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Activity",
+                "field_id": 10753,
+                "name": "Is the campaign relevant to the customer (If relevant then lead no.) 2",
+                "FieldName": "Act_ex3_4",
+                "field_type": "Lookup"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Activity",
+                "field_id": 10757,
+                "name": "Reasons for not interested in Product Campaign 2",
+                "FieldName": "Act_ex3_8",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Activity",
+                "field_id": 10750,
+                "name": "Reason for customer not interested",
+                "FieldName": "Act_ex3_1",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Activity",
+                "field_id": 10755,
+                "name": "If product is relevant and lead not generated why 2",
+                "FieldName": "Act_ex3_6",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Activity",
+                "field_id": 10759,
+                "name": "Any Other Discussion",
+                "FieldName": "Act_ex3_10",
+                "field_type": "Text"
+            }
+        ]
+    },
+    {
+        "query_label": "Activity Digital Products",
+        "query_fields": [
+            {
+                "roleid": 1,
+                "object_name": "Activity",
+                "field_id": 10784,
+                "name": "Customer Already Active (Prior to RMs interaction) on which of the following digital platforms",
+                "FieldName": "Act_ex3_40",
+                "field_type": "MultiPicker"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Activity",
+                "field_id": 10725,
+                "name": "Is NB/MB Activated during the call?",
+                "FieldName": "Act_ex2_76",
+                "field_type": "Lookup"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Activity",
+                "field_id": 10727,
+                "name": "Is the FD/RD booked Online",
+                "FieldName": "Act_ex2_78",
+                "field_type": "Lookup"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Activity",
+                "field_id": 10734,
+                "name": "Reason for NB/MB not active",
+                "FieldName": "Act_ex2_85",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Activity",
+                "field_id": 10731,
+                "name": "What is the reason for not booking FDs online",
+                "FieldName": "Act_ex2_82",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Activity",
+                "field_id": 10754,
+                "name": "Is the customer aware of Smartbuy and its offers",
+                "FieldName": "Act_ex3_5",
+                "field_type": "Lookup"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Activity",
+                "field_id": 10766,
+                "name": "Is there any Bill Pay Offer of Competition which the customer is talking off",
+                "FieldName": "Act_ex3_17",
+                "field_type": "Lookup"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Activity",
+                "field_id": 10768,
+                "name": "Specifically mention the Offer",
+                "FieldName": "Act_ex3_19",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Activity",
+                "field_id": 10769,
+                "name": "Product Name",
+                "FieldName": "Act_ex3_20",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Activity",
+                "field_id": 10756,
+                "name": "Bill Pay Activated during the call",
+                "FieldName": "Act_ex3_7",
+                "field_type": "Lookup"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Activity",
+                "field_id": 10764,
+                "name": "No of SI on Bill Pay added during the call",
+                "FieldName": "Act_ex3_15",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Activity",
+                "field_id": 10762,
+                "name": "Reason for Bill Pay Not active with HDFC Bank",
+                "FieldName": "Act_ex3_13",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Activity",
+                "field_id": 10705,
+                "name": "Have Banking Transactions been activated digitally",
+                "FieldName": "Act_ex2_56",
+                "field_type": "Lookup"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Activity",
+                "field_id": 10708,
+                "name": "Is the customer interested in Shopping and E-Commerce digitally",
+                "FieldName": "Act_ex2_59",
+                "field_type": "Lookup"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Activity",
+                "field_id": 10698,
+                "name": "Reason for Banking Transactions not activated",
+                "FieldName": "Act_ex2_45",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Activity",
+                "field_id": 10713,
+                "name": "Reason for not interested in Shopping and E-Commerce ",
+                "FieldName": "Act_ex2_64",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Activity",
+                "field_id": 10710,
+                "name": "Is the customer interested in Assets/Investments digitally",
+                "FieldName": "Act_ex2_61",
+                "field_type": "Lookup"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Activity",
+                "field_id": 10715,
+                "name": "Reason for not interested in Assets/Investments digitally",
+                "FieldName": "Act_ex2_66",
+                "field_type": "Lookup"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Activity",
+                "field_id": 10741,
+                "name": "In the customer interested in Transaction Migration from Physical to Online",
+                "FieldName": "Act_ex2_92",
+                "field_type": "Lookup"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Activity",
+                "field_id": 10717,
+                "name": "Reason for not interested in transaction migration ",
+                "FieldName": "Act_ex2_68",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Activity",
+                "field_id": 10770,
+                "name": "Any feedback releated to Digital Products specifically ",
+                "FieldName": "Act_ex3_26",
+                "field_type": "Text"
+            }
+        ]
+    },
+    {
+        "query_label": "Activity Credit Card",
+        "query_fields": [
+            {
+                "roleid": 1,
+                "object_name": "Activity",
+                "field_id": 10771,
+                "name": "Credit Card sold during the call/upgraded",
+                "FieldName": "Act_ex3_27",
+                "field_type": "Lookup"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Activity",
+                "field_id": 10772,
+                "name": "Lead number for Credit Card Sold",
+                "FieldName": "Act_ex3_28",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Activity",
+                "field_id": 10774,
+                "name": "Reason for credit card not with the Bank",
+                "FieldName": "Act_ex3_30",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Activity",
+                "field_id": 10773,
+                "name": "Credit Card activated during the call",
+                "FieldName": "Act_ex3_29",
+                "field_type": "Lookup"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Activity",
+                "field_id": 10776,
+                "name": "Any feedback releated to Credit Card",
+                "FieldName": "Act_ex3_32",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Activity",
+                "field_id": 10775,
+                "name": "Reason for credit card not active with Bank",
+                "FieldName": "Act_ex3_31",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Activity",
+                "field_id": 10777,
+                "name": "Do you believe any other card can be given to the customer basis profile ? if Yes mention name",
+                "FieldName": "Act_ex3_33",
+                "field_type": "Text"
+            }
+        ]
+    },
+    {
+        "query_label": "Activity Assets",
+        "query_fields": [
+            {
+                "roleid": 1,
+                "object_name": "Activity",
+                "field_id": 10785,
+                "name": "Other Retail Assets",
+                "FieldName": "Act_ex3_41",
+                "field_type": "MultiPicker"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Activity",
+                "field_id": 10778,
+                "name": "AL",
+                "FieldName": "Act_ex3_34",
+                "field_type": "Lookup"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Activity",
+                "field_id": 10779,
+                "name": "Lead Number AL",
+                "FieldName": "Act_ex3_35",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Activity",
+                "field_id": 10780,
+                "name": "Reason for AL Not Availing from HDFC Bank",
+                "FieldName": "Act_ex3_36",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Activity",
+                "field_id": 10699,
+                "name": "Pl Or Bl",
+                "FieldName": "Act_ex2_46",
+                "field_type": "Lookup"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Activity",
+                "field_id": 10700,
+                "name": "Lead Number Bl/Pl",
+                "FieldName": "Act_ex2_47",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Activity",
+                "field_id": 10701,
+                "name": "Reason for BL/PL Not Availing from HDFC Bank",
+                "FieldName": "Act_ex2_48",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Activity",
+                "field_id": 10702,
+                "name": "Hl",
+                "FieldName": "Act_ex2_49",
+                "field_type": "Lookup"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Activity",
+                "field_id": 10703,
+                "name": "Lead Number Hl",
+                "FieldName": "Act_ex2_50",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Activity",
+                "field_id": 10704,
+                "name": "Reason for HL Not Availing from HDFC Bank",
+                "FieldName": "Act_ex2_51",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Activity",
+                "field_id": 10706,
+                "name": "Lead Number Retail Asset",
+                "FieldName": "Act_ex2_57",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Activity",
+                "field_id": 10707,
+                "name": "Reason for Retail Asset Not Availing from HDFC Bank",
+                "FieldName": "Act_ex2_58",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Activity",
+                "field_id": 10786,
+                "name": "Business Assets",
+                "FieldName": "Act_ex3_42",
+                "field_type": "MultiPicker"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Activity",
+                "field_id": 10709,
+                "name": "Lead Number Business Asset",
+                "FieldName": "Act_ex2_60",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Activity",
+                "field_id": 10711,
+                "name": "Reason for Business Asset Not Availing from HDFC Bank",
+                "FieldName": "Act_ex2_62",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Activity",
+                "field_id": 10712,
+                "name": "Any Developmental Feedback",
+                "FieldName": "Act_ex2_63",
+                "field_type": "Text"
+            }
+        ]
+    },
+    {
+        "query_label": "Activity New Pre approved Offer",
+        "query_fields": [
+            {
+                "roleid": 1,
+                "object_name": "Activity",
+                "field_id": 10714,
+                "name": "Is the new pre-approved offer commuincated to the customer",
+                "FieldName": "Act_ex2_65",
+                "field_type": "Lookup"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Activity",
+                "field_id": 10716,
+                "name": "Is customer interested and did it result in lead",
+                "FieldName": "Act_ex2_67",
+                "field_type": "Lookup"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Activity",
+                "field_id": 10720,
+                "name": "Any other Feedback on targeted Pre-Approved Offers",
+                "FieldName": "Act_ex2_71",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Activity",
+                "field_id": 10718,
+                "name": "If lead not generated why ?",
+                "FieldName": "Act_ex2_69",
+                "field_type": "Text"
+            }
+        ]
+    },
+    {
+        "query_label": "Activity Investment Products",
+        "query_fields": [
+            {
+                "roleid": 1,
+                "object_name": "Activity",
+                "field_id": 10722,
+                "name": "Has Insurance been pitched",
+                "FieldName": "Act_ex2_73",
+                "field_type": "Lookup"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Activity",
+                "field_id": 10723,
+                "name": "Has MF/Other investment been pitched",
+                "FieldName": "Act_ex2_74",
+                "field_type": "Lookup"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Activity",
+                "field_id": 10724,
+                "name": "Has HSL been pitched?",
+                "FieldName": "Act_ex2_75",
+                "field_type": "Lookup"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Activity",
+                "field_id": 10726,
+                "name": "Reason for HSL not availaing from HDFC Bank",
+                "FieldName": "Act_ex2_77",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Activity",
+                "field_id": 10748,
+                "name": "Is customer is of trading type or long term investors",
+                "FieldName": "Act_ex2_99",
+                "field_type": "Lookup"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Activity",
+                "field_id": 10796,
+                "name": "Does customer or his/her your family member invest in equity or related products through any other broker ",
+                "FieldName": "Act_ex3_50",
+                "field_type": "Lookup"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Activity",
+                "field_id": 10763,
+                "name": "% of investment through HDFC Securities (Field in %)",
+                "FieldName": "Act_ex3_14",
+                "field_type": "Number"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Activity",
+                "field_id": 10765,
+                "name": "Name of the broker",
+                "FieldName": "Act_ex3_16",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Activity",
+                "field_id": 10719,
+                "name": "Volume of transactions in a year",
+                "FieldName": "Act_ex2_70",
+                "field_type": "Text"
+            }
+        ]
+    },
+    {
+        "query_label": "Activity CASA Compliance",
+        "query_fields": [
+            {
+                "roleid": 1,
+                "object_name": "Activity",
+                "field_id": 10728,
+                "name": "Reason for CA Attrition",
+                "FieldName": "Act_ex2_79",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Activity",
+                "field_id": 10729,
+                "name": "When will the funds come back",
+                "FieldName": "Act_ex2_80",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Activity",
+                "field_id": 10730,
+                "name": "Specify Inflow Expected",
+                "FieldName": "Act_ex2_81",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Activity",
+                "field_id": 10732,
+                "name": "Reason if funds will not come back",
+                "FieldName": "Act_ex2_83",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Activity",
+                "field_id": 10733,
+                "name": "Is Aadhar Card updated for all members in the Group ",
+                "FieldName": "Act_ex2_84",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Activity",
+                "field_id": 10735,
+                "name": "Reason for SA/SB Attrition",
+                "FieldName": "Act_ex2_86",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Activity",
+                "field_id": 10736,
+                "name": "When will the funds come back 1",
+                "FieldName": "Act_ex2_87",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Activity",
+                "field_id": 10738,
+                "name": "Specify Inflow Expected 1 ",
+                "FieldName": "Act_ex2_89",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Activity",
+                "field_id": 10740,
+                "name": "Reason if funds will not come back 1",
+                "FieldName": "Act_ex2_91",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Activity",
+                "field_id": 10742,
+                "name": "Please mention the Cust IDs with whom discussion is done (separated by commas)",
+                "FieldName": "Act_ex2_93",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Activity",
+                "field_id": 10853,
+                "name": "Reason if Re-KYC not updated",
+                "FieldName": "Act_ex1_65",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Activity",
+                "field_id": 10854,
+                "name": "Reason if PAN Card not updated",
+                "FieldName": "Act_ex1_66",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Activity",
+                "field_id": 10855,
+                "name": "Reason if Mobile No / Email ID not updated",
+                "FieldName": "Act_ex1_67",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Activity",
+                "field_id": 10856,
+                "name": "Customer ID 1:",
+                "FieldName": "Act_ex2_42",
+                "field_type": "Number"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Activity",
+                "field_id": 10857,
+                "name": "Reason for Attrition 1",
+                "FieldName": "Act_ex3_38",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Activity",
+                "field_id": 10858,
+                "name": "Expected Funds 1",
+                "FieldName": "Act_ex3_45",
+                "field_type": "Number"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Activity",
+                "field_id": 10859,
+                "name": "Timeline 1",
+                "FieldName": "Act_ex3_46",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Activity",
+                "field_id": 10860,
+                "name": "Customer ID 2:",
+                "FieldName": "Act_ex3_47",
+                "field_type": "Number"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Activity",
+                "field_id": 10861,
+                "name": "Reason for Attrition 2",
+                "FieldName": "Act_ex3_56",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Activity",
+                "field_id": 10862,
+                "name": "Expected Funds 2",
+                "FieldName": "Act_ex3_57",
+                "field_type": "Number"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Activity",
+                "field_id": 10863,
+                "name": "Timeline 2",
+                "FieldName": "Act_ex3_58",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Activity",
+                "field_id": 10864,
+                "name": "Customer ID 3:",
+                "FieldName": "Act_ex3_59",
+                "field_type": "Number"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Activity",
+                "field_id": 10865,
+                "name": "Reason for Attrition 3",
+                "FieldName": "Act_ex3_60",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Activity",
+                "field_id": 10866,
+                "name": "Expected Funds 3",
+                "FieldName": "Act_ex3_61",
+                "field_type": "Number"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Activity",
+                "field_id": 10867,
+                "name": "Timeline 3",
+                "FieldName": "Act_ex3_62",
+                "field_type": "Text"
+            }
+        ]
+    },
+    {
+        "query_label": "Activity Market Campaign 1",
+        "query_fields": [
+            {
+                "roleid": 1,
+                "object_name": "Activity",
+                "field_id": 10787,
+                "name": "Market Campaign 1",
+                "FieldName": "Act_ex3_43",
+                "field_type": "Lookup"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Activity",
+                "field_id": 10744,
+                "name": "If Marketing Campaign Available to Customer",
+                "FieldName": "Act_ex2_95",
+                "field_type": "Lookup"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Activity",
+                "field_id": 10746,
+                "name": "Is the campaign relevant to the customer (If relevant then lead no.) 1",
+                "FieldName": "Act_ex2_97",
+                "field_type": "Lookup"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Activity",
+                "field_id": 10749,
+                "name": "Reasons for not interested in Product Campaign 1",
+                "FieldName": "Act_ex2_100",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Activity",
+                "field_id": 10739,
+                "name": "Reason for customer not interested",
+                "FieldName": "Act_ex2_90",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Activity",
+                "field_id": 10747,
+                "name": "If product is relevant and lead not generated why 1",
+                "FieldName": "Act_ex2_98",
+                "field_type": "Text"
+            }
+        ]
+    },
+    {
+        "query_label": "Activity Market Campaign 2",
+        "query_fields": [
+            {
+                "roleid": 1,
+                "object_name": "Activity",
+                "field_id": 10788,
+                "name": "Market Campaign 2",
+                "FieldName": "Act_ex3_44",
+                "field_type": "Lookup"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Activity",
+                "field_id": 10751,
+                "name": "If Marketing Campaign Available to Customer",
+                "FieldName": "Act_ex3_2",
+                "field_type": "Lookup"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Activity",
+                "field_id": 10753,
+                "name": "Is the campaign relevant to the customer (If relevant then lead no.) 2",
+                "FieldName": "Act_ex3_4",
+                "field_type": "Lookup"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Activity",
+                "field_id": 10757,
+                "name": "Reasons for not interested in Product Campaign 2",
+                "FieldName": "Act_ex3_8",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Activity",
+                "field_id": 10750,
+                "name": "Reason for customer not interested",
+                "FieldName": "Act_ex3_1",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Activity",
+                "field_id": 10755,
+                "name": "If product is relevant and lead not generated why 2",
+                "FieldName": "Act_ex3_6",
+                "field_type": "Text"
+            }
+        ]
+    },
+    {
+        "query_label": "Activity Any Other Discussion",
+        "query_fields": [
+            {
+                "roleid": 1,
+                "object_name": "Activity",
+                "field_id": 10759,
+                "name": "Any Other Discussion",
+                "FieldName": "Act_ex3_10",
+                "field_type": "Text"
+            }
+        ]
+    }
+]

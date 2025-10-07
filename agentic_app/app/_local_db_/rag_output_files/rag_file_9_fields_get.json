@@ -1,0 +1,2602 @@
+[
+    {
+        "query": "Show my  Case Customer City ",
+        "meta_data": {
+            "object_name": "Case",
+            "role_id": 1,
+            "intent": "GET",
+            "output_format": "DETAIL",
+            "data_fields": [
+                {
+                    "roleid": 1,
+                    "object_name": "Case",
+                    "field_id": 1303,
+                    "name": "Customer City",
+                    "FieldName": "Cas_ex1_36",
+                    "field_type": "MultiPicker"
+                }
+            ],
+            "filters": [],
+            "limit": "1",
+            "order": {
+                "field": {},
+                "direction": "ASC"
+            },
+            "groupBy": []
+        }
+    },
+    {
+        "query": "Show my  Case State where account ",
+        "meta_data": {
+            "object_name": "Case",
+            "role_id": 1,
+            "intent": "GET",
+            "output_format": "DETAIL",
+            "data_fields": [
+                {
+                    "roleid": 1,
+                    "object_name": "Case",
+                    "field_id": 11840,
+                    "name": "State where account",
+                    "FieldName": "Cas_ex4_87",
+                    "field_type": "Lookup"
+                }
+            ],
+            "filters": [],
+            "limit": "1",
+            "order": {
+                "field": {},
+                "direction": "ASC"
+            },
+            "groupBy": []
+        }
+    },
+    {
+        "query": "Show my  Case Source of Information ",
+        "meta_data": {
+            "object_name": "Case",
+            "role_id": 1,
+            "intent": "GET",
+            "output_format": "DETAIL",
+            "data_fields": [
+                {
+                    "roleid": 1,
+                    "object_name": "Case",
+                    "field_id": 10005830,
+                    "name": "Source of Information",
+                    "FieldName": "Origin",
+                    "field_type": "Text"
+                }
+            ],
+            "filters": [],
+            "limit": "1",
+            "order": {
+                "field": {},
+                "direction": "ASC"
+            },
+            "groupBy": []
+        }
+    },
+    {
+        "query": "Show my  Case Service Type ",
+        "meta_data": {
+            "object_name": "Case",
+            "role_id": 1,
+            "intent": "GET",
+            "output_format": "DETAIL",
+            "data_fields": [
+                {
+                    "roleid": 1,
+                    "object_name": "Case",
+                    "field_id": 10005908,
+                    "name": "Service Type",
+                    "FieldName": "TypeName",
+                    "field_type": "Text"
+                }
+            ],
+            "filters": [],
+            "limit": "1",
+            "order": {
+                "field": {},
+                "direction": "ASC"
+            },
+            "groupBy": []
+        }
+    },
+    {
+        "query": "Show my  Case Priority ",
+        "meta_data": {
+            "object_name": "Case",
+            "role_id": 1,
+            "intent": "GET",
+            "output_format": "DETAIL",
+            "data_fields": [
+                {
+                    "roleid": 1,
+                    "object_name": "Case",
+                    "field_id": 1322,
+                    "name": "Priority",
+                    "FieldName": "Cas_ex1_54",
+                    "field_type": "Lookup"
+                }
+            ],
+            "filters": [],
+            "limit": "1",
+            "order": {
+                "field": {},
+                "direction": "ASC"
+            },
+            "groupBy": []
+        }
+    },
+    {
+        "query": "Show my  Case Logging Branch Name ",
+        "meta_data": {
+            "object_name": "Case",
+            "role_id": 1,
+            "intent": "GET",
+            "output_format": "DETAIL",
+            "data_fields": [
+                {
+                    "roleid": 1,
+                    "object_name": "Case",
+                    "field_id": 1321,
+                    "name": "Logging Branch Name",
+                    "FieldName": "Cas_ex1_53",
+                    "field_type": "Lookup"
+                }
+            ],
+            "filters": [],
+            "limit": "1",
+            "order": {
+                "field": {},
+                "direction": "ASC"
+            },
+            "groupBy": []
+        }
+    },
+    {
+        "query": "Show my  Case Logging Branch Code ",
+        "meta_data": {
+            "object_name": "Case",
+            "role_id": 1,
+            "intent": "GET",
+            "output_format": "DETAIL",
+            "data_fields": [
+                {
+                    "roleid": 1,
+                    "object_name": "Case",
+                    "field_id": 1299,
+                    "name": "Logging Branch Code",
+                    "FieldName": "Cas_ex1_32",
+                    "field_type": "Text"
+                }
+            ],
+            "filters": [],
+            "limit": "1",
+            "order": {
+                "field": {},
+                "direction": "ASC"
+            },
+            "groupBy": []
+        }
+    },
+    {
+        "query": "Show my  Case Logging Classification Unit ",
+        "meta_data": {
+            "object_name": "Case",
+            "role_id": 1,
+            "intent": "GET",
+            "output_format": "DETAIL",
+            "data_fields": [
+                {
+                    "roleid": 1,
+                    "object_name": "Case",
+                    "field_id": 1323,
+                    "name": "Logging Classification Unit",
+                    "FieldName": "Cas_ex1_55",
+                    "field_type": "LookupWithId"
+                }
+            ],
+            "filters": [],
+            "limit": "1",
+            "order": {
+                "field": {},
+                "direction": "ASC"
+            },
+            "groupBy": []
+        }
+    },
+    {
+        "query": "Show my  Case Acknowlegement Sent ",
+        "meta_data": {
+            "object_name": "Case",
+            "role_id": 1,
+            "intent": "GET",
+            "output_format": "DETAIL",
+            "data_fields": [
+                {
+                    "roleid": 1,
+                    "object_name": "Case",
+                    "field_id": 1288,
+                    "name": "Acknowlegement Sent",
+                    "FieldName": "Cas_ex1_21",
+                    "field_type": "Lookup"
+                }
+            ],
+            "filters": [],
+            "limit": "1",
+            "order": {
+                "field": {},
+                "direction": "ASC"
+            },
+            "groupBy": []
+        }
+    },
+    {
+        "query": "Show my  Case Reported On ",
+        "meta_data": {
+            "object_name": "Case",
+            "role_id": 1,
+            "intent": "GET",
+            "output_format": "DETAIL",
+            "data_fields": [
+                {
+                    "roleid": 1,
+                    "object_name": "Case",
+                    "field_id": 10005872,
+                    "name": "Reported On",
+                    "FieldName": "ReportedOn",
+                    "field_type": "DateTime"
+                }
+            ],
+            "filters": [],
+            "limit": "1",
+            "order": {
+                "field": {},
+                "direction": "ASC"
+            },
+            "groupBy": []
+        }
+    },
+    {
+        "query": "Show my  Case PR Classification Unit ",
+        "meta_data": {
+            "object_name": "Case",
+            "role_id": 1,
+            "intent": "GET",
+            "output_format": "DETAIL",
+            "data_fields": [
+                {
+                    "roleid": 1,
+                    "object_name": "Case",
+                    "field_id": 10005769,
+                    "name": "PR Classification Unit",
+                    "FieldName": "Category",
+                    "field_type": "Text"
+                }
+            ],
+            "filters": [],
+            "limit": "1",
+            "order": {
+                "field": {},
+                "direction": "ASC"
+            },
+            "groupBy": []
+        }
+    },
+    {
+        "query": "Show my  Case Proposed Resolver ",
+        "meta_data": {
+            "object_name": "Case",
+            "role_id": 1,
+            "intent": "GET",
+            "output_format": "DETAIL",
+            "data_fields": [
+                {
+                    "roleid": 1,
+                    "object_name": "Case",
+                    "field_id": 10005782,
+                    "name": "Proposed Resolver",
+                    "FieldName": "CurrentOwner",
+                    "field_type": "Text"
+                }
+            ],
+            "filters": [],
+            "limit": "1",
+            "order": {
+                "field": {},
+                "direction": "ASC"
+            },
+            "groupBy": []
+        }
+    },
+    {
+        "query": "Show my  Case PR Emp Code ",
+        "meta_data": {
+            "object_name": "Case",
+            "role_id": 1,
+            "intent": "GET",
+            "output_format": "DETAIL",
+            "data_fields": [
+                {
+                    "roleid": 1,
+                    "object_name": "Case",
+                    "field_id": 13191,
+                    "name": "PR Emp Code",
+                    "FieldName": "Cas_ex1_132",
+                    "field_type": "Text"
+                }
+            ],
+            "filters": [],
+            "limit": "1",
+            "order": {
+                "field": {},
+                "direction": "ASC"
+            },
+            "groupBy": []
+        }
+    },
+    {
+        "query": "Show my  Case PR Branch Name ",
+        "meta_data": {
+            "object_name": "Case",
+            "role_id": 1,
+            "intent": "GET",
+            "output_format": "DETAIL",
+            "data_fields": [
+                {
+                    "roleid": 1,
+                    "object_name": "Case",
+                    "field_id": 10005904,
+                    "name": "PR Branch Name",
+                    "FieldName": "TerritoryName",
+                    "field_type": "Text"
+                }
+            ],
+            "filters": [],
+            "limit": "1",
+            "order": {
+                "field": {},
+                "direction": "ASC"
+            },
+            "groupBy": []
+        }
+    },
+    {
+        "query": "Show my  Case PR Branch Code ",
+        "meta_data": {
+            "object_name": "Case",
+            "role_id": 1,
+            "intent": "GET",
+            "output_format": "DETAIL",
+            "data_fields": [
+                {
+                    "roleid": 1,
+                    "object_name": "Case",
+                    "field_id": 1300,
+                    "name": "PR Branch Code",
+                    "FieldName": "Cas_ex1_33",
+                    "field_type": "Text"
+                }
+            ],
+            "filters": [],
+            "limit": "1",
+            "order": {
+                "field": {},
+                "direction": "ASC"
+            },
+            "groupBy": []
+        }
+    },
+    {
+        "query": "Show my  Case PR Category ",
+        "meta_data": {
+            "object_name": "Case",
+            "role_id": 1,
+            "intent": "GET",
+            "output_format": "DETAIL",
+            "data_fields": [
+                {
+                    "roleid": 1,
+                    "object_name": "Case",
+                    "field_id": 10005897,
+                    "name": "PR Category",
+                    "FieldName": "SubCategory",
+                    "field_type": "Text"
+                }
+            ],
+            "filters": [],
+            "limit": "1",
+            "order": {
+                "field": {},
+                "direction": "ASC"
+            },
+            "groupBy": []
+        }
+    },
+    {
+        "query": "Show my  Case PR Sub-Category ",
+        "meta_data": {
+            "object_name": "Case",
+            "role_id": 1,
+            "intent": "GET",
+            "output_format": "DETAIL",
+            "data_fields": [
+                {
+                    "roleid": 1,
+                    "object_name": "Case",
+                    "field_id": 10005898,
+                    "name": "PR Sub-Category",
+                    "FieldName": "SubCategory1",
+                    "field_type": "Text"
+                }
+            ],
+            "filters": [],
+            "limit": "1",
+            "order": {
+                "field": {},
+                "direction": "ASC"
+            },
+            "groupBy": []
+        }
+    },
+    {
+        "query": "Show my  Case Redirection Reason ",
+        "meta_data": {
+            "object_name": "Case",
+            "role_id": 1,
+            "intent": "GET",
+            "output_format": "DETAIL",
+            "data_fields": [
+                {
+                    "roleid": 1,
+                    "object_name": "Case",
+                    "field_id": 1324,
+                    "name": "Redirection Reason",
+                    "FieldName": "Cas_ex1_56",
+                    "field_type": "Text"
+                }
+            ],
+            "filters": [],
+            "limit": "1",
+            "order": {
+                "field": {},
+                "direction": "ASC"
+            },
+            "groupBy": []
+        }
+    },
+    {
+        "query": "Show my  Case Rejected Reason ",
+        "meta_data": {
+            "object_name": "Case",
+            "role_id": 1,
+            "intent": "GET",
+            "output_format": "DETAIL",
+            "data_fields": [
+                {
+                    "roleid": 1,
+                    "object_name": "Case",
+                    "field_id": 1335,
+                    "name": "Rejected Reason",
+                    "FieldName": "Cas_ex2_30",
+                    "field_type": "Text"
+                }
+            ],
+            "filters": [],
+            "limit": "1",
+            "order": {
+                "field": {},
+                "direction": "ASC"
+            },
+            "groupBy": []
+        }
+    },
+    {
+        "query": "Show my  Case Classification Unit  ",
+        "meta_data": {
+            "object_name": "Case",
+            "role_id": 1,
+            "intent": "GET",
+            "output_format": "DETAIL",
+            "data_fields": [
+                {
+                    "roleid": 1,
+                    "object_name": "Case",
+                    "field_id": 1343,
+                    "name": "Classification Unit ",
+                    "FieldName": "Cas_ex2_38",
+                    "field_type": "Text"
+                }
+            ],
+            "filters": [],
+            "limit": "1",
+            "order": {
+                "field": {},
+                "direction": "ASC"
+            },
+            "groupBy": []
+        }
+    },
+    {
+        "query": "Show my  Case Initial Resolver ",
+        "meta_data": {
+            "object_name": "Case",
+            "role_id": 1,
+            "intent": "GET",
+            "output_format": "DETAIL",
+            "data_fields": [
+                {
+                    "roleid": 1,
+                    "object_name": "Case",
+                    "field_id": 10005757,
+                    "name": "Initial Resolver",
+                    "FieldName": "AssignedToName",
+                    "field_type": "Text"
+                }
+            ],
+            "filters": [],
+            "limit": "1",
+            "order": {
+                "field": {},
+                "direction": "ASC"
+            },
+            "groupBy": []
+        }
+    },
+    {
+        "query": "Show my  Case IR Emp Code ",
+        "meta_data": {
+            "object_name": "Case",
+            "role_id": 1,
+            "intent": "GET",
+            "output_format": "DETAIL",
+            "data_fields": [
+                {
+                    "roleid": 1,
+                    "object_name": "Case",
+                    "field_id": 13190,
+                    "name": "IR Emp Code",
+                    "FieldName": "Cas_ex1_130",
+                    "field_type": "Text"
+                }
+            ],
+            "filters": [],
+            "limit": "1",
+            "order": {
+                "field": {},
+                "direction": "ASC"
+            },
+            "groupBy": []
+        }
+    },
+    {
+        "query": "Show my  Case Branch Name ",
+        "meta_data": {
+            "object_name": "Case",
+            "role_id": 1,
+            "intent": "GET",
+            "output_format": "DETAIL",
+            "data_fields": [
+                {
+                    "roleid": 1,
+                    "object_name": "Case",
+                    "field_id": 1320,
+                    "name": "Branch Name",
+                    "FieldName": "Cas_ex1_52",
+                    "field_type": "Lookup"
+                }
+            ],
+            "filters": [],
+            "limit": "1",
+            "order": {
+                "field": {},
+                "direction": "ASC"
+            },
+            "groupBy": []
+        }
+    },
+    {
+        "query": "Show my  Case Branch Code ",
+        "meta_data": {
+            "object_name": "Case",
+            "role_id": 1,
+            "intent": "GET",
+            "output_format": "DETAIL",
+            "data_fields": [
+                {
+                    "roleid": 1,
+                    "object_name": "Case",
+                    "field_id": 1348,
+                    "name": "Branch Code",
+                    "FieldName": "Cas_ex2_43",
+                    "field_type": "Text"
+                }
+            ],
+            "filters": [],
+            "limit": "1",
+            "order": {
+                "field": {},
+                "direction": "ASC"
+            },
+            "groupBy": []
+        }
+    },
+    {
+        "query": "Show my  Case Category ",
+        "meta_data": {
+            "object_name": "Case",
+            "role_id": 1,
+            "intent": "GET",
+            "output_format": "DETAIL",
+            "data_fields": [
+                {
+                    "roleid": 1,
+                    "object_name": "Case",
+                    "field_id": 1344,
+                    "name": "Category",
+                    "FieldName": "Cas_ex2_39",
+                    "field_type": "Text"
+                }
+            ],
+            "filters": [],
+            "limit": "1",
+            "order": {
+                "field": {},
+                "direction": "ASC"
+            },
+            "groupBy": []
+        }
+    },
+    {
+        "query": "Show my  Case Sub-Category  ",
+        "meta_data": {
+            "object_name": "Case",
+            "role_id": 1,
+            "intent": "GET",
+            "output_format": "DETAIL",
+            "data_fields": [
+                {
+                    "roleid": 1,
+                    "object_name": "Case",
+                    "field_id": 1345,
+                    "name": "Sub-Category ",
+                    "FieldName": "Cas_ex2_40",
+                    "field_type": "Text"
+                }
+            ],
+            "filters": [],
+            "limit": "1",
+            "order": {
+                "field": {},
+                "direction": "ASC"
+            },
+            "groupBy": []
+        }
+    },
+    {
+        "query": "Show my  Case Total Transaction Amount ",
+        "meta_data": {
+            "object_name": "Case",
+            "role_id": 1,
+            "intent": "GET",
+            "output_format": "DETAIL",
+            "data_fields": [
+                {
+                    "roleid": 1,
+                    "object_name": "Case",
+                    "field_id": 15763,
+                    "name": "Total Transaction Amount",
+                    "FieldName": "Cas_ex4_198",
+                    "field_type": "Decimal"
+                }
+            ],
+            "filters": [],
+            "limit": "1",
+            "order": {
+                "field": {},
+                "direction": "ASC"
+            },
+            "groupBy": []
+        }
+    },
+    {
+        "query": "Show my  Case Total Dispute Amount ",
+        "meta_data": {
+            "object_name": "Case",
+            "role_id": 1,
+            "intent": "GET",
+            "output_format": "DETAIL",
+            "data_fields": [
+                {
+                    "roleid": 1,
+                    "object_name": "Case",
+                    "field_id": 15762,
+                    "name": "Total Dispute Amount",
+                    "FieldName": "Cas_ex4_197",
+                    "field_type": "Decimal"
+                }
+            ],
+            "filters": [],
+            "limit": "1",
+            "order": {
+                "field": {},
+                "direction": "ASC"
+            },
+            "groupBy": []
+        }
+    },
+    {
+        "query": "Show my  Case Nature of Case ",
+        "meta_data": {
+            "object_name": "Case",
+            "role_id": 1,
+            "intent": "GET",
+            "output_format": "DETAIL",
+            "data_fields": [
+                {
+                    "roleid": 1,
+                    "object_name": "Case",
+                    "field_id": 1325,
+                    "name": "Nature of Case",
+                    "FieldName": "Cas_ex1_57",
+                    "field_type": "Comments"
+                }
+            ],
+            "filters": [],
+            "limit": "1",
+            "order": {
+                "field": {},
+                "direction": "ASC"
+            },
+            "groupBy": []
+        }
+    },
+    {
+        "query": "Show my  Case Detailed Suggestion ",
+        "meta_data": {
+            "object_name": "Case",
+            "role_id": 1,
+            "intent": "GET",
+            "output_format": "DETAIL",
+            "data_fields": [
+                {
+                    "roleid": 1,
+                    "object_name": "Case",
+                    "field_id": 1326,
+                    "name": "Detailed Suggestion",
+                    "FieldName": "Cas_ex2_21",
+                    "field_type": "Comments"
+                }
+            ],
+            "filters": [],
+            "limit": "1",
+            "order": {
+                "field": {},
+                "direction": "ASC"
+            },
+            "groupBy": []
+        }
+    },
+    {
+        "query": "Show my  Case Additional Information ",
+        "meta_data": {
+            "object_name": "Case",
+            "role_id": 1,
+            "intent": "GET",
+            "output_format": "DETAIL",
+            "data_fields": [
+                {
+                    "roleid": 1,
+                    "object_name": "Case",
+                    "field_id": 10005788,
+                    "name": "Additional Information",
+                    "FieldName": "Details",
+                    "field_type": "Comments"
+                }
+            ],
+            "filters": [],
+            "limit": "1",
+            "order": {
+                "field": {},
+                "direction": "ASC"
+            },
+            "groupBy": []
+        }
+    },
+    {
+        "query": "Show my  Case Reason for Case Pending ",
+        "meta_data": {
+            "object_name": "Case",
+            "role_id": 1,
+            "intent": "GET",
+            "output_format": "DETAIL",
+            "data_fields": [
+                {
+                    "roleid": 1,
+                    "object_name": "Case",
+                    "field_id": 1315,
+                    "name": "Reason for Case Pending",
+                    "FieldName": "Cas_ex1_48",
+                    "field_type": "Lookup"
+                }
+            ],
+            "filters": [],
+            "limit": "1",
+            "order": {
+                "field": {},
+                "direction": "ASC"
+            },
+            "groupBy": []
+        }
+    },
+    {
+        "query": "Show my  Case Dependency ",
+        "meta_data": {
+            "object_name": "Case",
+            "role_id": 1,
+            "intent": "GET",
+            "output_format": "DETAIL",
+            "data_fields": [
+                {
+                    "roleid": 1,
+                    "object_name": "Case",
+                    "field_id": 1314,
+                    "name": "Dependency",
+                    "FieldName": "Cas_ex1_47",
+                    "field_type": "Lookup"
+                }
+            ],
+            "filters": [],
+            "limit": "1",
+            "order": {
+                "field": {},
+                "direction": "ASC"
+            },
+            "groupBy": []
+        }
+    },
+    {
+        "query": "Show my  Case DenialProcess follow ",
+        "meta_data": {
+            "object_name": "Case",
+            "role_id": 1,
+            "intent": "GET",
+            "output_format": "DETAIL",
+            "data_fields": [
+                {
+                    "roleid": 1,
+                    "object_name": "Case",
+                    "field_id": 11095,
+                    "name": "DenialProcess follow",
+                    "FieldName": "Cas_ex4_80",
+                    "field_type": "Lookup"
+                }
+            ],
+            "filters": [],
+            "limit": "1",
+            "order": {
+                "field": {},
+                "direction": "ASC"
+            },
+            "groupBy": []
+        }
+    },
+    {
+        "query": "Show my  Case Denial Type Flag ",
+        "meta_data": {
+            "object_name": "Case",
+            "role_id": 1,
+            "intent": "GET",
+            "output_format": "DETAIL",
+            "data_fields": [
+                {
+                    "roleid": 1,
+                    "object_name": "Case",
+                    "field_id": 12477,
+                    "name": "Denial Type Flag",
+                    "FieldName": "Cas_ex5_36",
+                    "field_type": "Lookup"
+                }
+            ],
+            "filters": [],
+            "limit": "1",
+            "order": {
+                "field": {},
+                "direction": "ASC"
+            },
+            "groupBy": []
+        }
+    },
+    {
+        "query": "Show my  Case Cause ",
+        "meta_data": {
+            "object_name": "Case",
+            "role_id": 1,
+            "intent": "GET",
+            "output_format": "DETAIL",
+            "data_fields": [
+                {
+                    "roleid": 1,
+                    "object_name": "Case",
+                    "field_id": 1305,
+                    "name": "Cause",
+                    "FieldName": "Cas_ex1_38",
+                    "field_type": "Comments"
+                }
+            ],
+            "filters": [],
+            "limit": "1",
+            "order": {
+                "field": {},
+                "direction": "ASC"
+            },
+            "groupBy": []
+        }
+    },
+    {
+        "query": "Show my  Case Solution ",
+        "meta_data": {
+            "object_name": "Case",
+            "role_id": 1,
+            "intent": "GET",
+            "output_format": "DETAIL",
+            "data_fields": [
+                {
+                    "roleid": 1,
+                    "object_name": "Case",
+                    "field_id": 1306,
+                    "name": "Solution",
+                    "FieldName": "Cas_ex1_39",
+                    "field_type": "Comments"
+                }
+            ],
+            "filters": [],
+            "limit": "1",
+            "order": {
+                "field": {},
+                "direction": "ASC"
+            },
+            "groupBy": []
+        }
+    },
+    {
+        "query": "Show my  Case Holding Response Sent ",
+        "meta_data": {
+            "object_name": "Case",
+            "role_id": 1,
+            "intent": "GET",
+            "output_format": "DETAIL",
+            "data_fields": [
+                {
+                    "roleid": 1,
+                    "object_name": "Case",
+                    "field_id": 1307,
+                    "name": "Holding Response Sent",
+                    "FieldName": "Cas_ex1_40",
+                    "field_type": "Lookup"
+                }
+            ],
+            "filters": [],
+            "limit": "1",
+            "order": {
+                "field": {},
+                "direction": "ASC"
+            },
+            "groupBy": []
+        }
+    },
+    {
+        "query": "Show my  Case Holding Response Sent Date ",
+        "meta_data": {
+            "object_name": "Case",
+            "role_id": 1,
+            "intent": "GET",
+            "output_format": "DETAIL",
+            "data_fields": [
+                {
+                    "roleid": 1,
+                    "object_name": "Case",
+                    "field_id": 1304,
+                    "name": "Holding Response Sent Date",
+                    "FieldName": "Cas_ex1_37",
+                    "field_type": "Date"
+                }
+            ],
+            "filters": [],
+            "limit": "1",
+            "order": {
+                "field": {},
+                "direction": "ASC"
+            },
+            "groupBy": []
+        }
+    },
+    {
+        "query": "Show my  Case Resolved Reason ",
+        "meta_data": {
+            "object_name": "Case",
+            "role_id": 1,
+            "intent": "GET",
+            "output_format": "DETAIL",
+            "data_fields": [
+                {
+                    "roleid": 1,
+                    "object_name": "Case",
+                    "field_id": 1296,
+                    "name": "Resolved Reason",
+                    "FieldName": "Cas_ex1_29",
+                    "field_type": "Comments"
+                }
+            ],
+            "filters": [],
+            "limit": "1",
+            "order": {
+                "field": {},
+                "direction": "ASC"
+            },
+            "groupBy": []
+        }
+    },
+    {
+        "query": "Show my  Case Contacted Customer ",
+        "meta_data": {
+            "object_name": "Case",
+            "role_id": 1,
+            "intent": "GET",
+            "output_format": "DETAIL",
+            "data_fields": [
+                {
+                    "roleid": 1,
+                    "object_name": "Case",
+                    "field_id": 1309,
+                    "name": "Contacted Customer",
+                    "FieldName": "Cas_ex1_42",
+                    "field_type": "Lookup"
+                }
+            ],
+            "filters": [],
+            "limit": "1",
+            "order": {
+                "field": {},
+                "direction": "ASC"
+            },
+            "groupBy": []
+        }
+    },
+    {
+        "query": "Show my  Case Contact Method ",
+        "meta_data": {
+            "object_name": "Case",
+            "role_id": 1,
+            "intent": "GET",
+            "output_format": "DETAIL",
+            "data_fields": [
+                {
+                    "roleid": 1,
+                    "object_name": "Case",
+                    "field_id": 1311,
+                    "name": "Contact Method",
+                    "FieldName": "Cas_ex1_44",
+                    "field_type": "Lookup"
+                }
+            ],
+            "filters": [],
+            "limit": "1",
+            "order": {
+                "field": {},
+                "direction": "ASC"
+            },
+            "groupBy": []
+        }
+    },
+    {
+        "query": "Show my  Case Customer Contact Number ",
+        "meta_data": {
+            "object_name": "Case",
+            "role_id": 1,
+            "intent": "GET",
+            "output_format": "DETAIL",
+            "data_fields": [
+                {
+                    "roleid": 1,
+                    "object_name": "Case",
+                    "field_id": 1301,
+                    "name": "Customer Contact Number",
+                    "FieldName": "Cas_ex1_34",
+                    "field_type": "Phone"
+                }
+            ],
+            "filters": [],
+            "limit": "1",
+            "order": {
+                "field": {},
+                "direction": "ASC"
+            },
+            "groupBy": []
+        }
+    },
+    {
+        "query": "Show my  Case Date Time when Contacted ",
+        "meta_data": {
+            "object_name": "Case",
+            "role_id": 1,
+            "intent": "GET",
+            "output_format": "DETAIL",
+            "data_fields": [
+                {
+                    "roleid": 1,
+                    "object_name": "Case",
+                    "field_id": 1302,
+                    "name": "Date Time when Contacted",
+                    "FieldName": "Cas_ex1_35",
+                    "field_type": "DateTime"
+                }
+            ],
+            "filters": [],
+            "limit": "1",
+            "order": {
+                "field": {},
+                "direction": "ASC"
+            },
+            "groupBy": []
+        }
+    },
+    {
+        "query": "Show my  Case Contact Officer Name ",
+        "meta_data": {
+            "object_name": "Case",
+            "role_id": 1,
+            "intent": "GET",
+            "output_format": "DETAIL",
+            "data_fields": [
+                {
+                    "roleid": 1,
+                    "object_name": "Case",
+                    "field_id": 1310,
+                    "name": "Contact Officer Name",
+                    "FieldName": "Cas_ex1_43",
+                    "field_type": "Text"
+                }
+            ],
+            "filters": [],
+            "limit": "1",
+            "order": {
+                "field": {},
+                "direction": "ASC"
+            },
+            "groupBy": []
+        }
+    },
+    {
+        "query": "Show my  Case Contact Officer Phone ",
+        "meta_data": {
+            "object_name": "Case",
+            "role_id": 1,
+            "intent": "GET",
+            "output_format": "DETAIL",
+            "data_fields": [
+                {
+                    "roleid": 1,
+                    "object_name": "Case",
+                    "field_id": 1350,
+                    "name": "Contact Officer Phone",
+                    "FieldName": "Cas_ex1_58",
+                    "field_type": "Phone"
+                }
+            ],
+            "filters": [],
+            "limit": "1",
+            "order": {
+                "field": {},
+                "direction": "ASC"
+            },
+            "groupBy": []
+        }
+    },
+    {
+        "query": "Show my  Case Information for Closure ",
+        "meta_data": {
+            "object_name": "Case",
+            "role_id": 1,
+            "intent": "GET",
+            "output_format": "DETAIL",
+            "data_fields": [
+                {
+                    "roleid": 1,
+                    "object_name": "Case",
+                    "field_id": 5016,
+                    "name": "Information for Closure",
+                    "FieldName": "Cas_ex3_7",
+                    "field_type": "LookupWithId"
+                }
+            ],
+            "filters": [],
+            "limit": "1",
+            "order": {
+                "field": {},
+                "direction": "ASC"
+            },
+            "groupBy": []
+        }
+    },
+    {
+        "query": "Show my  Case Closure Remarks ",
+        "meta_data": {
+            "object_name": "Case",
+            "role_id": 1,
+            "intent": "GET",
+            "output_format": "DETAIL",
+            "data_fields": [
+                {
+                    "roleid": 1,
+                    "object_name": "Case",
+                    "field_id": 1312,
+                    "name": "Closure Remarks",
+                    "FieldName": "Cas_ex1_45",
+                    "field_type": "Comments"
+                }
+            ],
+            "filters": [],
+            "limit": "1",
+            "order": {
+                "field": {},
+                "direction": "ASC"
+            },
+            "groupBy": []
+        }
+    },
+    {
+        "query": "Show my  Case Closing Date ",
+        "meta_data": {
+            "object_name": "Case",
+            "role_id": 1,
+            "intent": "GET",
+            "output_format": "DETAIL",
+            "data_fields": [
+                {
+                    "roleid": 1,
+                    "object_name": "Case",
+                    "field_id": 10005773,
+                    "name": "Closing Date",
+                    "FieldName": "CloseDate",
+                    "field_type": "DateTime"
+                }
+            ],
+            "filters": [],
+            "limit": "1",
+            "order": {
+                "field": {},
+                "direction": "ASC"
+            },
+            "groupBy": []
+        }
+    },
+    {
+        "query": "Show my  Case Error in Electronic Journal ",
+        "meta_data": {
+            "object_name": "Case",
+            "role_id": 1,
+            "intent": "GET",
+            "output_format": "DETAIL",
+            "data_fields": [
+                {
+                    "roleid": 1,
+                    "object_name": "Case",
+                    "field_id": 15772,
+                    "name": "Error in Electronic Journal",
+                    "FieldName": "Cas_ex4_134",
+                    "field_type": "Lookup"
+                }
+            ],
+            "filters": [],
+            "limit": "1",
+            "order": {
+                "field": {},
+                "direction": "ASC"
+            },
+            "groupBy": []
+        }
+    },
+    {
+        "query": "Show my  Case ATM Stand ",
+        "meta_data": {
+            "object_name": "Case",
+            "role_id": 1,
+            "intent": "GET",
+            "output_format": "DETAIL",
+            "data_fields": [
+                {
+                    "roleid": 1,
+                    "object_name": "Case",
+                    "field_id": 15773,
+                    "name": "ATM Stand",
+                    "FieldName": "Cas_ex4_69",
+                    "field_type": "Lookup"
+                }
+            ],
+            "filters": [],
+            "limit": "1",
+            "order": {
+                "field": {},
+                "direction": "ASC"
+            },
+            "groupBy": []
+        }
+    },
+    {
+        "query": "Show my  Case Amount Credited On ",
+        "meta_data": {
+            "object_name": "Case",
+            "role_id": 1,
+            "intent": "GET",
+            "output_format": "DETAIL",
+            "data_fields": [
+                {
+                    "roleid": 1,
+                    "object_name": "Case",
+                    "field_id": 15509,
+                    "name": "Amount Credited On",
+                    "FieldName": "Cas_ex4_141",
+                    "field_type": "Date"
+                }
+            ],
+            "filters": [],
+            "limit": "1",
+            "order": {
+                "field": {},
+                "direction": "ASC"
+            },
+            "groupBy": []
+        }
+    },
+    {
+        "query": "Show my  Case Penalty to be paid ",
+        "meta_data": {
+            "object_name": "Case",
+            "role_id": 1,
+            "intent": "GET",
+            "output_format": "DETAIL",
+            "data_fields": [
+                {
+                    "roleid": 1,
+                    "object_name": "Case",
+                    "field_id": 15667,
+                    "name": "Penalty to be paid",
+                    "FieldName": "Cas_ex4_192",
+                    "field_type": "Text"
+                }
+            ],
+            "filters": [],
+            "limit": "1",
+            "order": {
+                "field": {},
+                "direction": "ASC"
+            },
+            "groupBy": []
+        }
+    },
+    {
+        "query": "Show my  Case Reason for acceptance ",
+        "meta_data": {
+            "object_name": "Case",
+            "role_id": 1,
+            "intent": "GET",
+            "output_format": "DETAIL",
+            "data_fields": [
+                {
+                    "roleid": 1,
+                    "object_name": "Case",
+                    "field_id": 15774,
+                    "name": "Reason for acceptance",
+                    "FieldName": "Cas_ex4_116",
+                    "field_type": "Lookup"
+                }
+            ],
+            "filters": [],
+            "limit": "1",
+            "order": {
+                "field": {},
+                "direction": "ASC"
+            },
+            "groupBy": []
+        }
+    },
+    {
+        "query": "Show my  Case Reason for rejection ",
+        "meta_data": {
+            "object_name": "Case",
+            "role_id": 1,
+            "intent": "GET",
+            "output_format": "DETAIL",
+            "data_fields": [
+                {
+                    "roleid": 1,
+                    "object_name": "Case",
+                    "field_id": 15775,
+                    "name": "Reason for rejection",
+                    "FieldName": "Cas_ex5_69",
+                    "field_type": "Lookup"
+                }
+            ],
+            "filters": [],
+            "limit": "1",
+            "order": {
+                "field": {},
+                "direction": "ASC"
+            },
+            "groupBy": []
+        }
+    },
+    {
+        "query": "Show my  Case Penalty applicable ",
+        "meta_data": {
+            "object_name": "Case",
+            "role_id": 1,
+            "intent": "GET",
+            "output_format": "DETAIL",
+            "data_fields": [
+                {
+                    "roleid": 1,
+                    "object_name": "Case",
+                    "field_id": 15776,
+                    "name": "Penalty applicable",
+                    "FieldName": "Cas_ex5_76",
+                    "field_type": "Lookup"
+                }
+            ],
+            "filters": [],
+            "limit": "1",
+            "order": {
+                "field": {},
+                "direction": "ASC"
+            },
+            "groupBy": []
+        }
+    },
+    {
+        "query": "Show my  Case Reason for goodfaith ",
+        "meta_data": {
+            "object_name": "Case",
+            "role_id": 1,
+            "intent": "GET",
+            "output_format": "DETAIL",
+            "data_fields": [
+                {
+                    "roleid": 1,
+                    "object_name": "Case",
+                    "field_id": 15777,
+                    "name": "Reason for goodfaith",
+                    "FieldName": "cas_ex5_47",
+                    "field_type": "Lookup"
+                }
+            ],
+            "filters": [],
+            "limit": "1",
+            "order": {
+                "field": {},
+                "direction": "ASC"
+            },
+            "groupBy": []
+        }
+    },
+    {
+        "query": "Show my  Case Recoverable / Non-recoverable ",
+        "meta_data": {
+            "object_name": "Case",
+            "role_id": 1,
+            "intent": "GET",
+            "output_format": "DETAIL",
+            "data_fields": [
+                {
+                    "roleid": 1,
+                    "object_name": "Case",
+                    "field_id": 15778,
+                    "name": "Recoverable / Non-recoverable",
+                    "FieldName": "Cas_ex5_81",
+                    "field_type": "Lookup"
+                }
+            ],
+            "filters": [],
+            "limit": "1",
+            "order": {
+                "field": {},
+                "direction": "ASC"
+            },
+            "groupBy": []
+        }
+    },
+    {
+        "query": "Show my  Case Recoverable from whom ",
+        "meta_data": {
+            "object_name": "Case",
+            "role_id": 1,
+            "intent": "GET",
+            "output_format": "DETAIL",
+            "data_fields": [
+                {
+                    "roleid": 1,
+                    "object_name": "Case",
+                    "field_id": 15779,
+                    "name": "Recoverable from whom",
+                    "FieldName": "Cas_ex5_104",
+                    "field_type": "Lookup"
+                }
+            ],
+            "filters": [],
+            "limit": "1",
+            "order": {
+                "field": {},
+                "direction": "ASC"
+            },
+            "groupBy": []
+        }
+    },
+    {
+        "query": "Show my  Case Action on ",
+        "meta_data": {
+            "object_name": "Case",
+            "role_id": 1,
+            "intent": "GET",
+            "output_format": "DETAIL",
+            "data_fields": [
+                {
+                    "roleid": 1,
+                    "object_name": "Case",
+                    "field_id": 12518,
+                    "name": "Action on",
+                    "FieldName": "Cas_ex5_77",
+                    "field_type": "Lookup"
+                }
+            ],
+            "filters": [],
+            "limit": "1",
+            "order": {
+                "field": {},
+                "direction": "ASC"
+            },
+            "groupBy": []
+        }
+    },
+    {
+        "query": "Show my  Case Dispute Denial ",
+        "meta_data": {
+            "object_name": "Case",
+            "role_id": 1,
+            "intent": "GET",
+            "output_format": "DETAIL",
+            "data_fields": [
+                {
+                    "roleid": 1,
+                    "object_name": "Case",
+                    "field_id": 12479,
+                    "name": "Dispute Denial",
+                    "FieldName": "Cas_ex5_38",
+                    "field_type": "Lookup"
+                }
+            ],
+            "filters": [],
+            "limit": "1",
+            "order": {
+                "field": {},
+                "direction": "ASC"
+            },
+            "groupBy": []
+        }
+    },
+    {
+        "query": "Show my  Case Amount Initiated ",
+        "meta_data": {
+            "object_name": "Case",
+            "role_id": 1,
+            "intent": "GET",
+            "output_format": "DETAIL",
+            "data_fields": [
+                {
+                    "roleid": 1,
+                    "object_name": "Case",
+                    "field_id": 12501,
+                    "name": "Amount Initiated",
+                    "FieldName": "Cas_ex5_59",
+                    "field_type": "Decimal"
+                }
+            ],
+            "filters": [],
+            "limit": "1",
+            "order": {
+                "field": {},
+                "direction": "ASC"
+            },
+            "groupBy": []
+        }
+    },
+    {
+        "query": "Show my  Case Amount Reversed ",
+        "meta_data": {
+            "object_name": "Case",
+            "role_id": 1,
+            "intent": "GET",
+            "output_format": "DETAIL",
+            "data_fields": [
+                {
+                    "roleid": 1,
+                    "object_name": "Case",
+                    "field_id": 12502,
+                    "name": "Amount Reversed",
+                    "FieldName": "Cas_ex5_60",
+                    "field_type": "Decimal"
+                }
+            ],
+            "filters": [],
+            "limit": "1",
+            "order": {
+                "field": {},
+                "direction": "ASC"
+            },
+            "groupBy": []
+        }
+    },
+    {
+        "query": "Show my  Case Date of transaction ",
+        "meta_data": {
+            "object_name": "Case",
+            "role_id": 1,
+            "intent": "GET",
+            "output_format": "DETAIL",
+            "data_fields": [
+                {
+                    "roleid": 1,
+                    "object_name": "Case",
+                    "field_id": 11090,
+                    "name": "Date of transaction",
+                    "FieldName": "Cas_ex4_75",
+                    "field_type": "Date"
+                }
+            ],
+            "filters": [],
+            "limit": "1",
+            "order": {
+                "field": {},
+                "direction": "ASC"
+            },
+            "groupBy": []
+        }
+    },
+    {
+        "query": "Show my  Case No of Transaction ",
+        "meta_data": {
+            "object_name": "Case",
+            "role_id": 1,
+            "intent": "GET",
+            "output_format": "DETAIL",
+            "data_fields": [
+                {
+                    "roleid": 1,
+                    "object_name": "Case",
+                    "field_id": 12504,
+                    "name": "No of Transaction",
+                    "FieldName": "Cas_ex5_62",
+                    "field_type": "Number"
+                }
+            ],
+            "filters": [],
+            "limit": "1",
+            "order": {
+                "field": {},
+                "direction": "ASC"
+            },
+            "groupBy": []
+        }
+    },
+    {
+        "query": "Show my  Case Total Disputed Amt ",
+        "meta_data": {
+            "object_name": "Case",
+            "role_id": 1,
+            "intent": "GET",
+            "output_format": "DETAIL",
+            "data_fields": [
+                {
+                    "roleid": 1,
+                    "object_name": "Case",
+                    "field_id": 12505,
+                    "name": "Total Disputed Amt",
+                    "FieldName": "Cas_ex5_63",
+                    "field_type": "Number"
+                }
+            ],
+            "filters": [],
+            "limit": "1",
+            "order": {
+                "field": {},
+                "direction": "ASC"
+            },
+            "groupBy": []
+        }
+    },
+    {
+        "query": "Show my  Case Transaction SMS Logs ",
+        "meta_data": {
+            "object_name": "Case",
+            "role_id": 1,
+            "intent": "GET",
+            "output_format": "DETAIL",
+            "data_fields": [
+                {
+                    "roleid": 1,
+                    "object_name": "Case",
+                    "field_id": 12507,
+                    "name": "Transaction SMS Logs",
+                    "FieldName": "Cas_ex5_65",
+                    "field_type": "Lookup"
+                }
+            ],
+            "filters": [],
+            "limit": "1",
+            "order": {
+                "field": {},
+                "direction": "ASC"
+            },
+            "groupBy": []
+        }
+    },
+    {
+        "query": "Show my  Case OTP Logs ",
+        "meta_data": {
+            "object_name": "Case",
+            "role_id": 1,
+            "intent": "GET",
+            "output_format": "DETAIL",
+            "data_fields": [
+                {
+                    "roleid": 1,
+                    "object_name": "Case",
+                    "field_id": 12506,
+                    "name": "OTP Logs",
+                    "FieldName": "Cas_ex5_64",
+                    "field_type": "Lookup"
+                }
+            ],
+            "filters": [],
+            "limit": "1",
+            "order": {
+                "field": {},
+                "direction": "ASC"
+            },
+            "groupBy": []
+        }
+    },
+    {
+        "query": "Show my  Case IVR-OTP ",
+        "meta_data": {
+            "object_name": "Case",
+            "role_id": 1,
+            "intent": "GET",
+            "output_format": "DETAIL",
+            "data_fields": [
+                {
+                    "roleid": 1,
+                    "object_name": "Case",
+                    "field_id": 12508,
+                    "name": "IVR-OTP",
+                    "FieldName": "Cas_ex5_66",
+                    "field_type": "Lookup"
+                }
+            ],
+            "filters": [],
+            "limit": "1",
+            "order": {
+                "field": {},
+                "direction": "ASC"
+            },
+            "groupBy": []
+        }
+    },
+    {
+        "query": "Show my  Case Static Password ",
+        "meta_data": {
+            "object_name": "Case",
+            "role_id": 1,
+            "intent": "GET",
+            "output_format": "DETAIL",
+            "data_fields": [
+                {
+                    "roleid": 1,
+                    "object_name": "Case",
+                    "field_id": 12509,
+                    "name": "Static Password",
+                    "FieldName": "Cas_ex5_67",
+                    "field_type": "Lookup"
+                }
+            ],
+            "filters": [],
+            "limit": "1",
+            "order": {
+                "field": {},
+                "direction": "ASC"
+            },
+            "groupBy": []
+        }
+    },
+    {
+        "query": "Show my  Case On-us ban - PIN Authorized ",
+        "meta_data": {
+            "object_name": "Case",
+            "role_id": 1,
+            "intent": "GET",
+            "output_format": "DETAIL",
+            "data_fields": [
+                {
+                    "roleid": 1,
+                    "object_name": "Case",
+                    "field_id": 12512,
+                    "name": "On-us ban - PIN Authorized",
+                    "FieldName": "Cas_ex5_71",
+                    "field_type": "Lookup"
+                }
+            ],
+            "filters": [],
+            "limit": "1",
+            "order": {
+                "field": {},
+                "direction": "ASC"
+            },
+            "groupBy": []
+        }
+    },
+    {
+        "query": "Show my  Case PIN Authenticated ",
+        "meta_data": {
+            "object_name": "Case",
+            "role_id": 1,
+            "intent": "GET",
+            "output_format": "DETAIL",
+            "data_fields": [
+                {
+                    "roleid": 1,
+                    "object_name": "Case",
+                    "field_id": 12510,
+                    "name": "PIN Authenticated",
+                    "FieldName": "Cas_ex5_68",
+                    "field_type": "Lookup"
+                }
+            ],
+            "filters": [],
+            "limit": "1",
+            "order": {
+                "field": {},
+                "direction": "ASC"
+            },
+            "groupBy": []
+        }
+    },
+    {
+        "query": "Show my  Case Off-us bank - PIN Authorized ",
+        "meta_data": {
+            "object_name": "Case",
+            "role_id": 1,
+            "intent": "GET",
+            "output_format": "DETAIL",
+            "data_fields": [
+                {
+                    "roleid": 1,
+                    "object_name": "Case",
+                    "field_id": 12511,
+                    "name": "Off-us bank - PIN Authorized",
+                    "FieldName": "Cas_ex5_70",
+                    "field_type": "Lookup"
+                }
+            ],
+            "filters": [],
+            "limit": "1",
+            "order": {
+                "field": {},
+                "direction": "ASC"
+            },
+            "groupBy": []
+        }
+    },
+    {
+        "query": "Show my  Case Credit Card Present PIN Authenticated ",
+        "meta_data": {
+            "object_name": "Case",
+            "role_id": 1,
+            "intent": "GET",
+            "output_format": "DETAIL",
+            "data_fields": [
+                {
+                    "roleid": 1,
+                    "object_name": "Case",
+                    "field_id": 12513,
+                    "name": "Credit Card Present PIN Authenticated",
+                    "FieldName": "Cas_ex5_72",
+                    "field_type": "Lookup"
+                }
+            ],
+            "filters": [],
+            "limit": "1",
+            "order": {
+                "field": {},
+                "direction": "ASC"
+            },
+            "groupBy": []
+        }
+    },
+    {
+        "query": "Show my  Case Availability Of Footage ",
+        "meta_data": {
+            "object_name": "Case",
+            "role_id": 1,
+            "intent": "GET",
+            "output_format": "DETAIL",
+            "data_fields": [
+                {
+                    "roleid": 1,
+                    "object_name": "Case",
+                    "field_id": 12515,
+                    "name": "Availability Of Footage",
+                    "FieldName": "Cas_ex5_74",
+                    "field_type": "Lookup"
+                }
+            ],
+            "filters": [],
+            "limit": "1",
+            "order": {
+                "field": {},
+                "direction": "ASC"
+            },
+            "groupBy": []
+        }
+    },
+    {
+        "query": "Show my  Case Debit Card Present PIN Authenticated ",
+        "meta_data": {
+            "object_name": "Case",
+            "role_id": 1,
+            "intent": "GET",
+            "output_format": "DETAIL",
+            "data_fields": [
+                {
+                    "roleid": 1,
+                    "object_name": "Case",
+                    "field_id": 12514,
+                    "name": "Debit Card Present PIN Authenticated",
+                    "FieldName": "Cas_ex5_73",
+                    "field_type": "Lookup"
+                }
+            ],
+            "filters": [],
+            "limit": "1",
+            "order": {
+                "field": {},
+                "direction": "ASC"
+            },
+            "groupBy": []
+        }
+    },
+    {
+        "query": "Show my  Case Confirmation of SFA ",
+        "meta_data": {
+            "object_name": "Case",
+            "role_id": 1,
+            "intent": "GET",
+            "output_format": "DETAIL",
+            "data_fields": [
+                {
+                    "roleid": 1,
+                    "object_name": "Case",
+                    "field_id": 12516,
+                    "name": "Confirmation of SFA",
+                    "FieldName": "Cas_ex5_75",
+                    "field_type": "Lookup"
+                }
+            ],
+            "filters": [],
+            "limit": "1",
+            "order": {
+                "field": {},
+                "direction": "ASC"
+            },
+            "groupBy": []
+        }
+    },
+    {
+        "query": "Show my  Case Cluster Head Response ",
+        "meta_data": {
+            "object_name": "Case",
+            "role_id": 1,
+            "intent": "GET",
+            "output_format": "DETAIL",
+            "data_fields": [
+                {
+                    "roleid": 1,
+                    "object_name": "Case",
+                    "field_id": 12482,
+                    "name": "Cluster Head Response",
+                    "FieldName": "Cas_ex5_41",
+                    "field_type": "Lookup"
+                }
+            ],
+            "filters": [],
+            "limit": "1",
+            "order": {
+                "field": {},
+                "direction": "ASC"
+            },
+            "groupBy": []
+        }
+    },
+    {
+        "query": "Show my  Case Cluster Head ",
+        "meta_data": {
+            "object_name": "Case",
+            "role_id": 1,
+            "intent": "GET",
+            "output_format": "DETAIL",
+            "data_fields": [
+                {
+                    "roleid": 1,
+                    "object_name": "Case",
+                    "field_id": 12521,
+                    "name": "Cluster Head",
+                    "FieldName": "Cas_ex5_78",
+                    "field_type": "UserPicker"
+                }
+            ],
+            "filters": [],
+            "limit": "1",
+            "order": {
+                "field": {},
+                "direction": "ASC"
+            },
+            "groupBy": []
+        }
+    },
+    {
+        "query": "Show my  Case Cluster Head Comments ",
+        "meta_data": {
+            "object_name": "Case",
+            "role_id": 1,
+            "intent": "GET",
+            "output_format": "DETAIL",
+            "data_fields": [
+                {
+                    "roleid": 1,
+                    "object_name": "Case",
+                    "field_id": 12668,
+                    "name": "Cluster Head Comments",
+                    "FieldName": "Cas_ex1_104",
+                    "field_type": "Comments"
+                }
+            ],
+            "filters": [],
+            "limit": "1",
+            "order": {
+                "field": {},
+                "direction": "ASC"
+            },
+            "groupBy": []
+        }
+    },
+    {
+        "query": "Show my  Case CH Response Modified On ",
+        "meta_data": {
+            "object_name": "Case",
+            "role_id": 1,
+            "intent": "GET",
+            "output_format": "DETAIL",
+            "data_fields": [
+                {
+                    "roleid": 1,
+                    "object_name": "Case",
+                    "field_id": 12489,
+                    "name": "CH Response Modified On",
+                    "FieldName": "Cas_ex5_48",
+                    "field_type": "DateTime"
+                }
+            ],
+            "filters": [],
+            "limit": "1",
+            "order": {
+                "field": {},
+                "direction": "ASC"
+            },
+            "groupBy": []
+        }
+    },
+    {
+        "query": "Show my  Case Nodal Officer Response ",
+        "meta_data": {
+            "object_name": "Case",
+            "role_id": 1,
+            "intent": "GET",
+            "output_format": "DETAIL",
+            "data_fields": [
+                {
+                    "roleid": 1,
+                    "object_name": "Case",
+                    "field_id": 12483,
+                    "name": "Nodal Officer Response",
+                    "FieldName": "Cas_ex5_42",
+                    "field_type": "Lookup"
+                }
+            ],
+            "filters": [],
+            "limit": "1",
+            "order": {
+                "field": {},
+                "direction": "ASC"
+            },
+            "groupBy": []
+        }
+    },
+    {
+        "query": "Show my  Case Nodal Officer ",
+        "meta_data": {
+            "object_name": "Case",
+            "role_id": 1,
+            "intent": "GET",
+            "output_format": "DETAIL",
+            "data_fields": [
+                {
+                    "roleid": 1,
+                    "object_name": "Case",
+                    "field_id": 12534,
+                    "name": "Nodal Officer",
+                    "FieldName": "cas_ex1_181",
+                    "field_type": "Lookup"
+                }
+            ],
+            "filters": [],
+            "limit": "1",
+            "order": {
+                "field": {},
+                "direction": "ASC"
+            },
+            "groupBy": []
+        }
+    },
+    {
+        "query": "Show my  Case Nodal Officer Comments ",
+        "meta_data": {
+            "object_name": "Case",
+            "role_id": 1,
+            "intent": "GET",
+            "output_format": "DETAIL",
+            "data_fields": [
+                {
+                    "roleid": 1,
+                    "object_name": "Case",
+                    "field_id": 12669,
+                    "name": "Nodal Officer Comments",
+                    "FieldName": "Cas_ex1_105",
+                    "field_type": "Comments"
+                }
+            ],
+            "filters": [],
+            "limit": "1",
+            "order": {
+                "field": {},
+                "direction": "ASC"
+            },
+            "groupBy": []
+        }
+    },
+    {
+        "query": "Show my  Case NO Response Modified By ",
+        "meta_data": {
+            "object_name": "Case",
+            "role_id": 1,
+            "intent": "GET",
+            "output_format": "DETAIL",
+            "data_fields": [
+                {
+                    "roleid": 1,
+                    "object_name": "Case",
+                    "field_id": 12536,
+                    "name": "NO Response Modified By",
+                    "FieldName": "cas_ex1_182",
+                    "field_type": "UserPicker"
+                }
+            ],
+            "filters": [],
+            "limit": "1",
+            "order": {
+                "field": {},
+                "direction": "ASC"
+            },
+            "groupBy": []
+        }
+    },
+    {
+        "query": "Show my  Case NO Response Modified On ",
+        "meta_data": {
+            "object_name": "Case",
+            "role_id": 1,
+            "intent": "GET",
+            "output_format": "DETAIL",
+            "data_fields": [
+                {
+                    "roleid": 1,
+                    "object_name": "Case",
+                    "field_id": 12487,
+                    "name": "NO Response Modified On",
+                    "FieldName": "Cas_ex5_46",
+                    "field_type": "DateTime"
+                }
+            ],
+            "filters": [],
+            "limit": "1",
+            "order": {
+                "field": {},
+                "direction": "ASC"
+            },
+            "groupBy": []
+        }
+    },
+    {
+        "query": "Show my  Case Internal Ombudsman Response ",
+        "meta_data": {
+            "object_name": "Case",
+            "role_id": 1,
+            "intent": "GET",
+            "output_format": "DETAIL",
+            "data_fields": [
+                {
+                    "roleid": 1,
+                    "object_name": "Case",
+                    "field_id": 12484,
+                    "name": "Internal Ombudsman Response",
+                    "FieldName": "Cas_ex5_43",
+                    "field_type": "Lookup"
+                }
+            ],
+            "filters": [],
+            "limit": "1",
+            "order": {
+                "field": {},
+                "direction": "ASC"
+            },
+            "groupBy": []
+        }
+    },
+    {
+        "query": "Show my  Case Internal Ombudsman ",
+        "meta_data": {
+            "object_name": "Case",
+            "role_id": 1,
+            "intent": "GET",
+            "output_format": "DETAIL",
+            "data_fields": [
+                {
+                    "roleid": 1,
+                    "object_name": "Case",
+                    "field_id": 12532,
+                    "name": "Internal Ombudsman",
+                    "FieldName": "Cas_ex5_79",
+                    "field_type": "UserPicker"
+                }
+            ],
+            "filters": [],
+            "limit": "1",
+            "order": {
+                "field": {},
+                "direction": "ASC"
+            },
+            "groupBy": []
+        }
+    },
+    {
+        "query": "Show my  Case Internal Ombudsman Comments ",
+        "meta_data": {
+            "object_name": "Case",
+            "role_id": 1,
+            "intent": "GET",
+            "output_format": "DETAIL",
+            "data_fields": [
+                {
+                    "roleid": 1,
+                    "object_name": "Case",
+                    "field_id": 12670,
+                    "name": "Internal Ombudsman Comments",
+                    "FieldName": "Cas_ex1_106",
+                    "field_type": "Comments"
+                }
+            ],
+            "filters": [],
+            "limit": "1",
+            "order": {
+                "field": {},
+                "direction": "ASC"
+            },
+            "groupBy": []
+        }
+    },
+    {
+        "query": "Show my  Case IO Response Modified By ",
+        "meta_data": {
+            "object_name": "Case",
+            "role_id": 1,
+            "intent": "GET",
+            "output_format": "DETAIL",
+            "data_fields": [
+                {
+                    "roleid": 1,
+                    "object_name": "Case",
+                    "field_id": 12492,
+                    "name": "IO Response Modified By",
+                    "FieldName": "Cas_ex5_51",
+                    "field_type": "Text"
+                }
+            ],
+            "filters": [],
+            "limit": "1",
+            "order": {
+                "field": {},
+                "direction": "ASC"
+            },
+            "groupBy": []
+        }
+    },
+    {
+        "query": "Show my  Case IO Response Modified On ",
+        "meta_data": {
+            "object_name": "Case",
+            "role_id": 1,
+            "intent": "GET",
+            "output_format": "DETAIL",
+            "data_fields": [
+                {
+                    "roleid": 1,
+                    "object_name": "Case",
+                    "field_id": 12491,
+                    "name": "IO Response Modified On",
+                    "FieldName": "Cas_ex5_50",
+                    "field_type": "DateTime"
+                }
+            ],
+            "filters": [],
+            "limit": "1",
+            "order": {
+                "field": {},
+                "direction": "ASC"
+            },
+            "groupBy": []
+        }
+    },
+    {
+        "query": "Show my  Case Panel Member Unit ",
+        "meta_data": {
+            "object_name": "Case",
+            "role_id": 1,
+            "intent": "GET",
+            "output_format": "DETAIL",
+            "data_fields": [
+                {
+                    "roleid": 1,
+                    "object_name": "Case",
+                    "field_id": 12581,
+                    "name": "Panel Member Unit",
+                    "FieldName": "Cas_ex1_131",
+                    "field_type": "MultiPicker"
+                }
+            ],
+            "filters": [],
+            "limit": "1",
+            "order": {
+                "field": {},
+                "direction": "ASC"
+            },
+            "groupBy": []
+        }
+    },
+    {
+        "query": "Show my  Case Member 1 Response ",
+        "meta_data": {
+            "object_name": "Case",
+            "role_id": 1,
+            "intent": "GET",
+            "output_format": "DETAIL",
+            "data_fields": [
+                {
+                    "roleid": 1,
+                    "object_name": "Case",
+                    "field_id": 12677,
+                    "name": "Member 1 Response",
+                    "FieldName": "Cas_ex1_113",
+                    "field_type": "Lookup"
+                }
+            ],
+            "filters": [],
+            "limit": "1",
+            "order": {
+                "field": {},
+                "direction": "ASC"
+            },
+            "groupBy": []
+        }
+    },
+    {
+        "query": "Show my  Case Member 1 Unit ",
+        "meta_data": {
+            "object_name": "Case",
+            "role_id": 1,
+            "intent": "GET",
+            "output_format": "DETAIL",
+            "data_fields": [
+                {
+                    "roleid": 1,
+                    "object_name": "Case",
+                    "field_id": 12771,
+                    "name": "Member 1 Unit",
+                    "FieldName": "Cas_ex1_140",
+                    "field_type": "Text"
+                }
+            ],
+            "filters": [],
+            "limit": "1",
+            "order": {
+                "field": {},
+                "direction": "ASC"
+            },
+            "groupBy": []
+        }
+    },
+    {
+        "query": "Show my  Case Response 1 Modified By ",
+        "meta_data": {
+            "object_name": "Case",
+            "role_id": 1,
+            "intent": "GET",
+            "output_format": "DETAIL",
+            "data_fields": [
+                {
+                    "roleid": 1,
+                    "object_name": "Case",
+                    "field_id": 12673,
+                    "name": "Response 1 Modified By",
+                    "FieldName": "Cas_ex1_109",
+                    "field_type": "UserPicker"
+                }
+            ],
+            "filters": [],
+            "limit": "1",
+            "order": {
+                "field": {},
+                "direction": "ASC"
+            },
+            "groupBy": []
+        }
+    },
+    {
+        "query": "Show my  Case Response 1 Modified On ",
+        "meta_data": {
+            "object_name": "Case",
+            "role_id": 1,
+            "intent": "GET",
+            "output_format": "DETAIL",
+            "data_fields": [
+                {
+                    "roleid": 1,
+                    "object_name": "Case",
+                    "field_id": 12681,
+                    "name": "Response 1 Modified On",
+                    "FieldName": "Cas_ex1_117",
+                    "field_type": "DateTime"
+                }
+            ],
+            "filters": [],
+            "limit": "1",
+            "order": {
+                "field": {},
+                "direction": "ASC"
+            },
+            "groupBy": []
+        }
+    },
+    {
+        "query": "Show my  Case Member 2 Response ",
+        "meta_data": {
+            "object_name": "Case",
+            "role_id": 1,
+            "intent": "GET",
+            "output_format": "DETAIL",
+            "data_fields": [
+                {
+                    "roleid": 1,
+                    "object_name": "Case",
+                    "field_id": 12678,
+                    "name": "Member 2 Response",
+                    "FieldName": "Cas_ex1_114",
+                    "field_type": "Lookup"
+                }
+            ],
+            "filters": [],
+            "limit": "1",
+            "order": {
+                "field": {},
+                "direction": "ASC"
+            },
+            "groupBy": []
+        }
+    },
+    {
+        "query": "Show my  Case Member 2 Unit ",
+        "meta_data": {
+            "object_name": "Case",
+            "role_id": 1,
+            "intent": "GET",
+            "output_format": "DETAIL",
+            "data_fields": [
+                {
+                    "roleid": 1,
+                    "object_name": "Case",
+                    "field_id": 12773,
+                    "name": "Member 2 Unit",
+                    "FieldName": "Cas_ex1_142",
+                    "field_type": "Text"
+                }
+            ],
+            "filters": [],
+            "limit": "1",
+            "order": {
+                "field": {},
+                "direction": "ASC"
+            },
+            "groupBy": []
+        }
+    },
+    {
+        "query": "Show my  Case Response 2 Modified By ",
+        "meta_data": {
+            "object_name": "Case",
+            "role_id": 1,
+            "intent": "GET",
+            "output_format": "DETAIL",
+            "data_fields": [
+                {
+                    "roleid": 1,
+                    "object_name": "Case",
+                    "field_id": 12674,
+                    "name": "Response 2 Modified By",
+                    "FieldName": "Cas_ex1_110",
+                    "field_type": "UserPicker"
+                }
+            ],
+            "filters": [],
+            "limit": "1",
+            "order": {
+                "field": {},
+                "direction": "ASC"
+            },
+            "groupBy": []
+        }
+    },
+    {
+        "query": "Show my  Case Response 2 Modified On ",
+        "meta_data": {
+            "object_name": "Case",
+            "role_id": 1,
+            "intent": "GET",
+            "output_format": "DETAIL",
+            "data_fields": [
+                {
+                    "roleid": 1,
+                    "object_name": "Case",
+                    "field_id": 12682,
+                    "name": "Response 2 Modified On",
+                    "FieldName": "Cas_ex1_118",
+                    "field_type": "DateTime"
+                }
+            ],
+            "filters": [],
+            "limit": "1",
+            "order": {
+                "field": {},
+                "direction": "ASC"
+            },
+            "groupBy": []
+        }
+    }
+]

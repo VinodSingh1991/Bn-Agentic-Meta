@@ -1,0 +1,8 @@
+{
+    "ItemTypeID": 6,
+    "LayoutID": 10004030,
+    "LayoutType": 2,
+    "LayoutXML": "<layout id=\"layout_id\" layoutname=\"layout\" rendermode=\"Canvas\" isCustomized=\"1\" renderingstyle=\"0\" isreadonlyfieldaslabel=\"false\" hidesingletablabel=\"false\" fixeduilayout=\"false\" fieldstyle=\"0\" enterkey=\"false\" attachmentpreview=\"false\" redirectto=\"0\" attachmentpreiview=\"false\" typeofpanellayout=\"-1\">  <canvases>    <canvas title=\"Tab1\" name=\"Standard\" canvastype=\"GridCanvas\">      <description/>      <zones>        <zone id=\"375b5893-22d6-4c95-a4b4-74b01e291d39\" name=\"CardView\">          <position top=\"0\" left=\"0\" width=\"6\" height=\"7\" unit=\"unit\"/>          <controls>            <control id=\"\" name=\"CardView\" type=\"1\" controlid=\"100312\" vividlayoutid=\"0\" vividlayoutversion=\"\">              <properties>                <property name=\"RenderMode\" value=\"2\"/>                <property name=\"DisplayOrder\" value=\"0\"/>                <property name=\"IsCardView\" value=\"0\"/>                <property name=\"ItemID\" value=\"\"/>                <property name=\"CardName\" value=\"PC 15 Sept\"/>              </properties>            </control>          </controls>        </zone>      </zones>    </canvas>  </canvases>  <mappers>    <on/>    <post/>  </mappers></layout>",
+    "LayoutName": "Shruti Layout",
+    "RoleId": 1
+}

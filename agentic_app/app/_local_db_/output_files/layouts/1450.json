@@ -1,0 +1,449 @@
+[
+    {
+        "query_label": "Activity Summary",
+        "query_fields": [
+            {
+                "roleid": 1,
+                "object_name": "Activity",
+                "field_id": 10010172,
+                "name": "SN_TASK_DUEDATE",
+                "FieldName": "DueDate",
+                "field_type": "Date"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Activity",
+                "field_id": 10010250,
+                "name": "SN_Event_Time",
+                "FieldName": "Time",
+                "field_type": "Time"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Activity",
+                "field_id": 1852,
+                "name": "Is Existing Customer_act",
+                "FieldName": "Act_ex2_53",
+                "field_type": "Lookup"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Activity",
+                "field_id": 1853,
+                "name": "NTB Customer Name_act",
+                "FieldName": "Act_ex2_54",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Activity",
+                "field_id": 76,
+                "name": "Phone Number_act",
+                "FieldName": "Act_ex1_5",
+                "field_type": "Phone"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Activity",
+                "field_id": 1181,
+                "name": "Campaign Name_act",
+                "FieldName": "Act_ex2_28",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Activity",
+                "field_id": 137,
+                "name": "a_Client Reg no.",
+                "FieldName": "Act_ex1_23",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Activity",
+                "field_id": 3230,
+                "name": "Interaction type_act",
+                "FieldName": "Act_ex3_23",
+                "field_type": "Lookup"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Activity",
+                "field_id": 10010103,
+                "name": "SN_ASSIGNEDTONAME",
+                "FieldName": "AssignedTo",
+                "field_type": "Number"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Activity",
+                "field_id": 10010243,
+                "name": "SN_STATUS",
+                "FieldName": "Status",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Activity",
+                "field_id": 3224,
+                "name": "Is Next Call_act",
+                "FieldName": "Act_ex3_21",
+                "field_type": "Lookup"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Activity",
+                "field_id": 1144,
+                "name": "Supervisor Comments_ap",
+                "FieldName": "Act_ex1_78",
+                "field_type": "Comments"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Activity",
+                "field_id": 3225,
+                "name": "Meeting Start Time_act",
+                "FieldName": "Act_ex3_22",
+                "field_type": "DateTime"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Activity",
+                "field_id": 316,
+                "name": "Followup Appointment",
+                "FieldName": "Act_ex1_24",
+                "field_type": "DateTime"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Activity",
+                "field_id": 10010209,
+                "name": "SN_EVENT_LOCATION",
+                "FieldName": "Location",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Activity",
+                "field_id": 3231,
+                "name": "Agenda_act",
+                "FieldName": "Act_ex3_24",
+                "field_type": "Lookup"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Activity",
+                "field_id": 1154,
+                "name": "Responsibility 1_ap",
+                "FieldName": "Act_ex1_88",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Activity",
+                "field_id": 1155,
+                "name": "Target Date 1_ap",
+                "FieldName": "Act_ex1_89",
+                "field_type": "Date"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Activity",
+                "field_id": 1153,
+                "name": "Responsibility 2_ap",
+                "FieldName": "Act_ex1_87",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Activity",
+                "field_id": 1156,
+                "name": "Target Date 2_ap",
+                "FieldName": "Act_ex1_90",
+                "field_type": "Date"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Activity",
+                "field_id": 1152,
+                "name": "Responsibility 3_ap",
+                "FieldName": "Act_ex1_86",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Activity",
+                "field_id": 1157,
+                "name": "Target Date 3_ap",
+                "FieldName": "Act_ex1_91",
+                "field_type": "Date"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Activity",
+                "field_id": 1633,
+                "name": "Responsibility 4_ap",
+                "FieldName": "Act_ex1_41",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Activity",
+                "field_id": 1635,
+                "name": "Target Date 4_ap",
+                "FieldName": "Act_ex1_43",
+                "field_type": "Date"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Activity",
+                "field_id": 1634,
+                "name": "Responsibility 5_ap",
+                "FieldName": "Act_ex1_42",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Activity",
+                "field_id": 1636,
+                "name": "Target Date 5_ap",
+                "FieldName": "Act_ex1_44",
+                "field_type": "Date"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Activity",
+                "field_id": 10010171,
+                "name": "SN_DETAILS",
+                "FieldName": "Details",
+                "field_type": "Comments"
+            }
+        ]
+    },
+    {
+        "query_label": "Activity Calendar Information",
+        "query_fields": [
+            {
+                "roleid": 1,
+                "object_name": "Activity",
+                "field_id": 10010172,
+                "name": "SN_TASK_DUEDATE",
+                "FieldName": "DueDate",
+                "field_type": "Date"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Activity",
+                "field_id": 10010250,
+                "name": "SN_Event_Time",
+                "FieldName": "Time",
+                "field_type": "Time"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Activity",
+                "field_id": 1852,
+                "name": "Is Existing Customer_act",
+                "FieldName": "Act_ex2_53",
+                "field_type": "Lookup"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Activity",
+                "field_id": 1853,
+                "name": "NTB Customer Name_act",
+                "FieldName": "Act_ex2_54",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Activity",
+                "field_id": 76,
+                "name": "Phone Number_act",
+                "FieldName": "Act_ex1_5",
+                "field_type": "Phone"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Activity",
+                "field_id": 1181,
+                "name": "Campaign Name_act",
+                "FieldName": "Act_ex2_28",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Activity",
+                "field_id": 137,
+                "name": "a_Client Reg no.",
+                "FieldName": "Act_ex1_23",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Activity",
+                "field_id": 3230,
+                "name": "Interaction type_act",
+                "FieldName": "Act_ex3_23",
+                "field_type": "Lookup"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Activity",
+                "field_id": 10010103,
+                "name": "SN_ASSIGNEDTONAME",
+                "FieldName": "AssignedTo",
+                "field_type": "Number"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Activity",
+                "field_id": 10010243,
+                "name": "SN_STATUS",
+                "FieldName": "Status",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Activity",
+                "field_id": 3224,
+                "name": "Is Next Call_act",
+                "FieldName": "Act_ex3_21",
+                "field_type": "Lookup"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Activity",
+                "field_id": 1144,
+                "name": "Supervisor Comments_ap",
+                "FieldName": "Act_ex1_78",
+                "field_type": "Comments"
+            }
+        ]
+    },
+    {
+        "query_label": "Activity Meeting Details",
+        "query_fields": [
+            {
+                "roleid": 1,
+                "object_name": "Activity",
+                "field_id": 3225,
+                "name": "Meeting Start Time_act",
+                "FieldName": "Act_ex3_22",
+                "field_type": "DateTime"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Activity",
+                "field_id": 316,
+                "name": "Followup Appointment",
+                "FieldName": "Act_ex1_24",
+                "field_type": "DateTime"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Activity",
+                "field_id": 10010209,
+                "name": "SN_EVENT_LOCATION",
+                "FieldName": "Location",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Activity",
+                "field_id": 3231,
+                "name": "Agenda_act",
+                "FieldName": "Act_ex3_24",
+                "field_type": "Lookup"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Activity",
+                "field_id": 1154,
+                "name": "Responsibility 1_ap",
+                "FieldName": "Act_ex1_88",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Activity",
+                "field_id": 1155,
+                "name": "Target Date 1_ap",
+                "FieldName": "Act_ex1_89",
+                "field_type": "Date"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Activity",
+                "field_id": 1153,
+                "name": "Responsibility 2_ap",
+                "FieldName": "Act_ex1_87",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Activity",
+                "field_id": 1156,
+                "name": "Target Date 2_ap",
+                "FieldName": "Act_ex1_90",
+                "field_type": "Date"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Activity",
+                "field_id": 1152,
+                "name": "Responsibility 3_ap",
+                "FieldName": "Act_ex1_86",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Activity",
+                "field_id": 1157,
+                "name": "Target Date 3_ap",
+                "FieldName": "Act_ex1_91",
+                "field_type": "Date"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Activity",
+                "field_id": 1633,
+                "name": "Responsibility 4_ap",
+                "FieldName": "Act_ex1_41",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Activity",
+                "field_id": 1635,
+                "name": "Target Date 4_ap",
+                "FieldName": "Act_ex1_43",
+                "field_type": "Date"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Activity",
+                "field_id": 1634,
+                "name": "Responsibility 5_ap",
+                "FieldName": "Act_ex1_42",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Activity",
+                "field_id": 1636,
+                "name": "Target Date 5_ap",
+                "FieldName": "Act_ex1_44",
+                "field_type": "Date"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Activity",
+                "field_id": 10010171,
+                "name": "SN_DETAILS",
+                "FieldName": "Details",
+                "field_type": "Comments"
+            }
+        ]
+    }
+]

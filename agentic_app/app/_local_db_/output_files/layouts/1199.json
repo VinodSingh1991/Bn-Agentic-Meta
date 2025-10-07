@@ -1,0 +1,144 @@
+[
+    {
+        "query_label": "Opportunity Summary",
+        "query_fields": [
+            {
+                "roleid": 1,
+                "object_name": "Opportunity",
+                "field_id": 1531,
+                "name": "Name of Product_O",
+                "FieldName": "Opp_ex1_39",
+                "field_type": "MultiPicker"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Opportunity",
+                "field_id": 1500,
+                "name": "Date of Pitch_O",
+                "FieldName": "Opp_ex1_41",
+                "field_type": "DateTime"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Opportunity",
+                "field_id": 10003816,
+                "name": "SN_Opportunities_Value",
+                "FieldName": "YourPrice",
+                "field_type": "MulticurrencyAmount"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Opportunity",
+                "field_id": 1520,
+                "name": "Lead Status_Opp_PBG",
+                "FieldName": "Opp_ex1_43",
+                "field_type": "Lookup"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Opportunity",
+                "field_id": 10003813,
+                "name": "SN_TERRITORY_NAME",
+                "FieldName": "TerritoryName",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Opportunity",
+                "field_id": 10003778,
+                "name": "SN_OWNERNAME",
+                "FieldName": "OppOwnerName",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Opportunity",
+                "field_id": 1501,
+                "name": "Not interested reason_O",
+                "FieldName": "Opp_ex1_42",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Opportunity",
+                "field_id": 1530,
+                "name": "Product Pitch Detail_O",
+                "FieldName": "Opp_ex1_38",
+                "field_type": "Comments"
+            }
+        ]
+    },
+    {
+        "query_label": "Opportunity Key Information",
+        "query_fields": [
+            {
+                "roleid": 1,
+                "object_name": "Opportunity",
+                "field_id": 1531,
+                "name": "Name of Product_O",
+                "FieldName": "Opp_ex1_39",
+                "field_type": "MultiPicker"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Opportunity",
+                "field_id": 1500,
+                "name": "Date of Pitch_O",
+                "FieldName": "Opp_ex1_41",
+                "field_type": "DateTime"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Opportunity",
+                "field_id": 10003816,
+                "name": "SN_Opportunities_Value",
+                "FieldName": "YourPrice",
+                "field_type": "MulticurrencyAmount"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Opportunity",
+                "field_id": 1520,
+                "name": "Lead Status_Opp_PBG",
+                "FieldName": "Opp_ex1_43",
+                "field_type": "Lookup"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Opportunity",
+                "field_id": 10003813,
+                "name": "SN_TERRITORY_NAME",
+                "FieldName": "TerritoryName",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Opportunity",
+                "field_id": 10003778,
+                "name": "SN_OWNERNAME",
+                "FieldName": "OppOwnerName",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Opportunity",
+                "field_id": 1501,
+                "name": "Not interested reason_O",
+                "FieldName": "Opp_ex1_42",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Opportunity",
+                "field_id": 1530,
+                "name": "Product Pitch Detail_O",
+                "FieldName": "Opp_ex1_38",
+                "field_type": "Comments"
+            }
+        ]
+    },
+    {
+        "query_label": "Opportunity History",
+        "query_fields": []
+    }
+]

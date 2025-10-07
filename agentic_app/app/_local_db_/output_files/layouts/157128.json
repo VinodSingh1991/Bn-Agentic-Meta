@@ -1,0 +1,44 @@
+[
+    {
+        "query_label": "Account Summary",
+        "query_fields": [
+            {
+                "roleid": 1,
+                "object_name": "Account",
+                "field_id": 151178325,
+                "name": "Cust ID",
+                "FieldName": "Acc_ex5_81",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Account",
+                "field_id": 151178324,
+                "name": "Mobile",
+                "FieldName": "Acc_ex5_80",
+                "field_type": "Text"
+            }
+        ]
+    },
+    {
+        "query_label": "Account Key Information",
+        "query_fields": [
+            {
+                "roleid": 1,
+                "object_name": "Account",
+                "field_id": 151178325,
+                "name": "Cust ID",
+                "FieldName": "Acc_ex5_81",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Account",
+                "field_id": 151178324,
+                "name": "Mobile",
+                "FieldName": "Acc_ex5_80",
+                "field_type": "Text"
+            }
+        ]
+    }
+]

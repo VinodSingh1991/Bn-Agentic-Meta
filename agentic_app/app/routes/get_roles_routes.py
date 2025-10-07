@@ -4,7 +4,7 @@ from fastapi import APIRouter
 router = APIRouter()
 
 
-@router.get("/roles")
+@router.get("/roles_one")
 def get_roles():
     role_service = RoleService()
     roles = role_service.get_roles()

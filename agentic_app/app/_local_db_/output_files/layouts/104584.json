@@ -1,0 +1,684 @@
+[
+    {
+        "query_label": "Activity New Appointment",
+        "query_fields": [
+            {
+                "roleid": 1,
+                "object_name": "Activity",
+                "field_id": 10921,
+                "name": "Activity Type",
+                "FieldName": "Act_ex3_74",
+                "field_type": "Lookup"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Activity",
+                "field_id": 10920,
+                "name": "Interaction Status",
+                "FieldName": "Act_ex3_73",
+                "field_type": "Lookup"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Activity",
+                "field_id": 10923,
+                "name": "Meeting Date",
+                "FieldName": "Act_ex3_76",
+                "field_type": "DateTime"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Activity",
+                "field_id": 5175,
+                "name": "Customer Name",
+                "FieldName": "Act_ex1_55",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Activity",
+                "field_id": 76,
+                "name": "Phone Number",
+                "FieldName": "Act_ex1_5",
+                "field_type": "Phone"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Activity",
+                "field_id": 10063536,
+                "name": "Branch",
+                "FieldName": "Branch",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Activity",
+                "field_id": 10928,
+                "name": "Address",
+                "FieldName": "HtmlText_10928",
+                "field_type": "LongText"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Activity",
+                "field_id": 10922,
+                "name": "Duration",
+                "FieldName": "Act_ex3_75",
+                "field_type": "Lookup"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Activity",
+                "field_id": 10924,
+                "name": "Call Date",
+                "FieldName": "Act_ex3_77",
+                "field_type": "DateTime"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Activity",
+                "field_id": 10926,
+                "name": "New Date",
+                "FieldName": "Act_ex3_79",
+                "field_type": "DateTime"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Activity",
+                "field_id": 10925,
+                "name": "Event Date",
+                "FieldName": "Act_ex3_78",
+                "field_type": "DateTime"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Activity",
+                "field_id": 10929,
+                "name": "Select Reason",
+                "FieldName": "Act_ex3_81",
+                "field_type": "Lookup"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Activity",
+                "field_id": 1143,
+                "name": "Remarks",
+                "FieldName": "Act_ex1_77",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Activity",
+                "field_id": 10667,
+                "name": "RM Code",
+                "FieldName": "Act_ex2_37",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Activity",
+                "field_id": 10930,
+                "name": "RM Name",
+                "FieldName": "Act_ex3_82",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Activity",
+                "field_id": 10931,
+                "name": "Select New Date",
+                "FieldName": "Act_ex3_83",
+                "field_type": "DateTime"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Activity",
+                "field_id": 10932,
+                "name": "Flag",
+                "FieldName": "Act_ex3_84",
+                "field_type": "Lookup"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Activity",
+                "field_id": 10010172,
+                "name": "Date",
+                "FieldName": "DueDate",
+                "field_type": "Date"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Activity",
+                "field_id": 10010250,
+                "name": "Time",
+                "FieldName": "Time",
+                "field_type": "Time"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Activity",
+                "field_id": 10010103,
+                "name": "Assigned To",
+                "FieldName": "AssignedTo",
+                "field_type": "Number"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Activity",
+                "field_id": 1852,
+                "name": "Is Existing Customer",
+                "FieldName": "Act_ex2_53",
+                "field_type": "Lookup"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Activity",
+                "field_id": 1853,
+                "name": "NTB Customer Name",
+                "FieldName": "Act_ex2_54",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Activity",
+                "field_id": 1854,
+                "name": "Customer ID",
+                "FieldName": "Act_ex2_55",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Activity",
+                "field_id": 78,
+                "name": "Email ID",
+                "FieldName": "Act_ex1_7",
+                "field_type": "Email"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Activity",
+                "field_id": 10010244,
+                "name": "Status Code",
+                "FieldName": "StatusCode",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Activity",
+                "field_id": 1198,
+                "name": "Offer NI/Reject Re",
+                "FieldName": "Act_ex1_29",
+                "field_type": "MultiPicker"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Activity",
+                "field_id": 10010243,
+                "name": "Status",
+                "FieldName": "Status",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Activity",
+                "field_id": 10000047,
+                "name": "Subject",
+                "FieldName": "Subject",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Activity",
+                "field_id": 7187,
+                "name": "Type of Digital Demo",
+                "FieldName": "Act_ex1_62",
+                "field_type": "MultiPicker"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Activity",
+                "field_id": 1159,
+                "name": "Joint Call With",
+                "FieldName": "Act_ex1_93",
+                "field_type": "Lookup"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Activity",
+                "field_id": 10010100,
+                "name": "Appointment Type",
+                "FieldName": "ActivityType",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Activity",
+                "field_id": 685,
+                "name": "Not Interested Reason",
+                "FieldName": "Act_ex1_26",
+                "field_type": "Lookup"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Activity",
+                "field_id": 1004,
+                "name": "Mode of Interaction",
+                "FieldName": "Act_ex1_27",
+                "field_type": "Lookup"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Activity",
+                "field_id": 10010181,
+                "name": "Followup Date",
+                "FieldName": "FUDueDate",
+                "field_type": "Date"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Activity",
+                "field_id": 10010182,
+                "name": "Followup Time",
+                "FieldName": "FUDueTime",
+                "field_type": "Time"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Activity",
+                "field_id": 1181,
+                "name": "Campaign Name",
+                "FieldName": "Act_ex2_28",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Activity",
+                "field_id": 5018,
+                "name": "Interaction_Flag",
+                "FieldName": "Act_ex1_48",
+                "field_type": "Number"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Activity",
+                "field_id": 10010234,
+                "name": "Related To",
+                "FieldName": "RelatedToName",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Activity",
+                "field_id": 1174,
+                "name": "Employee Code",
+                "FieldName": "Act_ex2_26",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Activity",
+                "field_id": 10894,
+                "name": "Customer Rating",
+                "FieldName": "Act_ex3_67",
+                "field_type": "Lookup"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Activity",
+                "field_id": 10893,
+                "name": "Customer Feedback",
+                "FieldName": "Act_ex3_66",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Activity",
+                "field_id": 1144,
+                "name": "Supervisor Comments",
+                "FieldName": "Act_ex1_78",
+                "field_type": "Comments"
+            }
+        ]
+    },
+    {
+        "query_label": "Activity Calendar Information",
+        "query_fields": [
+            {
+                "roleid": 1,
+                "object_name": "Activity",
+                "field_id": 10921,
+                "name": "Activity Type",
+                "FieldName": "Act_ex3_74",
+                "field_type": "Lookup"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Activity",
+                "field_id": 10920,
+                "name": "Interaction Status",
+                "FieldName": "Act_ex3_73",
+                "field_type": "Lookup"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Activity",
+                "field_id": 10923,
+                "name": "Meeting Date",
+                "FieldName": "Act_ex3_76",
+                "field_type": "DateTime"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Activity",
+                "field_id": 5175,
+                "name": "Customer Name",
+                "FieldName": "Act_ex1_55",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Activity",
+                "field_id": 76,
+                "name": "Phone Number",
+                "FieldName": "Act_ex1_5",
+                "field_type": "Phone"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Activity",
+                "field_id": 10063536,
+                "name": "Branch",
+                "FieldName": "Branch",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Activity",
+                "field_id": 10928,
+                "name": "Address",
+                "FieldName": "HtmlText_10928",
+                "field_type": "LongText"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Activity",
+                "field_id": 10922,
+                "name": "Duration",
+                "FieldName": "Act_ex3_75",
+                "field_type": "Lookup"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Activity",
+                "field_id": 10924,
+                "name": "Call Date",
+                "FieldName": "Act_ex3_77",
+                "field_type": "DateTime"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Activity",
+                "field_id": 10926,
+                "name": "New Date",
+                "FieldName": "Act_ex3_79",
+                "field_type": "DateTime"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Activity",
+                "field_id": 10925,
+                "name": "Event Date",
+                "FieldName": "Act_ex3_78",
+                "field_type": "DateTime"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Activity",
+                "field_id": 10929,
+                "name": "Select Reason",
+                "FieldName": "Act_ex3_81",
+                "field_type": "Lookup"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Activity",
+                "field_id": 1143,
+                "name": "Remarks",
+                "FieldName": "Act_ex1_77",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Activity",
+                "field_id": 10667,
+                "name": "RM Code",
+                "FieldName": "Act_ex2_37",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Activity",
+                "field_id": 10930,
+                "name": "RM Name",
+                "FieldName": "Act_ex3_82",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Activity",
+                "field_id": 10931,
+                "name": "Select New Date",
+                "FieldName": "Act_ex3_83",
+                "field_type": "DateTime"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Activity",
+                "field_id": 10932,
+                "name": "Flag",
+                "FieldName": "Act_ex3_84",
+                "field_type": "Lookup"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Activity",
+                "field_id": 10010172,
+                "name": "Date",
+                "FieldName": "DueDate",
+                "field_type": "Date"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Activity",
+                "field_id": 10010250,
+                "name": "Time",
+                "FieldName": "Time",
+                "field_type": "Time"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Activity",
+                "field_id": 10010103,
+                "name": "Assigned To",
+                "FieldName": "AssignedTo",
+                "field_type": "Number"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Activity",
+                "field_id": 1852,
+                "name": "Is Existing Customer",
+                "FieldName": "Act_ex2_53",
+                "field_type": "Lookup"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Activity",
+                "field_id": 1853,
+                "name": "NTB Customer Name",
+                "FieldName": "Act_ex2_54",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Activity",
+                "field_id": 1854,
+                "name": "Customer ID",
+                "FieldName": "Act_ex2_55",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Activity",
+                "field_id": 78,
+                "name": "Email ID",
+                "FieldName": "Act_ex1_7",
+                "field_type": "Email"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Activity",
+                "field_id": 10010244,
+                "name": "Status Code",
+                "FieldName": "StatusCode",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Activity",
+                "field_id": 1198,
+                "name": "Offer NI/Reject Re",
+                "FieldName": "Act_ex1_29",
+                "field_type": "MultiPicker"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Activity",
+                "field_id": 10010243,
+                "name": "Status",
+                "FieldName": "Status",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Activity",
+                "field_id": 10000047,
+                "name": "Subject",
+                "FieldName": "Subject",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Activity",
+                "field_id": 7187,
+                "name": "Type of Digital Demo",
+                "FieldName": "Act_ex1_62",
+                "field_type": "MultiPicker"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Activity",
+                "field_id": 1159,
+                "name": "Joint Call With",
+                "FieldName": "Act_ex1_93",
+                "field_type": "Lookup"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Activity",
+                "field_id": 10010100,
+                "name": "Appointment Type",
+                "FieldName": "ActivityType",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Activity",
+                "field_id": 685,
+                "name": "Not Interested Reason",
+                "FieldName": "Act_ex1_26",
+                "field_type": "Lookup"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Activity",
+                "field_id": 1004,
+                "name": "Mode of Interaction",
+                "FieldName": "Act_ex1_27",
+                "field_type": "Lookup"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Activity",
+                "field_id": 10010181,
+                "name": "Followup Date",
+                "FieldName": "FUDueDate",
+                "field_type": "Date"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Activity",
+                "field_id": 10010182,
+                "name": "Followup Time",
+                "FieldName": "FUDueTime",
+                "field_type": "Time"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Activity",
+                "field_id": 1181,
+                "name": "Campaign Name",
+                "FieldName": "Act_ex2_28",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Activity",
+                "field_id": 5018,
+                "name": "Interaction_Flag",
+                "FieldName": "Act_ex1_48",
+                "field_type": "Number"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Activity",
+                "field_id": 10010234,
+                "name": "Related To",
+                "FieldName": "RelatedToName",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Activity",
+                "field_id": 1174,
+                "name": "Employee Code",
+                "FieldName": "Act_ex2_26",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Activity",
+                "field_id": 10894,
+                "name": "Customer Rating",
+                "FieldName": "Act_ex3_67",
+                "field_type": "Lookup"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Activity",
+                "field_id": 10893,
+                "name": "Customer Feedback",
+                "FieldName": "Act_ex3_66",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Activity",
+                "field_id": 1144,
+                "name": "Supervisor Comments",
+                "FieldName": "Act_ex1_78",
+                "field_type": "Comments"
+            }
+        ]
+    }
+]

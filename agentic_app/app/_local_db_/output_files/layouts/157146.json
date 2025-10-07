@@ -1,0 +1,400 @@
+[
+    {
+        "query_label": "Lead Lead Details",
+        "query_fields": [
+            {
+                "roleid": 1,
+                "object_name": "Lead",
+                "field_id": 10050495,
+                "name": "Lead Owner",
+                "FieldName": "LeadOwnerName",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Lead",
+                "field_id": 13661,
+                "name": "Mobile Number",
+                "FieldName": "Lea_ex6_165",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Lead",
+                "field_id": 9,
+                "name": "Lead Number",
+                "FieldName": "Lea_ex1_1",
+                "field_type": "SequenceNumber"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Lead",
+                "field_id": 10001732,
+                "name": "Lead Status",
+                "FieldName": "StatusCode",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Lead",
+                "field_id": 14176,
+                "name": "Choice of Journey",
+                "FieldName": "Lea_ex7_130",
+                "field_type": "Lookup"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Lead",
+                "field_id": 13692,
+                "name": "Adobe Journey ID",
+                "FieldName": "Lea_ex7_195",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Lead",
+                "field_id": 14003,
+                "name": "Message",
+                "FieldName": "Lea_ex9_186",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Lead",
+                "field_id": 13698,
+                "name": "Acknowledge status",
+                "FieldName": "Lea_ex7_199",
+                "field_type": "Lookup"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Lead",
+                "field_id": 41,
+                "name": "Alternative Account Number",
+                "FieldName": "Lea_ex1_33",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Lead",
+                "field_id": 14236,
+                "name": "Credit Card Number",
+                "FieldName": "Lea_ex8_102",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Lead",
+                "field_id": 13670,
+                "name": "Loan Amount",
+                "FieldName": "Lea_ex6_160",
+                "field_type": "Number"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Lead",
+                "field_id": 13671,
+                "name": "Loan Duration",
+                "FieldName": "Lea_ex6_161",
+                "field_type": "Number"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Lead",
+                "field_id": 13705,
+                "name": "Monthly ROI",
+                "FieldName": "Lea_ex7_200",
+                "field_type": "Percentage"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Lead",
+                "field_id": 13672,
+                "name": "Monthly EMI in Rs",
+                "FieldName": "Lea_ex6_162",
+                "field_type": "Number"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Lead",
+                "field_id": 13674,
+                "name": "Processing Fee",
+                "FieldName": "Lea_ex7_197",
+                "field_type": "Number"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Lead",
+                "field_id": 13675,
+                "name": "Net Amount Payable",
+                "FieldName": "Lea_ex9_183",
+                "field_type": "Number"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Lead",
+                "field_id": 13662,
+                "name": "Type of Loan",
+                "FieldName": "Lea_ex9_180",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Lead",
+                "field_id": 628,
+                "name": "Assisted By Bank Employee",
+                "FieldName": "Lea_ex3_91",
+                "field_type": "Lookup"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Lead",
+                "field_id": 2352,
+                "name": "Loan Reference Number",
+                "FieldName": "Lea_ex8_47",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Lead",
+                "field_id": 11049,
+                "name": "IFSC Code",
+                "FieldName": "Lea_ex1_148",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Lead",
+                "field_id": 3524,
+                "name": "Bank Branch",
+                "FieldName": "Lea_ex7_63",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Lead",
+                "field_id": 3709,
+                "name": "Saving Account Number",
+                "FieldName": "Lea_ex9_60",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Lead",
+                "field_id": 300,
+                "name": "Courier to DD",
+                "FieldName": "Lea_ex2_55",
+                "field_type": "Text"
+            }
+        ]
+    },
+    {
+        "query_label": "Lead Customer Information",
+        "query_fields": [
+            {
+                "roleid": 1,
+                "object_name": "Lead",
+                "field_id": 10050495,
+                "name": "Lead Owner",
+                "FieldName": "LeadOwnerName",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Lead",
+                "field_id": 13661,
+                "name": "Mobile Number",
+                "FieldName": "Lea_ex6_165",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Lead",
+                "field_id": 9,
+                "name": "Lead Number",
+                "FieldName": "Lea_ex1_1",
+                "field_type": "SequenceNumber"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Lead",
+                "field_id": 10001732,
+                "name": "Lead Status",
+                "FieldName": "StatusCode",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Lead",
+                "field_id": 14176,
+                "name": "Choice of Journey",
+                "FieldName": "Lea_ex7_130",
+                "field_type": "Lookup"
+            }
+        ]
+    },
+    {
+        "query_label": "Lead Adobe Response",
+        "query_fields": [
+            {
+                "roleid": 1,
+                "object_name": "Lead",
+                "field_id": 13692,
+                "name": "Adobe Journey ID",
+                "FieldName": "Lea_ex7_195",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Lead",
+                "field_id": 14003,
+                "name": "Message",
+                "FieldName": "Lea_ex9_186",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Lead",
+                "field_id": 13698,
+                "name": "Acknowledge status",
+                "FieldName": "Lea_ex7_199",
+                "field_type": "Lookup"
+            }
+        ]
+    },
+    {
+        "query_label": "Lead Account Details",
+        "query_fields": [
+            {
+                "roleid": 1,
+                "object_name": "Lead",
+                "field_id": 41,
+                "name": "Alternative Account Number",
+                "FieldName": "Lea_ex1_33",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Lead",
+                "field_id": 14236,
+                "name": "Credit Card Number",
+                "FieldName": "Lea_ex8_102",
+                "field_type": "Text"
+            }
+        ]
+    },
+    {
+        "query_label": "Lead Loan Details",
+        "query_fields": [
+            {
+                "roleid": 1,
+                "object_name": "Lead",
+                "field_id": 13670,
+                "name": "Loan Amount",
+                "FieldName": "Lea_ex6_160",
+                "field_type": "Number"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Lead",
+                "field_id": 13671,
+                "name": "Loan Duration",
+                "FieldName": "Lea_ex6_161",
+                "field_type": "Number"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Lead",
+                "field_id": 13705,
+                "name": "Monthly ROI",
+                "FieldName": "Lea_ex7_200",
+                "field_type": "Percentage"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Lead",
+                "field_id": 13672,
+                "name": "Monthly EMI in Rs",
+                "FieldName": "Lea_ex6_162",
+                "field_type": "Number"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Lead",
+                "field_id": 13674,
+                "name": "Processing Fee",
+                "FieldName": "Lea_ex7_197",
+                "field_type": "Number"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Lead",
+                "field_id": 13675,
+                "name": "Net Amount Payable",
+                "FieldName": "Lea_ex9_183",
+                "field_type": "Number"
+            }
+        ]
+    },
+    {
+        "query_label": "Lead Bank Details",
+        "query_fields": [
+            {
+                "roleid": 1,
+                "object_name": "Lead",
+                "field_id": 13662,
+                "name": "Type of Loan",
+                "FieldName": "Lea_ex9_180",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Lead",
+                "field_id": 628,
+                "name": "Assisted By Bank Employee",
+                "FieldName": "Lea_ex3_91",
+                "field_type": "Lookup"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Lead",
+                "field_id": 2352,
+                "name": "Loan Reference Number",
+                "FieldName": "Lea_ex8_47",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Lead",
+                "field_id": 11049,
+                "name": "IFSC Code",
+                "FieldName": "Lea_ex1_148",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Lead",
+                "field_id": 3524,
+                "name": "Bank Branch",
+                "FieldName": "Lea_ex7_63",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Lead",
+                "field_id": 3709,
+                "name": "Saving Account Number",
+                "FieldName": "Lea_ex9_60",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Lead",
+                "field_id": 300,
+                "name": "Courier to DD",
+                "FieldName": "Lea_ex2_55",
+                "field_type": "Text"
+            }
+        ]
+    }
+]

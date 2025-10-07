@@ -1,0 +1,667 @@
+[
+    {
+        "query_label": "Case Summary",
+        "query_fields": [
+            {
+                "roleid": 1,
+                "object_name": "Case",
+                "field_id": 1331,
+                "name": "Existing Customer",
+                "FieldName": "Cas_ex2_26",
+                "field_type": "Lookup"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Case",
+                "field_id": 10005891,
+                "name": "Status Code",
+                "FieldName": "StatusCode",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Case",
+                "field_id": 1289,
+                "name": "Customer ID",
+                "FieldName": "Cas_ex1_22",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Case",
+                "field_id": 1291,
+                "name": "Customer Mobile",
+                "FieldName": "Cas_ex1_24",
+                "field_type": "Phone"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Case",
+                "field_id": 1317,
+                "name": "Complainant Name",
+                "FieldName": "Cas_ex1_50",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Case",
+                "field_id": 10005830,
+                "name": "Source of Information",
+                "FieldName": "Origin",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Case",
+                "field_id": 1292,
+                "name": "Alternate Contact No.",
+                "FieldName": "Cas_ex1_25",
+                "field_type": "Phone"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Case",
+                "field_id": 1293,
+                "name": "Email",
+                "FieldName": "Cas_ex1_26",
+                "field_type": "Email"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Case",
+                "field_id": 3820,
+                "name": "Customer Name on Card",
+                "FieldName": "Cas_ex4_21",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Case",
+                "field_id": 11840,
+                "name": "State where account is maintained",
+                "FieldName": "Cas_ex4_87",
+                "field_type": "Lookup"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Case",
+                "field_id": 1322,
+                "name": "Priority",
+                "FieldName": "Cas_ex1_54",
+                "field_type": "Lookup"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Case",
+                "field_id": 1321,
+                "name": "Logging Branch Name",
+                "FieldName": "Cas_ex1_53",
+                "field_type": "Lookup"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Case",
+                "field_id": 1288,
+                "name": "Acknowlegement Sent",
+                "FieldName": "Cas_ex1_21",
+                "field_type": "Lookup"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Case",
+                "field_id": 10005769,
+                "name": "Resolving Classification Unit",
+                "FieldName": "Category",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Case",
+                "field_id": 10005904,
+                "name": "Resolving Branch Name",
+                "FieldName": "TerritoryName",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Case",
+                "field_id": 10005897,
+                "name": "Category",
+                "FieldName": "SubCategory",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Case",
+                "field_id": 10005898,
+                "name": "Sub Category",
+                "FieldName": "SubCategory1",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Case",
+                "field_id": 1325,
+                "name": "Nature of Case",
+                "FieldName": "Cas_ex1_57",
+                "field_type": "Comments"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Case",
+                "field_id": 10005788,
+                "name": "Additional Information",
+                "FieldName": "Details",
+                "field_type": "Comments"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Case",
+                "field_id": 10005872,
+                "name": "Reported On",
+                "FieldName": "ReportedOn",
+                "field_type": "DateTime"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Case",
+                "field_id": 8169,
+                "name": "Product",
+                "FieldName": "Cas_ex4_43",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Case",
+                "field_id": 8166,
+                "name": "Card Number",
+                "FieldName": "Cas_ex4_42",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Case",
+                "field_id": 1740,
+                "name": "Origin RRN",
+                "FieldName": "Cas_ex3_30",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Case",
+                "field_id": 19113,
+                "name": "Transaction Date",
+                "FieldName": "Cas_ex5_182",
+                "field_type": "DateTime"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Case",
+                "field_id": 8447,
+                "name": "Dispute Amount",
+                "FieldName": "Cas_ex4_40",
+                "field_type": "Decimal"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Case",
+                "field_id": 8446,
+                "name": "Transaction Amount",
+                "FieldName": "Cas_ex4_39",
+                "field_type": "Decimal"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Case",
+                "field_id": 8185,
+                "name": "Acknowledgement Code",
+                "FieldName": "Cas_ex4_49",
+                "field_type": "Number"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Case",
+                "field_id": 5138,
+                "name": "Acknowledgement Status",
+                "FieldName": "Cas_ex3_9",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Case",
+                "field_id": 2534,
+                "name": "Acknowledgement Description",
+                "FieldName": "Cas_ex2_65",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Case",
+                "field_id": 1678,
+                "name": "Response Result",
+                "FieldName": "Cas_ex1_88",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Case",
+                "field_id": 1680,
+                "name": "Transaction Response Code",
+                "FieldName": "Cas_ex1_90",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Case",
+                "field_id": 8264,
+                "name": "Response Description",
+                "FieldName": "Cas_ex4_31",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Case",
+                "field_id": 1707,
+                "name": "Original Transaction Date",
+                "FieldName": "Cas_ex2_84",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Case",
+                "field_id": 18760,
+                "name": "Settlement Amount",
+                "FieldName": "Cas_ex6_10",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Case",
+                "field_id": 1742,
+                "name": "Settlement Date",
+                "FieldName": "Cas_ex3_32",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Case",
+                "field_id": 1758,
+                "name": "Status",
+                "FieldName": "Cas_ex3_48",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Case",
+                "field_id": 1759,
+                "name": "Dispute Reference ID",
+                "FieldName": "Cas_ex3_49",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Case",
+                "field_id": 19269,
+                "name": "Dispute Code",
+                "FieldName": "Cas_ex6_67",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Case",
+                "field_id": 19274,
+                "name": "Dispute Status",
+                "FieldName": "Cas_ex6_72",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Case",
+                "field_id": 19277,
+                "name": "Dispute Flag",
+                "FieldName": "Cas_ex6_74",
+                "field_type": "Text"
+            }
+        ]
+    },
+    {
+        "query_label": "Case Customer Information",
+        "query_fields": [
+            {
+                "roleid": 1,
+                "object_name": "Case",
+                "field_id": 1331,
+                "name": "Existing Customer",
+                "FieldName": "Cas_ex2_26",
+                "field_type": "Lookup"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Case",
+                "field_id": 10005891,
+                "name": "Status Code",
+                "FieldName": "StatusCode",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Case",
+                "field_id": 1289,
+                "name": "Customer ID",
+                "FieldName": "Cas_ex1_22",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Case",
+                "field_id": 1291,
+                "name": "Customer Mobile",
+                "FieldName": "Cas_ex1_24",
+                "field_type": "Phone"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Case",
+                "field_id": 1317,
+                "name": "Complainant Name",
+                "FieldName": "Cas_ex1_50",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Case",
+                "field_id": 10005830,
+                "name": "Source of Information",
+                "FieldName": "Origin",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Case",
+                "field_id": 1292,
+                "name": "Alternate Contact No.",
+                "FieldName": "Cas_ex1_25",
+                "field_type": "Phone"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Case",
+                "field_id": 1293,
+                "name": "Email",
+                "FieldName": "Cas_ex1_26",
+                "field_type": "Email"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Case",
+                "field_id": 3820,
+                "name": "Customer Name on Card",
+                "FieldName": "Cas_ex4_21",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Case",
+                "field_id": 11840,
+                "name": "State where account is maintained",
+                "FieldName": "Cas_ex4_87",
+                "field_type": "Lookup"
+            }
+        ]
+    },
+    {
+        "query_label": "Case Additional Information ",
+        "query_fields": [
+            {
+                "roleid": 1,
+                "object_name": "Case",
+                "field_id": 1322,
+                "name": "Priority",
+                "FieldName": "Cas_ex1_54",
+                "field_type": "Lookup"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Case",
+                "field_id": 1321,
+                "name": "Logging Branch Name",
+                "FieldName": "Cas_ex1_53",
+                "field_type": "Lookup"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Case",
+                "field_id": 1288,
+                "name": "Acknowlegement Sent",
+                "FieldName": "Cas_ex1_21",
+                "field_type": "Lookup"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Case",
+                "field_id": 10005769,
+                "name": "Resolving Classification Unit",
+                "FieldName": "Category",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Case",
+                "field_id": 10005904,
+                "name": "Resolving Branch Name",
+                "FieldName": "TerritoryName",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Case",
+                "field_id": 10005897,
+                "name": "Category",
+                "FieldName": "SubCategory",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Case",
+                "field_id": 10005898,
+                "name": "Sub Category",
+                "FieldName": "SubCategory1",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Case",
+                "field_id": 1325,
+                "name": "Nature of Case",
+                "FieldName": "Cas_ex1_57",
+                "field_type": "Comments"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Case",
+                "field_id": 10005788,
+                "name": "Additional Information",
+                "FieldName": "Details",
+                "field_type": "Comments"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Case",
+                "field_id": 10005872,
+                "name": "Reported On",
+                "FieldName": "ReportedOn",
+                "field_type": "DateTime"
+            }
+        ]
+    },
+    {
+        "query_label": "Case Transaction & Dispute Information",
+        "query_fields": [
+            {
+                "roleid": 1,
+                "object_name": "Case",
+                "field_id": 8169,
+                "name": "Product",
+                "FieldName": "Cas_ex4_43",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Case",
+                "field_id": 8166,
+                "name": "Card Number",
+                "FieldName": "Cas_ex4_42",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Case",
+                "field_id": 1740,
+                "name": "Origin RRN",
+                "FieldName": "Cas_ex3_30",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Case",
+                "field_id": 19113,
+                "name": "Transaction Date",
+                "FieldName": "Cas_ex5_182",
+                "field_type": "DateTime"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Case",
+                "field_id": 8447,
+                "name": "Dispute Amount",
+                "FieldName": "Cas_ex4_40",
+                "field_type": "Decimal"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Case",
+                "field_id": 8446,
+                "name": "Transaction Amount",
+                "FieldName": "Cas_ex4_39",
+                "field_type": "Decimal"
+            }
+        ]
+    },
+    {
+        "query_label": "Case NPCI Transaction & Dispute Status",
+        "query_fields": [
+            {
+                "roleid": 1,
+                "object_name": "Case",
+                "field_id": 8185,
+                "name": "Acknowledgement Code",
+                "FieldName": "Cas_ex4_49",
+                "field_type": "Number"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Case",
+                "field_id": 5138,
+                "name": "Acknowledgement Status",
+                "FieldName": "Cas_ex3_9",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Case",
+                "field_id": 2534,
+                "name": "Acknowledgement Description",
+                "FieldName": "Cas_ex2_65",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Case",
+                "field_id": 1678,
+                "name": "Response Result",
+                "FieldName": "Cas_ex1_88",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Case",
+                "field_id": 1680,
+                "name": "Transaction Response Code",
+                "FieldName": "Cas_ex1_90",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Case",
+                "field_id": 8264,
+                "name": "Response Description",
+                "FieldName": "Cas_ex4_31",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Case",
+                "field_id": 1707,
+                "name": "Original Transaction Date",
+                "FieldName": "Cas_ex2_84",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Case",
+                "field_id": 18760,
+                "name": "Settlement Amount",
+                "FieldName": "Cas_ex6_10",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Case",
+                "field_id": 1742,
+                "name": "Settlement Date",
+                "FieldName": "Cas_ex3_32",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Case",
+                "field_id": 1758,
+                "name": "Status",
+                "FieldName": "Cas_ex3_48",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Case",
+                "field_id": 1759,
+                "name": "Dispute Reference ID",
+                "FieldName": "Cas_ex3_49",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Case",
+                "field_id": 19269,
+                "name": "Dispute Code",
+                "FieldName": "Cas_ex6_67",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Case",
+                "field_id": 19274,
+                "name": "Dispute Status",
+                "FieldName": "Cas_ex6_72",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Case",
+                "field_id": 19277,
+                "name": "Dispute Flag",
+                "FieldName": "Cas_ex6_74",
+                "field_type": "Text"
+            }
+        ]
+    }
+]

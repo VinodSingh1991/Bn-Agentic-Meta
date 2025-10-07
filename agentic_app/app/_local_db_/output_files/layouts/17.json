@@ -1,0 +1,322 @@
+[
+    {
+        "query_label": "Contract Summary",
+        "query_fields": [
+            {
+                "roleid": 1,
+                "object_name": "Contract",
+                "field_id": 10011077,
+                "name": "SN_CONTRACTID",
+                "FieldName": "ContractID",
+                "field_type": "Number"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Contract",
+                "field_id": 10001467,
+                "name": "SN_Contracts_Status",
+                "FieldName": "ContractStatusId",
+                "field_type": "Number"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Contract",
+                "field_id": 10001461,
+                "name": "SN_Contracts_ContractID",
+                "FieldName": "ContractID",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Contract",
+                "field_id": 10001463,
+                "name": "SN_Contracts_ContractOwnerName",
+                "FieldName": "ContractOwnerName",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Contract",
+                "field_id": 10001482,
+                "name": "SN_Contracts_EndDate",
+                "FieldName": "EndDate",
+                "field_type": "Date"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Contract",
+                "field_id": 10001460,
+                "name": "SN_Contracts_AccountName",
+                "FieldName": "ContractAccountName",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Contract",
+                "field_id": 10001560,
+                "name": "SN_Contracts_StartDate",
+                "FieldName": "StartDate",
+                "field_type": "Date"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Contract",
+                "field_id": 10011093,
+                "name": "SN_DUEDATE",
+                "FieldName": "DueDate",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Contract",
+                "field_id": 10001477,
+                "name": "SN_Contracts_CustomerSignedByName",
+                "FieldName": "CustomerSignedByName",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Contract",
+                "field_id": 10001437,
+                "name": "SN_CONTRACTS_COMPANYSIGNEDBY",
+                "FieldName": "CompanySignedByName",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Contract",
+                "field_id": 10001478,
+                "name": "SN_Contracts_CustomerSignedOn",
+                "FieldName": "CustomerSignedOn",
+                "field_type": "DateTime"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Contract",
+                "field_id": 10001438,
+                "name": "SN_Contracts_CompanySignedOn",
+                "FieldName": "CompanySignedOn",
+                "field_type": "DateTime"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Contract",
+                "field_id": 10011092,
+                "name": "SN_Contracts_CustomerSignedTitle",
+                "FieldName": "CustomerSignedTitle",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Contract",
+                "field_id": 10001422,
+                "name": "SN_Contracts_Amount",
+                "FieldName": "Amount",
+                "field_type": "MulticurrencyAmount"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Contract",
+                "field_id": 10011111,
+                "name": "SN_CONTRACTS_BILLINGADDRESS",
+                "FieldName": "SSP_BillingAddress",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Contract",
+                "field_id": 10001564,
+                "name": "SN_Contracts_Terms",
+                "FieldName": "Terms",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Contract",
+                "field_id": 10011076,
+                "name": "SN_Contracts_ContractDescription",
+                "FieldName": "ContractDescription",
+                "field_type": "Comments"
+            }
+        ]
+    },
+    {
+        "query_label": "Contract Key Information",
+        "query_fields": [
+            {
+                "roleid": 1,
+                "object_name": "Contract",
+                "field_id": 10011077,
+                "name": "SN_CONTRACTID",
+                "FieldName": "ContractID",
+                "field_type": "Number"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Contract",
+                "field_id": 10001467,
+                "name": "SN_Contracts_Status",
+                "FieldName": "ContractStatusId",
+                "field_type": "Number"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Contract",
+                "field_id": 10001461,
+                "name": "SN_Contracts_ContractID",
+                "FieldName": "ContractID",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Contract",
+                "field_id": 10001463,
+                "name": "SN_Contracts_ContractOwnerName",
+                "FieldName": "ContractOwnerName",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Contract",
+                "field_id": 10001482,
+                "name": "SN_Contracts_EndDate",
+                "FieldName": "EndDate",
+                "field_type": "Date"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Contract",
+                "field_id": 10001460,
+                "name": "SN_Contracts_AccountName",
+                "FieldName": "ContractAccountName",
+                "field_type": "Text"
+            }
+        ]
+    },
+    {
+        "query_label": "Contract ##Contract## Details",
+        "query_fields": [
+            {
+                "roleid": 1,
+                "object_name": "Contract",
+                "field_id": 10001560,
+                "name": "SN_Contracts_StartDate",
+                "FieldName": "StartDate",
+                "field_type": "Date"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Contract",
+                "field_id": 10011093,
+                "name": "SN_DUEDATE",
+                "FieldName": "DueDate",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Contract",
+                "field_id": 10001477,
+                "name": "SN_Contracts_CustomerSignedByName",
+                "FieldName": "CustomerSignedByName",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Contract",
+                "field_id": 10001437,
+                "name": "SN_CONTRACTS_COMPANYSIGNEDBY",
+                "FieldName": "CompanySignedByName",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Contract",
+                "field_id": 10001478,
+                "name": "SN_Contracts_CustomerSignedOn",
+                "FieldName": "CustomerSignedOn",
+                "field_type": "DateTime"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Contract",
+                "field_id": 10001438,
+                "name": "SN_Contracts_CompanySignedOn",
+                "FieldName": "CompanySignedOn",
+                "field_type": "DateTime"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Contract",
+                "field_id": 10011092,
+                "name": "SN_Contracts_CustomerSignedTitle",
+                "FieldName": "CustomerSignedTitle",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Contract",
+                "field_id": 10001422,
+                "name": "SN_Contracts_Amount",
+                "FieldName": "Amount",
+                "field_type": "MulticurrencyAmount"
+            }
+        ]
+    },
+    {
+        "query_label": "Contract Other Information",
+        "query_fields": [
+            {
+                "roleid": 1,
+                "object_name": "Contract",
+                "field_id": 10011111,
+                "name": "SN_CONTRACTS_BILLINGADDRESS",
+                "FieldName": "SSP_BillingAddress",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Contract",
+                "field_id": 10001564,
+                "name": "SN_Contracts_Terms",
+                "FieldName": "Terms",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Contract",
+                "field_id": 10011076,
+                "name": "SN_Contracts_ContractDescription",
+                "FieldName": "ContractDescription",
+                "field_type": "Comments"
+            }
+        ]
+    },
+    {
+        "query_label": "Contract ##Products##",
+        "query_fields": []
+    },
+    {
+        "query_label": "Contract Approval",
+        "query_fields": []
+    },
+    {
+        "query_label": "Contract Activities",
+        "query_fields": []
+    },
+    {
+        "query_label": "Contract Collaboration",
+        "query_fields": []
+    },
+    {
+        "query_label": "Contract Attachments",
+        "query_fields": []
+    },
+    {
+        "query_label": "Contract ##Notes##",
+        "query_fields": []
+    },
+    {
+        "query_label": "Contract History",
+        "query_fields": []
+    }
+]

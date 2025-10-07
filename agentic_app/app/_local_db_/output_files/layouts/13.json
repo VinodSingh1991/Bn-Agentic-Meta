@@ -1,0 +1,201 @@
+[
+    {
+        "query_label": "Product Key Information",
+        "query_fields": [
+            {
+                "roleid": 1,
+                "object_name": "Product",
+                "field_id": 10009866,
+                "name": "PR_CATEGORY",
+                "FieldName": "Category",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Product",
+                "field_id": 10009880,
+                "name": "PR_CODE",
+                "FieldName": "ProductCode",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Product",
+                "field_id": 10009876,
+                "name": "SN_NAME",
+                "FieldName": "Name",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Product",
+                "field_id": 10009891,
+                "name": "SN_Product_Unit",
+                "FieldName": "Unit",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Product",
+                "field_id": 10055695,
+                "name": "SN_Product_UnitType",
+                "FieldName": "UnitType",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Product",
+                "field_id": 10009892,
+                "name": "PR_UNIT_PER_PACK",
+                "FieldName": "UnitsPerPack",
+                "field_type": "Number"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Product",
+                "field_id": 10009889,
+                "name": "SN_Product_TopSubCategory",
+                "FieldName": "TopSubCategoryName",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Product",
+                "field_id": 10047901,
+                "name": "SN_Product_Level3CategoryCode",
+                "FieldName": "Level3CategoryCode",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Product",
+                "field_id": 10047904,
+                "name": "SN_Product_Level4CategoryCode",
+                "FieldName": "Level4CategoryCode",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Product",
+                "field_id": -10057739,
+                "name": "SN_Lead_TerritoryType",
+                "FieldName": "TerritoryType",
+                "field_type": "Number"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Product",
+                "field_id": 10009871,
+                "name": "SN_DESCRIPTION",
+                "FieldName": "Description",
+                "field_type": "Text"
+            }
+        ]
+    },
+    {
+        "query_label": "Product  ",
+        "query_fields": [
+            {
+                "roleid": 1,
+                "object_name": "Product",
+                "field_id": 10009866,
+                "name": "PR_CATEGORY",
+                "FieldName": "Category",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Product",
+                "field_id": 10009880,
+                "name": "PR_CODE",
+                "FieldName": "ProductCode",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Product",
+                "field_id": 10009876,
+                "name": "SN_NAME",
+                "FieldName": "Name",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Product",
+                "field_id": 10009891,
+                "name": "SN_Product_Unit",
+                "FieldName": "Unit",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Product",
+                "field_id": 10055695,
+                "name": "SN_Product_UnitType",
+                "FieldName": "UnitType",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Product",
+                "field_id": 10009892,
+                "name": "PR_UNIT_PER_PACK",
+                "FieldName": "UnitsPerPack",
+                "field_type": "Number"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Product",
+                "field_id": 10009889,
+                "name": "SN_Product_TopSubCategory",
+                "FieldName": "TopSubCategoryName",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Product",
+                "field_id": 10047901,
+                "name": "SN_Product_Level3CategoryCode",
+                "FieldName": "Level3CategoryCode",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Product",
+                "field_id": 10047904,
+                "name": "SN_Product_Level4CategoryCode",
+                "FieldName": "Level4CategoryCode",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Product",
+                "field_id": -10057739,
+                "name": "SN_Lead_TerritoryType",
+                "FieldName": "TerritoryType",
+                "field_type": "Number"
+            }
+        ]
+    },
+    {
+        "query_label": "Product Useful Information",
+        "query_fields": [
+            {
+                "roleid": 1,
+                "object_name": "Product",
+                "field_id": 10009871,
+                "name": "SN_DESCRIPTION",
+                "FieldName": "Description",
+                "field_type": "Text"
+            }
+        ]
+    },
+    {
+        "query_label": "Product Pricing Information",
+        "query_fields": []
+    },
+    {
+        "query_label": "Product Attachments",
+        "query_fields": []
+    }
+]

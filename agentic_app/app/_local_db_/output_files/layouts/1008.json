@@ -1,0 +1,76 @@
+[
+    {
+        "query_label": "Account Summary",
+        "query_fields": [
+            {
+                "roleid": 1,
+                "object_name": "Account",
+                "field_id": 19553,
+                "name": "Permanent City",
+                "FieldName": "Acc_ex1_142",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Account",
+                "field_id": 19554,
+                "name": "Permanent  Pin",
+                "FieldName": "Acc_ex1_143",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Account",
+                "field_id": 19564,
+                "name": "Permanent State",
+                "FieldName": "Acc_ex1_189",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Account",
+                "field_id": 19561,
+                "name": "Permanent Phone",
+                "FieldName": "Acc_ex1_163",
+                "field_type": "Text"
+            }
+        ]
+    },
+    {
+        "query_label": "Account Key Information",
+        "query_fields": [
+            {
+                "roleid": 1,
+                "object_name": "Account",
+                "field_id": 19553,
+                "name": "Permanent City",
+                "FieldName": "Acc_ex1_142",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Account",
+                "field_id": 19554,
+                "name": "Permanent  Pin",
+                "FieldName": "Acc_ex1_143",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Account",
+                "field_id": 19564,
+                "name": "Permanent State",
+                "FieldName": "Acc_ex1_189",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Account",
+                "field_id": 19561,
+                "name": "Permanent Phone",
+                "FieldName": "Acc_ex1_163",
+                "field_type": "Text"
+            }
+        ]
+    }
+]

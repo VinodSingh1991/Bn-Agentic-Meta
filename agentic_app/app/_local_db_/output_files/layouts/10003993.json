@@ -1,0 +1,106 @@
+[
+    {
+        "query_label": "Account Group Summary",
+        "query_fields": [
+            {
+                "roleid": 1,
+                "object_name": "Account",
+                "field_id": 498,
+                "name": "Customer ID",
+                "FieldName": "Acc_ex1_57",
+                "field_type": "Text"
+            }
+        ]
+    },
+    {
+        "query_label": "Account Related Products",
+        "query_fields": [
+            {
+                "roleid": 1,
+                "object_name": "Account",
+                "field_id": 498,
+                "name": "Customer ID",
+                "FieldName": "Acc_ex1_57",
+                "field_type": "Text"
+            }
+        ]
+    },
+    {
+        "query_label": "Account BM Instructions",
+        "query_fields": [
+            {
+                "roleid": 1,
+                "object_name": "Account",
+                "field_id": 201,
+                "name": "BM Instructions",
+                "FieldName": "Acc_ex1_62",
+                "field_type": "Comments"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Account",
+                "field_id": 1842,
+                "name": "BM Instruction 1",
+                "FieldName": "Acc_ex4_44",
+                "field_type": "Comments"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Account",
+                "field_id": 1843,
+                "name": "BM Instruction 2",
+                "FieldName": "Acc_ex4_45",
+                "field_type": "Comments"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Account",
+                "field_id": 1844,
+                "name": "BM Instruction 3",
+                "FieldName": "Acc_ex4_46",
+                "field_type": "Comments"
+            }
+        ]
+    },
+    {
+        "query_label": "Account BM Instructions",
+        "query_fields": [
+            {
+                "roleid": 1,
+                "object_name": "Account",
+                "field_id": 201,
+                "name": "BM Instructions",
+                "FieldName": "Acc_ex1_62",
+                "field_type": "Comments"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Account",
+                "field_id": 1842,
+                "name": "BM Instruction 1",
+                "FieldName": "Acc_ex4_44",
+                "field_type": "Comments"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Account",
+                "field_id": 1843,
+                "name": "BM Instruction 2",
+                "FieldName": "Acc_ex4_45",
+                "field_type": "Comments"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Account",
+                "field_id": 1844,
+                "name": "BM Instruction 3",
+                "FieldName": "Acc_ex4_46",
+                "field_type": "Comments"
+            }
+        ]
+    },
+    {
+        "query_label": "Account APT",
+        "query_fields": []
+    }
+]

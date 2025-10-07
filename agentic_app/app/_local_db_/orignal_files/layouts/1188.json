@@ -1,0 +1,8 @@
+{
+    "ItemTypeID": 4,
+    "LayoutID": 1188,
+    "LayoutType": 2,
+    "LayoutXML": "<layout rendermode=\"Tabs\">\r\n <tabs>\r\n  <tab id=\"1\">\r\n   <text>\r\n    <lang lid=\"en\" hotkey=\"ShortcutKey\" text=\"Note Details\" />\r\n   </text>\r\n   <section>\r\n    <text>\r\n     <lang lid=\"en\" text=\"Note Details\" />\r\n    </text>\r\n    <rows>\r\n     <row>\r\n      <cols>\r\n       <col req=\"3\" fieldid=\"Note_RelatedTo\" colspan=\"3\" showlabel=\"true\" fieldtype=\"2\">\r\n        <text>\r\n         <lang lid=\"en\" text=\"Related To\" />\r\n        </text>\r\n       </col>\r\n      </cols>\r\n     </row>\r\n     <row>\r\n      <cols>\r\n       <col req=\"1\" fieldid=\"Note_Subject\" colspan=\"3\" valign=\"top\" fieldtype=\"2\">\r\n        <text>\r\n         <lang lid=\"en\" text=\"Subject\" />\r\n        </text>\r\n       </col>\r\n      </cols>\r\n     </row>\r\n     <row>\r\n      <cols>\r\n       <col req=\"3\" fieldid=\"Note_Detail\" valign=\"top\" colspan=\"3\" fieldtype=\"2\">\r\n        <text>\r\n         <lang lid=\"en\" text=\"Detail\" />\r\n        </text>\r\n       </col>\r\n      </cols>\r\n     </row>\r\n    </rows>\r\n   </section>\r\n  </tab>\r\n </tabs>\r\n</layout>",
+    "LayoutName": "default",
+    "RoleId": 1
+}

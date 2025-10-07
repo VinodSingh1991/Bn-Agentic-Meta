@@ -1,0 +1,50 @@
+[
+    {
+        "query_label": "Account APR Dashboard",
+        "query_fields": []
+    },
+    {
+        "query_label": "Account Wholesale Salary",
+        "query_fields": []
+    },
+    {
+        "query_label": "Account KO Wholesale",
+        "query_fields": []
+    },
+    {
+        "query_label": "Account Daily ALM",
+        "query_fields": []
+    },
+    {
+        "query_label": "Account ASR Summary Dashboard",
+        "query_fields": []
+    },
+    {
+        "query_label": "Account Re-KYC Summary",
+        "query_fields": []
+    },
+    {
+        "query_label": "Account Intraday Dashboard",
+        "query_fields": []
+    },
+    {
+        "query_label": "Account HVT Summary",
+        "query_fields": []
+    },
+    {
+        "query_label": "Account  BO Dashboard",
+        "query_fields": []
+    },
+    {
+        "query_label": "Account IDPMS & EDPMS Dashboard",
+        "query_fields": []
+    },
+    {
+        "query_label": "Account CAM Overdue Dashboard",
+        "query_fields": []
+    },
+    {
+        "query_label": "Account CAM Deferral",
+        "query_fields": []
+    }
+]

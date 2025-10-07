@@ -1,0 +1,241 @@
+[
+    {
+        "query_label": "Activity Summary",
+        "query_fields": [
+            {
+                "roleid": 1,
+                "object_name": "Activity",
+                "field_id": 5175,
+                "name": "Customer Name",
+                "FieldName": "Act_ex1_55",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Activity",
+                "field_id": 10010103,
+                "name": "Assigned To",
+                "FieldName": "AssignedTo",
+                "field_type": "Number"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Activity",
+                "field_id": 7030,
+                "name": "Joint Call With",
+                "FieldName": "Act_ex1_59",
+                "field_type": "MultiPicker"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Activity",
+                "field_id": 1175,
+                "name": "Customer Officials",
+                "FieldName": "Act_ex2_27",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Activity",
+                "field_id": 11230,
+                "name": "Is this CXO Call",
+                "FieldName": "Act_ex4_6",
+                "field_type": "Lookup"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Activity",
+                "field_id": 11229,
+                "name": "Products",
+                "FieldName": "Act_ex4_5",
+                "field_type": "MultiPicker"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Activity",
+                "field_id": 1171,
+                "name": "Bank Officials",
+                "FieldName": "Act_ex2_24",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Activity",
+                "field_id": 7034,
+                "name": "Status Code",
+                "FieldName": "Act_ex1_61",
+                "field_type": "Lookup"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Activity",
+                "field_id": 5176,
+                "name": "Agenda",
+                "FieldName": "Act_ex1_56",
+                "field_type": "Lookup"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Activity",
+                "field_id": 1004,
+                "name": "Mode of Interaction",
+                "FieldName": "Act_ex1_27",
+                "field_type": "Lookup"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Activity",
+                "field_id": 1173,
+                "name": "Actual Visit Date",
+                "FieldName": "Act_ex2_25",
+                "field_type": "Date"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Activity",
+                "field_id": 5174,
+                "name": "Narration",
+                "FieldName": "Act_ex1_54",
+                "field_type": "Comments"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Activity",
+                "field_id": 11966,
+                "name": "Delay reason flag",
+                "FieldName": "Cas_ex4_93",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Activity",
+                "field_id": 11967,
+                "name": "Delay reason flag 1",
+                "FieldName": "Lea_ex3_120",
+                "field_type": "Text"
+            }
+        ]
+    },
+    {
+        "query_label": "Activity Calendar Information",
+        "query_fields": [
+            {
+                "roleid": 1,
+                "object_name": "Activity",
+                "field_id": 5175,
+                "name": "Customer Name",
+                "FieldName": "Act_ex1_55",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Activity",
+                "field_id": 10010103,
+                "name": "Assigned To",
+                "FieldName": "AssignedTo",
+                "field_type": "Number"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Activity",
+                "field_id": 7030,
+                "name": "Joint Call With",
+                "FieldName": "Act_ex1_59",
+                "field_type": "MultiPicker"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Activity",
+                "field_id": 1175,
+                "name": "Customer Officials",
+                "FieldName": "Act_ex2_27",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Activity",
+                "field_id": 11230,
+                "name": "Is this CXO Call",
+                "FieldName": "Act_ex4_6",
+                "field_type": "Lookup"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Activity",
+                "field_id": 11229,
+                "name": "Products",
+                "FieldName": "Act_ex4_5",
+                "field_type": "MultiPicker"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Activity",
+                "field_id": 1171,
+                "name": "Bank Officials",
+                "FieldName": "Act_ex2_24",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Activity",
+                "field_id": 7034,
+                "name": "Status Code",
+                "FieldName": "Act_ex1_61",
+                "field_type": "Lookup"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Activity",
+                "field_id": 5176,
+                "name": "Agenda",
+                "FieldName": "Act_ex1_56",
+                "field_type": "Lookup"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Activity",
+                "field_id": 1004,
+                "name": "Mode of Interaction",
+                "FieldName": "Act_ex1_27",
+                "field_type": "Lookup"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Activity",
+                "field_id": 1173,
+                "name": "Actual Visit Date",
+                "FieldName": "Act_ex2_25",
+                "field_type": "Date"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Activity",
+                "field_id": 5174,
+                "name": "Narration",
+                "FieldName": "Act_ex1_54",
+                "field_type": "Comments"
+            }
+        ]
+    },
+    {
+        "query_label": "Activity All Closed Tasks",
+        "query_fields": [
+            {
+                "roleid": 1,
+                "object_name": "Activity",
+                "field_id": 11966,
+                "name": "Delay reason flag",
+                "FieldName": "Cas_ex4_93",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Activity",
+                "field_id": 11967,
+                "name": "Delay reason flag 1",
+                "FieldName": "Lea_ex3_120",
+                "field_type": "Text"
+            }
+        ]
+    }
+]

@@ -1,0 +1,358 @@
+[
+    {
+        "query_label": "Opportunity Key Information",
+        "query_fields": [
+            {
+                "roleid": 1,
+                "object_name": "Opportunity",
+                "field_id": 10003761,
+                "name": "Opportunity Name",
+                "FieldName": "Name",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Opportunity",
+                "field_id": 10003778,
+                "name": "Owner",
+                "FieldName": "OppOwnerName",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Opportunity",
+                "field_id": 10003711,
+                "name": "Account Name",
+                "FieldName": "AccountName",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Opportunity",
+                "field_id": 10003804,
+                "name": "Start On",
+                "FieldName": "StartDate",
+                "field_type": "Date"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Opportunity",
+                "field_id": 10003737,
+                "name": "Closing On",
+                "FieldName": "ExpEndDate",
+                "field_type": "Date"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Opportunity",
+                "field_id": 10057513,
+                "name": "Priority",
+                "FieldName": "PriorityName",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Opportunity",
+                "field_id": 10003732,
+                "name": "Stage name",
+                "FieldName": "CurrentStage",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Opportunity",
+                "field_id": 10003775,
+                "name": "Opportunity Type",
+                "FieldName": "OpportunityType",
+                "field_type": "Number"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Opportunity",
+                "field_id": 10003811,
+                "name": "Branch Code",
+                "FieldName": "TerritoryCode",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Opportunity",
+                "field_id": 10054759,
+                "name": "Key Product",
+                "FieldName": "OppProduct",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Opportunity",
+                "field_id": 10003810,
+                "name": "Team",
+                "FieldName": "TeamName",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Opportunity",
+                "field_id": 10003723,
+                "name": "Confidence",
+                "FieldName": "Confidence",
+                "field_type": "Number"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Opportunity",
+                "field_id": 10003813,
+                "name": "Branch",
+                "FieldName": "TerritoryName",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Opportunity",
+                "field_id": 10003816,
+                "name": "Amount",
+                "FieldName": "YourPrice",
+                "field_type": "MulticurrencyAmount"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Opportunity",
+                "field_id": 10003745,
+                "name": "Include in Forecast",
+                "FieldName": "IncludeInForecast",
+                "field_type": "Check"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Opportunity",
+                "field_id": 10003739,
+                "name": "Forecast",
+                "FieldName": "ForecastAmount",
+                "field_type": "MulticurrencyAmount"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Opportunity",
+                "field_id": 10003796,
+                "name": "Lead Source",
+                "FieldName": "Source",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Opportunity",
+                "field_id": 10003717,
+                "name": "Campaign",
+                "FieldName": "CampaignName",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Opportunity",
+                "field_id": 10003722,
+                "name": "Description",
+                "FieldName": "Comment",
+                "field_type": "Comments"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Opportunity",
+                "field_id": 10001087,
+                "name": "Address",
+                "FieldName": "Address",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Opportunity",
+                "field_id": 10001603,
+                "name": "Currency",
+                "FieldName": "CurrencyID",
+                "field_type": "Text"
+            }
+        ]
+    },
+    {
+        "query_label": "Opportunity Key Information",
+        "query_fields": [
+            {
+                "roleid": 1,
+                "object_name": "Opportunity",
+                "field_id": 10003761,
+                "name": "Opportunity Name",
+                "FieldName": "Name",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Opportunity",
+                "field_id": 10003778,
+                "name": "Owner",
+                "FieldName": "OppOwnerName",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Opportunity",
+                "field_id": 10003711,
+                "name": "Account Name",
+                "FieldName": "AccountName",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Opportunity",
+                "field_id": 10003804,
+                "name": "Start On",
+                "FieldName": "StartDate",
+                "field_type": "Date"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Opportunity",
+                "field_id": 10003737,
+                "name": "Closing On",
+                "FieldName": "ExpEndDate",
+                "field_type": "Date"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Opportunity",
+                "field_id": 10057513,
+                "name": "Priority",
+                "FieldName": "PriorityName",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Opportunity",
+                "field_id": 10003732,
+                "name": "Stage name",
+                "FieldName": "CurrentStage",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Opportunity",
+                "field_id": 10003775,
+                "name": "Opportunity Type",
+                "FieldName": "OpportunityType",
+                "field_type": "Number"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Opportunity",
+                "field_id": 10003811,
+                "name": "Branch Code",
+                "FieldName": "TerritoryCode",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Opportunity",
+                "field_id": 10054759,
+                "name": "Key Product",
+                "FieldName": "OppProduct",
+                "field_type": "Text"
+            }
+        ]
+    },
+    {
+        "query_label": "Opportunity Classification Information",
+        "query_fields": [
+            {
+                "roleid": 1,
+                "object_name": "Opportunity",
+                "field_id": 10003810,
+                "name": "Team",
+                "FieldName": "TeamName",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Opportunity",
+                "field_id": 10003723,
+                "name": "Confidence",
+                "FieldName": "Confidence",
+                "field_type": "Number"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Opportunity",
+                "field_id": 10003813,
+                "name": "Branch",
+                "FieldName": "TerritoryName",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Opportunity",
+                "field_id": 10003816,
+                "name": "Amount",
+                "FieldName": "YourPrice",
+                "field_type": "MulticurrencyAmount"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Opportunity",
+                "field_id": 10003745,
+                "name": "Include in Forecast",
+                "FieldName": "IncludeInForecast",
+                "field_type": "Check"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Opportunity",
+                "field_id": 10003739,
+                "name": "Forecast",
+                "FieldName": "ForecastAmount",
+                "field_type": "MulticurrencyAmount"
+            }
+        ]
+    },
+    {
+        "query_label": "Opportunity Additional Information",
+        "query_fields": [
+            {
+                "roleid": 1,
+                "object_name": "Opportunity",
+                "field_id": 10003796,
+                "name": "Lead Source",
+                "FieldName": "Source",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Opportunity",
+                "field_id": 10003717,
+                "name": "Campaign",
+                "FieldName": "CampaignName",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Opportunity",
+                "field_id": 10003722,
+                "name": "Description",
+                "FieldName": "Comment",
+                "field_type": "Comments"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Opportunity",
+                "field_id": 10001087,
+                "name": "Address",
+                "FieldName": "Address",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Opportunity",
+                "field_id": 10001603,
+                "name": "Currency",
+                "FieldName": "CurrencyID",
+                "field_type": "Text"
+            }
+        ]
+    }
+]

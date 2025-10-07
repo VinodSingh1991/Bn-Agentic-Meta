@@ -1,0 +1,784 @@
+[
+    {
+        "query_label": "Account Key Information",
+        "query_fields": [
+            {
+                "roleid": 1,
+                "object_name": "Account",
+                "field_id": 10002744,
+                "name": "SN_Account_Name",
+                "FieldName": "Name",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Account",
+                "field_id": 10002778,
+                "name": "SN_Account_ShortName",
+                "FieldName": "ShortName",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Account",
+                "field_id": 10002749,
+                "name": "SN_PARENTNAME",
+                "FieldName": "ParentAccountName",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Account",
+                "field_id": 148,
+                "name": "Religion",
+                "FieldName": "Acc_ex1_10",
+                "field_type": "Lookup"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Account",
+                "field_id": 142,
+                "name": "Updated Birth Date",
+                "FieldName": "Acc_ex1_4",
+                "field_type": "Date"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Account",
+                "field_id": 145,
+                "name": "Anniversary date",
+                "FieldName": "Acc_ex1_7",
+                "field_type": "Date"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Account",
+                "field_id": 457,
+                "name": "Updated Marital Status",
+                "FieldName": "Acc_ex1_15",
+                "field_type": "Lookup"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Account",
+                "field_id": 10002674,
+                "name": "SN_Account_AssignedToName",
+                "FieldName": "AssignedToName",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Account",
+                "field_id": 10002791,
+                "name": "SN_Account_TerritoryName",
+                "FieldName": "TerritoryName",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Account",
+                "field_id": 201,
+                "name": "BM Instructions",
+                "FieldName": "Acc_ex1_62",
+                "field_type": "Comments"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Account",
+                "field_id": 202,
+                "name": "BM Products Recomd",
+                "FieldName": "Acc_ex1_63",
+                "field_type": "Comments"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Account",
+                "field_id": 163,
+                "name": "Music",
+                "FieldName": "Acc_ex1_24",
+                "field_type": "MultiPicker"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Account",
+                "field_id": 164,
+                "name": "Music-Others",
+                "FieldName": "Acc_ex1_25",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Account",
+                "field_id": 169,
+                "name": "Sports",
+                "FieldName": "Acc_ex1_30",
+                "field_type": "MultiPicker"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Account",
+                "field_id": 170,
+                "name": "Sports-Others",
+                "FieldName": "Acc_ex1_31",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Account",
+                "field_id": 165,
+                "name": "Literature",
+                "FieldName": "Acc_ex1_26",
+                "field_type": "MultiPicker"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Account",
+                "field_id": 166,
+                "name": "Literature-Others",
+                "FieldName": "Acc_ex1_27",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Account",
+                "field_id": 167,
+                "name": "Movies",
+                "FieldName": "Acc_ex1_28",
+                "field_type": "MultiPicker"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Account",
+                "field_id": 168,
+                "name": "Movies- Others",
+                "FieldName": "Acc_ex1_29",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Account",
+                "field_id": 171,
+                "name": "Art",
+                "FieldName": "Acc_ex1_32",
+                "field_type": "MultiPicker"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Account",
+                "field_id": 172,
+                "name": "Art- Others",
+                "FieldName": "Acc_ex1_33",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Account",
+                "field_id": 458,
+                "name": "Other Interests",
+                "FieldName": "Acc_ex2_62",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Account",
+                "field_id": 10002715,
+                "name": "SN_IMPORTANCE",
+                "FieldName": "Importance",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Account",
+                "field_id": 10002763,
+                "name": "SN_Account_Rating",
+                "FieldName": "Rating",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Account",
+                "field_id": 678,
+                "name": "Note_a",
+                "FieldName": "Acc_ex2_97",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Account",
+                "field_id": 3353,
+                "name": "Money Changer_tf",
+                "FieldName": "Acc_ex5_49",
+                "field_type": "LookupWithId"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Account",
+                "field_id": 3354,
+                "name": "License No_tf",
+                "FieldName": "Acc_ex5_50",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Account",
+                "field_id": 3355,
+                "name": "License Issue Date_tf",
+                "FieldName": "Acc_ex5_51",
+                "field_type": "Date"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Account",
+                "field_id": 3356,
+                "name": "License Expiry Date_tf",
+                "FieldName": "Acc_ex5_52",
+                "field_type": "Date"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Account",
+                "field_id": 3357,
+                "name": "Remarks_tf",
+                "FieldName": "Acc_ex5_53",
+                "field_type": "Comments"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Account",
+                "field_id": 984,
+                "name": "Is Business Seasonal",
+                "FieldName": "Acc_ex3_11",
+                "field_type": "Lookup"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Account",
+                "field_id": 1000,
+                "name": "Peak Season From",
+                "FieldName": "Acc_ex3_27",
+                "field_type": "Lookup"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Account",
+                "field_id": 1001,
+                "name": "Peak Season To",
+                "FieldName": "Acc_ex3_28",
+                "field_type": "Lookup"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Account",
+                "field_id": 985,
+                "name": "Updated Nature of Business",
+                "FieldName": "Acc_ex3_12",
+                "field_type": "Lookup"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Account",
+                "field_id": 986,
+                "name": "Products / Services dealt with",
+                "FieldName": "Acc_ex3_13",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Account",
+                "field_id": 993,
+                "name": "Updated Industry Segment",
+                "FieldName": "Acc_ex3_20",
+                "field_type": "Lookup"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Account",
+                "field_id": 999,
+                "name": "Monthly Volume of POS/Payment Gateway Transactions",
+                "FieldName": "Acc_ex3_26",
+                "field_type": "Lookup"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Account",
+                "field_id": 987,
+                "name": "Number of Employees",
+                "FieldName": "Acc_ex3_14",
+                "field_type": "Lookup"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Account",
+                "field_id": 994,
+                "name": "Distribution Network",
+                "FieldName": "Acc_ex3_21",
+                "field_type": "Lookup"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Account",
+                "field_id": 988,
+                "name": "International Trade",
+                "FieldName": "Acc_ex3_15",
+                "field_type": "Lookup"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Account",
+                "field_id": 995,
+                "name": "Average Monthly Salary / Employee",
+                "FieldName": "Acc_ex3_22",
+                "field_type": "Lookup"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Account",
+                "field_id": 996,
+                "name": "No.of Branch Offices",
+                "FieldName": "Acc_ex3_23",
+                "field_type": "Lookup"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Account",
+                "field_id": 1002,
+                "name": "Last Updated On",
+                "FieldName": "Acc_ex3_29",
+                "field_type": "Date"
+            }
+        ]
+    },
+    {
+        "query_label": "Account Key Information",
+        "query_fields": [
+            {
+                "roleid": 1,
+                "object_name": "Account",
+                "field_id": 10002744,
+                "name": "SN_Account_Name",
+                "FieldName": "Name",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Account",
+                "field_id": 10002778,
+                "name": "SN_Account_ShortName",
+                "FieldName": "ShortName",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Account",
+                "field_id": 10002749,
+                "name": "SN_PARENTNAME",
+                "FieldName": "ParentAccountName",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Account",
+                "field_id": 148,
+                "name": "Religion",
+                "FieldName": "Acc_ex1_10",
+                "field_type": "Lookup"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Account",
+                "field_id": 142,
+                "name": "Updated Birth Date",
+                "FieldName": "Acc_ex1_4",
+                "field_type": "Date"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Account",
+                "field_id": 145,
+                "name": "Anniversary date",
+                "FieldName": "Acc_ex1_7",
+                "field_type": "Date"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Account",
+                "field_id": 457,
+                "name": "Updated Marital Status",
+                "FieldName": "Acc_ex1_15",
+                "field_type": "Lookup"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Account",
+                "field_id": 10002674,
+                "name": "SN_Account_AssignedToName",
+                "FieldName": "AssignedToName",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Account",
+                "field_id": 10002791,
+                "name": "SN_Account_TerritoryName",
+                "FieldName": "TerritoryName",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Account",
+                "field_id": 201,
+                "name": "BM Instructions",
+                "FieldName": "Acc_ex1_62",
+                "field_type": "Comments"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Account",
+                "field_id": 202,
+                "name": "BM Products Recomd",
+                "FieldName": "Acc_ex1_63",
+                "field_type": "Comments"
+            }
+        ]
+    },
+    {
+        "query_label": "Account Behavioral Information",
+        "query_fields": [
+            {
+                "roleid": 1,
+                "object_name": "Account",
+                "field_id": 163,
+                "name": "Music",
+                "FieldName": "Acc_ex1_24",
+                "field_type": "MultiPicker"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Account",
+                "field_id": 164,
+                "name": "Music-Others",
+                "FieldName": "Acc_ex1_25",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Account",
+                "field_id": 169,
+                "name": "Sports",
+                "FieldName": "Acc_ex1_30",
+                "field_type": "MultiPicker"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Account",
+                "field_id": 170,
+                "name": "Sports-Others",
+                "FieldName": "Acc_ex1_31",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Account",
+                "field_id": 165,
+                "name": "Literature",
+                "FieldName": "Acc_ex1_26",
+                "field_type": "MultiPicker"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Account",
+                "field_id": 166,
+                "name": "Literature-Others",
+                "FieldName": "Acc_ex1_27",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Account",
+                "field_id": 167,
+                "name": "Movies",
+                "FieldName": "Acc_ex1_28",
+                "field_type": "MultiPicker"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Account",
+                "field_id": 168,
+                "name": "Movies- Others",
+                "FieldName": "Acc_ex1_29",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Account",
+                "field_id": 171,
+                "name": "Art",
+                "FieldName": "Acc_ex1_32",
+                "field_type": "MultiPicker"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Account",
+                "field_id": 172,
+                "name": "Art- Others",
+                "FieldName": "Acc_ex1_33",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Account",
+                "field_id": 458,
+                "name": "Other Interests",
+                "FieldName": "Acc_ex2_62",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Account",
+                "field_id": 10002715,
+                "name": "SN_IMPORTANCE",
+                "FieldName": "Importance",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Account",
+                "field_id": 10002763,
+                "name": "SN_Account_Rating",
+                "FieldName": "Rating",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Account",
+                "field_id": 678,
+                "name": "Note_a",
+                "FieldName": "Acc_ex2_97",
+                "field_type": "Text"
+            }
+        ]
+    },
+    {
+        "query_label": "Account Influencing Agent Profiler",
+        "query_fields": [
+            {
+                "roleid": 1,
+                "object_name": "Account",
+                "field_id": 3353,
+                "name": "Money Changer_tf",
+                "FieldName": "Acc_ex5_49",
+                "field_type": "LookupWithId"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Account",
+                "field_id": 3354,
+                "name": "License No_tf",
+                "FieldName": "Acc_ex5_50",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Account",
+                "field_id": 3355,
+                "name": "License Issue Date_tf",
+                "FieldName": "Acc_ex5_51",
+                "field_type": "Date"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Account",
+                "field_id": 3356,
+                "name": "License Expiry Date_tf",
+                "FieldName": "Acc_ex5_52",
+                "field_type": "Date"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Account",
+                "field_id": 3357,
+                "name": "Remarks_tf",
+                "FieldName": "Acc_ex5_53",
+                "field_type": "Comments"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Account",
+                "field_id": 984,
+                "name": "Is Business Seasonal",
+                "FieldName": "Acc_ex3_11",
+                "field_type": "Lookup"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Account",
+                "field_id": 1000,
+                "name": "Peak Season From",
+                "FieldName": "Acc_ex3_27",
+                "field_type": "Lookup"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Account",
+                "field_id": 1001,
+                "name": "Peak Season To",
+                "FieldName": "Acc_ex3_28",
+                "field_type": "Lookup"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Account",
+                "field_id": 985,
+                "name": "Updated Nature of Business",
+                "FieldName": "Acc_ex3_12",
+                "field_type": "Lookup"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Account",
+                "field_id": 986,
+                "name": "Products / Services dealt with",
+                "FieldName": "Acc_ex3_13",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Account",
+                "field_id": 993,
+                "name": "Updated Industry Segment",
+                "FieldName": "Acc_ex3_20",
+                "field_type": "Lookup"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Account",
+                "field_id": 999,
+                "name": "Monthly Volume of POS/Payment Gateway Transactions",
+                "FieldName": "Acc_ex3_26",
+                "field_type": "Lookup"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Account",
+                "field_id": 987,
+                "name": "Number of Employees",
+                "FieldName": "Acc_ex3_14",
+                "field_type": "Lookup"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Account",
+                "field_id": 994,
+                "name": "Distribution Network",
+                "FieldName": "Acc_ex3_21",
+                "field_type": "Lookup"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Account",
+                "field_id": 988,
+                "name": "International Trade",
+                "FieldName": "Acc_ex3_15",
+                "field_type": "Lookup"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Account",
+                "field_id": 995,
+                "name": "Average Monthly Salary / Employee",
+                "FieldName": "Acc_ex3_22",
+                "field_type": "Lookup"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Account",
+                "field_id": 996,
+                "name": "No.of Branch Offices",
+                "FieldName": "Acc_ex3_23",
+                "field_type": "Lookup"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Account",
+                "field_id": 1002,
+                "name": "Last Updated On",
+                "FieldName": "Acc_ex3_29",
+                "field_type": "Date"
+            }
+        ]
+    },
+    {
+        "query_label": "Account Alternate Address Information",
+        "query_fields": [
+            {
+                "roleid": 1,
+                "object_name": "Account",
+                "field_id": 200,
+                "name": "Alternate Address",
+                "FieldName": "Acc_ex1_61",
+                "field_type": "Comments"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Account",
+                "field_id": 159,
+                "name": "Alternate Phone",
+                "FieldName": "Acc_ex1_20",
+                "field_type": "Phone"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Account",
+                "field_id": 160,
+                "name": "Alternate Mobile",
+                "FieldName": "Acc_ex1_21",
+                "field_type": "Phone"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Account",
+                "field_id": 161,
+                "name": "Alternate Email",
+                "FieldName": "Acc_ex1_22",
+                "field_type": "Email"
+            }
+        ]
+    },
+    {
+        "query_label": "Account Alternate Address Information",
+        "query_fields": [
+            {
+                "roleid": 1,
+                "object_name": "Account",
+                "field_id": 200,
+                "name": "Alternate Address",
+                "FieldName": "Acc_ex1_61",
+                "field_type": "Comments"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Account",
+                "field_id": 159,
+                "name": "Alternate Phone",
+                "FieldName": "Acc_ex1_20",
+                "field_type": "Phone"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Account",
+                "field_id": 160,
+                "name": "Alternate Mobile",
+                "FieldName": "Acc_ex1_21",
+                "field_type": "Phone"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Account",
+                "field_id": 161,
+                "name": "Alternate Email",
+                "FieldName": "Acc_ex1_22",
+                "field_type": "Email"
+            }
+        ]
+    }
+]

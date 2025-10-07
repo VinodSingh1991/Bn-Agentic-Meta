@@ -7,6 +7,9 @@ from routes.get_layouts_routes import router as layouts_router
 from routes.get_meta_data import router as meta_router
 from routes.get_listing_routes import router as listing_router
 
+#Agent Routers
+from agents.controllers.agent_controllers import router as agent_routers
+
 app = FastAPI(title="My Python SQL Server App")
 
 app.add_middleware(
@@ -17,16 +20,14 @@ app.add_middleware(
     allow_headers=["*"]
 )
 
-app.include_router(roles_router, prefix="/api")
-app.include_router(objects_router, prefix="/api")
-app.include_router(fields_router, prefix="/api")
-app.include_router(layouts_router, prefix="/api")
+# app.include_router(roles_router, prefix="/api")
+# app.include_router(objects_router, prefix="/api")
+# app.include_router(fields_router, prefix="/api")
+# app.include_router(layouts_router, prefix="/api")
 app.include_router(meta_router, prefix="/api")
-app.include_router(listing_router, prefix="/api")
+# app.include_router(listing_router, prefix="/api")
 
-@app.get("/health")
-def health_check():
-    return {"status": "healthy", "service": "My Python SQL Server App"}
+app.include_router(agent_routers, prefix="/api/agents")
 
 if __name__ == "__main__":
     import uvicorn

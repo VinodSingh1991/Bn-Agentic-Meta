@@ -1,0 +1,60 @@
+[
+    {
+        "query_label": "Case Summary",
+        "query_fields": [
+            {
+                "roleid": 1,
+                "object_name": "Case",
+                "field_id": 15251,
+                "name": "Case Owner Mobile No.",
+                "FieldName": "Cas_ex3_192",
+                "field_type": "Phone"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Case",
+                "field_id": 13143,
+                "name": "SR Type",
+                "FieldName": "Cas_ex1_139",
+                "field_type": "Lookup"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Case",
+                "field_id": 13209,
+                "name": "Failure Reason",
+                "FieldName": "Cas_ex1_145",
+                "field_type": "Text"
+            }
+        ]
+    },
+    {
+        "query_label": "Case User Verification Un-successful",
+        "query_fields": [
+            {
+                "roleid": 1,
+                "object_name": "Case",
+                "field_id": 15251,
+                "name": "Case Owner Mobile No.",
+                "FieldName": "Cas_ex3_192",
+                "field_type": "Phone"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Case",
+                "field_id": 13143,
+                "name": "SR Type",
+                "FieldName": "Cas_ex1_139",
+                "field_type": "Lookup"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Case",
+                "field_id": 13209,
+                "name": "Failure Reason",
+                "FieldName": "Cas_ex1_145",
+                "field_type": "Text"
+            }
+        ]
+    }
+]

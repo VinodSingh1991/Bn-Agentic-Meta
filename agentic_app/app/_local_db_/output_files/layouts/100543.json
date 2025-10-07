@@ -1,0 +1,716 @@
+[
+    {
+        "query_label": "Case Key Information",
+        "query_fields": [
+            {
+                "roleid": 1,
+                "object_name": "Case",
+                "field_id": 1762,
+                "name": "Customer ID",
+                "FieldName": "Cas_ex3_52",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Case",
+                "field_id": 7209,
+                "name": "Account Number",
+                "FieldName": "Cas_ex4_10",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Case",
+                "field_id": 10005891,
+                "name": "Request Status",
+                "FieldName": "StatusCode",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Case",
+                "field_id": 13255,
+                "name": "Card Number",
+                "FieldName": "Cas_ex1_129",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Case",
+                "field_id": 10005904,
+                "name": "Branch",
+                "FieldName": "TerritoryName",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Case",
+                "field_id": 13238,
+                "name": "Customer Mobile",
+                "FieldName": "Cas_ex1_141",
+                "field_type": "Phone"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Case",
+                "field_id": 768,
+                "name": "New ATM Dom Online Limits_Num",
+                "FieldName": "Cas_ex3_163",
+                "field_type": "BigInt"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Case",
+                "field_id": 766,
+                "name": "New ATM Int Online Limits_Num",
+                "FieldName": "Cas_ex3_134",
+                "field_type": "BigInt"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Case",
+                "field_id": 767,
+                "name": "ATM Domestic Online Limits",
+                "FieldName": "Cas_ex3_138",
+                "field_type": "BigInt"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Case",
+                "field_id": 1404,
+                "name": "New ATM Domestic Online Limits",
+                "FieldName": "Cas_ex4_104",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Case",
+                "field_id": 765,
+                "name": "ATM International Online Limits",
+                "FieldName": "Cas_ex3_133",
+                "field_type": "BigInt"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Case",
+                "field_id": 1408,
+                "name": "New ATM International Online Limits",
+                "FieldName": "Cas_ex4_110",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Case",
+                "field_id": 774,
+                "name": "New POS Dom Online Limits_Num",
+                "FieldName": "Cas_ex3_165",
+                "field_type": "BigInt"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Case",
+                "field_id": 772,
+                "name": "New POS Int Online Limits_Num",
+                "FieldName": "Cas_ex3_164",
+                "field_type": "BigInt"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Case",
+                "field_id": 773,
+                "name": "POS Domestic Online Limits",
+                "FieldName": "Cas_ex3_143",
+                "field_type": "BigInt"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Case",
+                "field_id": 1405,
+                "name": "New POS Domestic Online Limits",
+                "FieldName": "Cas_ex4_107",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Case",
+                "field_id": 771,
+                "name": "POS International Online Limits",
+                "FieldName": "Cas_ex3_142",
+                "field_type": "BigInt"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Case",
+                "field_id": 1409,
+                "name": "New POS International Online Limits",
+                "FieldName": "Cas_ex4_111",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Case",
+                "field_id": 778,
+                "name": "New ECOM Dom Online Limits_Num",
+                "FieldName": "Cas_ex3_171",
+                "field_type": "BigInt"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Case",
+                "field_id": 776,
+                "name": "New ECOM Int Online Limits_Num",
+                "FieldName": "Cas_ex3_166",
+                "field_type": "BigInt"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Case",
+                "field_id": 777,
+                "name": "ECOM Domestic Online Limits",
+                "FieldName": "Cas_ex3_146",
+                "field_type": "BigInt"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Case",
+                "field_id": 1406,
+                "name": "New ECOM Domestic Online Limits",
+                "FieldName": "Cas_ex4_108",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Case",
+                "field_id": 775,
+                "name": "ECOM International Online Limits",
+                "FieldName": "Cas_ex3_144",
+                "field_type": "BigInt"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Case",
+                "field_id": 1410,
+                "name": "New ECOM International Online Limits",
+                "FieldName": "Cas_ex4_112",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Case",
+                "field_id": 782,
+                "name": "New Cont Dom Online Limits_Num",
+                "FieldName": "Cas_ex3_173",
+                "field_type": "BigInt"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Case",
+                "field_id": 780,
+                "name": "New Cont Int Online Limits_Num",
+                "FieldName": "Cas_ex3_172",
+                "field_type": "BigInt"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Case",
+                "field_id": 781,
+                "name": "Contactless Domestic Online Limits",
+                "FieldName": "Cas_ex3_152",
+                "field_type": "BigInt"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Case",
+                "field_id": 1407,
+                "name": "New Contactless Domestic Online Limits",
+                "FieldName": "Cas_ex4_109",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Case",
+                "field_id": 779,
+                "name": "Contactless International Online Limits",
+                "FieldName": "Cas_ex3_148",
+                "field_type": "BigInt"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Case",
+                "field_id": 1411,
+                "name": "New Contactless International Online Limits",
+                "FieldName": "Cas_ex4_113",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Case",
+                "field_id": 785,
+                "name": "Global Contactless Domestic Online Limits",
+                "FieldName": "Cas_ex3_155",
+                "field_type": "BigInt"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Case",
+                "field_id": 783,
+                "name": "Global Contactless International Online Limits",
+                "FieldName": "Cas_ex3_154",
+                "field_type": "BigInt"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Case",
+                "field_id": 786,
+                "name": "New Global Contactless Domestic Online Limits",
+                "FieldName": "Cas_ex3_179",
+                "field_type": "BigInt"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Case",
+                "field_id": 784,
+                "name": "New Global Contactless International Online Limits",
+                "FieldName": "Cas_ex3_178",
+                "field_type": "BigInt"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Case",
+                "field_id": 770,
+                "name": "Domestic Aggregate Online Limit",
+                "FieldName": "Cas_ex3_140",
+                "field_type": "BigInt"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Case",
+                "field_id": 769,
+                "name": "International Aggregate Online Limit",
+                "FieldName": "Cas_ex3_135",
+                "field_type": "BigInt"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Case",
+                "field_id": 787,
+                "name": "Permissible Limits",
+                "FieldName": "Cas_ex3_136",
+                "field_type": "BigInt"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Case",
+                "field_id": 8571,
+                "name": "Request Type",
+                "FieldName": "Cas_ex4_71",
+                "field_type": "Lookup"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Case",
+                "field_id": 10005901,
+                "name": "Subject",
+                "FieldName": "Subject",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Case",
+                "field_id": 10005757,
+                "name": "Case Owner",
+                "FieldName": "AssignedToName",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Case",
+                "field_id": 10005852,
+                "name": "Product",
+                "FieldName": "Product",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Case",
+                "field_id": 7086,
+                "name": "Remarks",
+                "FieldName": "Cas_ex3_83",
+                "field_type": "Comments"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Case",
+                "field_id": 10005872,
+                "name": "Reported On",
+                "FieldName": "ReportedOn",
+                "field_type": "DateTime"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Case",
+                "field_id": 10005847,
+                "name": "Priority",
+                "FieldName": "Priority",
+                "field_type": "Text"
+            }
+        ]
+    },
+    {
+        "query_label": "Case Key Information",
+        "query_fields": [
+            {
+                "roleid": 1,
+                "object_name": "Case",
+                "field_id": 1762,
+                "name": "Customer ID",
+                "FieldName": "Cas_ex3_52",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Case",
+                "field_id": 7209,
+                "name": "Account Number",
+                "FieldName": "Cas_ex4_10",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Case",
+                "field_id": 10005891,
+                "name": "Request Status",
+                "FieldName": "StatusCode",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Case",
+                "field_id": 13255,
+                "name": "Card Number",
+                "FieldName": "Cas_ex1_129",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Case",
+                "field_id": 10005904,
+                "name": "Branch",
+                "FieldName": "TerritoryName",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Case",
+                "field_id": 13238,
+                "name": "Customer Mobile",
+                "FieldName": "Cas_ex1_141",
+                "field_type": "Phone"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Case",
+                "field_id": 768,
+                "name": "New ATM Dom Online Limits_Num",
+                "FieldName": "Cas_ex3_163",
+                "field_type": "BigInt"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Case",
+                "field_id": 766,
+                "name": "New ATM Int Online Limits_Num",
+                "FieldName": "Cas_ex3_134",
+                "field_type": "BigInt"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Case",
+                "field_id": 767,
+                "name": "ATM Domestic Online Limits",
+                "FieldName": "Cas_ex3_138",
+                "field_type": "BigInt"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Case",
+                "field_id": 1404,
+                "name": "New ATM Domestic Online Limits",
+                "FieldName": "Cas_ex4_104",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Case",
+                "field_id": 765,
+                "name": "ATM International Online Limits",
+                "FieldName": "Cas_ex3_133",
+                "field_type": "BigInt"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Case",
+                "field_id": 1408,
+                "name": "New ATM International Online Limits",
+                "FieldName": "Cas_ex4_110",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Case",
+                "field_id": 774,
+                "name": "New POS Dom Online Limits_Num",
+                "FieldName": "Cas_ex3_165",
+                "field_type": "BigInt"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Case",
+                "field_id": 772,
+                "name": "New POS Int Online Limits_Num",
+                "FieldName": "Cas_ex3_164",
+                "field_type": "BigInt"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Case",
+                "field_id": 773,
+                "name": "POS Domestic Online Limits",
+                "FieldName": "Cas_ex3_143",
+                "field_type": "BigInt"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Case",
+                "field_id": 1405,
+                "name": "New POS Domestic Online Limits",
+                "FieldName": "Cas_ex4_107",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Case",
+                "field_id": 771,
+                "name": "POS International Online Limits",
+                "FieldName": "Cas_ex3_142",
+                "field_type": "BigInt"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Case",
+                "field_id": 1409,
+                "name": "New POS International Online Limits",
+                "FieldName": "Cas_ex4_111",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Case",
+                "field_id": 778,
+                "name": "New ECOM Dom Online Limits_Num",
+                "FieldName": "Cas_ex3_171",
+                "field_type": "BigInt"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Case",
+                "field_id": 776,
+                "name": "New ECOM Int Online Limits_Num",
+                "FieldName": "Cas_ex3_166",
+                "field_type": "BigInt"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Case",
+                "field_id": 777,
+                "name": "ECOM Domestic Online Limits",
+                "FieldName": "Cas_ex3_146",
+                "field_type": "BigInt"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Case",
+                "field_id": 1406,
+                "name": "New ECOM Domestic Online Limits",
+                "FieldName": "Cas_ex4_108",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Case",
+                "field_id": 775,
+                "name": "ECOM International Online Limits",
+                "FieldName": "Cas_ex3_144",
+                "field_type": "BigInt"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Case",
+                "field_id": 1410,
+                "name": "New ECOM International Online Limits",
+                "FieldName": "Cas_ex4_112",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Case",
+                "field_id": 782,
+                "name": "New Cont Dom Online Limits_Num",
+                "FieldName": "Cas_ex3_173",
+                "field_type": "BigInt"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Case",
+                "field_id": 780,
+                "name": "New Cont Int Online Limits_Num",
+                "FieldName": "Cas_ex3_172",
+                "field_type": "BigInt"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Case",
+                "field_id": 781,
+                "name": "Contactless Domestic Online Limits",
+                "FieldName": "Cas_ex3_152",
+                "field_type": "BigInt"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Case",
+                "field_id": 1407,
+                "name": "New Contactless Domestic Online Limits",
+                "FieldName": "Cas_ex4_109",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Case",
+                "field_id": 779,
+                "name": "Contactless International Online Limits",
+                "FieldName": "Cas_ex3_148",
+                "field_type": "BigInt"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Case",
+                "field_id": 1411,
+                "name": "New Contactless International Online Limits",
+                "FieldName": "Cas_ex4_113",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Case",
+                "field_id": 785,
+                "name": "Global Contactless Domestic Online Limits",
+                "FieldName": "Cas_ex3_155",
+                "field_type": "BigInt"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Case",
+                "field_id": 783,
+                "name": "Global Contactless International Online Limits",
+                "FieldName": "Cas_ex3_154",
+                "field_type": "BigInt"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Case",
+                "field_id": 786,
+                "name": "New Global Contactless Domestic Online Limits",
+                "FieldName": "Cas_ex3_179",
+                "field_type": "BigInt"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Case",
+                "field_id": 784,
+                "name": "New Global Contactless International Online Limits",
+                "FieldName": "Cas_ex3_178",
+                "field_type": "BigInt"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Case",
+                "field_id": 770,
+                "name": "Domestic Aggregate Online Limit",
+                "FieldName": "Cas_ex3_140",
+                "field_type": "BigInt"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Case",
+                "field_id": 769,
+                "name": "International Aggregate Online Limit",
+                "FieldName": "Cas_ex3_135",
+                "field_type": "BigInt"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Case",
+                "field_id": 787,
+                "name": "Permissible Limits",
+                "FieldName": "Cas_ex3_136",
+                "field_type": "BigInt"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Case",
+                "field_id": 8571,
+                "name": "Request Type",
+                "FieldName": "Cas_ex4_71",
+                "field_type": "Lookup"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Case",
+                "field_id": 10005901,
+                "name": "Subject",
+                "FieldName": "Subject",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Case",
+                "field_id": 10005757,
+                "name": "Case Owner",
+                "FieldName": "AssignedToName",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Case",
+                "field_id": 10005852,
+                "name": "Product",
+                "FieldName": "Product",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Case",
+                "field_id": 7086,
+                "name": "Remarks",
+                "FieldName": "Cas_ex3_83",
+                "field_type": "Comments"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Case",
+                "field_id": 10005872,
+                "name": "Reported On",
+                "FieldName": "ReportedOn",
+                "field_type": "DateTime"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Case",
+                "field_id": 10005847,
+                "name": "Priority",
+                "FieldName": "Priority",
+                "field_type": "Text"
+            }
+        ]
+    }
+]

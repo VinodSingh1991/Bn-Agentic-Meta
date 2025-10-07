@@ -1,0 +1,129 @@
+[
+    {
+        "query_label": "Account Account Details",
+        "query_fields": [
+            {
+                "roleid": 1,
+                "object_name": "Account",
+                "field_id": 11429,
+                "name": "Liabilities &amp; Digital Products",
+                "FieldName": "Acc_ex3_68",
+                "field_type": "MultiPicker"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Account",
+                "field_id": 11430,
+                "name": "Credit Cards &amp; Assets",
+                "FieldName": "Acc_ex3_69",
+                "field_type": "MultiPicker"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Account",
+                "field_id": 11431,
+                "name": "Investment Products",
+                "FieldName": "Acc_ex3_70",
+                "field_type": "MultiPicker"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Account",
+                "field_id": 11432,
+                "name": "Compliance",
+                "FieldName": "Acc_ex3_71",
+                "field_type": "MultiPicker"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Account",
+                "field_id": 11433,
+                "name": "Liabilities &amp; Digital Products",
+                "FieldName": "Acc_ex3_72",
+                "field_type": "MultiPicker"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Account",
+                "field_id": 11434,
+                "name": "Credit Cards &amp; Assets",
+                "FieldName": "Acc_ex3_73",
+                "field_type": "MultiPicker"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Account",
+                "field_id": 11435,
+                "name": "Investment Products",
+                "FieldName": "Acc_ex3_74",
+                "field_type": "MultiPicker"
+            }
+        ]
+    },
+    {
+        "query_label": "Account Product Pitched",
+        "query_fields": [
+            {
+                "roleid": 1,
+                "object_name": "Account",
+                "field_id": 11429,
+                "name": "Liabilities &amp; Digital Products",
+                "FieldName": "Acc_ex3_68",
+                "field_type": "MultiPicker"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Account",
+                "field_id": 11430,
+                "name": "Credit Cards &amp; Assets",
+                "FieldName": "Acc_ex3_69",
+                "field_type": "MultiPicker"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Account",
+                "field_id": 11431,
+                "name": "Investment Products",
+                "FieldName": "Acc_ex3_70",
+                "field_type": "MultiPicker"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Account",
+                "field_id": 11432,
+                "name": "Compliance",
+                "FieldName": "Acc_ex3_71",
+                "field_type": "MultiPicker"
+            }
+        ]
+    },
+    {
+        "query_label": "Account Products not required by customer",
+        "query_fields": [
+            {
+                "roleid": 1,
+                "object_name": "Account",
+                "field_id": 11433,
+                "name": "Liabilities &amp; Digital Products",
+                "FieldName": "Acc_ex3_72",
+                "field_type": "MultiPicker"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Account",
+                "field_id": 11434,
+                "name": "Credit Cards &amp; Assets",
+                "FieldName": "Acc_ex3_73",
+                "field_type": "MultiPicker"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Account",
+                "field_id": 11435,
+                "name": "Investment Products",
+                "FieldName": "Acc_ex3_74",
+                "field_type": "MultiPicker"
+            }
+        ]
+    }
+]

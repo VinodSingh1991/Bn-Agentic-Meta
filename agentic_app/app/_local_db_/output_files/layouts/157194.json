@@ -1,0 +1,156 @@
+[
+    {
+        "query_label": "Case Summary",
+        "query_fields": [
+            {
+                "roleid": 1,
+                "object_name": "Case",
+                "field_id": 15665,
+                "name": "State",
+                "FieldName": "Cas_ex4_190",
+                "field_type": "MultiLevel"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Case",
+                "field_id": 15666,
+                "name": "City",
+                "FieldName": "Cas_ex4_191",
+                "field_type": "MultiLevel"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Case",
+                "field_id": 15668,
+                "name": "Short Name",
+                "FieldName": "Cas_ex4_193",
+                "field_type": "MultiLevel"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Case",
+                "field_id": 15569,
+                "name": "ATM ID",
+                "FieldName": "Cas_ex4_172",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Case",
+                "field_id": 15570,
+                "name": "LOC Code",
+                "FieldName": "Cas_ex4_173",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Case",
+                "field_id": 15506,
+                "name": "Seq no",
+                "FieldName": "Cas_ex4_138",
+                "field_type": "Number"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Case",
+                "field_id": 15489,
+                "name": "Transaction Date",
+                "FieldName": "Cas_ex4_133",
+                "field_type": "Date"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Case",
+                "field_id": 15491,
+                "name": "Transaction Amount",
+                "FieldName": "Cas_ex4_135",
+                "field_type": "Decimal"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Case",
+                "field_id": 15505,
+                "name": "Disputed Amount",
+                "FieldName": "Cas_ex4_137",
+                "field_type": "Decimal"
+            }
+        ]
+    },
+    {
+        "query_label": "Case Case Information",
+        "query_fields": [
+            {
+                "roleid": 1,
+                "object_name": "Case",
+                "field_id": 15665,
+                "name": "State",
+                "FieldName": "Cas_ex4_190",
+                "field_type": "MultiLevel"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Case",
+                "field_id": 15666,
+                "name": "City",
+                "FieldName": "Cas_ex4_191",
+                "field_type": "MultiLevel"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Case",
+                "field_id": 15668,
+                "name": "Short Name",
+                "FieldName": "Cas_ex4_193",
+                "field_type": "MultiLevel"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Case",
+                "field_id": 15569,
+                "name": "ATM ID",
+                "FieldName": "Cas_ex4_172",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Case",
+                "field_id": 15570,
+                "name": "LOC Code",
+                "FieldName": "Cas_ex4_173",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Case",
+                "field_id": 15506,
+                "name": "Seq no",
+                "FieldName": "Cas_ex4_138",
+                "field_type": "Number"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Case",
+                "field_id": 15489,
+                "name": "Transaction Date",
+                "FieldName": "Cas_ex4_133",
+                "field_type": "Date"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Case",
+                "field_id": 15491,
+                "name": "Transaction Amount",
+                "FieldName": "Cas_ex4_135",
+                "field_type": "Decimal"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Case",
+                "field_id": 15505,
+                "name": "Disputed Amount",
+                "FieldName": "Cas_ex4_137",
+                "field_type": "Decimal"
+            }
+        ]
+    }
+]

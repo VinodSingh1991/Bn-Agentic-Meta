@@ -1,0 +1,446 @@
+[
+    {
+        "query_label": "Account Summary",
+        "query_fields": [
+            {
+                "roleid": 1,
+                "object_name": "Account",
+                "field_id": 10002674,
+                "name": "Account Owner",
+                "FieldName": "AssignedToName",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Account",
+                "field_id": 10002744,
+                "name": "Account Name",
+                "FieldName": "Name",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Account",
+                "field_id": 10002778,
+                "name": "Short Name",
+                "FieldName": "ShortName",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Account",
+                "field_id": 10002749,
+                "name": "Parent Account",
+                "FieldName": "ParentAccountName",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Account",
+                "field_id": 10002668,
+                "name": "Account Type",
+                "FieldName": "AccountType",
+                "field_type": "Number"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Account",
+                "field_id": 10002763,
+                "name": "Account Rating",
+                "FieldName": "Rating",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Account",
+                "field_id": 10002705,
+                "name": "Emp Strength",
+                "FieldName": "EmployeeCount",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Account",
+                "field_id": 10002718,
+                "name": "Industry",
+                "FieldName": "Industry",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Account",
+                "field_id": 10002796,
+                "name": "Website URL",
+                "FieldName": "WebUrl",
+                "field_type": "Url"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Account",
+                "field_id": 10002695,
+                "name": "Confidence",
+                "FieldName": "ConfidenceID",
+                "field_type": "Number"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Account",
+                "field_id": 10002715,
+                "name": "Importance",
+                "FieldName": "Importance",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Account",
+                "field_id": 10002791,
+                "name": "Branch",
+                "FieldName": "TerritoryName",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Account",
+                "field_id": 10002689,
+                "name": "Campaign",
+                "FieldName": "CampaignName",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Account",
+                "field_id": 10002738,
+                "name": "Lead Source",
+                "FieldName": "LeadSource",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Account",
+                "field_id": 10002721,
+                "name": "Is Partner",
+                "FieldName": "IsPartner",
+                "field_type": "Check"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Account",
+                "field_id": 10002675,
+                "name": "Billing Address",
+                "FieldName": "Bill_Address",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Account",
+                "field_id": 10002768,
+                "name": "Shipping Address",
+                "FieldName": "Ship_Address",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Account",
+                "field_id": 10002755,
+                "name": "Phone",
+                "FieldName": "Phone",
+                "field_type": "Phone"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Account",
+                "field_id": 10002704,
+                "name": "Email",
+                "FieldName": "Email",
+                "field_type": "Email"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Account",
+                "field_id": 10002745,
+                "name": "Office Phone",
+                "FieldName": "OfficePhone",
+                "field_type": "Phone"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Account",
+                "field_id": 10002708,
+                "name": "Fax",
+                "FieldName": "Fax",
+                "field_type": "Phone"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Account",
+                "field_id": 10002743,
+                "name": "Mobile",
+                "FieldName": "MobilePhone",
+                "field_type": "Phone"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Account",
+                "field_id": 10002694,
+                "name": "Description",
+                "FieldName": "Comments",
+                "field_type": "Text"
+            }
+        ]
+    },
+    {
+        "query_label": "Account Key Information",
+        "query_fields": [
+            {
+                "roleid": 1,
+                "object_name": "Account",
+                "field_id": 10002674,
+                "name": "Account Owner",
+                "FieldName": "AssignedToName",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Account",
+                "field_id": 10002744,
+                "name": "Account Name",
+                "FieldName": "Name",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Account",
+                "field_id": 10002778,
+                "name": "Short Name",
+                "FieldName": "ShortName",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Account",
+                "field_id": 10002749,
+                "name": "Parent Account",
+                "FieldName": "ParentAccountName",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Account",
+                "field_id": 10002668,
+                "name": "Account Type",
+                "FieldName": "AccountType",
+                "field_type": "Number"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Account",
+                "field_id": 10002763,
+                "name": "Account Rating",
+                "FieldName": "Rating",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Account",
+                "field_id": 10002705,
+                "name": "Emp Strength",
+                "FieldName": "EmployeeCount",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Account",
+                "field_id": 10002718,
+                "name": "Industry",
+                "FieldName": "Industry",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Account",
+                "field_id": 10002796,
+                "name": "Website URL",
+                "FieldName": "WebUrl",
+                "field_type": "Url"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Account",
+                "field_id": 10002695,
+                "name": "Confidence",
+                "FieldName": "ConfidenceID",
+                "field_type": "Number"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Account",
+                "field_id": 10002715,
+                "name": "Importance",
+                "FieldName": "Importance",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Account",
+                "field_id": 10002791,
+                "name": "Branch",
+                "FieldName": "TerritoryName",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Account",
+                "field_id": 10002689,
+                "name": "Campaign",
+                "FieldName": "CampaignName",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Account",
+                "field_id": 10002738,
+                "name": "Lead Source",
+                "FieldName": "LeadSource",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Account",
+                "field_id": 10002721,
+                "name": "Is Partner",
+                "FieldName": "IsPartner",
+                "field_type": "Check"
+            }
+        ]
+    },
+    {
+        "query_label": "Account Contact Information",
+        "query_fields": [
+            {
+                "roleid": 1,
+                "object_name": "Account",
+                "field_id": 10002675,
+                "name": "Billing Address",
+                "FieldName": "Bill_Address",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Account",
+                "field_id": 10002768,
+                "name": "Shipping Address",
+                "FieldName": "Ship_Address",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Account",
+                "field_id": 10002755,
+                "name": "Phone",
+                "FieldName": "Phone",
+                "field_type": "Phone"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Account",
+                "field_id": 10002704,
+                "name": "Email",
+                "FieldName": "Email",
+                "field_type": "Email"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Account",
+                "field_id": 10002745,
+                "name": "Office Phone",
+                "FieldName": "OfficePhone",
+                "field_type": "Phone"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Account",
+                "field_id": 10002708,
+                "name": "Fax",
+                "FieldName": "Fax",
+                "field_type": "Phone"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Account",
+                "field_id": 10002743,
+                "name": "Mobile",
+                "FieldName": "MobilePhone",
+                "field_type": "Phone"
+            }
+        ]
+    },
+    {
+        "query_label": "Account Additional Information",
+        "query_fields": [
+            {
+                "roleid": 1,
+                "object_name": "Account",
+                "field_id": 10002694,
+                "name": "Description",
+                "FieldName": "Comments",
+                "field_type": "Text"
+            }
+        ]
+    },
+    {
+        "query_label": "Account Relations",
+        "query_fields": []
+    },
+    {
+        "query_label": "Account Opportunities",
+        "query_fields": []
+    },
+    {
+        "query_label": "Account Leads",
+        "query_fields": []
+    },
+    {
+        "query_label": "Account Contracts",
+        "query_fields": []
+    },
+    {
+        "query_label": "Account Products",
+        "query_fields": []
+    },
+    {
+        "query_label": "Account Activities",
+        "query_fields": []
+    },
+    {
+        "query_label": "Account WOW and Services",
+        "query_fields": []
+    },
+    {
+        "query_label": "Account Collaboration",
+        "query_fields": []
+    },
+    {
+        "query_label": "Account Attachments",
+        "query_fields": []
+    },
+    {
+        "query_label": "Account Notes",
+        "query_fields": []
+    },
+    {
+        "query_label": "Account Wallet Shares",
+        "query_fields": []
+    },
+    {
+        "query_label": "Account Sharing",
+        "query_fields": []
+    },
+    {
+        "query_label": "Account Partners",
+        "query_fields": []
+    },
+    {
+        "query_label": "Account Journey Execution",
+        "query_fields": []
+    }
+]

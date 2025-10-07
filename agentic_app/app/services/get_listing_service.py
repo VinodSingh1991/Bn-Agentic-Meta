@@ -38,14 +38,33 @@ class ListingService:
     def get_gold5_listing(self) -> List[Any]:
         result = self.get_gold5_listing_base()
         return result
-
+    
+    def get_field_by_fieldName_with_object_name(self, fieldList, object_name) -> List[Any]:
+        fields = []
+        try:
+            all_fields = self.loader.loadJsonFile("fields.json")
+            for field in fieldList:
+                field_info = next((f for f in all_fields if f.get("FieldName") == field and f.get("ObjectName") == object_name), None)
+                if field_info:
+                    extended_field_info = {}
+                    extended_field_info["roleid"] = 1
+                    extended_field_info["object_name"] = object_name
+                    extended_field_info["field_id"] = field_info.get("FieldId", "")
+                    extended_field_info["name"] = field_info.get("Label", "")
+                    extended_field_info["FieldName"] = field_info.get("FieldName", "")
+                    extended_field_info["field_type"] = field_info.get("FieldType", "Text")
+                    fields.append(extended_field_info)
+            return fields
+        except Exception as e:
+            print(f"Error in ListingService.get_field_by_fieldName_with_object_name: {e}")
+            return fields
+            
     def map_object_and_gold5_listing(self) -> List[Any]:
         try:
             newListing = []
             
             object_relation = self.loader.loadJsonFile("listing_object_relationship.json")
             gold5_listing = self.loader.loadJsonFile("listing_gold5.json")
-            rpt_listing = self.loader.loadJsonFile("listing_rpt.json")
             
             if gold5_listing:
                 for listing in gold5_listing:
@@ -60,27 +79,45 @@ class ListingService:
                             listing_modified["RelatedName"] = related_object.get("ModifiedListingName", "")
                             listing_modified["ObjectId"] = related_object.get("ObjectId", "")
                             listing_modified["ObjectName"] = related_object.get("ObjectName", "")
-                            listing_modified["DataColumns"] = listing.get("DataColumns", [])
-                            newListing.append(listing_modified)
+                            cols = listing.get("DataColumns", [])
+                            object_name = related_object.get("ObjectName", "")
+                            fields = self.get_field_by_fieldName_with_object_name(cols, object_name)
+                            newListing.append({
+                                "query_label": related_object.get("ModifiedListingName", ""),
+                                "query_field": fields
+                            })
 
-            if rpt_listing:
-                for rpt_list_item in rpt_listing:
-                    if rpt_list_item:
-                        listing_modified = {}
-                        listing_modified["ListingName"] = rpt_list_item.get("ListingName", "")
-                        listing_modified["RelatedName"] = "These are not related listing it is a primary object listing"
-                        listing_modified["ObjectId"] = rpt_list_item.get("ObjectId", "")
-                        listing_modified["ObjectName"] = rpt_list_item.get("ObjectName", "")
-                        listing_modified["DataColumns"] = rpt_list_item.get("DataColumns", [])
-                        newListing.append(listing_modified)
 
-            self.loader.save_files_at_output("listing_gold5_enriched.json", newListing)
+            self.loader.save_files_at_output("listing_gold5.json", newListing)
             return newListing
 
         except Exception as e:
             print(f"Error in ListingService.get_object_relation_listing: {e}")
             return []
         
+    def map_object_and_rpt_listing(self) -> List[Any]:
+        try:
+            newListing = []
+            
+            rpt_listing = self.loader.loadJsonFile("listing_rpt.json")
+
+            if rpt_listing:
+                for listing in rpt_listing:
+                    object_name = listing.get("ObjectName", "")
+                    cols = listing.get("DataColumns", [])
+                    listing_name = listing.get("ListingName", "")
+                    fields = self.get_field_by_fieldName_with_object_name(cols, object_name)
+                    newListing.append({
+                        "query_label": listing_name,
+                        "query_field": fields
+                    })
+
+            self.loader.save_files_at_output("listing_rpt.json", newListing)
+            return newListing
+
+        except Exception as e:
+            print(f"Error in ListingService.get_object_relation_listing: {e}")
+            return []
     
     def get_object_relation_listing(self) -> List[Any]:
         try:

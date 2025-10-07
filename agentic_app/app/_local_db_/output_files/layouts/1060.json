@@ -1,0 +1,216 @@
+[
+    {
+        "query_label": "Opportunity Summary",
+        "query_fields": [
+            {
+                "roleid": 1,
+                "object_name": "Opportunity",
+                "field_id": 10003780,
+                "name": "SN_PRIORITY",
+                "FieldName": "OppStatus_Priority",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Opportunity",
+                "field_id": 10003778,
+                "name": "SN_OWNERNAME",
+                "FieldName": "OppOwnerName",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Opportunity",
+                "field_id": 10003711,
+                "name": "SN_ACCOUNTNAME",
+                "FieldName": "AccountName",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Opportunity",
+                "field_id": 10003804,
+                "name": "SN_STARTDATE",
+                "FieldName": "StartDate",
+                "field_type": "Date"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Opportunity",
+                "field_id": 10003737,
+                "name": "SN_EXPECTED_ENDDATE",
+                "FieldName": "ExpEndDate",
+                "field_type": "Date"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Opportunity",
+                "field_id": 10003811,
+                "name": "SN_TERRITORYCODE",
+                "FieldName": "TerritoryCode",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Opportunity",
+                "field_id": 10003813,
+                "name": "SN_TERRITORY_NAME",
+                "FieldName": "TerritoryName",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Opportunity",
+                "field_id": 980,
+                "name": "Potential Scoping",
+                "FieldName": "Opp_ex1_13",
+                "field_type": "Lookup"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Opportunity",
+                "field_id": 10003800,
+                "name": "SN_STAGE_ENDDATE",
+                "FieldName": "StageEndDate",
+                "field_type": "Date"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Opportunity",
+                "field_id": 982,
+                "name": "Lead Status",
+                "FieldName": "Opp_ex1_15",
+                "field_type": "Lookup"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Opportunity",
+                "field_id": 979,
+                "name": "Potential Product",
+                "FieldName": "Opp_ex1_12",
+                "field_type": "MultiPicker"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Opportunity",
+                "field_id": 981,
+                "name": "Product Explained",
+                "FieldName": "Opp_ex1_14",
+                "field_type": "Lookup"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Opportunity",
+                "field_id": 10003722,
+                "name": "SN_COMMENTS",
+                "FieldName": "Comment",
+                "field_type": "Comments"
+            }
+        ]
+    },
+    {
+        "query_label": "Opportunity Key Information",
+        "query_fields": [
+            {
+                "roleid": 1,
+                "object_name": "Opportunity",
+                "field_id": 10003778,
+                "name": "SN_OWNERNAME",
+                "FieldName": "OppOwnerName",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Opportunity",
+                "field_id": 10003711,
+                "name": "SN_ACCOUNTNAME",
+                "FieldName": "AccountName",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Opportunity",
+                "field_id": 10003804,
+                "name": "SN_STARTDATE",
+                "FieldName": "StartDate",
+                "field_type": "Date"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Opportunity",
+                "field_id": 10003737,
+                "name": "SN_EXPECTED_ENDDATE",
+                "FieldName": "ExpEndDate",
+                "field_type": "Date"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Opportunity",
+                "field_id": 10003811,
+                "name": "SN_TERRITORYCODE",
+                "FieldName": "TerritoryCode",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Opportunity",
+                "field_id": 10003813,
+                "name": "SN_TERRITORY_NAME",
+                "FieldName": "TerritoryName",
+                "field_type": "Text"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Opportunity",
+                "field_id": 980,
+                "name": "Potential Scoping",
+                "FieldName": "Opp_ex1_13",
+                "field_type": "Lookup"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Opportunity",
+                "field_id": 10003800,
+                "name": "SN_STAGE_ENDDATE",
+                "FieldName": "StageEndDate",
+                "field_type": "Date"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Opportunity",
+                "field_id": 982,
+                "name": "Lead Status",
+                "FieldName": "Opp_ex1_15",
+                "field_type": "Lookup"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Opportunity",
+                "field_id": 979,
+                "name": "Potential Product",
+                "FieldName": "Opp_ex1_12",
+                "field_type": "MultiPicker"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Opportunity",
+                "field_id": 981,
+                "name": "Product Explained",
+                "FieldName": "Opp_ex1_14",
+                "field_type": "Lookup"
+            },
+            {
+                "roleid": 1,
+                "object_name": "Opportunity",
+                "field_id": 10003722,
+                "name": "SN_COMMENTS",
+                "FieldName": "Comment",
+                "field_type": "Comments"
+            }
+        ]
+    },
+    {
+        "query_label": "Opportunity History",
+        "query_fields": []
+    }
+]
