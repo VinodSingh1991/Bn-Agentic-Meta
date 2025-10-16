@@ -5,12 +5,9 @@ from langchain_core.output_parsers import StrOutputParser
 
 
 class QueryDecomposition:
-    def __init__(self):
-        # Don't instantiate AgentSchema here since it requires parameters
-        # We'll create it when needed in the methods
-        self.llm = LLMFactory().open_ai()
 
-    def get_query_decompose_prompt(self) -> ChatPromptTemplate:
+    @classmethod
+    def get_query_decompose_prompt(cls) -> ChatPromptTemplate:
         query_normalizer_prompt ="""
             You are a CRM query decomposer.
 
@@ -86,10 +83,14 @@ class QueryDecomposition:
             """
         return ChatPromptTemplate.from_messages([("system", query_normalizer_prompt)])
 
-    def invoke(self, user_query: str) -> str:
-        prompt = self.get_query_decompose_prompt()
-        chain = prompt | self.llm | StrOutputParser()
+    @classmethod
+    def invoke(cls, user_query: str) -> str:
+        
+        print("The original user query for decomposition is:", user_query)
+        prompt = cls.get_query_decompose_prompt()
+        chain = prompt |  LLMFactory.open_ai() | StrOutputParser()
         response = chain.invoke({"normalized_query": user_query})
+        print("The decomposed query response is:", response)
         try:
             # Safely evaluate list-like string output
             result = eval(response.strip())

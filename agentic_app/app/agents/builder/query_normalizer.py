@@ -1,46 +1,114 @@
-from agents.controllers.structured_output import AgentSchema
+from agents.controllers.structured_output import AgentSchema, OutputSchema, DataField, Order
 from langchain_core.prompts import ChatPromptTemplate
 from agents.llm_factory import LLMFactory
-from langchain_core.output_parsers import StrOutputParser
+from langgraph.prebuilt import create_react_agent
+import os   
+import json
+from langgraph.checkpoint.memory import InMemorySaver
+from agents.tools.base_tool import create_tools
 
-class UserQueryNormalizer:
+
+class QueryNormalizerAgent:
     def __init__(self):
-        # Don't instantiate AgentSchema here since it requires parameters
-        # We'll create it when needed in the methods
+        os.environ["OPENAI_API_KEY"] = os.getenv("OPENAI_API_KEY")
+        self.checkpointer = InMemorySaver()
         self.llm = LLMFactory().open_ai()
-        
+        self.structured_llm = self.llm.with_structured_output(AgentSchema)
     
-    def get_query_parse_prompt(self) -> ChatPromptTemplate:
-        system_prompt = """
-        You are a natural language query normalizer and corrector. and you are a intelligent agent that translates user queries into a english.
-        -------------------------------------------------------------------------------------------------------
-        ---Context for object name---
-        example: Leads, Accounts, Contacts, Opportunities, Cases, Activities, Products, Quotes, Invoices, Solutions, Campaigns, Users, Teams
-        -------------------------------------
-        Your task:
-        1. Correct spelling mistakes.
-        2. Convert Hinglish or mixed Hindi-English to proper English.
-        3. Convert user query into English if it is in another language.
-        4. Convert numbers written in words to digits.
+    def agent_invoker(self, user_query: str) -> str:
+        try:
+            # Use the classic ReAct prompt format
+            react_prompt = """Answer the following questions as best you can. You have access to the following tools:
 
-        Rules:
-        - Output only the corrected, normalized natural language query.
-        - Do not change the intent.
-        - Use proper English grammar.
+                {tools}
 
-        Now, normalize this user query:
-        {user_query}
+                Use the following format:
+
+                Question: the input question you must answer
+                Thought: you should always think about what to do
+                Action: the action to take, should be one of [{tool_names}]
+                Action Input: the input to the action
+                Observation: the result of the action
+                ... (this Thought/Action/Action Input/Observation can repeat N times)
+                Thought: I now know the final answer
+                Final Answer: the final answer to the original input question
+
+                Begin!
+
+                Question: {input}
+                Thought:{agent_scratchpad}"""
+            
+            tools = self.create_tools()
+                
+            try:
+                agent = create_react_agent(
+                    model=self.llm,
+                    tools=tools,
+                    prompt=react_prompt,
+                    checkpointer=self.checkpointer,
+                    debug=False
+                    
+                )
+            except Exception as agent_error:
+                import traceback
+                traceback.print_exc()
+                raise agent_error
+            
+            # Create proper input format for the agent
+            config = {"configurable": {"thread_id": "query_normalizer_thread"}}
+            input_data = {"messages": [("user", user_query)]}
+            
+            # Invoke the agent with proper input format
+            result = agent.invoke(input_data, config=config)
+            
+            # Extract the response from the agent's output
+            final_response = ""
+            if "messages" in result and len(result["messages"]) > 0:
+                last_message = result["messages"][-1]
+                
+                if hasattr(last_message, 'content'):
+                    final_response = last_message.content
+                elif isinstance(last_message, dict) and 'content' in last_message:
+                    final_response = last_message['content']
+                else:
+                    final_response = str(last_message)
+            else:
+                final_response = str(result)
+            
+            return final_response
+                
+        except Exception as e:
+            import traceback
+            traceback.print_exc()
+            return f"Sorry, I encountered an error while processing your query: {str(e)}"
+            
+    
+    def invoke(self, user_query: str) -> AgentSchema:
         """
-        return ChatPromptTemplate.from_messages([
-            ("system", system_prompt)
-        ])
-    
-    
-    def invoke(self, user_query: str) -> str:
-        prompt = self.get_query_parse_prompt()
+        Main entry point to invoke the query normalizer agent
         
-        chain = prompt | self.llm | StrOutputParser()
-        updated_query = chain.invoke({"user_query": user_query})
-        return updated_query
-
+        Args:
+            user_query (str): The user's query to be processed
+            
+        Returns:
+            AgentSchema: Structured response with welcome message, output schemas, and open-end message
+        """
+        try:
+            
+            # Get the agent's text response
+            agent_response = self.agent_invoker(user_query)
+            
+            # Convert to structured output
+            
+            return agent_response
+            
+        except Exception as e:
+            import traceback
+            traceback.print_exc()
+            
+            error_response = self._create_fallback_structured_response(
+                user_query, 
+                f"Error occurred: {str(e)}"
+            )
+            return error_response
     

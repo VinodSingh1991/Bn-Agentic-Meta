@@ -80,13 +80,38 @@
                     "field_type": "Text"
                 }
             ],
-            "filters": [],
+            "filters": [
+                {
+                    "roleid": 1,
+                    "object_name": "Lead",
+                    "field_id": 269,
+                    "name": "DIP ID.",
+                    "FieldName": "Lea_ex2_24",
+                    "field_type": "Text"
+                }
+            ],
             "limit": "10",
             "order": {
-                "field": {},
+                "field": {
+                    "roleid": 1,
+                    "object_name": "Lead",
+                    "field_id": 267,
+                    "name": "Custody Code",
+                    "FieldName": "Lea_ex2_22",
+                    "field_type": "Text"
+                },
                 "direction": "ASC"
             },
-            "groupBy": []
+            "groupBy": [
+                {
+                    "roleid": 1,
+                    "object_name": "Lead",
+                    "field_id": 267,
+                    "name": "Custody Code",
+                    "FieldName": "Lea_ex2_22",
+                    "field_type": "Text"
+                }
+            ]
         }
     },
     {

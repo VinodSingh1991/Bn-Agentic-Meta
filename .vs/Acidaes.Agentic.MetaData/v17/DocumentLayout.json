@@ -3,6 +3,10 @@
   "WorkspaceRootPath": "D:\\dotnet\\Acidaes.Agentic.MetaData\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{E0877FF8-450B-44BA-83FC-30F5FAF8E2DE}|Acidaes.MetaData.Rag\\Acidaes.MetaData.Rag.csproj|d:\\dotnet\\acidaes.agentic.metadata\\acidaes.metadata.rag\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E0877FF8-450B-44BA-83FC-30F5FAF8E2DE}|Acidaes.MetaData.Rag\\Acidaes.MetaData.Rag.csproj|solutionrelative:acidaes.metadata.rag\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{E0877FF8-450B-44BA-83FC-30F5FAF8E2DE}|Acidaes.MetaData.Rag\\Acidaes.MetaData.Rag.csproj|d:\\dotnet\\acidaes.agentic.metadata\\acidaes.metadata.rag\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
       "RelativeMoniker": "D:0:0:{E0877FF8-450B-44BA-83FC-30F5FAF8E2DE}|Acidaes.MetaData.Rag\\Acidaes.MetaData.Rag.csproj|solutionrelative:acidaes.metadata.rag\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
@@ -62,15 +66,24 @@
       "DocumentGroups": [
         {
           "DockedHeight": 532,
-          "SelectedChildIndex": 8,
+          "SelectedChildIndex": 0,
           "Children": [
             {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\dotnet\\Acidaes.Agentic.MetaData\\Acidaes.MetaData.Rag\\Program.cs",
+              "RelativeDocumentMoniker": "Acidaes.MetaData.Rag\\Program.cs",
+              "ToolTip": "D:\\dotnet\\Acidaes.Agentic.MetaData\\Acidaes.MetaData.Rag\\Program.cs",
+              "RelativeToolTip": "Acidaes.MetaData.Rag\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-10T09:32:50.186Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "FieldDocument.cs",
               "DocumentMoniker": "D:\\dotnet\\Acidaes.Agentic.MetaData\\Acidaes.MetaData.Rag\\Model\\FieldDocument.cs",
               "RelativeDocumentMoniker": "Acidaes.MetaData.Rag\\Model\\FieldDocument.cs",
@@ -82,7 +95,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "FieldDocumentBLL.cs",
               "DocumentMoniker": "D:\\dotnet\\Acidaes.Agentic.MetaData\\Acidaes.MetaData.Rag\\BLL\\FieldDocumentBLL.cs",
               "RelativeDocumentMoniker": "Acidaes.MetaData.Rag\\BLL\\FieldDocumentBLL.cs",
@@ -94,7 +107,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 7,
               "Title": "LayoutSectionDocument.cs",
               "DocumentMoniker": "D:\\dotnet\\Acidaes.Agentic.MetaData\\Acidaes.MetaData.Rag\\Model\\LayoutSectionDocument.cs",
               "RelativeDocumentMoniker": "Acidaes.MetaData.Rag\\Model\\LayoutSectionDocument.cs",
@@ -106,7 +119,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 8,
               "Title": "Utility.cs",
               "DocumentMoniker": "D:\\dotnet\\Acidaes.Agentic.MetaData\\Acidaes.MetaData.Rag\\Helper\\Utility.cs",
               "RelativeDocumentMoniker": "Acidaes.MetaData.Rag\\Helper\\Utility.cs",
@@ -118,7 +131,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "QueryHelper.cs",
               "DocumentMoniker": "D:\\dotnet\\Acidaes.Agentic.MetaData\\Acidaes.MetaData.Rag\\DAL\\Helper\\QueryHelper.cs",
               "RelativeDocumentMoniker": "Acidaes.MetaData.Rag\\DAL\\Helper\\QueryHelper.cs",
@@ -126,12 +139,11 @@
               "RelativeToolTip": "Acidaes.MetaData.Rag\\DAL\\Helper\\QueryHelper.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-14T16:20:42.14Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-09-14T16:20:42.14Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "LayoutRagDocumentRepo.cs",
               "DocumentMoniker": "D:\\dotnet\\Acidaes.Agentic.MetaData\\Acidaes.MetaData.Rag\\DAL\\LayoutRagDocumentRepo.cs",
               "RelativeDocumentMoniker": "Acidaes.MetaData.Rag\\DAL\\LayoutRagDocumentRepo.cs",
@@ -143,7 +155,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 6,
               "Title": "FieldRagDocumentRepo.cs",
               "DocumentMoniker": "D:\\dotnet\\Acidaes.Agentic.MetaData\\Acidaes.MetaData.Rag\\DAL\\FieldRagDocumentRepo.cs",
               "RelativeDocumentMoniker": "Acidaes.MetaData.Rag\\DAL\\FieldRagDocumentRepo.cs",
@@ -155,7 +167,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "appsettings.json",
               "DocumentMoniker": "D:\\dotnet\\Acidaes.Agentic.MetaData\\Acidaes.MetaData.Rag\\appsettings.json",
               "RelativeDocumentMoniker": "Acidaes.MetaData.Rag\\appsettings.json",
@@ -168,7 +180,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 9,
               "Title": "LayoutRagDocumentBLL.cs",
               "DocumentMoniker": "D:\\dotnet\\Acidaes.Agentic.MetaData\\Acidaes.MetaData.Rag\\BLL\\LayoutRagDocumentBLL.cs",
               "RelativeDocumentMoniker": "Acidaes.MetaData.Rag\\BLL\\LayoutRagDocumentBLL.cs",
@@ -180,7 +192,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 10,
               "Title": "FieldRagDocumentController.cs",
               "DocumentMoniker": "D:\\dotnet\\Acidaes.Agentic.MetaData\\Acidaes.MetaData.Rag\\Controllers\\FieldRagDocumentController.cs",
               "RelativeDocumentMoniker": "Acidaes.MetaData.Rag\\Controllers\\FieldRagDocumentController.cs",
@@ -192,7 +204,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 11,
               "Title": "ObjectDocument.cs",
               "DocumentMoniker": "D:\\dotnet\\Acidaes.Agentic.MetaData\\Acidaes.MetaData.Rag\\Model\\ObjectDocument.cs",
               "RelativeDocumentMoniker": "Acidaes.MetaData.Rag\\Model\\ObjectDocument.cs",
@@ -204,7 +216,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 12,
               "Title": "RoleDocument.cs",
               "DocumentMoniker": "D:\\dotnet\\Acidaes.Agentic.MetaData\\Acidaes.MetaData.Rag\\Model\\RoleDocument.cs",
               "RelativeDocumentMoniker": "Acidaes.MetaData.Rag\\Model\\RoleDocument.cs",
@@ -216,7 +228,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 13,
               "Title": "RoleRagDocumentBLL.cs",
               "DocumentMoniker": "D:\\dotnet\\Acidaes.Agentic.MetaData\\Acidaes.MetaData.Rag\\BLL\\RoleRagDocumentBLL.cs",
               "RelativeDocumentMoniker": "Acidaes.MetaData.Rag\\BLL\\RoleRagDocumentBLL.cs",
@@ -225,16 +237,6 @@
               "ViewState": "AgIAAAUAAAAAAAAAAAAxwBEAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-09-14T14:52:02.803Z"
-            }
-          ]
-        },
-        {
-          "DockedHeight": 78,
-          "SelectedChildIndex": -1,
-          "Children": [
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
             }
           ]
         }
